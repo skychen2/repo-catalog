@@ -92,6 +92,12 @@ def main():
         if parent:
             entry["forkedFrom"] = parent
     is_external = owner != "skychen2"
+    is_private = str(meta.get("visibility") or "").upper() == "PRIVATE"
+    if is_private:
+        print(f"⚠ 该仓库是私有仓库,不应写入公开版 curated.json。"
+              f"私有仓库说明请维护在 scripts/curated.private.json(本地文件,不会推送)。")
+        sys.exit(1)
+    if is_external:
     if is_external:
         entry["external"] = True
         entry["owner"] = owner

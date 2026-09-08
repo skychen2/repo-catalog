@@ -68,14 +68,30 @@ def main():
             "keywords": "、".join(c.get("keywords", []) or []),
         })
 
-    # 外部收藏条目(curated 中 external=True 的第三方仓库)
+    # curated 中不在名下列表的条目:外部收藏(external)+ 封禁/移除后消失的仓库(missing)
     by_name = {r["name"] for r in records}
     for name, c in sorted(curated.items()):
-        if not isinstance(c, dict) or not c.get("external") or name in by_name:
+        if not isinstance(c, dict) or name in by_name:
+            continue
+        if c.get("external"):
+            records.append({
+                "name": name,
+                "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+                "visibility": "PUBLIC",
+                "isFork": False,
+                "forkedFrom": c.get("forkedFrom", ""),
+                "language": c.get("language", "-"),
+                "stars": c.get("stars", 0),
+                "updatedAt": c.get("updatedAt", ""),
+                "category": c.get("category", "dev-data-tools"),
+                "cn": c.get("cn", "(待补充)"),
+                "keywords": "、".join(c.get("keywords", []) or []),
+                "external": True,
+            })
             continue
         records.append({
             "name": name,
-            "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+            "url": f"https://github.com/skychen2/{name}",
             "visibility": "PUBLIC",
             "isFork": False,
             "forkedFrom": c.get("forkedFrom", ""),
@@ -85,7 +101,7 @@ def main():
             "category": c.get("category", "dev-data-tools"),
             "cn": c.get("cn", "(待补充)"),
             "keywords": "、".join(c.get("keywords", []) or []),
-            "external": True,
+            "missing": True,
         })
 
     md = ["# skychen2 仓库完整目录(含私有仓库)", "",
@@ -97,7 +113,7 @@ def main():
         md += [f"## {title} ({key})", ""]
         for r in sorted(items, key=lambda x: -x["stars"]):
             lock = " 🔒" if r["visibility"] == "PRIVATE" else ""
-            tag = "外部收藏" if r.get("external") else ("fork" if r["isFork"] else "自建")
+            tag = "外部收藏" if r.get("external") else ("已移除" if r.get("missing") else ("fork" if r["isFork"] else "自建"))
             md += [f"### {r['name']}{lock}",
                    f"- 分类: {key}",
                    f"- 说明: {r['cn']}",

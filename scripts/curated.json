@@ -1,5 +1,5 @@
 {
-  "_comment": "人工维护的中文功能说明与检索关键词。key 为仓库名。category 取值: ai-llm-models / ai-llm-prompts / ai-llm-agents / ai-llm-api / ai-llm-tutorials / network-proxy / media / content-writing / dev-data-tools / knowledge-books / personal-projects。fork 仓库可加 forkedFrom 字段(上游项目,如 'owner/repo'),生成时会自动标注。新增仓库或功能变更时更新此文件,然后运行 scripts/generate.py 重新生成 INDEX.md / categories/ / data/repos.json",
+  "_comment": "人工维护的中文功能说明与检索关键词。key 为仓库名。category 取值: ai-llm-models / ai-llm-prompts / ai-llm-agents / ai-llm-api / ai-llm-tutorials / network-proxy / media / content-writing / dev-data-tools / knowledge-books / personal-projects。fork 仓库可加 forkedFrom 字段(上游项目,如 'owner/repo'),生成时会自动标注。新增仓库或功能变更时更新此文件,然后运行 scripts/generate.py 重新生成 categories/ 与 data/repos.json",
   "Adversarial-Evolution": {
     "category": "knowledge-books",
     "cn": "《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活动的本质)。",

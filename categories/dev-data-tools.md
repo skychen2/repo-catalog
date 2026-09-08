@@ -17,7 +17,7 @@
 | [awesome-public-datasets](https://github.com/skychen2/awesome-public-datasets) 0★ fork | fork 自 awesomedata/awesome-public-datasets:高质量开放数据集清单(按主题分类),找数据集的第一站。 | 数据集、开放数据、数据源、清单 |
 | [clawfeed](https://github.com/skychen2/clawfeed) 0★ fork | fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。 | 新闻聚合、RSS、AI摘要、Twitter、自建 |
 | [hackingtool](https://github.com/skychen2/hackingtool) 0★ fork | fork 自 Z4nzu/hackingtool:ALL IN ONE 黑客工具集:整合大量渗透测试/安全工具于一身的工具箱(注意合规使用)。 | 安全、渗透测试、工具箱、hacking |
-| [n8n-workflows](https://github.com/skychen2/n8n-workflows) 0★ fork | 已被 GitHub DMCA 封禁(2025-08,版权投诉),仓库不可访问。n8n 工作流相关主题可检索关键词: n8n/工作流/自动化。 | n8n、工作流、DMCA、封禁、不可访问 |
+| [n8n-workflows](https://github.com/skychen2/n8n-workflows) 0★ ⚠移除 | 已被 GitHub DMCA 封禁(2025-08,版权投诉),仓库不可访问。n8n 工作流相关主题可检索关键词: n8n/工作流/自动化。 | n8n、工作流、DMCA、封禁、不可访问 |
 | [newsnow](https://github.com/skychen2/newsnow) 0★ fork | fork 自 ourongxing/newsnow:优雅地阅读实时与最热新闻(NewsNow 风格,代码驱动的新闻流)。 | 新闻、热点、阅读、实时 |
 | [repo-catalog](https://github.com/skychen2/repo-catalog) 0★ 自建 | 本仓库自身:skychen2 名下所有公开仓库的中文目录与检索索引,按 7 大分类组织,含中文功能说明与检索关键词,专为 AI 模糊检索定位仓库而建。 | 仓库目录、索引、AI检索、分类、目录 |
 | [wechat-intelligence-hub](https://github.com/skychen2/wechat-intelligence-hub) 0★ fork | fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。 | 微信、情报系统、聊天记录搜索、每日简报、商机、CLI |

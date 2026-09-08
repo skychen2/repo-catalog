@@ -11,8 +11,10 @@ repo-catalog 生成器
 
 生成内容:
     categories/*.md   按分类的仓库清单(中文说明 + 检索关键词)
-    INDEX.md           全量一行式索引
     data/repos.json    机器可读完整元数据
+
+设计原则:本库只服务 AI 检索。产物仅两种形态——机器可读 JSON(data/)与
+分类语义文件(categories/);不为人类阅读生成冗余视图(如 INDEX 式全量索引)。
 """
 import json
 import os
@@ -50,11 +52,13 @@ def load_repos(path):
     return json.loads(out)
 
 
-def load_curated():
+def load_curated(public_only=False):
     curated = json.load(open(os.path.join(HERE, "curated.json"), encoding="utf-8"))
-    private_path = os.path.join(HERE, "curated.private.json")
-    if os.path.exists(private_path):
-        curated.update(json.load(open(private_path, encoding="utf-8")))
+    if not public_only:
+        # 私有仓库说明仅用于本地完整版;--public 时绝不合并,防止泄露
+        private_path = os.path.join(HERE, "curated.private.json")
+        if os.path.exists(private_path):
+            curated.update(json.load(open(private_path, encoding="utf-8")))
     return curated
 
 
@@ -74,7 +78,7 @@ def main():
     repos = load_repos(path)
     if public_only:
         repos = [r for r in repos if r.get("visibility") == "PUBLIC"]
-    curated = load_curated()
+    curated = load_curated(public_only)
     by_name = {r["name"]: r for r in repos}
 
     missing = [r["name"] for r in repos if r["name"] not in curated]
@@ -106,13 +110,35 @@ def main():
         # 组合展示用说明:fork 仓库自动补上游来源
         records.append(with_display(r))
 
-    # 外部收藏条目(curated 中 external=True 且不在名下列表的第三方仓库)
+    # curated 中不在名下列表的条目:外部收藏(external=True,第三方仓库)
+    # + 封禁/移除后从 GitHub 列表消失的仓库(missing,如 DMCA 封禁)——保留条目并标注不可访问
     for name, c in sorted(curated.items()):
-        if not isinstance(c, dict) or not c.get("external") or name in by_name:
+        if not isinstance(c, dict) or name in by_name:
+            continue
+        if public_only and c.get("visibility") == "PRIVATE":
+            continue  # 防御:公开模式绝不输出私有条目
+        if c.get("external"):
+            records.append(with_display({
+                "name": name,
+                "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+                "visibility": "PUBLIC",
+                "isFork": False,
+                "forkedFrom": c.get("forkedFrom", ""),
+                "language": c.get("language", "-"),
+                "stars": c.get("stars", 0),
+                "forks": c.get("forks", 0),
+                "updatedAt": c.get("updatedAt", ""),
+                "topics": c.get("topics", ""),
+                "description": c.get("description", ""),
+                "category": c.get("category", "dev-data-tools"),
+                "cn": c.get("cn", "(待补充)"),
+                "keywords": c.get("keywords", []),
+                "external": True,
+            }))
             continue
         records.append(with_display({
             "name": name,
-            "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+            "url": f"https://github.com/skychen2/{name}",
             "visibility": "PUBLIC",
             "isFork": False,
             "forkedFrom": c.get("forkedFrom", ""),
@@ -121,11 +147,11 @@ def main():
             "forks": c.get("forks", 0),
             "updatedAt": c.get("updatedAt", ""),
             "topics": c.get("topics", ""),
-            "description": c.get("description", ""),
+            "description": c.get("description", "") or "(已从 GitHub 列表移除/封禁,仓库不可访问)",
             "category": c.get("category", "dev-data-tools"),
             "cn": c.get("cn", "(待补充)"),
             "keywords": c.get("keywords", []),
-            "external": True,
+            "missing": True,
         }))
     # 校验分类
     for r in records:
@@ -148,7 +174,7 @@ def main():
         lines.append(f"共 {len(items)} 个仓库。")
         lines += ["", "| 仓库 | 说明 | 关键词 |", "|---|---|---|"]
         for r in sorted(items, key=lambda x: (-x["stars"], x["name"])):
-            tag = "收藏🌐" if r.get("external") else ("自建" if not r["isFork"] else "fork")
+            tag = "收藏🌐" if r.get("external") else ("⚠移除" if r.get("missing") else ("自建" if not r["isFork"] else "fork"))
             vis = "" if r["visibility"] == "PUBLIC" else " 🔒私有"
             name_cell = f"[{r['name']}]({r['url']}) {r['stars']}★ {tag}{vis}"
             kw = "、".join(r["keywords"]) or "-"
@@ -158,22 +184,7 @@ def main():
         with open(os.path.join(ROOT, "categories", f"{key}.md"), "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
 
-    # 2) INDEX.md
-    def trunc(s, n=90):
-        return s if len(s) <= n else s[:n].rstrip("，。、；:：,.; ") + "…"
-
-    lines = ["# 仓库索引 INDEX", "", "检索方法:按分类文件检索,或用关键词全文搜索。",
-             "", "| 仓库 | 分类 | 一句话说明 | 属性 |", "|---|---|---|---|"]
-    cat_title = {k: t for k, t, _ in CATEGORIES}
-    for r in sorted(records, key=lambda x: (x["category"], -x["stars"])):
-        attr = ("收藏" if r.get("external") else ("自建" if not r["isFork"] else "fork")) + \
-               ("" if r["visibility"] == "PUBLIC" else "/🔒")
-        cn = trunc(r["display_cn"].replace("|", "\\|"))
-        lines.append(f"| [{r['name']}]({r['url']}) | {cat_title.get(r['category'], r['category'])} | {cn} | {attr} |")
-    with open(os.path.join(ROOT, "INDEX.md"), "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
-
-    # 3) data/repos.json
+    # 2) data/repos.json
     with open(os.path.join(ROOT, "data", "repos.json"), "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
 

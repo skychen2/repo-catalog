@@ -9,16 +9,25 @@
 主人 star/fork 的仓库很多,时间一长会忘记"哪个仓库是干嘛的"。本仓库为每个仓库补充了
 **中文功能说明** 和 **中文检索关键词**,让 AI 能通过语义/关键词模糊匹配,快速找到"实现某功能的仓库"。
 
+## 设计原则(维护者必读)
+
+本库**只服务 AI 检索**——唯一标准是 AI 能搜索定位到仓库。因此:
+
+- 产物只有两种形态:`data/repos.json`(机器可读,程序化过滤)+ `categories/*.md`(中文说明+关键词,语义全文搜索)。
+- 不生成人类阅读用的冗余视图(如 INDEX 式全量一行索引)。
+- `curated.json` 的中文说明与关键词是检索质量核心:新增仓库必须写准中文说明。
+- 任何产物变更,必须同时同步两个形态:文件形态(公开 GitHub)+ KB 形态(本地 context-mode)。
+
 ## 文件结构
 
 | 文件 | 内容 |
 |---|---|
-| `INDEX.md` | 全量一行式索引(仓库/分类/一句话/属性) |
 | `categories/*.md` | 按主题分类的仓库清单,含详细中文说明与关键词 |
 | `data/repos.json` | 机器可读的完整元数据(名称/URL/语言/星标/中文说明/关键词/分类) |
-| `scripts/curated.json` | 人工维护的中文说明与关键词(唯一需要手工编辑的文件) |
+| `README.md` | 本说明(设计原则、检索流程与维护方法) |
+| `scripts/curated.json` | 人工维护的中文说明与关键词(唯一需要手工编辑的数据文件) |
 | `scripts/curated.private.json` | 私有仓库的中文说明(本地文件,已被 gitignore,不进入公开仓库;配合 generate.py 生成本地完整版) |
-| `scripts/generate.py` | 生成器:合并 GitHub 元数据 + curated 说明,重新生成所有文件 |
+| `scripts/generate.py` | 生成器:合并 GitHub 元数据 + curated 说明,重新生成 categories/ 与 data/repos.json |
 | `scripts/add_repo.py` | 通过链接/owner-name 新增仓库(校验 + 写入 curated + 自动补 fork 来源) |
 | `scripts/build_full_md.py` | 生成本地完整版目录 Markdown(含私有),供索引进 context-mode 知识库 |
 | `scripts/fetch_public_repos.py` | 拉取仓库元数据(CI 用,匿名/带 token 均可) |
@@ -43,8 +52,8 @@
 当主人提出模糊需求时,按此流程检索:
 
 1. **解析需求**,提取 2-4 个核心意图词(中英文均可)。
-2. 优先 **全文搜索 `categories/` 目录** 和 `INDEX.md`,命中说明或关键词。
-3. 需要结构化数据时,直接读取 `data/repos.json` 并用脚本过滤(字段:name, category, cn, keywords, language, isFork, forkedFrom, visibility, stars)。
+2. 优先 **全文搜索 `categories/` 目录**,命中说明或关键词。
+3. 需要结构化数据时,直接读取 `data/repos.json` 并用脚本过滤(字段:name, category, cn, keywords, language, isFork, forkedFrom, external, visibility, stars)。
 4. 命中后,把仓库名、URL、分类和一句话说明回复给主人;如有多个候选,按相关度排序并说明各自差异。
 5. 若未命中,明确告知"目录里没有",不要编造。
 
@@ -108,4 +117,4 @@ git add -A && git commit -m "update catalog" && git push
 - fork 仓库会自动在说明前标注 `fork 自 <上游>`,来源固化在 curated 条目的 `forkedFrom` 字段(可用 `gh api repos/skychen2/<name> --jq '.parent.full_name'` 查询补全)。
 - 仓库描述/星标等元数据每次生成时自动从 GitHub 刷新,无需手工维护。
 - 被 GitHub 封禁/删除的仓库(如 n8n-workflows,DMCA)也会收录并标注状态,检索时如实说明。
-- 维护完整版(含私有仓库)时注意:公开版产物(categories/INDEX/data)不得出现私有仓库名。
+- 维护完整版(含私有仓库)时注意:公开版产物(categories/data)不得出现私有仓库名。
