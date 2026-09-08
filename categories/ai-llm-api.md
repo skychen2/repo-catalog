@@ -2,12 +2,16 @@
 
 > 免费/中转 API、接口兼容代理、自部署聊天 UI
 
-共 10 个仓库。
+共 14 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
 | [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 62580★ 收藏🌐 | 免费 MIT AI 网关:一个端点接入 352 供应商(150+ 免费)、1200+ 模型。 | AI网关、API中转、多模型、免费 |
+| [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 50913★ 收藏🌐 | 把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。 | CLI转API、代理、Codex、Grok |
+| [airi](https://github.com/moeru-ai/airi) 48899★ 收藏🌐 | 自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。 | Grok、自托管、Companion、聊天 |
 | [sub2api](https://github.com/Wei-Shaw/sub2api) 40800★ 收藏🌐 | 一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。 | 订阅转API、中转、Claude、拼车 |
+| [antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy) 3947★ 收藏🌐 | 代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。 | 代理、Antigravity、模型转发、Claude |
+| [cherry-studio-app](https://github.com/CherryHQ/cherry-studio-app) 3797★ 收藏🌐 | Cherry Studio 移动版(开源多模型 AI 客户端)。 | Cherry Studio、移动版、AI客户端、多模型 |
 | [Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) 2241★ 收藏🌐 | ChatGPT Plus/Team/Pro 订阅协议端到端重放工具:hCaptcha 视觉求解器。 | ChatGPT订阅、协议重放、拼车、hCaptcha |
 | [Chat2API](https://github.com/xiaoY233/Chat2API) 1584★ 收藏🌐 | 通过官方网页 UI 实现主流 AI 模型零成本 API 调用。 | 免费API、网页转API、零成本、逆向 |
 | [pi-provider-newapi](https://github.com/ttimasdf/pi-provider-newapi) 57★ 收藏🌐 | pi 的 NewAPI 自托管网关 provider 扩展:动态模型发现与成本计算。 | pi、NewAPI、provider、扩展 |

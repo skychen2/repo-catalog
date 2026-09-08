@@ -2,18 +2,34 @@
 
 > 开发者工具、安全、API 与数据集清单、自建小服务
 
-共 25 个仓库。
+共 41 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [firecrawl](https://github.com/firecrawl/firecrawl) 177728★ 收藏🌐 | 搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。 | 网页抓取、搜索、爬虫、API |
+| [cc-switch](https://github.com/farion1231/cc-switch) 131606★ 收藏🌐 | 跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。 | Claude Code、Codex、一键切换、桌面工具 |
+| [RuView](https://github.com/ruvnet/RuView) 92757★ 收藏🌐 | 把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。 | WiFi感知、生命体征、空间智能、雷达 |
+| [fzf](https://github.com/junegunn/fzf) 82864★ 收藏🌐 | 命令行模糊查找器(Go 编写,终端神器)。 | fzf、模糊查找、命令行、终端 |
+| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) 78687★ 收藏🌐 | 给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。 | 全网搜索、社媒阅读、16平台、信息获取 |
 | [codegraph](https://github.com/colbymchenry/codegraph) 69995★ 收藏🌐 | 预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。 | 代码图谱、知识图谱、索引、agent上下文 |
+| [memos](https://github.com/usememos/memos) 62836★ 收藏🌐 | 开源自托管笔记工具:快速捕获、Markdown 原生、轻量。 | 笔记、自托管、Markdown、轻量 |
+| [agent-browser](https://github.com/vercel-labs/agent-browser) 42126★ 收藏🌐 | AI agent 的浏览器自动化 CLI(vercel)。 | 浏览器自动化、CLI、agent、vercel |
 | [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 35023★ 收藏🌐 | 逆向工程/授权渗透测试/安全研究 Skill 路由包。 | 逆向工程、渗透测试、安全研究、红队 |
+| [browser](https://github.com/lightpanda-io/browser) 34975★ 收藏🌐 | Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。 | 无头浏览器、Lightpanda、自动化、AI |
+| [cli](https://github.com/googleworkspace/cli) 30777★ 收藏🌐 | Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。 | Google Workspace、CLI、Drive、Gmail |
+| [OpenCLI](https://github.com/jackwener/OpenCLI) 29082★ 收藏🌐 | 把任意网站变成 CLI,AI agent 用你的已登录浏览器操作。 | 网站转CLI、浏览器自动化、agent、登录态 |
+| [claude-hud](https://github.com/jarrodwatts/claude-hud) 27868★ 收藏🌐 | Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。 | Claude Code、HUD、上下文监控、插件 |
 | [obscura](https://github.com/h4ckf0r0day/obscura) 26443★ 收藏🌐 | 面向 AI agent 与网页抓取的无头浏览器(headless)。 | 无头浏览器、headless、网页抓取、AI agent |
 | [openwiki](https://github.com/langchain-ai/openwiki) 16211★ 收藏🌐 | CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。 | 文档生成、agent文档、CLI、OpenWiki |
+| [ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) 14328★ 收藏🌐 | 闲鱼多任务实时/定时监控与智能分析系统(Playwright+AI,带后台管理 UI)。 | 闲鱼、监控、抢购、Playwright、分析 |
+| [bb-browser](https://github.com/epiral/bb-browser) 6184★ 收藏🌐 | 你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。 | 浏览器控制、MCP、Chrome、登录态、CLI |
 | [open-data](https://github.com/hudl/open-data) 3593★ 收藏🌐 | StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。 | 足球数据、StatsBomb、数据集、比赛数据 |
 | [abtop](https://github.com/graykode/abtop) 3498★ 收藏🌐 | 类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。 | agent监控、htop、token统计、Claude Code |
 | [linux-android](https://github.com/mayukh4/linux-android) 3130★ 收藏🌐 | 把旧 Android 手机改装成 GPU 加速 Linux 桌面。 | Android、Linux桌面、GPU加速、旧手机 |
+| [AutoCLI](https://github.com/nashsu/AutoCLI) 2979★ 收藏🌐 | 快速内存安全 CLI:从任意网站抓取信息(面向 AI agent)。 | CLI、信息抓取、memory-safe、agent工具 |
 | [baibaiAIGC](https://github.com/poleHansen/baibaiAIGC) 957★ 收藏🌐 | (无描述)baibaiAIGC,用途待补充。 | AIGC |
+| [x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher) 955★ 收藏🌐 | 免登录、免 API key 抓取 X/Twitter 推文/回复/时间线。 | Twitter抓取、免API、推文、时间线 |
+| [register](https://github.com/MasterAlanLab/register) 920★ 收藏🌐 | (无描述)用途待补充。 | register |
 | [SessionToJson](https://github.com/killervillsy/SessionToJson) 276★ 收藏🌐 | (无描述)推断为 Session 数据转 JSON 工具,用途待补充。 | Session、JSON、转换 |
 | [public-apis](https://github.com/skychen2/public-apis) 1★ fork | fork 自 public-apis/public-apis:免费公开 API 大合集(collective list of free APIs),做项目找接口的第一站。 | API、免费接口、开发者资源、清单 |
 | [GitHub-Chinese-Top-Charts](https://github.com/skychen2/GitHub-Chinese-Top-Charts) 0★ fork | fork 自 GrowingGit/GitHub-Chinese-Top-Charts:GitHub 中文排行榜,各语言分设「软件/资料」榜单,精准定位中文好项目。 | GitHub排行、中文项目、榜单、发现项目 |

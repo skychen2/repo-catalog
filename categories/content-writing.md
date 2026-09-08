@@ -2,10 +2,12 @@
 
 > 公众号排版、小红书运营、网文写作、内容工厂规范与素材
 
-共 8 个仓库。
+共 10 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [marketingskills](https://github.com/coreyhaines31/marketingskills) 48287★ 收藏🌐 | Claude Code/AI agent 营销技能包:CRO、文案、SEO、分析、增长。 | 营销、文案、SEO、增长 |
+| [AiToEarn](https://github.com/yikart/AiToEarn) 25772★ 收藏🌐 | 用 AI 赚钱:AI 变现/副业相关(Let's use AI to Earn!)。 | AI变现、赚钱、副业、商业化 |
 | [LandPPT](https://github.com/sligter/LandPPT) 3586★ 收藏🌐 | 基于 LLM 的 PPT 生成平台:文档自动转专业演示文稿,多模型+丰富模板。 | PPT生成、演示文稿、LLM、文档转PPT |
 | [human-writing](https://github.com/KKKKhazix/human-writing) 3519★ 收藏🌐 | 中文写作与改稿 Skill:让 AI 文字像具体的人在说话,去 AI 腔。 | 中文写作、改稿、人味、去AI腔 |
 | [Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator) 2293★ 收藏🌐 | Seedance 2.0 剧情分镜(Storyboard)生成 Skill:小说/脚本一键改写剧本。 | 分镜、剧本生成、Seedance、Storyboard |

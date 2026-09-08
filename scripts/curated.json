@@ -1865,5 +1865,868 @@
     "language": "Python",
     "stars": 243129,
     "description": "The agent that grows with you"
+  },
+  "hello2cc": {
+    "category": "ai-llm-agents",
+    "cn": "Claude Code 原生插件:接入第三方模型,支持静默 Agent 模型注入。",
+    "keywords": [
+      "Claude Code",
+      "插件",
+      "第三方模型",
+      "模型注入"
+    ],
+    "external": true,
+    "owner": "hellowind777",
+    "url": "https://github.com/hellowind777/hello2cc",
+    "language": "JavaScript",
+    "stars": 694,
+    "description": "Native-first Claude Code plugin for third-party models with silent Agent model injection and output styles."
+  },
+  "AutoCLI": {
+    "category": "dev-data-tools",
+    "cn": "快速内存安全 CLI:从任意网站抓取信息(面向 AI agent)。",
+    "keywords": [
+      "CLI",
+      "信息抓取",
+      "memory-safe",
+      "agent工具"
+    ],
+    "external": true,
+    "owner": "nashsu",
+    "url": "https://github.com/nashsu/AutoCLI",
+    "language": "Rust",
+    "stars": 2979,
+    "description": "AutoCLI is a Blazing fast, memory-safe command-line tool — Fetch information from any website with a single command. Covers Twitter/X, Reddit, YouTube, HackerNews, Bilibili, Zhihu, Xiaohongshu, and 55+ sites, with support for controlling Electron desktop apps, integrating local CLI tools (gh, docker, kubectl), now powered by AutoCLI.ai ."
+  },
+  "claw-code": {
+    "category": "ai-llm-agents",
+    "cn": "Rust 编写的 agent 管理博物馆展品(Gajae-Code/LazyCodex 开发)。",
+    "keywords": [
+      "agent",
+      "Rust",
+      "博物馆",
+      "Gajae-Code"
+    ],
+    "external": true,
+    "owner": "ultraworkers",
+    "url": "https://github.com/ultraworkers/claw-code",
+    "language": "Rust",
+    "stars": 195195,
+    "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+  },
+  "openclaw-android": {
+    "category": "ai-llm-agents",
+    "cn": "一条命令在 Android 上运行 OpenClaw,无需 proot/Linux。",
+    "keywords": [
+      "OpenClaw",
+      "Android",
+      "移动部署",
+      "一键运行"
+    ],
+    "external": true,
+    "owner": "AidanPark",
+    "url": "https://github.com/AidanPark/openclaw-android",
+    "language": "Java",
+    "stars": 1751,
+    "description": "Run OpenClaw on Android with a single command — no proot, no Linux"
+  },
+  "bb-browser": {
+    "category": "dev-data-tools",
+    "cn": "你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。",
+    "keywords": [
+      "浏览器控制",
+      "MCP",
+      "Chrome",
+      "登录态",
+      "CLI"
+    ],
+    "external": true,
+    "owner": "epiral",
+    "url": "https://github.com/epiral/bb-browser",
+    "language": "TypeScript",
+    "stars": 6184,
+    "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state."
+  },
+  "last30days-skill": {
+    "category": "ai-llm-agents",
+    "cn": "AI agent skill:研究 Reddit/X/YouTube/HN/Polymarket 等平台近 30 天话题。",
+    "keywords": [
+      "话题研究",
+      "社媒",
+      "近30天",
+      "agent技能"
+    ],
+    "external": true,
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "language": "Python",
+    "stars": 61552,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+  },
+  "OpenMAIC": {
+    "category": "ai-llm-tutorials",
+    "cn": "多智能体互动课堂(清华 THU-MAIC):沉浸式多 agent 学习体验。",
+    "keywords": [
+      "多智能体",
+      "互动课堂",
+      "教育",
+      "清华"
+    ],
+    "external": true,
+    "owner": "THU-MAIC",
+    "url": "https://github.com/THU-MAIC/OpenMAIC",
+    "language": "TypeScript",
+    "stars": 33204,
+    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+  },
+  "OpenClawInstaller": {
+    "category": "ai-llm-agents",
+    "cn": "ClawdBot 一键部署工具。",
+    "keywords": [
+      "OpenClaw",
+      "一键部署",
+      "ClawdBot",
+      "安装"
+    ],
+    "external": true,
+    "owner": "miaoxworld",
+    "url": "https://github.com/miaoxworld/OpenClawInstaller",
+    "language": "Shell",
+    "stars": 3422,
+    "description": "ClawdBot 一键部署工具"
+  },
+  "ai-goofish-monitor": {
+    "category": "dev-data-tools",
+    "cn": "闲鱼多任务实时/定时监控与智能分析系统(Playwright+AI,带后台管理 UI)。",
+    "keywords": [
+      "闲鱼",
+      "监控",
+      "抢购",
+      "Playwright",
+      "分析"
+    ],
+    "external": true,
+    "owner": "Usagi-org",
+    "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+    "language": "Python",
+    "stars": 14328,
+    "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
+  },
+  "supermemory": {
+    "category": "ai-llm-agents",
+    "cn": "记忆与上下文引擎+应用:极快、可扩展、可全本地运行。",
+    "keywords": [
+      "记忆引擎",
+      "上下文",
+      "本地运行",
+      "RAG"
+    ],
+    "external": true,
+    "owner": "supermemoryai",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "language": "TypeScript",
+    "stars": 29265,
+    "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era."
+  },
+  "claude-hud": {
+    "category": "dev-data-tools",
+    "cn": "Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。",
+    "keywords": [
+      "Claude Code",
+      "HUD",
+      "上下文监控",
+      "插件"
+    ],
+    "external": true,
+    "owner": "jarrodwatts",
+    "url": "https://github.com/jarrodwatts/claude-hud",
+    "language": "JavaScript",
+    "stars": 27868,
+    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress"
+  },
+  "waoowaoo": {
+    "category": "media",
+    "cn": "工业级全流程 AI 影视生产平台:可控的电影级 AI Agent 制作(waooAI)。",
+    "keywords": [
+      "影视制作",
+      "AI电影",
+      "全流程",
+      "Agent平台"
+    ],
+    "external": true,
+    "owner": "waooAI",
+    "url": "https://github.com/waooAI/waoowaoo",
+    "language": "TypeScript",
+    "stars": 14003,
+    "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows."
+  },
+  "pua": {
+    "category": "ai-llm-prompts",
+    "cn": "高能动性 agent skill:扮演曾被寄予厚望的 P8 级工程师。",
+    "keywords": [
+      "角色扮演",
+      "P8",
+      "能动性",
+      "skill"
+    ],
+    "external": true,
+    "owner": "tanweai",
+    "url": "https://github.com/tanweai/pua",
+    "language": "Shell",
+    "stars": 19601,
+    "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement."
+  },
+  "browser": {
+    "category": "dev-data-tools",
+    "cn": "Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。",
+    "keywords": [
+      "无头浏览器",
+      "Lightpanda",
+      "自动化",
+      "AI"
+    ],
+    "external": true,
+    "owner": "lightpanda-io",
+    "url": "https://github.com/lightpanda-io/browser",
+    "language": "Zig",
+    "stars": 34975,
+    "description": "Lightpanda: the headless browser designed for AI and automation"
+  },
+  "CLI-Anything": {
+    "category": "ai-llm-agents",
+    "cn": "让所有软件 Agent-Native:把 GUI 软件变成 CLI 供 AI agent 调用(HKUDS)。",
+    "keywords": [
+      "CLI",
+      "Agent-Native",
+      "软件自动化",
+      "GUI转CLI"
+    ],
+    "external": true,
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "language": "Python",
+    "stars": 49124,
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  },
+  "OpenCLI": {
+    "category": "dev-data-tools",
+    "cn": "把任意网站变成 CLI,AI agent 用你的已登录浏览器操作。",
+    "keywords": [
+      "网站转CLI",
+      "浏览器自动化",
+      "agent",
+      "登录态"
+    ],
+    "external": true,
+    "owner": "jackwener",
+    "url": "https://github.com/jackwener/OpenCLI",
+    "language": "JavaScript",
+    "stars": 29082,
+    "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. "
+  },
+  "oh-my-openagent": {
+    "category": "ai-llm-agents",
+    "cn": "OmO:极致高效的 agent 工作流工具。",
+    "keywords": [
+      "agent",
+      "效率",
+      "OmO",
+      "工作流"
+    ],
+    "external": true,
+    "owner": "code-yeongyu",
+    "url": "https://github.com/code-yeongyu/oh-my-openagent",
+    "language": "TypeScript",
+    "stars": 68801,
+    "description": "OmO: Drop your tokens. Ultrawork. Done."
+  },
+  "cc-switch": {
+    "category": "dev-data-tools",
+    "cn": "跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。",
+    "keywords": [
+      "Claude Code",
+      "Codex",
+      "一键切换",
+      "桌面工具"
+    ],
+    "external": true,
+    "owner": "farion1231",
+    "url": "https://github.com/farion1231/cc-switch",
+    "language": "Rust",
+    "stars": 131606,
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
+  },
+  "gstack": {
+    "category": "ai-llm-prompts",
+    "cn": "Garry Tan 的 Claude Code 配置:23 个意见型工具(CEO/设计师/产品等角色)。",
+    "keywords": [
+      "Claude Code",
+      "配置",
+      "角色工具",
+      "YC"
+    ],
+    "external": true,
+    "owner": "garrytan",
+    "url": "https://github.com/garrytan/gstack",
+    "language": "TypeScript",
+    "stars": 132002,
+    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+  },
+  "register": {
+    "category": "dev-data-tools",
+    "cn": "(无描述)用途待补充。",
+    "keywords": [
+      "register"
+    ],
+    "external": true,
+    "owner": "MasterAlanLab",
+    "url": "https://github.com/MasterAlanLab/register",
+    "language": "-",
+    "stars": 920,
+    "description": ""
+  },
+  "memory-lancedb-pro": {
+    "category": "ai-llm-agents",
+    "cn": "OpenClaw 增强 LanceDB 记忆插件:混合检索(Vector+BM25)+ 跨编码器。",
+    "keywords": [
+      "OpenClaw",
+      "记忆插件",
+      "LanceDB",
+      "混合检索"
+    ],
+    "external": true,
+    "owner": "CortexReach",
+    "url": "https://github.com/CortexReach/memory-lancedb-pro",
+    "language": "JavaScript",
+    "stars": 4458,
+    "description": "Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI"
+  },
+  "cli": {
+    "category": "dev-data-tools",
+    "cn": "Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。",
+    "keywords": [
+      "Google Workspace",
+      "CLI",
+      "Drive",
+      "Gmail"
+    ],
+    "external": true,
+    "owner": "googleworkspace",
+    "url": "https://github.com/googleworkspace/cli",
+    "language": "Rust",
+    "stars": 30777,
+    "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+  },
+  "agency-agents": {
+    "category": "ai-llm-agents",
+    "cn": "完整 AI agency 技能包:从前端向导到 Reddit 社区运营。",
+    "keywords": [
+      "AI agency",
+      "技能包",
+      "营销",
+      "社区运营"
+    ],
+    "external": true,
+    "owner": "msitarzewski",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 150817,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+  },
+  "firecrawl": {
+    "category": "dev-data-tools",
+    "cn": "搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。",
+    "keywords": [
+      "网页抓取",
+      "搜索",
+      "爬虫",
+      "API"
+    ],
+    "external": true,
+    "owner": "firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "language": "TypeScript",
+    "stars": 177728,
+    "description": "The context API to search, scrape, and interact with the web at scale. 🔥"
+  },
+  "fzf": {
+    "category": "dev-data-tools",
+    "cn": "命令行模糊查找器(Go 编写,终端神器)。",
+    "keywords": [
+      "fzf",
+      "模糊查找",
+      "命令行",
+      "终端"
+    ],
+    "external": true,
+    "owner": "junegunn",
+    "url": "https://github.com/junegunn/fzf",
+    "language": "Go",
+    "stars": 82864,
+    "description": ":cherry_blossom: A command-line fuzzy finder"
+  },
+  "scientific-agent-skills": {
+    "category": "ai-llm-agents",
+    "cn": "把 AI agent 变成 AI 科学家:科学领域 #1 Agent Skills 库。",
+    "keywords": [
+      "科学",
+      "Agent Skills",
+      "科研",
+      "数据分析"
+    ],
+    "external": true,
+    "owner": "K-Dense-AI",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "language": "Python",
+    "stars": 43672,
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+  },
+  "airi": {
+    "category": "ai-llm-api",
+    "cn": "自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。",
+    "keywords": [
+      "Grok",
+      "自托管",
+      "Companion",
+      "聊天"
+    ],
+    "external": true,
+    "owner": "moeru-ai",
+    "url": "https://github.com/moeru-ai/airi",
+    "language": "TypeScript",
+    "stars": 48899,
+    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported."
+  },
+  "deer-flow": {
+    "category": "ai-llm-agents",
+    "cn": "开源长时程 SuperAgent harness:研究、编码、创造(字节跳动)。",
+    "keywords": [
+      "SuperAgent",
+      "长时程",
+      "研究",
+      "字节"
+    ],
+    "external": true,
+    "owner": "bytedance",
+    "url": "https://github.com/bytedance/deer-flow",
+    "language": "Python",
+    "stars": 81926,
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+  },
+  "agent-browser": {
+    "category": "dev-data-tools",
+    "cn": "AI agent 的浏览器自动化 CLI(vercel)。",
+    "keywords": [
+      "浏览器自动化",
+      "CLI",
+      "agent",
+      "vercel"
+    ],
+    "external": true,
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "language": "Rust",
+    "stars": 42126,
+    "description": "Browser automation CLI for AI agents"
+  },
+  "awesome-openclaw-usecases-moltbook": {
+    "category": "ai-llm-tutorials",
+    "cn": "OpenClaw 真实自动化案例集(Moltbook 社区示例)。",
+    "keywords": [
+      "OpenClaw",
+      "用例",
+      "案例",
+      "自动化"
+    ],
+    "external": true,
+    "owner": "EvoLinkAI",
+    "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook",
+    "language": "-",
+    "stars": 999,
+    "description": "📚 Real-world OpenClaw automation examples from Moltbook"
+  },
+  "RuView": {
+    "category": "dev-data-tools",
+    "cn": "把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。",
+    "keywords": [
+      "WiFi感知",
+      "生命体征",
+      "空间智能",
+      "雷达"
+    ],
+    "external": true,
+    "owner": "ruvnet",
+    "url": "https://github.com/ruvnet/RuView",
+    "language": "Rust",
+    "stars": 92757,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+  },
+  "antigravity-claude-proxy": {
+    "category": "ai-llm-api",
+    "cn": "代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。",
+    "keywords": [
+      "代理",
+      "Antigravity",
+      "模型转发",
+      "Claude"
+    ],
+    "external": true,
+    "owner": "badrisnarayanan",
+    "url": "https://github.com/badrisnarayanan/antigravity-claude-proxy",
+    "language": "JavaScript",
+    "stars": 3947,
+    "description": "Proxy that exposes Antigravity provided claude / gemini models, so we can use them in Claude Code and OpenClaw (Clawdbot)"
+  },
+  "openfang": {
+    "category": "ai-llm-agents",
+    "cn": "开源 Agent 操作系统(Agent OS)。",
+    "keywords": [
+      "Agent OS",
+      "操作系统",
+      "agent",
+      "开源"
+    ],
+    "external": true,
+    "owner": "RightNow-AI",
+    "url": "https://github.com/RightNow-AI/openfang",
+    "language": "Rust",
+    "stars": 18170,
+    "description": "Open-source Agent Operating System"
+  },
+  "nanoclaw": {
+    "category": "ai-llm-agents",
+    "cn": "OpenClaw 轻量替代:容器化运行更安全,可连接 WhatsApp。",
+    "keywords": [
+      "OpenClaw",
+      "轻量",
+      "容器",
+      "WhatsApp"
+    ],
+    "external": true,
+    "owner": "nanocoai",
+    "url": "https://github.com/nanocoai/nanoclaw",
+    "language": "TypeScript",
+    "stars": 30720,
+    "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK"
+  },
+  "Agent-Reach": {
+    "category": "dev-data-tools",
+    "cn": "给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。",
+    "keywords": [
+      "全网搜索",
+      "社媒阅读",
+      "16平台",
+      "信息获取"
+    ],
+    "external": true,
+    "owner": "Panniantong",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "language": "Python",
+    "stars": 78687,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+  },
+  "awesome-openclaw-usecases": {
+    "category": "ai-llm-tutorials",
+    "cn": "OpenClaw 用例社区合集:让生活更轻松的真实自动化案例。",
+    "keywords": [
+      "OpenClaw",
+      "用例",
+      "社区合集",
+      "自动化"
+    ],
+    "external": true,
+    "owner": "hesamsheikh",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
+    "language": "-",
+    "stars": 31672,
+    "description": "A community collection of OpenClaw use cases for making life easier."
+  },
+  "openclaw-min-bundle": {
+    "category": "ai-llm-agents",
+    "cn": "OpenClaw 最小化自愈网关(systemd user+auto-fix)+ codex deep search bundle。",
+    "keywords": [
+      "OpenClaw",
+      "自愈网关",
+      "systemd",
+      "最小化"
+    ],
+    "external": true,
+    "owner": "win4r",
+    "url": "https://github.com/win4r/openclaw-min-bundle",
+    "language": "-",
+    "stars": 173,
+    "description": "OpenClaw 最小化自愈网关（systemd user + auto-fix）+ codex deep search bundle"
+  },
+  "CLIProxyAPI": {
+    "category": "ai-llm-api",
+    "cn": "把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。",
+    "keywords": [
+      "CLI转API",
+      "代理",
+      "Codex",
+      "Grok"
+    ],
+    "external": true,
+    "owner": "router-for-me",
+    "url": "https://github.com/router-for-me/CLIProxyAPI",
+    "language": "Go",
+    "stars": 50913,
+    "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API"
+  },
+  "x-tweet-fetcher": {
+    "category": "dev-data-tools",
+    "cn": "免登录、免 API key 抓取 X/Twitter 推文/回复/时间线。",
+    "keywords": [
+      "Twitter抓取",
+      "免API",
+      "推文",
+      "时间线"
+    ],
+    "external": true,
+    "owner": "ythx-101",
+    "url": "https://github.com/ythx-101/x-tweet-fetcher",
+    "language": "Python",
+    "stars": 955,
+    "description": "Fetch X/Twitter tweets, replies, timelines, and articles without login or API keys — field tool for AI agents."
+  },
+  "OpenViking": {
+    "category": "ai-llm-agents",
+    "cn": "自进化上下文数据库:统一 agent 记忆、知识 RAG 与技能(字节跳动)。",
+    "keywords": [
+      "上下文数据库",
+      "记忆",
+      "RAG",
+      "技能"
+    ],
+    "external": true,
+    "owner": "volcengine",
+    "url": "https://github.com/volcengine/OpenViking",
+    "language": "Python",
+    "stars": 35963,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+  },
+  "cherry-studio-app": {
+    "category": "ai-llm-api",
+    "cn": "Cherry Studio 移动版(开源多模型 AI 客户端)。",
+    "keywords": [
+      "Cherry Studio",
+      "移动版",
+      "AI客户端",
+      "多模型"
+    ],
+    "external": true,
+    "owner": "CherryHQ",
+    "url": "https://github.com/CherryHQ/cherry-studio-app",
+    "language": "TypeScript",
+    "stars": 3797,
+    "description": "🍒 This is the mobile version of Cherry Studio."
+  },
+  "marketingskills": {
+    "category": "content-writing",
+    "cn": "Claude Code/AI agent 营销技能包:CRO、文案、SEO、分析、增长。",
+    "keywords": [
+      "营销",
+      "文案",
+      "SEO",
+      "增长"
+    ],
+    "external": true,
+    "owner": "coreyhaines31",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "language": "JavaScript",
+    "stars": 48287,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+  },
+  "MemOS-Cloud-OpenClaw-Plugin": {
+    "category": "ai-llm-agents",
+    "cn": "OpenClaw 的 MemOS 云插件:长期记忆召回。",
+    "keywords": [
+      "OpenClaw",
+      "MemOS",
+      "长期记忆",
+      "插件"
+    ],
+    "external": true,
+    "owner": "MemTensor",
+    "url": "https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin",
+    "language": "JavaScript",
+    "stars": 369,
+    "description": "Official MemOS Cloud plugin for OpenClaw. Enables long-term memory for agents by recalling context before execution and saving conversations after each run."
+  },
+  "memos": {
+    "category": "dev-data-tools",
+    "cn": "开源自托管笔记工具:快速捕获、Markdown 原生、轻量。",
+    "keywords": [
+      "笔记",
+      "自托管",
+      "Markdown",
+      "轻量"
+    ],
+    "external": true,
+    "owner": "usememos",
+    "url": "https://github.com/usememos/memos",
+    "language": "Go",
+    "stars": 62836,
+    "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours."
+  },
+  "awesome-openclaw-skills": {
+    "category": "ai-llm-agents",
+    "cn": "OpenClaw skills 合集:5400+ 技能过滤分类。",
+    "keywords": [
+      "OpenClaw",
+      "技能库",
+      "合集",
+      "5400+"
+    ],
+    "external": true,
+    "owner": "VoltAgent",
+    "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+    "language": "-",
+    "stars": 52435,
+    "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞"
+  },
+  "openclaw": {
+    "category": "ai-llm-agents",
+    "cn": "真的会做事的 AI:任意 OS、任意平台(OpenClaw 本体,lobster 方式)。",
+    "keywords": [
+      "OpenClaw",
+      "通用Agent",
+      "跨平台",
+      "自动化"
+    ],
+    "external": true,
+    "owner": "openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "language": "TypeScript",
+    "stars": 389173,
+    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  "openclaw-cn": {
+    "category": "ai-llm-agents",
+    "cn": "OpenClaw 中文社区版:内置钉钉/企业微信/飞书/QQ/微信接入与国内网络优化。",
+    "keywords": [
+      "OpenClaw",
+      "中文版",
+      "钉钉",
+      "飞书",
+      "国内优化"
+    ],
+    "external": true,
+    "owner": "mf-yang",
+    "url": "https://github.com/mf-yang/openclaw-cn",
+    "language": "TypeScript",
+    "stars": 4715,
+    "description": "中文社区版OpenClaw，同原版保持定期更新，已内置钉钉、企业微信、飞书、QQ、微信以及国内网络环境优化。你的专属个人AI助手。支持所有操作系统和平台。🦞"
+  },
+  "clawdbot-feishu": {
+    "category": "ai-llm-agents",
+    "cn": "(无描述)推断为 ClawdBot 飞书集成,用途待补充。",
+    "keywords": [
+      "OpenClaw",
+      "飞书",
+      "集成"
+    ],
+    "external": true,
+    "owner": "m1heng",
+    "url": "https://github.com/m1heng/clawdbot-feishu",
+    "language": "TypeScript",
+    "stars": 4245,
+    "description": ""
+  },
+  "picoclaw": {
+    "category": "ai-llm-agents",
+    "cn": "小巧、快速、随处可部署的 agent:自动化琐事,释放创造力。",
+    "keywords": [
+      "轻量Agent",
+      "部署",
+      "自动化",
+      "Go"
+    ],
+    "external": true,
+    "owner": "sipeed",
+    "url": "https://github.com/sipeed/picoclaw",
+    "language": "Go",
+    "stars": 29942,
+    "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity"
+  },
+  "nano-banana-pro-prompts-recommend-skill": {
+    "category": "ai-llm-prompts",
+    "cn": "OpenClaw/Claude Code 技能:从 10000+ Nano Banana Pro(Gemini)图像提示词中推荐。",
+    "keywords": [
+      "Nano Banana",
+      "提示词推荐",
+      "Gemini",
+      "生图"
+    ],
+    "external": true,
+    "owner": "YouMind-OpenLab",
+    "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "language": "TypeScript",
+    "stars": 1848,
+    "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images."
+  },
+  "AiToEarn": {
+    "category": "content-writing",
+    "cn": "用 AI 赚钱:AI 变现/副业相关(Let's use AI to Earn!)。",
+    "keywords": [
+      "AI变现",
+      "赚钱",
+      "副业",
+      "商业化"
+    ],
+    "external": true,
+    "owner": "yikart",
+    "url": "https://github.com/yikart/AiToEarn",
+    "language": "TypeScript",
+    "stars": 25772,
+    "description": "Let's use AI to Earn!"
+  },
+  "claude-mem": {
+    "category": "ai-llm-agents",
+    "cn": "跨会话持久上下文:捕获 agent 所做的一切,实现长期记忆。",
+    "keywords": [
+      "持久记忆",
+      "上下文",
+      "Claude Code",
+      "跨会话"
+    ],
+    "external": true,
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "language": "JavaScript",
+    "stars": 93432,
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+  },
+  "opencode": {
+    "category": "ai-llm-agents",
+    "cn": "开源编码 agent(terminal 内 AI 编程助手)。",
+    "keywords": [
+      "编码Agent",
+      "开源",
+      "终端",
+      "代码生成"
+    ],
+    "external": true,
+    "owner": "opencode-ai",
+    "url": "https://github.com/opencode-ai/opencode",
+    "language": "Go",
+    "stars": 13723,
+    "description": "A powerful AI coding agent. Built for the terminal."
+  },
+  "manim_skill": {
+    "category": "media",
+    "cn": "Manim 动画 agent 技能:创建 3Blue1Brown 风格数学动画。",
+    "keywords": [
+      "Manim",
+      "数学动画",
+      "3Blue1Brown",
+      "可视化"
+    ],
+    "external": true,
+    "owner": "adithya-s-k",
+    "url": "https://github.com/adithya-s-k/manim_skill",
+    "language": "Python",
+    "stars": 1095,
+    "description": "Agent skills for Manim to create 3Blue1Brown style animations."
   }
 }
