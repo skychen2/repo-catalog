@@ -2,18 +2,21 @@
 
 > prompt 合集、结构化提示词、系统提示词、越狱手册
 
-共 22 个仓库。
+共 25 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
 | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 210974★ 收藏🌐 | 单文件 CLAUDE.md:基于 Karpathy 观察的 Claude Code 行为优化配置。 | CLAUDE.md、Claude Code、行为优化、Karpathy |
+| [prompts.chat](https://github.com/f/prompts.chat) 169613★ 收藏🌐 | Awesome ChatGPT Prompts:社区分享与发现的提示词合集。 | ChatGPT、提示词、社区、合集 |
 | [gstack](https://github.com/garrytan/gstack) 132002★ 收藏🌐 | Garry Tan 的 Claude Code 配置:23 个意见型工具(CEO/设计师/产品等角色)。 | Claude Code、配置、角色工具、YC |
 | [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) 64383★ 收藏🌐 | 从 Anthropic Claude 系列提取的系统提示词(Claude Fable/Opus/Design 等)。 | 系统提示词、Claude、泄露、逆向 |
+| [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) 34256★ 收藏🌐 | AI 提示词优化器:写出更好的提示词,获得更好的 AI 结果。 | 提示词优化、Prompt、改进、结果 |
 | [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) 28710★ 收藏🌐 | GPT-Image2 提示词引擎与模板库(Prompt as Code):530+ 案例逆向,20+ 套工业级模板,提炼为 Skills。 | GPT-Image2、提示词引擎、模板库、Prompt as Code |
 | [Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images) 23656★ 收藏🌐 | Nano Banana 生成的有趣创意示例合集。 | Nano Banana、创意示例、生图、合集 |
 | [pua](https://github.com/tanweai/pua) 19601★ 收藏🌐 | 高能动性 agent skill:扮演曾被寄予厚望的 P8 级工程师。 | 角色扮演、P8、能动性、skill |
 | [Thinking-Claude](https://github.com/richards199999/Thinking-Claude) 17041★ 收藏🌐 | 让 Claude 能够思考(增强推理的提示技巧)。 | 思考模式、Claude、推理、技巧 |
 | [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) 13383★ 收藏🌐 | 全球最大 Nano Banana Pro 提示词库:10000+ 精选提示词带预览图。 | Nano Banana、提示词库、生图、10000+ |
+| [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images) 8142★ 收藏🌐 | GPT-4o/gpt-image-1 生成图像与提示词精选合集。 | GPT-4o、图像提示词、生图、精选 |
 | [gpt4o-image-prompts](https://github.com/songguoxs/gpt4o-image-prompts) 3798★ 收藏🌐 | Nano Banana/GPT-5/GPT-4o 图像提示词合集。 | 图像提示词、Nano Banana、GPT-4o、生图 |
 | [ZHO-nano-banana-Creation](https://github.com/ZHO-ZHO-ZHO/ZHO-nano-banana-Creation) 3715★ 收藏🌐 | nano-banana 创意玩法大合集(持续更新)。 | Nano Banana、创意玩法、生图、合集 |
 | [banana-prompt-quicker](https://github.com/glidea/banana-prompt-quicker) 2411★ 收藏🌐 | Banana/Nano Banana Pro/Gemini AI Studio 提示词快捷数据工具。 | 提示词快捷、Nano Banana、AI Studio、数据 |

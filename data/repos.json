@@ -1873,6 +1873,29 @@
     "display_cn": "fork 自 BetaStreetOmnis/xhs_ai_publisher:小红书 AI 运营助手:小红书风格内容(含图片)生成 + 自动发布(Selenium RPA 模拟点击)。"
   },
   {
+    "name": "ACE-Step",
+    "url": "https://github.com/ace-step/ACE-Step",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 4809,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "ACE-Step: A Step Towards Music Generation Foundation Model",
+    "category": "media",
+    "cn": "ACE-Step:音乐生成基础模型(阿里音乐方向)。",
+    "keywords": [
+      "音乐生成",
+      "基础模型",
+      "音频",
+      "阿里"
+    ],
+    "external": true,
+    "display_cn": "ACE-Step:音乐生成基础模型(阿里音乐方向)。"
+  },
+  {
     "name": "ACE_plus",
     "url": "https://github.com/ali-vilab/ACE_plus",
     "visibility": "PUBLIC",
@@ -1894,6 +1917,29 @@
     ],
     "external": true,
     "display_cn": "(无描述)阿里视频实验室(ali-vilab)ACE+ 图像/视频生成系列,用途待补充。"
+  },
+  {
+    "name": "AI-Media2Doc",
+    "url": "https://github.com/hanshuaikang/AI-Media2Doc",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Vue",
+    "stars": 4003,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "一键将音视频转化为小红书/公众号/知识笔记/思维导图/视频字幕等各种风格的文档。",
+    "category": "content-writing",
+    "cn": "一键把音视频转为小红书/公众号/知识笔记/思维导图/视频字幕等文档。",
+    "keywords": [
+      "音视频转文档",
+      "小红书",
+      "思维导图",
+      "公众号"
+    ],
+    "external": true,
+    "display_cn": "一键把音视频转为小红书/公众号/知识笔记/思维导图/视频字幕等文档。"
   },
   {
     "name": "Agent-Reach",
@@ -1963,6 +2009,29 @@
     ],
     "external": true,
     "display_cn": "用 AI 赚钱:AI 变现/副业相关(Let's use AI to Earn!)。"
+  },
+  {
+    "name": "Amphion",
+    "url": "https://github.com/open-mmlab/Amphion",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 10281,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.",
+    "category": "media",
+    "cn": "音频、音乐与语音生成工具包(OpenMMLab)。",
+    "keywords": [
+      "音频生成",
+      "音乐生成",
+      "语音合成",
+      "OpenMMLab"
+    ],
+    "external": true,
+    "display_cn": "音频、音乐与语音生成工具包(OpenMMLab)。"
   },
   {
     "name": "AntigravityQuotaWatcher",
@@ -2057,6 +2126,29 @@
     "display_cn": "大麦网抢票脚本。"
   },
   {
+    "name": "Awesome-Dify-Workflow",
+    "url": "https://github.com/svcvit/Awesome-Dify-Workflow",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 10768,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows.",
+    "category": "ai-llm-agents",
+    "cn": "好用的 Dify DSL 工作流程分享(自用学习两相宜)。",
+    "keywords": [
+      "Dify",
+      "工作流",
+      "DSL",
+      "分享"
+    ],
+    "external": true,
+    "display_cn": "好用的 Dify DSL 工作流程分享(自用学习两相宜)。"
+  },
+  {
     "name": "Awesome-Nano-Banana-images",
     "url": "https://github.com/PicoTrex/Awesome-Nano-Banana-images",
     "visibility": "PUBLIC",
@@ -2078,6 +2170,75 @@
     ],
     "external": true,
     "display_cn": "Nano Banana 生成的有趣创意示例合集。"
+  },
+  {
+    "name": "BPB-Worker-Panel",
+    "url": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "TypeScript",
+    "stars": 13375,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP, Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.",
+    "category": "network-proxy",
+    "cn": "Worker 订阅 GUI 面板:VLESS/Trojan/Warp 配置管理。",
+    "keywords": [
+      "Workers",
+      "订阅面板",
+      "VLESS",
+      "Warp"
+    ],
+    "external": true,
+    "display_cn": "Worker 订阅 GUI 面板:VLESS/Trojan/Warp 配置管理。"
+  },
+  {
+    "name": "BiliBiliToolPro",
+    "url": "https://github.com/RayWangQvQ/BiliBiliToolPro",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "C#",
+    "stars": 8813,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "B 站（bilibili）自动任务工具，支持docker、青龙、k8s等多种部署方式。全面拥抱AI。敏感肌也能用。",
+    "category": "dev-data-tools",
+    "cn": "B 站自动任务工具:支持 docker/青龙/k8s 部署,全面拥抱 AI。",
+    "keywords": [
+      "B站",
+      "自动任务",
+      "青龙",
+      "docker"
+    ],
+    "external": true,
+    "display_cn": "B 站自动任务工具:支持 docker/青龙/k8s 部署,全面拥抱 AI。"
+  },
+  {
+    "name": "BiliNote",
+    "url": "https://github.com/JefferyHcool/BiliNote",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 7267,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "AI 视频笔记生成工具 让 AI 为你的视频做笔记",
+    "category": "content-writing",
+    "cn": "AI 视频笔记生成工具:让 AI 为视频自动做笔记。",
+    "keywords": [
+      "视频笔记",
+      "AI总结",
+      "学习",
+      "笔记"
+    ],
+    "external": true,
+    "display_cn": "AI 视频笔记生成工具:让 AI 为视频自动做笔记。"
   },
   {
     "name": "BlockX",
@@ -2217,6 +2378,29 @@
     "display_cn": "谷粒 Chrome 插件英雄榜:优秀 Chrome 插件中文说明书合集。"
   },
   {
+    "name": "Ciphey",
+    "url": "https://github.com/bee-san/Ciphey",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Rust",
+    "stars": 21594,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡",
+    "category": "dev-data-tools",
+    "cn": "自动解密工具:不知密钥/密码也能解,自动识别编码与加密。",
+    "keywords": [
+      "解密",
+      "编码识别",
+      "加密破解",
+      "CTF"
+    ],
+    "external": true,
+    "display_cn": "自动解密工具:不知密钥/密码也能解,自动识别编码与加密。"
+  },
+  {
     "name": "Claude-meta-skill",
     "url": "https://github.com/YYH211/Claude-meta-skill",
     "visibility": "PUBLIC",
@@ -2260,6 +2444,52 @@
     ],
     "external": true,
     "display_cn": "cliProxyAPI 与 Sub2API 账号文件互转工具。"
+  },
+  {
+    "name": "Cloudflare-vless-trojan",
+    "url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "JavaScript",
+    "stars": 16042,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
+    "category": "network-proxy",
+    "cn": "CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。",
+    "keywords": [
+      "Cloudflare",
+      "VLESS",
+      "Trojan",
+      "代理脚本"
+    ],
+    "external": true,
+    "display_cn": "CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。"
+  },
+  {
+    "name": "ComfyUI-IF_AI_tools",
+    "url": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 700,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "ComfyUI-IF_AI_tools is a set of custom nodes for ComfyUI that allows you to generate prompts using a local Large Language Model (LLM) via Ollama. This tool enables you to enhance your image generation workflow by leveraging the power of language models.",
+    "category": "media",
+    "cn": "ComfyUI 自定义节点集:AI 提示词生成等(IF_AI_tools)。",
+    "keywords": [
+      "ComfyUI",
+      "自定义节点",
+      "提示词生成",
+      "AI工具"
+    ],
+    "external": true,
+    "display_cn": "ComfyUI 自定义节点集:AI 提示词生成等(IF_AI_tools)。"
   },
   {
     "name": "ComfyUI_PuLID_Flux_ll",
@@ -2331,6 +2561,29 @@
     "display_cn": "DeepSeek 原生终端编码 agent:前缀缓存稳定,长会话低成本。"
   },
   {
+    "name": "Deepseek-goes-from-beginner-to-master.PDF",
+    "url": "https://github.com/2XUID/Deepseek-goes-from-beginner-to-master.PDF",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 441,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "全网乱传的Deepseek从入门到精通的PDF版本，清华大学新闻与传播学院 新媒体研究中心 元宇宙文化实验室",
+    "category": "ai-llm-tutorials",
+    "cn": "清华大学出品的 DeepSeek 从入门到精通 PDF。",
+    "keywords": [
+      "DeepSeek",
+      "入门到精通",
+      "清华",
+      "PDF"
+    ],
+    "external": true,
+    "display_cn": "清华大学出品的 DeepSeek 从入门到精通 PDF。"
+  },
+  {
     "name": "ECC",
     "url": "https://github.com/affaan-m/ECC",
     "visibility": "PUBLIC",
@@ -2375,6 +2628,98 @@
     ],
     "external": true,
     "display_cn": "电商 AI 生图爆款流水线:新品平铺图自动检索爆款、分析风格、生成宣传图。"
+  },
+  {
+    "name": "FramePack",
+    "url": "https://github.com/lllyasviel/FramePack",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 17248,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Lets make video diffusion practical!",
+    "category": "media",
+    "cn": "让视频扩散实用化(lllyasviel)。",
+    "keywords": [
+      "视频生成",
+      "扩散模型",
+      "lllyasviel",
+      "实用"
+    ],
+    "external": true,
+    "display_cn": "让视频扩散实用化(lllyasviel)。"
+  },
+  {
+    "name": "FreeAskInternet",
+    "url": "https://github.com/nashsu/FreeAskInternet",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 8745,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "FreeAskInternet is a completely free, PRIVATE and LOCALLY running search aggregator & answer generate using MULTI LLMs, without GPU needed. The user can ask a question and the system will make a multi engine search and combine the search result to LLM and generate the answer based on search results. It's all FREE to use. ",
+    "category": "dev-data-tools",
+    "cn": "完全免费、私有、本地运行的搜索聚合与问答工具。",
+    "keywords": [
+      "搜索聚合",
+      "本地运行",
+      "隐私",
+      "问答"
+    ],
+    "external": true,
+    "display_cn": "完全免费、私有、本地运行的搜索聚合与问答工具。"
+  },
+  {
+    "name": "FreeDomain",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Markdown",
+    "stars": 198082,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Free domain registration and practical DNS learning resources for everyone.",
+    "category": "network-proxy",
+    "cn": "免费域名注册与实用 DNS 学习资源。",
+    "keywords": [
+      "免费域名",
+      "DNS",
+      "注册",
+      "学习资源"
+    ],
+    "external": true,
+    "display_cn": "免费域名注册与实用 DNS 学习资源。"
+  },
+  {
+    "name": "GPT-SoVITS",
+    "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 61687,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+    "category": "media",
+    "cn": "1 分钟语音数据即可训练优质 TTS(few-shot 语音克隆)。",
+    "keywords": [
+      "语音克隆",
+      "TTS",
+      "少样本",
+      "声音训练"
+    ],
+    "external": true,
+    "display_cn": "1 分钟语音数据即可训练优质 TTS(few-shot 语音克隆)。"
   },
   {
     "name": "GenericAgent",
@@ -2515,6 +2860,52 @@
     "display_cn": "基于 LLM 的 PPT 生成平台:文档自动转专业演示文稿,多模型+丰富模板。"
   },
   {
+    "name": "MaoZeDongAnthology",
+    "url": "https://github.com/NpTIme/MaoZeDongAnthology",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 319,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "毛泽东选集 官方五卷及静火版两卷",
+    "category": "knowledge-books",
+    "cn": "毛泽东选集官方五卷及静火版两卷。",
+    "keywords": [
+      "毛选",
+      "毛泽东",
+      "著作",
+      "电子书"
+    ],
+    "external": true,
+    "display_cn": "毛泽东选集官方五卷及静火版两卷。"
+  },
+  {
+    "name": "MediaCrawler",
+    "url": "https://github.com/NanmiCoder/MediaCrawler",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 64590,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+    "category": "dev-data-tools",
+    "cn": "小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。",
+    "keywords": [
+      "爬虫",
+      "小红书",
+      "抖音",
+      "数据采集"
+    ],
+    "external": true,
+    "display_cn": "小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。"
+  },
+  {
     "name": "MeiGen-AI-Design-MCP",
     "url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
     "visibility": "PUBLIC",
@@ -2559,6 +2950,29 @@
     ],
     "external": true,
     "display_cn": "OpenClaw 的 MemOS 云插件:长期记忆召回。"
+  },
+  {
+    "name": "MinerU",
+    "url": "https://github.com/opendatalab/MinerU",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 79425,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+    "category": "dev-data-tools",
+    "cn": "把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。",
+    "keywords": [
+      "PDF解析",
+      "文档转Markdown",
+      "LLM就绪",
+      "OCR"
+    ],
+    "external": true,
+    "display_cn": "把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。"
   },
   {
     "name": "NLM2Img",
@@ -2772,6 +3186,29 @@
     "display_cn": "ClawdBot 一键部署工具。"
   },
   {
+    "name": "OpenCreator",
+    "url": "https://github.com/krillinai/OpenCreator",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "TypeScript",
+    "stars": 11359,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, translations, and edits with Agents in one place.",
+    "category": "media",
+    "cn": "创作者 AI 工作空间(原 KrillinAI):Codex 驱动,视频创作。",
+    "keywords": [
+      "视频创作",
+      "Codex",
+      "工作空间",
+      "创作者"
+    ],
+    "external": true,
+    "display_cn": "创作者 AI 工作空间(原 KrillinAI):Codex 驱动,视频创作。"
+  },
+  {
     "name": "OpenMAIC",
     "url": "https://github.com/THU-MAIC/OpenMAIC",
     "visibility": "PUBLIC",
@@ -2793,6 +3230,29 @@
     ],
     "external": true,
     "display_cn": "多智能体互动课堂(清华 THU-MAIC):沉浸式多 agent 学习体验。"
+  },
+  {
+    "name": "OpenManus",
+    "url": "https://github.com/FoundationAgents/OpenManus",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 58232,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "No fortress, purely open ground. OpenManus is Coming.",
+    "category": "ai-llm-agents",
+    "cn": "无堡垒、纯开放地:开源通用 agent(OpenManus)。",
+    "keywords": [
+      "通用Agent",
+      "开源",
+      "Manus",
+      "自主"
+    ],
+    "external": true,
+    "display_cn": "无堡垒、纯开放地:开源通用 agent(OpenManus)。"
   },
   {
     "name": "OpenMontage",
@@ -3300,6 +3760,29 @@
     "display_cn": "让 Claude 能够思考(增强推理的提示技巧)。"
   },
   {
+    "name": "TikTokDownloader",
+    "url": "https://github.com/JoeanAmier/TikTokDownloader",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "JavaScript",
+    "stars": 15818,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "抖音 / TikTok 平台作品下载/数据采集工具",
+    "category": "media",
+    "cn": "抖音/TikTok 作品下载与数据采集工具。",
+    "keywords": [
+      "抖音",
+      "TikTok",
+      "下载",
+      "采集"
+    ],
+    "external": true,
+    "display_cn": "抖音/TikTok 作品下载与数据采集工具。"
+  },
+  {
     "name": "TradingAgents",
     "url": "https://github.com/TauricResearch/TradingAgents",
     "visibility": "PUBLIC",
@@ -3436,6 +3919,29 @@
     ],
     "external": true,
     "display_cn": "开源前沿语音 AI(微软):语音生成/克隆。"
+  },
+  {
+    "name": "VideoLLaMA3",
+    "url": "https://github.com/DAMO-NLP-SG/VideoLLaMA3",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Jupyter Notebook",
+    "stars": 1179,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Frontier Multimodal Foundation Models for Image and Video Understanding",
+    "category": "ai-llm-models",
+    "cn": "图像与视频理解前沿多模态基础模型(DAMO-NLP 阿里巴巴)。",
+    "keywords": [
+      "视频理解",
+      "多模态",
+      "基础模型",
+      "DAMO"
+    ],
+    "external": true,
+    "display_cn": "图像与视频理解前沿多模态基础模型(DAMO-NLP 阿里巴巴)。"
   },
   {
     "name": "VideoLingo",
@@ -3667,6 +4173,52 @@
     "display_cn": "多 harness agentic 插件市场:Claude Code/Codex/Cursor/OpenCode/GitHub 插件。"
   },
   {
+    "name": "ai-agents-for-beginners",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Jupyter Notebook",
+    "stars": 74172,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "18 Lessons to Get Started Building AI Agents",
+    "category": "ai-llm-tutorials",
+    "cn": "微软 AI Agents 入门:18 课从零构建 AI Agent。",
+    "keywords": [
+      "AI Agent",
+      "入门教程",
+      "微软",
+      "18课"
+    ],
+    "external": true,
+    "display_cn": "微软 AI Agents 入门:18 课从零构建 AI Agent。"
+  },
+  {
+    "name": "ai-engineering-hub",
+    "url": "https://github.com/patchy631/ai-engineering-hub",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Jupyter Notebook",
+    "stars": 37425,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+    "category": "ai-llm-tutorials",
+    "cn": "LLM、RAG 与真实 AI agent 应用的深度教程。",
+    "keywords": [
+      "LLM",
+      "RAG",
+      "AI agent",
+      "教程"
+    ],
+    "external": true,
+    "display_cn": "LLM、RAG 与真实 AI agent 应用的深度教程。"
+  },
+  {
     "name": "ai-goofish-monitor",
     "url": "https://github.com/Usagi-org/ai-goofish-monitor",
     "visibility": "PUBLIC",
@@ -3804,6 +4356,52 @@
     "display_cn": "代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。"
   },
   {
+    "name": "anx-reader",
+    "url": "https://github.com/Anxcye/anx-reader",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Dart",
+    "stars": 8833,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. ",
+    "category": "dev-data-tools",
+    "cn": "强大 AI 能力、支持多种电子书格式的阅读器。",
+    "keywords": [
+      "阅读器",
+      "电子书",
+      "AI功能",
+      "开源"
+    ],
+    "external": true,
+    "display_cn": "强大 AI 能力、支持多种电子书格式的阅读器。"
+  },
+  {
+    "name": "audiblez",
+    "url": "https://github.com/santinic/audiblez",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 8537,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Generate audiobooks from e-books",
+    "category": "media",
+    "cn": "从电子书生成有声书。",
+    "keywords": [
+      "有声书",
+      "电子书",
+      "TTS",
+      "生成"
+    ],
+    "external": true,
+    "display_cn": "从电子书生成有声书。"
+  },
+  {
     "name": "auto-claude-writing-agent-pub",
     "url": "https://github.com/MapleShaw/auto-claude-writing-agent-pub",
     "visibility": "PUBLIC",
@@ -3895,6 +4493,29 @@
     "display_cn": "网页自动化:视频下载、一键搬家、多平台发布(油管/小红书/快手/抖音/B站)。"
   },
   {
+    "name": "awesome-LLM-resources",
+    "url": "https://github.com/WangRongsheng/awesome-LLM-resources",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 8930,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. ",
+    "category": "ai-llm-tutorials",
+    "cn": "全世界最好的 LLM 资料总结:多模态/Agent/编程/训练/推理/o1/MCP/小模型。",
+    "keywords": [
+      "LLM资料",
+      "汇总",
+      "多模态",
+      "Agent"
+    ],
+    "external": true,
+    "display_cn": "全世界最好的 LLM 资料总结:多模态/Agent/编程/训练/推理/o1/MCP/小模型。"
+  },
+  {
     "name": "awesome-ceo",
     "url": "https://github.com/kuchin/awesome-ceo",
     "visibility": "PUBLIC",
@@ -3939,6 +4560,52 @@
     ],
     "external": true,
     "display_cn": "GPT-Image2 提示词引擎与模板库(Prompt as Code):530+ 案例逆向,20+ 套工业级模板,提炼为 Skills。"
+  },
+  {
+    "name": "awesome-gpt4o-images",
+    "url": "https://github.com/jamez-bondos/awesome-gpt4o-images",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "JavaScript",
+    "stars": 8142,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities.",
+    "category": "ai-llm-prompts",
+    "cn": "GPT-4o/gpt-image-1 生成图像与提示词精选合集。",
+    "keywords": [
+      "GPT-4o",
+      "图像提示词",
+      "生图",
+      "精选"
+    ],
+    "external": true,
+    "display_cn": "GPT-4o/gpt-image-1 生成图像与提示词精选合集。"
+  },
+  {
+    "name": "awesome-mcp-servers",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 94588,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "A collection of MCP servers.",
+    "category": "ai-llm-api",
+    "cn": "MCP 服务器合集。",
+    "keywords": [
+      "MCP",
+      "服务器",
+      "合集",
+      "工具"
+    ],
+    "external": true,
+    "display_cn": "MCP 服务器合集。"
   },
   {
     "name": "awesome-n8n-templates",
@@ -4101,6 +4768,29 @@
     "display_cn": "免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。"
   },
   {
+    "name": "awesome_docker_cn",
+    "url": "https://github.com/coracoo/awesome_docker_cn",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 3650,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "上百款可docker部署的项目，包含项目地址、项目部署教程等。",
+    "category": "knowledge-books",
+    "cn": "上百款可 Docker 部署的项目合集:项目地址+部署教程。",
+    "keywords": [
+      "Docker",
+      "部署",
+      "合集",
+      "教程"
+    ],
+    "external": true,
+    "display_cn": "上百款可 Docker 部署的项目合集:项目地址+部署教程。"
+  },
+  {
     "name": "baibaiAIGC",
     "url": "https://github.com/poleHansen/baibaiAIGC",
     "visibility": "PUBLIC",
@@ -4191,6 +4881,29 @@
     "display_cn": "你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。"
   },
   {
+    "name": "bilive",
+    "url": "https://github.com/timerring/bilive",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 3283,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "极快的B站直播录制、自动切片、自动渲染弹幕以及字幕并投稿至B站，综合多种模态模型，兼容超低配置机器。Extremely fast live recording, automatic slicing, rendering, uploading and Integrating MLLMs. Compatible with low configurations machines.",
+    "category": "media",
+    "cn": "极快的 B 站直播录制、自动切片、自动渲染弹幕字幕并投稿。",
+    "keywords": [
+      "B站",
+      "直播录制",
+      "自动切片",
+      "投稿"
+    ],
+    "external": true,
+    "display_cn": "极快的 B 站直播录制、自动切片、自动渲染弹幕字幕并投稿。"
+  },
+  {
     "name": "blind_watermark",
     "url": "https://github.com/guofei9987/blind_watermark",
     "visibility": "PUBLIC",
@@ -4235,6 +4948,26 @@
     ],
     "external": true,
     "display_cn": "开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。"
+  },
+  {
+    "name": "blog",
+    "url": "https://github.com/ninehills/blog",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "SCSS",
+    "stars": 2709,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "",
+    "category": "knowledge-books",
+    "cn": "(无描述)ninehills 个人博客,用途待补充。",
+    "keywords": [
+      "博客"
+    ],
+    "external": true,
+    "display_cn": "(无描述)ninehills 个人博客,用途待补充。"
   },
   {
     "name": "browser",
@@ -4743,6 +5476,29 @@
     "display_cn": "开源 AI 记忆平台:给 agent 持久长期记忆。"
   },
   {
+    "name": "crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 81934,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+    "category": "dev-data-tools",
+    "cn": "开源 LLM 友好网页爬虫与抓取器。",
+    "keywords": [
+      "爬虫",
+      "LLM友好",
+      "网页抓取",
+      "开源"
+    ],
+    "external": true,
+    "display_cn": "开源 LLM 友好网页爬虫与抓取器。"
+  },
+  {
     "name": "cursor-free-everyday",
     "url": "https://github.com/agentcodee/cursor-free-everyday",
     "visibility": "PUBLIC",
@@ -4993,6 +5749,29 @@
     "display_cn": "电商商品图生产 Skill:分析/卖点提炼/Prompt 组织到成图,适配主流平台。"
   },
   {
+    "name": "epeius",
+    "url": "https://github.com/cmliu/epeius",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "JavaScript",
+    "stars": 3224,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "在原版的基础上修改了显示 Trojan 配置信息转换为订阅内容。使用该脚本，你可以方便地将 Trojan 配置信息使用在线配置转换到 Clash 或 Singbox 等工具中。",
+    "category": "network-proxy",
+    "cn": "Trojan 配置转 Clash/Singbox 等订阅工具。",
+    "keywords": [
+      "Trojan",
+      "订阅转换",
+      "Clash",
+      "sing-box"
+    ],
+    "external": true,
+    "display_cn": "Trojan 配置转 Clash/Singbox 等订阅工具。"
+  },
+  {
     "name": "exo",
     "url": "https://github.com/exo-explore/exo",
     "visibility": "PUBLIC",
@@ -5060,6 +5839,29 @@
     ],
     "external": true,
     "display_cn": "搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。"
+  },
+  {
+    "name": "firecrawl-mcp-server",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "JavaScript",
+    "stars": 7417,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+    "category": "ai-llm-api",
+    "cn": "Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。",
+    "keywords": [
+      "MCP",
+      "Firecrawl",
+      "网页抓取",
+      "搜索"
+    ],
+    "external": true,
+    "display_cn": "Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。"
   },
   {
     "name": "fogsight",
@@ -5201,6 +6003,29 @@
     "display_cn": "微软生成式 AI 入门:21 课从零开始构建。"
   },
   {
+    "name": "git-mcp",
+    "url": "https://github.com/idosal/git-mcp",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "TypeScript",
+    "stars": 8373,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
+    "category": "ai-llm-api",
+    "cn": "免费开源远程 MCP 服务器:消除代码幻觉。",
+    "keywords": [
+      "MCP",
+      "Git",
+      "代码幻觉",
+      "远程"
+    ],
+    "external": true,
+    "display_cn": "免费开源远程 MCP 服务器:消除代码幻觉。"
+  },
+  {
     "name": "gpt4o-image-prompts",
     "url": "https://github.com/songguoxs/gpt4o-image-prompts",
     "visibility": "PUBLIC",
@@ -5222,6 +6047,29 @@
     ],
     "external": true,
     "display_cn": "Nano Banana/GPT-5/GPT-4o 图像提示词合集。"
+  },
+  {
+    "name": "gpt_academic",
+    "url": "https://github.com/binary-husky/gpt_academic",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 71301,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
+    "category": "ai-llm-api",
+    "cn": "为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。",
+    "keywords": [
+      "论文",
+      "润色",
+      "学术",
+      "插件化"
+    ],
+    "external": true,
+    "display_cn": "为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。"
   },
   {
     "name": "gstack",
@@ -5568,6 +6416,29 @@
     "display_cn": "开源跨平台 AirDrop 替代:局域网文件互传。"
   },
   {
+    "name": "makemd",
+    "url": "https://github.com/Make-md/makemd",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "TypeScript",
+    "stars": 2019,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "",
+    "category": "dev-data-tools",
+    "cn": "(无描述)推断为 Make.md(把 Obsidian 笔记变成数据库的插件),待补充。",
+    "keywords": [
+      "Make.md",
+      "Obsidian",
+      "数据库",
+      "插件"
+    ],
+    "external": true,
+    "display_cn": "(无描述)推断为 Make.md(把 Obsidian 笔记变成数据库的插件),待补充。"
+  },
+  {
     "name": "manim_skill",
     "url": "https://github.com/adithya-s-k/manim_skill",
     "visibility": "PUBLIC",
@@ -5658,6 +6529,29 @@
     ],
     "external": true,
     "display_cn": "Claude Code/AI agent 营销技能包:CRO、文案、SEO、分析、增长。"
+  },
+  {
+    "name": "markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 180700,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "category": "dev-data-tools",
+    "cn": "把文件与 Office 文档转 Markdown 的 Python 工具(微软)。",
+    "keywords": [
+      "转Markdown",
+      "文档转换",
+      "Office",
+      "Python"
+    ],
+    "external": true,
+    "display_cn": "把文件与 Office 文档转 Markdown 的 Python 工具(微软)。"
   },
   {
     "name": "memory-lancedb-pro",
@@ -6026,6 +6920,52 @@
     ],
     "external": true,
     "display_cn": "LLM API 管理与分发系统:支持 OpenAI/Azure/Claude/Gemini/DeepSeek 等。"
+  },
+  {
+    "name": "one-person-company",
+    "url": "https://github.com/cyfyifanchen/one-person-company",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 2730,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity and empower your solo business! ",
+    "category": "knowledge-books",
+    "cn": "一人公司 AI 工具系列:遇事不决 Vibe 力学,持续更新提升生产力。",
+    "keywords": [
+      "一人公司",
+      "AI工具",
+      "生产力",
+      "Vibe"
+    ],
+    "external": true,
+    "display_cn": "一人公司 AI 工具系列:遇事不决 Vibe 力学,持续更新提升生产力。"
+  },
+  {
+    "name": "opc-methodology",
+    "url": "https://github.com/easychen/opc-methodology",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "PHP",
+    "stars": 16720,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "《一人企业方法论》第二版，也适合做其他副业（比如自媒体、电商、数字商品）的非技术人群。",
+    "category": "knowledge-books",
+    "cn": "《一人企业方法论》第二版,也适合自媒体/电商/数字商品副业。",
+    "keywords": [
+      "一人企业",
+      "方法论",
+      "副业",
+      "数字商品"
+    ],
+    "external": true,
+    "display_cn": "《一人企业方法论》第二版,也适合自媒体/电商/数字商品副业。"
   },
   {
     "name": "open-data",
@@ -6420,6 +7360,52 @@
     "display_cn": "Anthropic 官方交互式提示工程教程(notebook)。"
   },
   {
+    "name": "prompt-optimizer",
+    "url": "https://github.com/linshenkx/prompt-optimizer",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "TypeScript",
+    "stars": 34256,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "An AI prompt optimizer for writing better prompts and getting better AI results.",
+    "category": "ai-llm-prompts",
+    "cn": "AI 提示词优化器:写出更好的提示词,获得更好的 AI 结果。",
+    "keywords": [
+      "提示词优化",
+      "Prompt",
+      "改进",
+      "结果"
+    ],
+    "external": true,
+    "display_cn": "AI 提示词优化器:写出更好的提示词,获得更好的 AI 结果。"
+  },
+  {
+    "name": "prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "HTML",
+    "stars": 169613,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "category": "ai-llm-prompts",
+    "cn": "Awesome ChatGPT Prompts:社区分享与发现的提示词合集。",
+    "keywords": [
+      "ChatGPT",
+      "提示词",
+      "社区",
+      "合集"
+    ],
+    "external": true,
+    "display_cn": "Awesome ChatGPT Prompts:社区分享与发现的提示词合集。"
+  },
+  {
     "name": "pua",
     "url": "https://github.com/tanweai/pua",
     "visibility": "PUBLIC",
@@ -6555,6 +7541,52 @@
     "display_cn": "把 AI agent 变成 AI 科学家:科学领域 #1 Agent Skills 库。"
   },
   {
+    "name": "serv00-play",
+    "url": "https://github.com/frankiejun/serv00-play",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Shell",
+    "stars": 2127,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "serv00/hostuno 上的一些应用，包括argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针|面板 等, 自动化部署、批量保号、进程防杀、消息推送",
+    "category": "network-proxy",
+    "cn": "serv00/hostuno 应用:argo+vmess/hy2/socks5/mtproto/alist/哪吒探针,自动化部署保号。",
+    "keywords": [
+      "serv00",
+      "免费VPS",
+      "代理",
+      "自动化部署"
+    ],
+    "external": true,
+    "display_cn": "serv00/hostuno 应用:argo+vmess/hy2/socks5/mtproto/alist/哪吒探针,自动化部署保号。"
+  },
+  {
+    "name": "sing-box",
+    "url": "https://github.com/SagerNet/sing-box",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Go",
+    "stars": 37743,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "The universal proxy platform",
+    "category": "network-proxy",
+    "cn": "通用代理平台(SagerNet)。",
+    "keywords": [
+      "代理",
+      "sing-box",
+      "通用",
+      "跨平台"
+    ],
+    "external": true,
+    "display_cn": "通用代理平台(SagerNet)。"
+  },
+  {
     "name": "skill-from-masters",
     "url": "https://github.com/GBSOSS/skill-from-masters",
     "visibility": "PUBLIC",
@@ -6669,6 +7701,29 @@
     "display_cn": "一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。"
   },
   {
+    "name": "suna",
+    "url": "https://github.com/kortix-ai/suna",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "TypeScript",
+    "stars": 20180,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "The open-source AI Management System",
+    "category": "ai-llm-api",
+    "cn": "开源 AI 管理系统(kortix-ai)。",
+    "keywords": [
+      "AI管理",
+      "系统",
+      "开源",
+      "治理"
+    ],
+    "external": true,
+    "display_cn": "开源 AI 管理系统(kortix-ai)。"
+  },
+  {
     "name": "supermemory",
     "url": "https://github.com/supermemoryai/supermemory",
     "visibility": "PUBLIC",
@@ -6761,6 +7816,52 @@
     "display_cn": "Termux X-server 插件(Android 上跑图形应用)。"
   },
   {
+    "name": "tianyashentie",
+    "url": "https://github.com/mariacowie81/tianyashentie",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 17,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "天涯论坛神贴PDF版免费下载地址（206篇天涯神贴合集）",
+    "category": "knowledge-books",
+    "cn": "天涯论坛神贴 PDF 版合集(206 篇)。",
+    "keywords": [
+      "天涯",
+      "神贴",
+      "PDF",
+      "合集"
+    ],
+    "external": true,
+    "display_cn": "天涯论坛神贴 PDF 版合集(206 篇)。"
+  },
+  {
+    "name": "ttsfm",
+    "url": "https://github.com/dbccccccc/ttsfm",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Python",
+    "stars": 736,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "TTSFM mirrors OpenAI's TTS service, providing a compatible interface for text-to-speech conversion with multiple voice options for free.",
+    "category": "ai-llm-api",
+    "cn": "镜像 OpenAI TTS 服务,提供兼容接口的文本转语音服务。",
+    "keywords": [
+      "TTS",
+      "OpenAI兼容",
+      "接口镜像",
+      "语音"
+    ],
+    "external": true,
+    "display_cn": "镜像 OpenAI TTS 服务,提供兼容接口的文本转语音服务。"
+  },
+  {
     "name": "video-use",
     "url": "https://github.com/browser-use/video-use",
     "visibility": "PUBLIC",
@@ -6830,6 +7931,29 @@
     "display_cn": "Warp:诞生于终端的 agentic 开发环境(AI 驱动 IDE)。"
   },
   {
+    "name": "weekly",
+    "url": "https://github.com/ruanyf/weekly",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 102157,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "科技爱好者周刊，每周五发布",
+    "category": "knowledge-books",
+    "cn": "科技爱好者周刊(阮一峰),每周五发布。",
+    "keywords": [
+      "周刊",
+      "科技",
+      "阮一峰",
+      "资讯"
+    ],
+    "external": true,
+    "display_cn": "科技爱好者周刊(阮一峰),每周五发布。"
+  },
+  {
     "name": "what-to-eat",
     "url": "https://github.com/liu-ziting/what-to-eat",
     "visibility": "PUBLIC",
@@ -6851,6 +7975,29 @@
     ],
     "external": true,
     "display_cn": "一饭封神:AI 智能菜谱生成平台,八大菜系+国际料理,营养分析/酒水推荐/效果图。"
+  },
+  {
+    "name": "windows-update-disabler",
+    "url": "https://github.com/tsgrgo/windows-update-disabler",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "forkedFrom": "",
+    "language": "Batchfile",
+    "stars": 2355,
+    "forks": 0,
+    "updatedAt": "",
+    "topics": "",
+    "description": "Disable/Enable Windows update with a lightweight batch tool.",
+    "category": "dev-data-tools",
+    "cn": "用轻量批处理工具禁用/启用 Windows 更新。",
+    "keywords": [
+      "Windows更新",
+      "禁用",
+      "批处理",
+      "系统"
+    ],
+    "external": true,
+    "display_cn": "用轻量批处理工具禁用/启用 Windows 更新。"
   },
   {
     "name": "workout-cool",

@@ -2,7 +2,7 @@
 
 > Agent 框架、function calling、自动操作、工作流
 
-共 77 个仓库。
+共 79 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
@@ -24,6 +24,7 @@
 | [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) 68801★ 收藏🌐 | OmO:极致高效的 agent 工作流工具。 | agent、效率、OmO、工作流 |
 | [warp](https://github.com/warpdotdev/warp) 64864★ 收藏🌐 | Warp:诞生于终端的 agentic 开发环境(AI 驱动 IDE)。 | 终端、agentic、IDE、开发环境 |
 | [last30days-skill](https://github.com/mvanhorn/last30days-skill) 61552★ 收藏🌐 | AI agent skill:研究 Reddit/X/YouTube/HN/Polymarket 等平台近 30 天话题。 | 话题研究、社媒、近30天、agent技能 |
+| [OpenManus](https://github.com/FoundationAgents/OpenManus) 58232★ 收藏🌐 | 无堡垒、纯开放地:开源通用 agent(OpenManus)。 | 通用Agent、开源、Manus、自主 |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) 52435★ 收藏🌐 | OpenClaw skills 合集:5400+ 技能过滤分类。 | OpenClaw、技能库、合集、5400+ |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) 49124★ 收藏🌐 | 让所有软件 Agent-Native:把 GUI 软件变成 CLI 供 AI agent 调用(HKUDS)。 | CLI、Agent-Native、软件自动化、GUI转CLI |
 | [obsidian-skills](https://github.com/kepano/obsidian-skills) 48008★ 收藏🌐 | Obsidian 的 agent 技能:教 agent 用 Obsidian CLI 与开放格式(kepano)。 | Obsidian、agent技能、CLI、Markdown |
@@ -52,6 +53,7 @@
 | [GenericAgent](https://github.com/lsdefine/GenericAgent) 14138★ 收藏🌐 | 自进化 agent:从 3300 行种子代码长出技能树,实现系统控制。 | 自进化、技能树、通用Agent、系统控制 |
 | [opencode](https://github.com/opencode-ai/opencode) 13723★ 收藏🌐 | 开源编码 agent(terminal 内 AI 编程助手)。 | 编码Agent、开源、终端、代码生成 |
 | [agents](https://github.com/contains-studio/agents) 12410★ 收藏🌐 | 多 harness agentic 插件市场:Claude Code/Codex/Cursor/OpenCode/GitHub 插件。 | 插件市场、多harness、agentic、生态 |
+| [Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow) 10768★ 收藏🌐 | 好用的 Dify DSL 工作流程分享(自用学习两相宜)。 | Dify、工作流、DSL、分享 |
 | [openskills](https://github.com/numman-ali/openskills) 10749★ 收藏🌐 | AI 编码 agent 的通用技能加载器(npm i -g openskills)。 | 技能加载、openskills、npm、agent技能 |
 | [Operit](https://github.com/AAswordman/Operit) 7605★ 收藏🌐 | Android 上能力强大、发展久的 AI agent 与 AI 聊天软件。 | Android、AI agent、聊天、移动 |
 | [ccg-workflow](https://github.com/fengshao1227/ccg-workflow) 5879★ 收藏🌐 | 多模型协作工作流引擎:/ccg:go 一条命令编排 Codex+Gemini+Claude 协作。 | 多模型协作、工作流引擎、编排、Codex |

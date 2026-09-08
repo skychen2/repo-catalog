@@ -2,12 +2,13 @@
 
 > 本地运行、微调训练、模型清单、部署工具
 
-共 10 个仓库。
+共 11 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
 | [exo](https://github.com/exo-explore/exo) 47303★ 收藏🌐 | 分布式本地运行前沿 AI 模型。 | 本地运行、分布式、前沿模型、推理 |
 | [autogluon](https://github.com/autogluon/autogluon) 10640★ 收藏🌐 | AutoML 库:3 行代码快速准确建模(亚马逊)。 | AutoML、机器学习、自动建模、表格数据 |
+| [VideoLLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3) 1179★ 收藏🌐 | 图像与视频理解前沿多模态基础模型(DAMO-NLP 阿里巴巴)。 | 视频理解、多模态、基础模型、DAMO |
 | [Awesome-Chinese-LLM](https://github.com/skychen2/Awesome-Chinese-LLM) 0★ fork | fork 自 AiHubCN/Awesome-Chinese-LLM:中文开源大模型整理清单,聚焦规模较小、可私有化部署、训练成本低的模型(底座模型、垂直微调、数据集与教程)。 | 中文大模型、开源LLM、私有化部署、模型清单 |
 | [MiniCPM](https://github.com/skychen2/MiniCPM) 0★ fork | fork 自 OpenBMB/MiniCPM:MiniCPM-2B:端侧小模型,性能超越 Llama2-13B,适合移动端/边缘部署。 | 小模型、端侧、MiniCPM、轻量LLM、边缘部署 |
 | [easy-dataset](https://github.com/skychen2/easy-dataset) 0★ fork | fork 自 ConardLi/easy-dataset:为 LLM 创建微调数据集的强大工具(可视化界面)。 | 微调数据集、数据集制作、LLM微调、数据标注 |

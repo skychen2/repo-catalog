@@ -4445,5 +4445,802 @@
     "language": "Python",
     "stars": 2104,
     "description": "[NeurIPS 2025] Image editing is worth a single LoRA! 0.1% training data for fantastic image editing! Surpasses GPT-4o in ID persistence~ MoE ckpt released! Only 4GB VRAM is enough to run! "
+  },
+  "Ciphey": {
+    "category": "dev-data-tools",
+    "cn": "自动解密工具:不知密钥/密码也能解,自动识别编码与加密。",
+    "keywords": [
+      "解密",
+      "编码识别",
+      "加密破解",
+      "CTF"
+    ],
+    "external": true,
+    "owner": "bee-san",
+    "url": "https://github.com/bee-san/Ciphey",
+    "language": "Rust",
+    "stars": 21594,
+    "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡"
+  },
+  "ACE-Step": {
+    "category": "media",
+    "cn": "ACE-Step:音乐生成基础模型(阿里音乐方向)。",
+    "keywords": [
+      "音乐生成",
+      "基础模型",
+      "音频",
+      "阿里"
+    ],
+    "external": true,
+    "owner": "ace-step",
+    "url": "https://github.com/ace-step/ACE-Step",
+    "language": "Python",
+    "stars": 4809,
+    "description": "ACE-Step: A Step Towards Music Generation Foundation Model"
+  },
+  "ai-agents-for-beginners": {
+    "category": "ai-llm-tutorials",
+    "cn": "微软 AI Agents 入门:18 课从零构建 AI Agent。",
+    "keywords": [
+      "AI Agent",
+      "入门教程",
+      "微软",
+      "18课"
+    ],
+    "external": true,
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "language": "Jupyter Notebook",
+    "stars": 74172,
+    "description": "18 Lessons to Get Started Building AI Agents"
+  },
+  "OpenCreator": {
+    "category": "media",
+    "cn": "创作者 AI 工作空间(原 KrillinAI):Codex 驱动,视频创作。",
+    "keywords": [
+      "视频创作",
+      "Codex",
+      "工作空间",
+      "创作者"
+    ],
+    "external": true,
+    "owner": "krillinai",
+    "url": "https://github.com/krillinai/OpenCreator",
+    "language": "TypeScript",
+    "stars": 11359,
+    "description": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, translations, and edits with Agents in one place."
+  },
+  "BiliNote": {
+    "category": "content-writing",
+    "cn": "AI 视频笔记生成工具:让 AI 为视频自动做笔记。",
+    "keywords": [
+      "视频笔记",
+      "AI总结",
+      "学习",
+      "笔记"
+    ],
+    "external": true,
+    "owner": "JefferyHcool",
+    "url": "https://github.com/JefferyHcool/BiliNote",
+    "language": "Python",
+    "stars": 7267,
+    "description": "AI 视频笔记生成工具 让 AI 为你的视频做笔记"
+  },
+  "bilive": {
+    "category": "media",
+    "cn": "极快的 B 站直播录制、自动切片、自动渲染弹幕字幕并投稿。",
+    "keywords": [
+      "B站",
+      "直播录制",
+      "自动切片",
+      "投稿"
+    ],
+    "external": true,
+    "owner": "timerring",
+    "url": "https://github.com/timerring/bilive",
+    "language": "Python",
+    "stars": 3283,
+    "description": "极快的B站直播录制、自动切片、自动渲染弹幕以及字幕并投稿至B站，综合多种模态模型，兼容超低配置机器。Extremely fast live recording, automatic slicing, rendering, uploading and Integrating MLLMs. Compatible with low configurations machines."
+  },
+  "crawl4ai": {
+    "category": "dev-data-tools",
+    "cn": "开源 LLM 友好网页爬虫与抓取器。",
+    "keywords": [
+      "爬虫",
+      "LLM友好",
+      "网页抓取",
+      "开源"
+    ],
+    "external": true,
+    "owner": "unclecode",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "language": "Python",
+    "stars": 81934,
+    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
+  },
+  "FreeAskInternet": {
+    "category": "dev-data-tools",
+    "cn": "完全免费、私有、本地运行的搜索聚合与问答工具。",
+    "keywords": [
+      "搜索聚合",
+      "本地运行",
+      "隐私",
+      "问答"
+    ],
+    "external": true,
+    "owner": "nashsu",
+    "url": "https://github.com/nashsu/FreeAskInternet",
+    "language": "Python",
+    "stars": 8745,
+    "description": "FreeAskInternet is a completely free, PRIVATE and LOCALLY running search aggregator & answer generate using MULTI LLMs, without GPU needed. The user can ask a question and the system will make a multi engine search and combine the search result to LLM and generate the answer based on search results. It's all FREE to use. "
+  },
+  "suna": {
+    "category": "ai-llm-api",
+    "cn": "开源 AI 管理系统(kortix-ai)。",
+    "keywords": [
+      "AI管理",
+      "系统",
+      "开源",
+      "治理"
+    ],
+    "external": true,
+    "owner": "kortix-ai",
+    "url": "https://github.com/kortix-ai/suna",
+    "language": "TypeScript",
+    "stars": 20180,
+    "description": "The open-source AI Management System"
+  },
+  "AI-Media2Doc": {
+    "category": "content-writing",
+    "cn": "一键把音视频转为小红书/公众号/知识笔记/思维导图/视频字幕等文档。",
+    "keywords": [
+      "音视频转文档",
+      "小红书",
+      "思维导图",
+      "公众号"
+    ],
+    "external": true,
+    "owner": "hanshuaikang",
+    "url": "https://github.com/hanshuaikang/AI-Media2Doc",
+    "language": "Vue",
+    "stars": 4003,
+    "description": "一键将音视频转化为小红书/公众号/知识笔记/思维导图/视频字幕等各种风格的文档。"
+  },
+  "GPT-SoVITS": {
+    "category": "media",
+    "cn": "1 分钟语音数据即可训练优质 TTS(few-shot 语音克隆)。",
+    "keywords": [
+      "语音克隆",
+      "TTS",
+      "少样本",
+      "声音训练"
+    ],
+    "external": true,
+    "owner": "RVC-Boss",
+    "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "language": "Python",
+    "stars": 61687,
+    "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+  },
+  "FreeDomain": {
+    "category": "network-proxy",
+    "cn": "免费域名注册与实用 DNS 学习资源。",
+    "keywords": [
+      "免费域名",
+      "DNS",
+      "注册",
+      "学习资源"
+    ],
+    "external": true,
+    "owner": "DigitalPlatDev",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain",
+    "language": "Markdown",
+    "stars": 198082,
+    "description": "Free domain registration and practical DNS learning resources for everyone."
+  },
+  "markitdown": {
+    "category": "dev-data-tools",
+    "cn": "把文件与 Office 文档转 Markdown 的 Python 工具(微软)。",
+    "keywords": [
+      "转Markdown",
+      "文档转换",
+      "Office",
+      "Python"
+    ],
+    "external": true,
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/markitdown",
+    "language": "Python",
+    "stars": 180700,
+    "description": "Python tool for converting files and office documents to Markdown."
+  },
+  "FramePack": {
+    "category": "media",
+    "cn": "让视频扩散实用化(lllyasviel)。",
+    "keywords": [
+      "视频生成",
+      "扩散模型",
+      "lllyasviel",
+      "实用"
+    ],
+    "external": true,
+    "owner": "lllyasviel",
+    "url": "https://github.com/lllyasviel/FramePack",
+    "language": "Python",
+    "stars": 17248,
+    "description": "Lets make video diffusion practical!"
+  },
+  "git-mcp": {
+    "category": "ai-llm-api",
+    "cn": "免费开源远程 MCP 服务器:消除代码幻觉。",
+    "keywords": [
+      "MCP",
+      "Git",
+      "代码幻觉",
+      "远程"
+    ],
+    "external": true,
+    "owner": "idosal",
+    "url": "https://github.com/idosal/git-mcp",
+    "language": "TypeScript",
+    "stars": 8373,
+    "description": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project"
+  },
+  "MinerU": {
+    "category": "dev-data-tools",
+    "cn": "把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。",
+    "keywords": [
+      "PDF解析",
+      "文档转Markdown",
+      "LLM就绪",
+      "OCR"
+    ],
+    "external": true,
+    "owner": "opendatalab",
+    "url": "https://github.com/opendatalab/MinerU",
+    "language": "Python",
+    "stars": 79425,
+    "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+  },
+  "awesome-gpt4o-images": {
+    "category": "ai-llm-prompts",
+    "cn": "GPT-4o/gpt-image-1 生成图像与提示词精选合集。",
+    "keywords": [
+      "GPT-4o",
+      "图像提示词",
+      "生图",
+      "精选"
+    ],
+    "external": true,
+    "owner": "jamez-bondos",
+    "url": "https://github.com/jamez-bondos/awesome-gpt4o-images",
+    "language": "JavaScript",
+    "stars": 8142,
+    "description": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities."
+  },
+  "Awesome-Dify-Workflow": {
+    "category": "ai-llm-agents",
+    "cn": "好用的 Dify DSL 工作流程分享(自用学习两相宜)。",
+    "keywords": [
+      "Dify",
+      "工作流",
+      "DSL",
+      "分享"
+    ],
+    "external": true,
+    "owner": "svcvit",
+    "url": "https://github.com/svcvit/Awesome-Dify-Workflow",
+    "language": "-",
+    "stars": 10768,
+    "description": "分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows."
+  },
+  "anx-reader": {
+    "category": "dev-data-tools",
+    "cn": "强大 AI 能力、支持多种电子书格式的阅读器。",
+    "keywords": [
+      "阅读器",
+      "电子书",
+      "AI功能",
+      "开源"
+    ],
+    "external": true,
+    "owner": "Anxcye",
+    "url": "https://github.com/Anxcye/anx-reader",
+    "language": "Dart",
+    "stars": 8833,
+    "description": "Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. "
+  },
+  "blog": {
+    "category": "knowledge-books",
+    "cn": "(无描述)ninehills 个人博客,用途待补充。",
+    "keywords": [
+      "博客"
+    ],
+    "external": true,
+    "owner": "ninehills",
+    "url": "https://github.com/ninehills/blog",
+    "language": "SCSS",
+    "stars": 2709,
+    "description": ""
+  },
+  "ttsfm": {
+    "category": "ai-llm-api",
+    "cn": "镜像 OpenAI TTS 服务,提供兼容接口的文本转语音服务。",
+    "keywords": [
+      "TTS",
+      "OpenAI兼容",
+      "接口镜像",
+      "语音"
+    ],
+    "external": true,
+    "owner": "dbccccccc",
+    "url": "https://github.com/dbccccccc/ttsfm",
+    "language": "Python",
+    "stars": 736,
+    "description": "TTSFM mirrors OpenAI's TTS service, providing a compatible interface for text-to-speech conversion with multiple voice options for free."
+  },
+  "gpt_academic": {
+    "category": "ai-llm-api",
+    "cn": "为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。",
+    "keywords": [
+      "论文",
+      "润色",
+      "学术",
+      "插件化"
+    ],
+    "external": true,
+    "owner": "binary-husky",
+    "url": "https://github.com/binary-husky/gpt_academic",
+    "language": "Python",
+    "stars": 71301,
+    "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。"
+  },
+  "audiblez": {
+    "category": "media",
+    "cn": "从电子书生成有声书。",
+    "keywords": [
+      "有声书",
+      "电子书",
+      "TTS",
+      "生成"
+    ],
+    "external": true,
+    "owner": "santinic",
+    "url": "https://github.com/santinic/audiblez",
+    "language": "Python",
+    "stars": 8537,
+    "description": "Generate audiobooks from e-books"
+  },
+  "one-person-company": {
+    "category": "knowledge-books",
+    "cn": "一人公司 AI 工具系列:遇事不决 Vibe 力学,持续更新提升生产力。",
+    "keywords": [
+      "一人公司",
+      "AI工具",
+      "生产力",
+      "Vibe"
+    ],
+    "external": true,
+    "owner": "cyfyifanchen",
+    "url": "https://github.com/cyfyifanchen/one-person-company",
+    "language": "-",
+    "stars": 2730,
+    "description": "遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity and empower your solo business! "
+  },
+  "ai-engineering-hub": {
+    "category": "ai-llm-tutorials",
+    "cn": "LLM、RAG 与真实 AI agent 应用的深度教程。",
+    "keywords": [
+      "LLM",
+      "RAG",
+      "AI agent",
+      "教程"
+    ],
+    "external": true,
+    "owner": "patchy631",
+    "url": "https://github.com/patchy631/ai-engineering-hub",
+    "language": "Jupyter Notebook",
+    "stars": 37425,
+    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications."
+  },
+  "awesome-LLM-resources": {
+    "category": "ai-llm-tutorials",
+    "cn": "全世界最好的 LLM 资料总结:多模态/Agent/编程/训练/推理/o1/MCP/小模型。",
+    "keywords": [
+      "LLM资料",
+      "汇总",
+      "多模态",
+      "Agent"
+    ],
+    "external": true,
+    "owner": "WangRongsheng",
+    "url": "https://github.com/WangRongsheng/awesome-LLM-resources",
+    "language": "-",
+    "stars": 8930,
+    "description": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. "
+  },
+  "OpenManus": {
+    "category": "ai-llm-agents",
+    "cn": "无堡垒、纯开放地:开源通用 agent(OpenManus)。",
+    "keywords": [
+      "通用Agent",
+      "开源",
+      "Manus",
+      "自主"
+    ],
+    "external": true,
+    "owner": "FoundationAgents",
+    "url": "https://github.com/FoundationAgents/OpenManus",
+    "language": "Python",
+    "stars": 58232,
+    "description": "No fortress, purely open ground. OpenManus is Coming."
+  },
+  "awesome_docker_cn": {
+    "category": "knowledge-books",
+    "cn": "上百款可 Docker 部署的项目合集:项目地址+部署教程。",
+    "keywords": [
+      "Docker",
+      "部署",
+      "合集",
+      "教程"
+    ],
+    "external": true,
+    "owner": "coracoo",
+    "url": "https://github.com/coracoo/awesome_docker_cn",
+    "language": "-",
+    "stars": 3650,
+    "description": "上百款可docker部署的项目，包含项目地址、项目部署教程等。"
+  },
+  "prompt-optimizer": {
+    "category": "ai-llm-prompts",
+    "cn": "AI 提示词优化器:写出更好的提示词,获得更好的 AI 结果。",
+    "keywords": [
+      "提示词优化",
+      "Prompt",
+      "改进",
+      "结果"
+    ],
+    "external": true,
+    "owner": "linshenkx",
+    "url": "https://github.com/linshenkx/prompt-optimizer",
+    "language": "TypeScript",
+    "stars": 34256,
+    "description": "An AI prompt optimizer for writing better prompts and getting better AI results."
+  },
+  "firecrawl-mcp-server": {
+    "category": "ai-llm-api",
+    "cn": "Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。",
+    "keywords": [
+      "MCP",
+      "Firecrawl",
+      "网页抓取",
+      "搜索"
+    ],
+    "external": true,
+    "owner": "firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "language": "JavaScript",
+    "stars": 7417,
+    "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients."
+  },
+  "Amphion": {
+    "category": "media",
+    "cn": "音频、音乐与语音生成工具包(OpenMMLab)。",
+    "keywords": [
+      "音频生成",
+      "音乐生成",
+      "语音合成",
+      "OpenMMLab"
+    ],
+    "external": true,
+    "owner": "open-mmlab",
+    "url": "https://github.com/open-mmlab/Amphion",
+    "language": "Python",
+    "stars": 10281,
+    "description": "Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development."
+  },
+  "serv00-play": {
+    "category": "network-proxy",
+    "cn": "serv00/hostuno 应用:argo+vmess/hy2/socks5/mtproto/alist/哪吒探针,自动化部署保号。",
+    "keywords": [
+      "serv00",
+      "免费VPS",
+      "代理",
+      "自动化部署"
+    ],
+    "external": true,
+    "owner": "frankiejun",
+    "url": "https://github.com/frankiejun/serv00-play",
+    "language": "Shell",
+    "stars": 2127,
+    "description": "serv00/hostuno 上的一些应用，包括argo+vmess/vmess+ws/hy2/socks5/mtproto/alist/哪吒探针|面板 等, 自动化部署、批量保号、进程防杀、消息推送"
+  },
+  "awesome-mcp-servers": {
+    "category": "ai-llm-api",
+    "cn": "MCP 服务器合集。",
+    "keywords": [
+      "MCP",
+      "服务器",
+      "合集",
+      "工具"
+    ],
+    "external": true,
+    "owner": "punkpeye",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "language": "-",
+    "stars": 94588,
+    "description": "A collection of MCP servers."
+  },
+  "MediaCrawler": {
+    "category": "dev-data-tools",
+    "cn": "小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。",
+    "keywords": [
+      "爬虫",
+      "小红书",
+      "抖音",
+      "数据采集"
+    ],
+    "external": true,
+    "owner": "NanmiCoder",
+    "url": "https://github.com/NanmiCoder/MediaCrawler",
+    "language": "Python",
+    "stars": 64590,
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫"
+  },
+  "windows-update-disabler": {
+    "category": "dev-data-tools",
+    "cn": "用轻量批处理工具禁用/启用 Windows 更新。",
+    "keywords": [
+      "Windows更新",
+      "禁用",
+      "批处理",
+      "系统"
+    ],
+    "external": true,
+    "owner": "tsgrgo",
+    "url": "https://github.com/tsgrgo/windows-update-disabler",
+    "language": "Batchfile",
+    "stars": 2355,
+    "description": "Disable/Enable Windows update with a lightweight batch tool."
+  },
+  "makemd": {
+    "category": "dev-data-tools",
+    "cn": "(无描述)推断为 Make.md(把 Obsidian 笔记变成数据库的插件),待补充。",
+    "keywords": [
+      "Make.md",
+      "Obsidian",
+      "数据库",
+      "插件"
+    ],
+    "external": true,
+    "owner": "Make-md",
+    "url": "https://github.com/Make-md/makemd",
+    "language": "TypeScript",
+    "stars": 2019,
+    "description": ""
+  },
+  "tianyashentie": {
+    "category": "knowledge-books",
+    "cn": "天涯论坛神贴 PDF 版合集(206 篇)。",
+    "keywords": [
+      "天涯",
+      "神贴",
+      "PDF",
+      "合集"
+    ],
+    "external": true,
+    "owner": "mariacowie81",
+    "url": "https://github.com/mariacowie81/tianyashentie",
+    "language": "-",
+    "stars": 17,
+    "description": "天涯论坛神贴PDF版免费下载地址（206篇天涯神贴合集）"
+  },
+  "prompts.chat": {
+    "category": "ai-llm-prompts",
+    "cn": "Awesome ChatGPT Prompts:社区分享与发现的提示词合集。",
+    "keywords": [
+      "ChatGPT",
+      "提示词",
+      "社区",
+      "合集"
+    ],
+    "external": true,
+    "owner": "f",
+    "url": "https://github.com/f/prompts.chat",
+    "language": "HTML",
+    "stars": 169613,
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+  },
+  "Deepseek-goes-from-beginner-to-master.PDF": {
+    "category": "ai-llm-tutorials",
+    "cn": "清华大学出品的 DeepSeek 从入门到精通 PDF。",
+    "keywords": [
+      "DeepSeek",
+      "入门到精通",
+      "清华",
+      "PDF"
+    ],
+    "external": true,
+    "owner": "2XUID",
+    "url": "https://github.com/2XUID/Deepseek-goes-from-beginner-to-master.PDF",
+    "language": "-",
+    "stars": 441,
+    "description": "全网乱传的Deepseek从入门到精通的PDF版本，清华大学新闻与传播学院 新媒体研究中心 元宇宙文化实验室"
+  },
+  "VideoLLaMA3": {
+    "category": "ai-llm-models",
+    "cn": "图像与视频理解前沿多模态基础模型(DAMO-NLP 阿里巴巴)。",
+    "keywords": [
+      "视频理解",
+      "多模态",
+      "基础模型",
+      "DAMO"
+    ],
+    "external": true,
+    "owner": "DAMO-NLP-SG",
+    "url": "https://github.com/DAMO-NLP-SG/VideoLLaMA3",
+    "language": "Jupyter Notebook",
+    "stars": 1179,
+    "description": "Frontier Multimodal Foundation Models for Image and Video Understanding"
+  },
+  "BiliBiliToolPro": {
+    "category": "dev-data-tools",
+    "cn": "B 站自动任务工具:支持 docker/青龙/k8s 部署,全面拥抱 AI。",
+    "keywords": [
+      "B站",
+      "自动任务",
+      "青龙",
+      "docker"
+    ],
+    "external": true,
+    "owner": "RayWangQvQ",
+    "url": "https://github.com/RayWangQvQ/BiliBiliToolPro",
+    "language": "C#",
+    "stars": 8813,
+    "description": "B 站（bilibili）自动任务工具，支持docker、青龙、k8s等多种部署方式。全面拥抱AI。敏感肌也能用。"
+  },
+  "MaoZeDongAnthology": {
+    "category": "knowledge-books",
+    "cn": "毛泽东选集官方五卷及静火版两卷。",
+    "keywords": [
+      "毛选",
+      "毛泽东",
+      "著作",
+      "电子书"
+    ],
+    "external": true,
+    "owner": "NpTIme",
+    "url": "https://github.com/NpTIme/MaoZeDongAnthology",
+    "language": "-",
+    "stars": 319,
+    "description": "毛泽东选集 官方五卷及静火版两卷"
+  },
+  "sing-box": {
+    "category": "network-proxy",
+    "cn": "通用代理平台(SagerNet)。",
+    "keywords": [
+      "代理",
+      "sing-box",
+      "通用",
+      "跨平台"
+    ],
+    "external": true,
+    "owner": "SagerNet",
+    "url": "https://github.com/SagerNet/sing-box",
+    "language": "Go",
+    "stars": 37743,
+    "description": "The universal proxy platform"
+  },
+  "opc-methodology": {
+    "category": "knowledge-books",
+    "cn": "《一人企业方法论》第二版,也适合自媒体/电商/数字商品副业。",
+    "keywords": [
+      "一人企业",
+      "方法论",
+      "副业",
+      "数字商品"
+    ],
+    "external": true,
+    "owner": "easychen",
+    "url": "https://github.com/easychen/opc-methodology",
+    "language": "PHP",
+    "stars": 16720,
+    "description": "《一人企业方法论》第二版，也适合做其他副业（比如自媒体、电商、数字商品）的非技术人群。"
+  },
+  "weekly": {
+    "category": "knowledge-books",
+    "cn": "科技爱好者周刊(阮一峰),每周五发布。",
+    "keywords": [
+      "周刊",
+      "科技",
+      "阮一峰",
+      "资讯"
+    ],
+    "external": true,
+    "owner": "ruanyf",
+    "url": "https://github.com/ruanyf/weekly",
+    "language": "-",
+    "stars": 102157,
+    "description": "科技爱好者周刊，每周五发布"
+  },
+  "TikTokDownloader": {
+    "category": "media",
+    "cn": "抖音/TikTok 作品下载与数据采集工具。",
+    "keywords": [
+      "抖音",
+      "TikTok",
+      "下载",
+      "采集"
+    ],
+    "external": true,
+    "owner": "JoeanAmier",
+    "url": "https://github.com/JoeanAmier/TikTokDownloader",
+    "language": "JavaScript",
+    "stars": 15818,
+    "description": "抖音 / TikTok 平台作品下载/数据采集工具"
+  },
+  "Cloudflare-vless-trojan": {
+    "category": "network-proxy",
+    "cn": "CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。",
+    "keywords": [
+      "Cloudflare",
+      "VLESS",
+      "Trojan",
+      "代理脚本"
+    ],
+    "external": true,
+    "owner": "yonggekkk",
+    "url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
+    "language": "JavaScript",
+    "stars": 16042,
+    "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式"
+  },
+  "BPB-Worker-Panel": {
+    "category": "network-proxy",
+    "cn": "Worker 订阅 GUI 面板:VLESS/Trojan/Warp 配置管理。",
+    "keywords": [
+      "Workers",
+      "订阅面板",
+      "VLESS",
+      "Warp"
+    ],
+    "external": true,
+    "owner": "bia-pain-bache",
+    "url": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
+    "language": "TypeScript",
+    "stars": 13375,
+    "description": "A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP, Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores."
+  },
+  "epeius": {
+    "category": "network-proxy",
+    "cn": "Trojan 配置转 Clash/Singbox 等订阅工具。",
+    "keywords": [
+      "Trojan",
+      "订阅转换",
+      "Clash",
+      "sing-box"
+    ],
+    "external": true,
+    "owner": "cmliu",
+    "url": "https://github.com/cmliu/epeius",
+    "language": "JavaScript",
+    "stars": 3224,
+    "description": "在原版的基础上修改了显示 Trojan 配置信息转换为订阅内容。使用该脚本，你可以方便地将 Trojan 配置信息使用在线配置转换到 Clash 或 Singbox 等工具中。"
+  },
+  "ComfyUI-IF_AI_tools": {
+    "category": "media",
+    "cn": "ComfyUI 自定义节点集:AI 提示词生成等(IF_AI_tools)。",
+    "keywords": [
+      "ComfyUI",
+      "自定义节点",
+      "提示词生成",
+      "AI工具"
+    ],
+    "external": true,
+    "owner": "if-ai",
+    "url": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
+    "language": "Python",
+    "stars": 700,
+    "description": "ComfyUI-IF_AI_tools is a set of custom nodes for ComfyUI that allows you to generate prompts using a local Large Language Model (LLM) via Ollama. This tool enables you to enhance your image generation workflow by leveraging the power of language models."
   }
 }

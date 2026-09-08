@@ -2,10 +2,11 @@
 
 > 开发者工具、安全、API 与数据集清单、自建小服务
 
-共 65 个仓库。
+共 75 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [markitdown](https://github.com/microsoft/markitdown) 180700★ 收藏🌐 | 把文件与 Office 文档转 Markdown 的 Python 工具(微软)。 | 转Markdown、文档转换、Office、Python |
 | [firecrawl](https://github.com/firecrawl/firecrawl) 177728★ 收藏🌐 | 搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。 | 网页抓取、搜索、爬虫、API |
 | [PowerToys](https://github.com/microsoft/PowerToys) 138488★ 收藏🌐 | 微软效率工具集(窗口管理/取色/批量重命名等)。 | 效率工具、微软、PowerToys、桌面 |
 | [spec-kit](https://github.com/github/spec-kit) 133960★ 收藏🌐 | Spec-Driven Development 工具包(github 官方)。 | Spec驱动、开发工具、规范、github |
@@ -15,9 +16,12 @@
 | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 89071★ 收藏🌐 | 把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。 | OCR、文字识别、文档解析、PDF |
 | [funNLP](https://github.com/fighting41love/funNLP) 82945★ 收藏🌐 | NLP 工具集:敏感词/语言检测、手机归属地、身份证/邮箱抽取、情感词表、拆字词典等。 | NLP、敏感词、信息抽取、情感分析、词典 |
 | [fzf](https://github.com/junegunn/fzf) 82864★ 收藏🌐 | 命令行模糊查找器(Go 编写,终端神器)。 | fzf、模糊查找、命令行、终端 |
+| [crawl4ai](https://github.com/unclecode/crawl4ai) 81934★ 收藏🌐 | 开源 LLM 友好网页爬虫与抓取器。 | 爬虫、LLM友好、网页抓取、开源 |
+| [MinerU](https://github.com/opendatalab/MinerU) 79425★ 收藏🌐 | 把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。 | PDF解析、文档转Markdown、LLM就绪、OCR |
 | [Ventoy](https://github.com/ventoy/Ventoy) 79196★ 收藏🌐 | 启动 U 盘解决方案(多 ISO 启动盘)。 | 启动盘、U盘、多ISO、装机 |
 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) 78687★ 收藏🌐 | 给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。 | 全网搜索、社媒阅读、16平台、信息获取 |
 | [codegraph](https://github.com/colbymchenry/codegraph) 69995★ 收藏🌐 | 预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。 | 代码图谱、知识图谱、索引、agent上下文 |
+| [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) 64590★ 收藏🌐 | 小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。 | 爬虫、小红书、抖音、数据采集 |
 | [memos](https://github.com/usememos/memos) 62836★ 收藏🌐 | 开源自托管笔记工具:快速捕获、Markdown 原生、轻量。 | 笔记、自托管、Markdown、轻量 |
 | [desktop](https://github.com/zen-browser/desktop) 44326★ 收藏🌐 | Zen 浏览器:更宁静的互联网体验(C++ 开源浏览器)。 | 浏览器、Zen、开源、宁静 |
 | [agent-browser](https://github.com/vercel-labs/agent-browser) 42126★ 收藏🌐 | AI agent 的浏览器自动化 CLI(vercel)。 | 浏览器自动化、CLI、agent、vercel |
@@ -28,6 +32,7 @@
 | [OpenCLI](https://github.com/jackwener/OpenCLI) 29082★ 收藏🌐 | 把任意网站变成 CLI,AI agent 用你的已登录浏览器操作。 | 网站转CLI、浏览器自动化、agent、登录态 |
 | [claude-hud](https://github.com/jarrodwatts/claude-hud) 27868★ 收藏🌐 | Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。 | Claude Code、HUD、上下文监控、插件 |
 | [obscura](https://github.com/h4ckf0r0day/obscura) 26443★ 收藏🌐 | 面向 AI agent 与网页抓取的无头浏览器(headless)。 | 无头浏览器、headless、网页抓取、AI agent |
+| [Ciphey](https://github.com/bee-san/Ciphey) 21594★ 收藏🌐 | 自动解密工具:不知密钥/密码也能解,自动识别编码与加密。 | 解密、编码识别、加密破解、CTF |
 | [obsidian-releases](https://github.com/obsidianmd/obsidian-releases) 21396★ 收藏🌐 | Obsidian 社区插件列表、主题列表与发布(官方仓库)。 | Obsidian、插件列表、主题、社区 |
 | [openwiki](https://github.com/langchain-ai/openwiki) 16211★ 收藏🌐 | CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。 | 文档生成、agent文档、CLI、OpenWiki |
 | [VERT](https://github.com/VERT-sh/VERT) 15550★ 收藏🌐 | 下一代文件转换器:开源、全本地、永久免费。 | 文件转换、开源、本地、免费 |
@@ -37,6 +42,9 @@
 | [galaxy](https://github.com/uiverse-io/galaxy) 12549★ 收藏🌐 | 最大开源 UI 库:社区制作、免费使用(uiverse)。 | UI库、开源、CSS、组件 |
 | [blinko](https://github.com/blinkospace/blinko) 10996★ 收藏🌐 | 开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。 | 笔记、自托管、隐私、AI |
 | [RTranslator](https://github.com/niedev/RTranslator) 10389★ 收藏🌐 | Android 开源实时翻译应用,完全本地运行。 | 翻译、实时、Android、本地运行 |
+| [anx-reader](https://github.com/Anxcye/anx-reader) 8833★ 收藏🌐 | 强大 AI 能力、支持多种电子书格式的阅读器。 | 阅读器、电子书、AI功能、开源 |
+| [BiliBiliToolPro](https://github.com/RayWangQvQ/BiliBiliToolPro) 8813★ 收藏🌐 | B 站自动任务工具:支持 docker/青龙/k8s 部署,全面拥抱 AI。 | B站、自动任务、青龙、docker |
+| [FreeAskInternet](https://github.com/nashsu/FreeAskInternet) 8745★ 收藏🌐 | 完全免费、私有、本地运行的搜索聚合与问答工具。 | 搜索聚合、本地运行、隐私、问答 |
 | [workout-cool](https://github.com/Snouzy/workout-cool) 8445★ 收藏🌐 | 开源健身教练平台:创建计划、追踪进度。 | 健身、训练计划、开源、追踪 |
 | [bb-browser](https://github.com/epiral/bb-browser) 6184★ 收藏🌐 | 你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。 | 浏览器控制、MCP、Chrome、登录态、CLI |
 | [cursor-free-everyday](https://github.com/agentcodee/cursor-free-everyday) 6108★ 收藏🌐 | 完全免费:自动获取新账号、一键重置额度、解决机器码问题。 | Cursor、免费额度、重置、账号 |
@@ -47,7 +55,9 @@
 | [abtop](https://github.com/graykode/abtop) 3498★ 收藏🌐 | 类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。 | agent监控、htop、token统计、Claude Code |
 | [linux-android](https://github.com/mayukh4/linux-android) 3130★ 收藏🌐 | 把旧 Android 手机改装成 GPU 加速 Linux 桌面。 | Android、Linux桌面、GPU加速、旧手机 |
 | [AutoCLI](https://github.com/nashsu/AutoCLI) 2979★ 收藏🌐 | 快速内存安全 CLI:从任意网站抓取信息(面向 AI agent)。 | CLI、信息抓取、memory-safe、agent工具 |
+| [windows-update-disabler](https://github.com/tsgrgo/windows-update-disabler) 2355★ 收藏🌐 | 用轻量批处理工具禁用/启用 Windows 更新。 | Windows更新、禁用、批处理、系统 |
 | [AntigravityQuotaWatcher](https://github.com/wusimpl/AntigravityQuotaWatcher) 2263★ 收藏🌐 | Google Antigravity AI 模型配额监控插件。 | Antigravity、配额监控、插件、Gemini |
+| [makemd](https://github.com/Make-md/makemd) 2019★ 收藏🌐 | (无描述)推断为 Make.md(把 Obsidian 笔记变成数据库的插件),待补充。 | Make.md、Obsidian、数据库、插件 |
 | [ech-wk](https://github.com/byJoey/ech-wk) 1907★ 收藏🌐 | (无描述)用途待补充。 | ech-wk |
 | [baibaiAIGC](https://github.com/poleHansen/baibaiAIGC) 957★ 收藏🌐 | (无描述)baibaiAIGC,用途待补充。 | AIGC |
 | [x-tweet-fetcher](https://github.com/ythx-101/x-tweet-fetcher) 955★ 收藏🌐 | 免登录、免 API key 抓取 X/Twitter 推文/回复/时间线。 | Twitter抓取、免API、推文、时间线 |
