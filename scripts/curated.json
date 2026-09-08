@@ -2728,5 +2728,877 @@
     "language": "Python",
     "stars": 1095,
     "description": "Agent skills for Manim to create 3Blue1Brown style animations."
+  },
+  "claude-reflect": {
+    "category": "ai-llm-agents",
+    "cn": "Claude Code 自学习系统:捕获纠正、正反馈与偏好,持续改进行为。",
+    "keywords": [
+      "Claude Code",
+      "自学习",
+      "反馈",
+      "行为改进"
+    ],
+    "external": true,
+    "owner": "BayramAnnakov",
+    "url": "https://github.com/BayramAnnakov/claude-reflect",
+    "language": "Python",
+    "stars": 1429,
+    "description": "A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then syncs them to CLAUDE.md and AGENTS.md."
+  },
+  "obsidian-releases": {
+    "category": "dev-data-tools",
+    "cn": "Obsidian 社区插件列表、主题列表与发布(官方仓库)。",
+    "keywords": [
+      "Obsidian",
+      "插件列表",
+      "主题",
+      "社区"
+    ],
+    "external": true,
+    "owner": "obsidianmd",
+    "url": "https://github.com/obsidianmd/obsidian-releases",
+    "language": "-",
+    "stars": 21396,
+    "description": "Community plugins list, theme list, and releases of Obsidian."
+  },
+  "ruflo": {
+    "category": "ai-llm-agents",
+    "cn": "agent meta-harness:部署多智能体群、协调自动化(ruvnet)。",
+    "keywords": [
+      "多智能体",
+      "harness",
+      "编排",
+      "部署"
+    ],
+    "external": true,
+    "owner": "ruvnet",
+    "url": "https://github.com/ruvnet/ruflo",
+    "language": "TypeScript",
+    "stars": 71474,
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
+  },
+  "dotnet-content-creators": {
+    "category": "knowledge-books",
+    "cn": ".NET 内容创作者清单(博客/视频/播客)。",
+    "keywords": [
+      ".NET",
+      "内容创作者",
+      "清单",
+      "博客"
+    ],
+    "external": true,
+    "owner": "matthiasjost",
+    "url": "https://github.com/matthiasjost/dotnet-content-creators",
+    "language": "-",
+    "stars": 1148,
+    "description": "⚡A list of .NET content creators"
+  },
+  "openskills": {
+    "category": "ai-llm-agents",
+    "cn": "AI 编码 agent 的通用技能加载器(npm i -g openskills)。",
+    "keywords": [
+      "技能加载",
+      "openskills",
+      "npm",
+      "agent技能"
+    ],
+    "external": true,
+    "owner": "numman-ali",
+    "url": "https://github.com/numman-ali/openskills",
+    "language": "TypeScript",
+    "stars": 10749,
+    "description": "Universal skills loader for AI coding agents - npm i -g openskills"
+  },
+  "notebooklm-py": {
+    "category": "ai-llm-api",
+    "cn": "Google NotebookLM 非官方 Python API 与 agentic skill,完整程序化访问。",
+    "keywords": [
+      "NotebookLM",
+      "Python API",
+      "agentic",
+      "封装"
+    ],
+    "external": true,
+    "owner": "teng-lin",
+    "url": "https://github.com/teng-lin/notebooklm-py",
+    "language": "Python",
+    "stars": 19207,
+    "description": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw."
+  },
+  "superpowers": {
+    "category": "ai-llm-agents",
+    "cn": "agentic 技能框架与软件开发方法论(obra)。",
+    "keywords": [
+      "技能框架",
+      "方法论",
+      "agentic",
+      "软件开发"
+    ],
+    "external": true,
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "language": "Shell",
+    "stars": 282921,
+    "description": "An agentic skills framework & software development methodology that works."
+  },
+  "Agent-Skills-for-Context-Engineering": {
+    "category": "ai-llm-agents",
+    "cn": "上下文工程、多智能体架构的 Agent Skills 合集。",
+    "keywords": [
+      "上下文工程",
+      "多智能体",
+      "Agent Skills",
+      "合集"
+    ],
+    "external": true,
+    "owner": "muratcankoylan",
+    "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+    "language": "Python",
+    "stars": 17942,
+    "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management."
+  },
+  "planning-with-files": {
+    "category": "ai-llm-agents",
+    "cn": "基于文件持久化的规划:崩溃安全的长期任务管理。",
+    "keywords": [
+      "规划",
+      "文件持久化",
+      "长期任务",
+      "崩溃安全"
+    ],
+    "external": true,
+    "owner": "OthmanAdi",
+    "url": "https://github.com/OthmanAdi/planning-with-files",
+    "language": "Python",
+    "stars": 26704,
+    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents."
+  },
+  "obsidian-skills": {
+    "category": "ai-llm-agents",
+    "cn": "Obsidian 的 agent 技能:教 agent 用 Obsidian CLI 与开放格式(kepano)。",
+    "keywords": [
+      "Obsidian",
+      "agent技能",
+      "CLI",
+      "Markdown"
+    ],
+    "external": true,
+    "owner": "kepano",
+    "url": "https://github.com/kepano/obsidian-skills",
+    "language": "-",
+    "stars": 48008,
+    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
+  },
+  "skill-from-masters": {
+    "category": "ai-llm-agents",
+    "cn": "站在巨人肩上:基于各领域大师方法论创建 AI skills。",
+    "keywords": [
+      "大师方法论",
+      "skill创作",
+      "技能工程"
+    ],
+    "external": true,
+    "owner": "GBSOSS",
+    "url": "https://github.com/GBSOSS/skill-from-masters",
+    "language": "-",
+    "stars": 1583,
+    "description": "Stand on the shoulders of giants — Create AI skills built on proven methodologies from domain experts."
+  },
+  "skill-prompt-generator": {
+    "category": "ai-llm-prompts",
+    "cn": "AI 人像 Prompt 生成系统:从特征库智能组合人像描述,自动学习扩展。",
+    "keywords": [
+      "人像Prompt",
+      "特征库",
+      "自动生成",
+      "Claude Skill"
+    ],
+    "external": true,
+    "owner": "huangserva",
+    "url": "https://github.com/huangserva/skill-prompt-generator",
+    "language": "Python",
+    "stars": 1481,
+    "description": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制"
+  },
+  "nano-image-generator-skill": {
+    "category": "ai-llm-prompts",
+    "cn": "(无描述)Nano 图像生成 skill,用途待补充。",
+    "keywords": [
+      "图像生成",
+      "Nano",
+      "skill"
+    ],
+    "external": true,
+    "owner": "lxfater",
+    "url": "https://github.com/lxfater/nano-image-generator-skill",
+    "language": "Python",
+    "stars": 128,
+    "description": ""
+  },
+  "Claude-meta-skill": {
+    "category": "ai-llm-agents",
+    "cn": "Claude Code 可复用技能合集,增强 Claude 能力。",
+    "keywords": [
+      "Claude Code",
+      "技能合集",
+      "可复用"
+    ],
+    "external": true,
+    "owner": "YYH211",
+    "url": "https://github.com/YYH211/Claude-meta-skill",
+    "language": "Python",
+    "stars": 276,
+    "description": "A curated collection of reusable skills for Claude Code. Enhance Claude's capabilities with ready-to-use skill modules including comprehensive guides, templates, and best practices for creating your own skills."
+  },
+  "desktop": {
+    "category": "dev-data-tools",
+    "cn": "Zen 浏览器:更宁静的互联网体验(C++ 开源浏览器)。",
+    "keywords": [
+      "浏览器",
+      "Zen",
+      "开源",
+      "宁静"
+    ],
+    "external": true,
+    "owner": "zen-browser",
+    "url": "https://github.com/zen-browser/desktop",
+    "language": "C++",
+    "stars": 44326,
+    "description": "Welcome to a calmer internet"
+  },
+  "AntigravityQuotaWatcher": {
+    "category": "dev-data-tools",
+    "cn": "Google Antigravity AI 模型配额监控插件。",
+    "keywords": [
+      "Antigravity",
+      "配额监控",
+      "插件",
+      "Gemini"
+    ],
+    "external": true,
+    "owner": "wusimpl",
+    "url": "https://github.com/wusimpl/AntigravityQuotaWatcher",
+    "language": "TypeScript",
+    "stars": 2263,
+    "description": "Google Antigravity AI模型配额监控插件 (Antigravity AI Model Quota Watching)"
+  },
+  "Pixelle-Video": {
+    "category": "media",
+    "cn": "AI 全自动短视频引擎(ATH-MaaS)。",
+    "keywords": [
+      "短视频",
+      "自动生成",
+      "AI视频",
+      "引擎"
+    ],
+    "external": true,
+    "owner": "ATH-MaaS",
+    "url": "https://github.com/ATH-MaaS/Pixelle-Video",
+    "language": "Python",
+    "stars": 27872,
+    "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine"
+  },
+  "chatwiki": {
+    "category": "ai-llm-agents",
+    "cn": "微信公众号 AI 知识库工作流 Agent 平台:RAG 大模型客服机器人,垂直领域 coze/n8n。",
+    "keywords": [
+      "知识库",
+      "RAG",
+      "客服机器人",
+      "微信公众号",
+      "工作流"
+    ],
+    "external": true,
+    "owner": "zhimaAi",
+    "url": "https://github.com/zhimaAi/chatwiki",
+    "language": "Vue",
+    "stars": 2063,
+    "description": "ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。"
+  },
+  "ech-wk": {
+    "category": "dev-data-tools",
+    "cn": "(无描述)用途待补充。",
+    "keywords": [
+      "ech-wk"
+    ],
+    "external": true,
+    "owner": "byJoey",
+    "url": "https://github.com/byJoey/ech-wk",
+    "language": "Python",
+    "stars": 1907,
+    "description": ""
+  },
+  "banana-slides": {
+    "category": "content-writing",
+    "cn": "一站式原生 AI PPT 生成应用:模板图/素材智能解析、一句话/大纲生成、可编辑导出。",
+    "keywords": [
+      "PPT生成",
+      "AI演示",
+      "模板",
+      "自动排版"
+    ],
+    "external": true,
+    "owner": "Anionex",
+    "url": "https://github.com/Anionex/banana-slides",
+    "language": "TypeScript",
+    "stars": 15561,
+    "description": "一站式原生AI PPT生成应用，几分钟内生成一套幻灯片; 支持上传任意模板图片，上传任意素材&智能解析，一句话/大纲/页面描述自动生成PPT，口头修改指定区域、一键导出可编辑ppt、视频等 - An AI-native slides generator based on nano banana pro🍌"
+  },
+  "ChromeAppHeroes": {
+    "category": "knowledge-books",
+    "cn": "谷粒 Chrome 插件英雄榜:优秀 Chrome 插件中文说明书合集。",
+    "keywords": [
+      "Chrome插件",
+      "英雄榜",
+      "中文说明书",
+      "插件推荐"
+    ],
+    "external": true,
+    "owner": "zhaoolee",
+    "url": "https://github.com/zhaoolee/ChromeAppHeroes",
+    "language": "JavaScript",
+    "stars": 25809,
+    "description": "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~ ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let the Chrome plugin heroes benefit the human~ 公众号「0加1」同步更新"
+  },
+  "awesome-nano-banana-pro-prompts": {
+    "category": "ai-llm-prompts",
+    "cn": "全球最大 Nano Banana Pro 提示词库:10000+ 精选提示词带预览图。",
+    "keywords": [
+      "Nano Banana",
+      "提示词库",
+      "生图",
+      "10000+"
+    ],
+    "external": true,
+    "owner": "YouMind-OpenLab",
+    "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "language": "TypeScript",
+    "stars": 13383,
+    "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source."
+  },
+  "banana-prompt-quicker": {
+    "category": "ai-llm-prompts",
+    "cn": "Banana/Nano Banana Pro/Gemini AI Studio 提示词快捷数据工具。",
+    "keywords": [
+      "提示词快捷",
+      "Nano Banana",
+      "AI Studio",
+      "数据"
+    ],
+    "external": true,
+    "owner": "glidea",
+    "url": "https://github.com/glidea/banana-prompt-quicker",
+    "language": "JavaScript",
+    "stars": 2411,
+    "description": "🍌Awesome Prompts; Nano Banana；Banana Pro; Gemini；AI Studio；Prompt Quickly 数据打标请联系wx glidea123 (数万并发随时狂飙)"
+  },
+  "huasheng_editor": {
+    "category": "content-writing",
+    "cn": "花生公众号排版器。",
+    "keywords": [
+      "公众号",
+      "排版",
+      "编辑器"
+    ],
+    "external": true,
+    "owner": "alchaincyf",
+    "url": "https://github.com/alchaincyf/huasheng_editor",
+    "language": "JavaScript",
+    "stars": 742,
+    "description": "花生公众号排版器"
+  },
+  "Skill_Seekers": {
+    "category": "ai-llm-agents",
+    "cn": "把文档网站、GitHub 仓库、PDF 转成 Claude AI skills。",
+    "keywords": [
+      "文档转技能",
+      "PDF转技能",
+      "Claude",
+      "自动化"
+    ],
+    "external": true,
+    "owner": "yusufkaraaslan",
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+    "language": "Python",
+    "stars": 14934,
+    "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection"
+  },
+  "VERT": {
+    "category": "dev-data-tools",
+    "cn": "下一代文件转换器:开源、全本地、永久免费。",
+    "keywords": [
+      "文件转换",
+      "开源",
+      "本地",
+      "免费"
+    ],
+    "external": true,
+    "owner": "VERT-sh",
+    "url": "https://github.com/VERT-sh/VERT",
+    "language": "Svelte",
+    "stars": 15550,
+    "description": "The next-generation file converter. Open source, fully local* and free forever."
+  },
+  "BlockX": {
+    "category": "dev-data-tools",
+    "cn": "emoji 图片分割工具。",
+    "keywords": [
+      "emoji",
+      "图片分割",
+      "工具"
+    ],
+    "external": true,
+    "owner": "onebtcdesign",
+    "url": "https://github.com/onebtcdesign/BlockX",
+    "language": "TypeScript",
+    "stars": 151,
+    "description": "emoji图片分割工具"
+  },
+  "RedInk": {
+    "category": "content-writing",
+    "cn": "基于 Nano Banana Pro 的小红书图文一键生成器。",
+    "keywords": [
+      "小红书",
+      "图文生成",
+      "Nano Banana",
+      "一键"
+    ],
+    "external": true,
+    "owner": "HisMax",
+    "url": "https://github.com/HisMax/RedInk",
+    "language": "Python",
+    "stars": 5518,
+    "description": "Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, \"One Sentence, One Image: Generate Xiaohongshu Text and Images.\""
+  },
+  "autoclip": {
+    "category": "media",
+    "cn": "AutoClip:AI 智能高光提取与剪辑的二创工具。",
+    "keywords": [
+      "高光提取",
+      "智能剪辑",
+      "二创",
+      "短视频"
+    ],
+    "external": true,
+    "owner": "zhouxiaoka",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "language": "Python",
+    "stars": 7244,
+    "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具"
+  },
+  "what-to-eat": {
+    "category": "dev-data-tools",
+    "cn": "一饭封神:AI 智能菜谱生成平台,八大菜系+国际料理,营养分析/酒水推荐/效果图。",
+    "keywords": [
+      "菜谱",
+      "AI推荐",
+      "美食",
+      "营养分析"
+    ],
+    "external": true,
+    "owner": "liu-ziting",
+    "url": "https://github.com/liu-ziting/what-to-eat",
+    "language": "Vue",
+    "stars": 3522,
+    "description": "一饭封神：一个基于 AI 的智能菜谱生成平台，支持中华八大菜系 + 国际料理，提供营养分析、酒水推荐、菜谱效果图生成等全方位烹饪指导。"
+  },
+  "NLM2Img": {
+    "category": "dev-data-tools",
+    "cn": "把 NotebookLM 导出的 PDF 图片合成为一张或几组图片。",
+    "keywords": [
+      "NotebookLM",
+      "PDF",
+      "图片合成",
+      "工具"
+    ],
+    "external": true,
+    "owner": "cclank",
+    "url": "https://github.com/cclank/NLM2Img",
+    "language": "TypeScript",
+    "stars": 75,
+    "description": "将 NotebookLM 导出的PDF图片合成一张图片或几组图片"
+  },
+  "blinko": {
+    "category": "dev-data-tools",
+    "cn": "开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。",
+    "keywords": [
+      "笔记",
+      "自托管",
+      "隐私",
+      "AI"
+    ],
+    "external": true,
+    "owner": "blinkospace",
+    "url": "https://github.com/blinkospace/blinko",
+    "language": "TypeScript",
+    "stars": 10996,
+    "description": "An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript ."
+  },
+  "UltraRAG": {
+    "category": "ai-llm-api",
+    "cn": "低代码 MCP 框架:构建复杂创新的 RAG 流水线(OpenBMB)。",
+    "keywords": [
+      "RAG",
+      "MCP框架",
+      "低代码",
+      "流水线"
+    ],
+    "external": true,
+    "owner": "OpenBMB",
+    "url": "https://github.com/OpenBMB/UltraRAG",
+    "language": "Python",
+    "stars": 5681,
+    "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines"
+  },
+  "NarratoAI": {
+    "category": "media",
+    "cn": "用 AI 大模型一键解说并剪辑视频(自动配音+剪辑)。",
+    "keywords": [
+      "视频解说",
+      "自动配音",
+      "AI剪辑",
+      "一键"
+    ],
+    "external": true,
+    "owner": "linyqh",
+    "url": "https://github.com/linyqh/NarratoAI",
+    "language": "Python",
+    "stars": 11007,
+    "description": "利用 AI 大模型，一键解说并剪辑视频"
+  },
+  "claude-code-router": {
+    "category": "ai-llm-api",
+    "cn": "本地控制平面:跨模型路由、融合新能力、统一管理 AI agent 接入。",
+    "keywords": [
+      "模型路由",
+      "控制平面",
+      "Claude Code",
+      "接入"
+    ],
+    "external": true,
+    "owner": "musistudio",
+    "url": "https://github.com/musistudio/claude-code-router",
+    "language": "TypeScript",
+    "stars": 37119,
+    "description": "One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control."
+  },
+  "cognee": {
+    "category": "ai-llm-agents",
+    "cn": "开源 AI 记忆平台:给 agent 持久长期记忆。",
+    "keywords": [
+      "记忆平台",
+      "持久记忆",
+      "agent",
+      "RAG"
+    ],
+    "external": true,
+    "owner": "topoteretes",
+    "url": "https://github.com/topoteretes/cognee",
+    "language": "Python",
+    "stars": 30574,
+    "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine."
+  },
+  "gemini-cli": {
+    "category": "ai-llm-agents",
+    "cn": "Google 官方开源 AI agent:把 Gemini 带进终端(编码/任务)。",
+    "keywords": [
+      "Gemini",
+      "CLI",
+      "编码Agent",
+      "谷歌"
+    ],
+    "external": true,
+    "owner": "google-gemini",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "language": "TypeScript",
+    "stars": 106858,
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+  },
+  "lean-side-bussiness": {
+    "category": "knowledge-books",
+    "cn": "精益副业:程序员如何优雅地做副业(easychen)。",
+    "keywords": [
+      "副业",
+      "程序员",
+      "精益",
+      "变现"
+    ],
+    "external": true,
+    "owner": "easychen",
+    "url": "https://github.com/easychen/lean-side-bussiness",
+    "language": "-",
+    "stars": 12115,
+    "description": "精益副业：程序员如何优雅地做副业"
+  },
+  "termux-x11": {
+    "category": "dev-data-tools",
+    "cn": "Termux X-server 插件(Android 上跑图形应用)。",
+    "keywords": [
+      "Termux",
+      "X11",
+      "Android",
+      "图形"
+    ],
+    "external": true,
+    "owner": "termux",
+    "url": "https://github.com/termux/termux-x11",
+    "language": "C",
+    "stars": 4721,
+    "description": "Termux X-server add-on."
+  },
+  "auto-claude-writing-agent-pub": {
+    "category": "content-writing",
+    "cn": "(无描述)推断为自动 Claude 写作 agent,用途待补充。",
+    "keywords": [
+      "写作agent",
+      "Claude",
+      "自动化"
+    ],
+    "external": true,
+    "owner": "MapleShaw",
+    "url": "https://github.com/MapleShaw/auto-claude-writing-agent-pub",
+    "language": "-",
+    "stars": 434,
+    "description": ""
+  },
+  "Termix": {
+    "category": "dev-data-tools",
+    "cn": "自托管 SSH 与远程桌面管理。",
+    "keywords": [
+      "SSH",
+      "远程桌面",
+      "自托管",
+      "管理"
+    ],
+    "external": true,
+    "owner": "Termix-SSH",
+    "url": "https://github.com/Termix-SSH/Termix",
+    "language": "TypeScript",
+    "stars": 15059,
+    "description": "Self-hosted SSH and remote desktop management."
+  },
+  "localsend": {
+    "category": "dev-data-tools",
+    "cn": "开源跨平台 AirDrop 替代:局域网文件互传。",
+    "keywords": [
+      "文件传输",
+      "AirDrop替代",
+      "跨平台",
+      "局域网"
+    ],
+    "external": true,
+    "owner": "localsend",
+    "url": "https://github.com/localsend/localsend",
+    "language": "Dart",
+    "stars": 90319,
+    "description": "An open-source cross-platform alternative to AirDrop"
+  },
+  "NagaAgent": {
+    "category": "ai-llm-agents",
+    "cn": "简单强大的个人助理 agent 框架。",
+    "keywords": [
+      "个人助理",
+      "agent框架",
+      "简单",
+      "强大"
+    ],
+    "external": true,
+    "owner": "RTGS2017",
+    "url": "https://github.com/RTGS2017/NagaAgent",
+    "language": "Python",
+    "stars": 1542,
+    "description": "A simple yet powerful agent framework for personal assistants, designed to enable intelligent interaction, multi-agent collaboration, and seamless tool integration."
+  },
+  "prompt-eng-interactive-tutorial": {
+    "category": "ai-llm-tutorials",
+    "cn": "Anthropic 官方交互式提示工程教程(notebook)。",
+    "keywords": [
+      "提示工程",
+      "教程",
+      "Anthropic",
+      "交互式"
+    ],
+    "external": true,
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "language": "Jupyter Notebook",
+    "stars": 38095,
+    "description": "Anthropic's Interactive Prompt Engineering Tutorial"
+  },
+  "claude-code-cheat-sheet": {
+    "category": "ai-llm-tutorials",
+    "cn": "Claude Code 技巧/窍门/命令/工作流终极合集。",
+    "keywords": [
+      "Claude Code",
+      "速查表",
+      "技巧",
+      "工作流"
+    ],
+    "external": true,
+    "owner": "Njengah",
+    "url": "https://github.com/Njengah/claude-code-cheat-sheet",
+    "language": "-",
+    "stars": 1916,
+    "description": "Ultimate collection of Claude Code tips, tricks, hacks, and workflows that you can use to master Claude Code in minutes"
+  },
+  "claude-code-infrastructure-showcase": {
+    "category": "ai-llm-tutorials",
+    "cn": "Claude Code 基础设施示例:技能自动激活、hooks、agents 配置。",
+    "keywords": [
+      "Claude Code",
+      "hooks",
+      "技能激活",
+      "配置示例"
+    ],
+    "external": true,
+    "owner": "diet103",
+    "url": "https://github.com/diet103/claude-code-infrastructure-showcase",
+    "language": "TypeScript",
+    "stars": 10015,
+    "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents"
+  },
+  "SoulX-Podcast": {
+    "category": "media",
+    "cn": "SoulX-Podcast:高保真播客生成推理代码库(Soul AI)。",
+    "keywords": [
+      "播客生成",
+      "TTS",
+      "语音合成",
+      "高保真"
+    ],
+    "external": true,
+    "owner": "Soul-AILab",
+    "url": "https://github.com/Soul-AILab/SoulX-Podcast",
+    "language": "Python",
+    "stars": 3547,
+    "description": "SoulX-Podcast is an inference codebase by the Soul AI team for generating high-fidelity podcasts from text."
+  },
+  "agents": {
+    "category": "ai-llm-agents",
+    "cn": "多 harness agentic 插件市场:Claude Code/Codex/Cursor/OpenCode/GitHub 插件。",
+    "keywords": [
+      "插件市场",
+      "多harness",
+      "agentic",
+      "生态"
+    ],
+    "external": true,
+    "owner": "contains-studio",
+    "url": "https://github.com/contains-studio/agents",
+    "language": "-",
+    "stars": 12410,
+    "description": "sharing current agents in use"
+  },
+  "parlant": {
+    "category": "ai-llm-agents",
+    "cn": "构建可靠客服 AI agent 的交互控制 harness。",
+    "keywords": [
+      "客服Agent",
+      "交互控制",
+      "harness",
+      "可靠性"
+    ],
+    "external": true,
+    "owner": "emcie-co",
+    "url": "https://github.com/emcie-co/parlant",
+    "language": "Python",
+    "stars": 18282,
+    "description": "Build reliable customer-facing AI agents with Parlant: an interaction control harness optimized for controlled, consistent, and predictable LLM interactions."
+  },
+  "blind_watermark": {
+    "category": "dev-data-tools",
+    "cn": "图片盲水印:提取水印无须原图。",
+    "keywords": [
+      "盲水印",
+      "图片水印",
+      "版权",
+      "提取"
+    ],
+    "external": true,
+    "owner": "guofei9987",
+    "url": "https://github.com/guofei9987/blind_watermark",
+    "language": "Python",
+    "stars": 14753,
+    "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！"
+  },
+  "spec-kit": {
+    "category": "dev-data-tools",
+    "cn": "Spec-Driven Development 工具包(github 官方)。",
+    "keywords": [
+      "Spec驱动",
+      "开发工具",
+      "规范",
+      "github"
+    ],
+    "external": true,
+    "owner": "github",
+    "url": "https://github.com/github/spec-kit",
+    "language": "Python",
+    "stars": 133960,
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development"
+  },
+  "kepano-obsidian": {
+    "category": "knowledge-books",
+    "cn": "kepano 个人 Obsidian 库模板:自底向上的笔记法。",
+    "keywords": [
+      "Obsidian",
+      "模板",
+      "笔记法",
+      "知识管理"
+    ],
+    "external": true,
+    "owner": "kepano",
+    "url": "https://github.com/kepano/kepano-obsidian",
+    "language": "-",
+    "stars": 4497,
+    "description": "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
+  },
+  "PaddleOCR": {
+    "category": "dev-data-tools",
+    "cn": "把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。",
+    "keywords": [
+      "OCR",
+      "文字识别",
+      "文档解析",
+      "PDF"
+    ],
+    "external": true,
+    "owner": "PaddlePaddle",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR",
+    "language": "Python",
+    "stars": 89071,
+    "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages."
+  },
+  "fogsight": {
+    "category": "media",
+    "cn": "LLM 驱动的 AI agent 与动画引擎。",
+    "keywords": [
+      "动画引擎",
+      "LLM",
+      "agent",
+      "创作"
+    ],
+    "external": true,
+    "owner": "fogsightai",
+    "url": "https://github.com/fogsightai/fogsight",
+    "language": "JavaScript",
+    "stars": 2551,
+    "description": "Fogsight is an AI agent and animation engine powered by Large Language Models."
+  },
+  "iflow-cli": {
+    "category": "ai-llm-agents",
+    "cn": "嵌入终端的全面命令行智能体:分析环境并执行。",
+    "keywords": [
+      "终端智能体",
+      "CLI",
+      "自动化",
+      "执行"
+    ],
+    "external": true,
+    "owner": "iflow-ai",
+    "url": "https://github.com/iflow-ai/iflow-cli",
+    "language": "Shell",
+    "stars": 5096,
+    "description": "iFlow cli is a comprehensive command-line intelligence that embeds in your terminal, analyzes your repositories, does coding tasks, interprets your needs across contexts, and boosts efficiency by performing tasks from simple file operations to complex workflow automation."
   }
 }

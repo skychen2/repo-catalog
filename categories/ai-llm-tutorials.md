@@ -2,14 +2,17 @@
 
 > 入门课程、源码解析、实战教程、资源清单
 
-共 13 个仓库。
+共 16 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
 | [dive-into-llms](https://github.com/Lordog/dive-into-llms) 52500★ 收藏🌐 | 《动手学大模型 Dive into LLMs》编程实践教程。 | LLM教程、大模型、编程实践、动手学 |
+| [prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) 38095★ 收藏🌐 | Anthropic 官方交互式提示工程教程(notebook)。 | 提示工程、教程、Anthropic、交互式 |
 | [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 33204★ 收藏🌐 | 多智能体互动课堂(清华 THU-MAIC):沉浸式多 agent 学习体验。 | 多智能体、互动课堂、教育、清华 |
 | [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) 31672★ 收藏🌐 | OpenClaw 用例社区合集:让生活更轻松的真实自动化案例。 | OpenClaw、用例、社区合集、自动化 |
 | [OpenMythos](https://github.com/kyegomez/OpenMythos) 14891★ 收藏🌐 | 基于第一性原理对 Claude Mythos(agent 架构)的理论重构。 | Claude架构、Mythos、第一性原理、理论重构 |
+| [claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) 10015★ 收藏🌐 | Claude Code 基础设施示例:技能自动激活、hooks、agents 配置。 | Claude Code、hooks、技能激活、配置示例 |
+| [claude-code-cheat-sheet](https://github.com/Njengah/claude-code-cheat-sheet) 1916★ 收藏🌐 | Claude Code 技巧/窍门/命令/工作流终极合集。 | Claude Code、速查表、技巧、工作流 |
 | [awesome-openclaw-usecases-moltbook](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook) 999★ 收藏🌐 | OpenClaw 真实自动化案例集(Moltbook 社区示例)。 | OpenClaw、用例、案例、自动化 |
 | [WTF-Langchain](https://github.com/skychen2/WTF-Langchain) 0★ fork | fork 自 WTFAcademy/WTF-Langchain:Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。 | Langchain、源码解析、教程、原理 |
 | [anthropic-cookbook](https://github.com/skychen2/anthropic-cookbook) 0★ fork | fork 自 anthropics/claude-cookbooks:Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等)。 | Claude、官方教程、notebook、cookbook、tool use |

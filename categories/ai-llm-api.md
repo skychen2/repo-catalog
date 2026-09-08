@@ -2,7 +2,7 @@
 
 > 免费/中转 API、接口兼容代理、自部署聊天 UI
 
-共 14 个仓库。
+共 17 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
@@ -10,6 +10,9 @@
 | [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 50913★ 收藏🌐 | 把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。 | CLI转API、代理、Codex、Grok |
 | [airi](https://github.com/moeru-ai/airi) 48899★ 收藏🌐 | 自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。 | Grok、自托管、Companion、聊天 |
 | [sub2api](https://github.com/Wei-Shaw/sub2api) 40800★ 收藏🌐 | 一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。 | 订阅转API、中转、Claude、拼车 |
+| [claude-code-router](https://github.com/musistudio/claude-code-router) 37119★ 收藏🌐 | 本地控制平面:跨模型路由、融合新能力、统一管理 AI agent 接入。 | 模型路由、控制平面、Claude Code、接入 |
+| [notebooklm-py](https://github.com/teng-lin/notebooklm-py) 19207★ 收藏🌐 | Google NotebookLM 非官方 Python API 与 agentic skill,完整程序化访问。 | NotebookLM、Python API、agentic、封装 |
+| [UltraRAG](https://github.com/OpenBMB/UltraRAG) 5681★ 收藏🌐 | 低代码 MCP 框架:构建复杂创新的 RAG 流水线(OpenBMB)。 | RAG、MCP框架、低代码、流水线 |
 | [antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy) 3947★ 收藏🌐 | 代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。 | 代理、Antigravity、模型转发、Claude |
 | [cherry-studio-app](https://github.com/CherryHQ/cherry-studio-app) 3797★ 收藏🌐 | Cherry Studio 移动版(开源多模型 AI 客户端)。 | Cherry Studio、移动版、AI客户端、多模型 |
 | [Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) 2241★ 收藏🌐 | ChatGPT Plus/Team/Pro 订阅协议端到端重放工具:hCaptcha 视觉求解器。 | ChatGPT订阅、协议重放、拼车、hCaptcha |

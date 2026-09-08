@@ -2,11 +2,15 @@
 
 > 学习路线、书籍、语料库、神贴合集、生活指南
 
-共 13 个仓库。
+共 17 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) 25809★ 收藏🌐 | 谷粒 Chrome 插件英雄榜:优秀 Chrome 插件中文说明书合集。 | Chrome插件、英雄榜、中文说明书、插件推荐 |
+| [lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) 12115★ 收藏🌐 | 精益副业:程序员如何优雅地做副业(easychen)。 | 副业、程序员、精益、变现 |
+| [kepano-obsidian](https://github.com/kepano/kepano-obsidian) 4497★ 收藏🌐 | kepano 个人 Obsidian 库模板:自底向上的笔记法。 | Obsidian、模板、笔记法、知识管理 |
 | [awesome-ceo](https://github.com/kuchin/awesome-ceo) 2636★ 收藏🌐 | 面向创业公司创始人与高增长公司领导者的资源清单。 | 创业、CEO、资源清单、商业 |
+| [dotnet-content-creators](https://github.com/matthiasjost/dotnet-content-creators) 1148★ 收藏🌐 | .NET 内容创作者清单(博客/视频/播客)。 | .NET、内容创作者、清单、博客 |
 | [ai-interview-guide](https://github.com/guocong-bincai/ai-interview-guide) 591★ 收藏🌐 | AI 应用/Agent/RAG/FDE 开发岗位面试宝典。 | 面试、AI应用、Agent、RAG |
 | [Adversarial-Evolution](https://github.com/skychen2/Adversarial-Evolution) 0★ fork | fork 自 Wing-2025/Adversarial-Evolution:《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活动的本质)。 | 演化、生物学、科普书、人类社会、文明 |
 | [Classical-Modern](https://github.com/skychen2/Classical-Modern) 0★ fork | fork 自 NiuTrans/Classical-Modern:文言文(古文)-现代文平行语料库,数据量全,可用于翻译模型训练/学习对照。 | 文言文、语料库、古文、平行语料、数据集 |

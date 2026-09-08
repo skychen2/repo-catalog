@@ -2,7 +2,7 @@
 
 > 视频生成与剪辑、超分插帧、AI 绘画、下载工具、音乐
 
-共 24 个仓库。
+共 29 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
@@ -10,11 +10,16 @@
 | [hyperframes](https://github.com/heygen-com/hyperframes) 46501★ 收藏🌐 | 用 HTML/CSS 动画直接渲染成视频,专为 AI agent 生成短视频设计(HeyGen)。 | HTML转视频、视频渲染、agent、短视频 |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) 36829★ 收藏🌐 | VoxCPM2 免 tokenizer 多语言 TTS:创意语音设计与真实语音克隆。 | TTS、语音合成、语音克隆、多语言 |
 | [Open-Sora](https://github.com/hpcaitech/Open-Sora) 29644★ 收藏🌐 | 开源文生视频模型(类 Sora):文本/图像生成视频,ColossalAI 出品。 | 视频生成、Sora、文生视频、开源模型 |
+| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) 27872★ 收藏🌐 | AI 全自动短视频引擎(ATH-MaaS)。 | 短视频、自动生成、AI视频、引擎 |
 | [video-use](https://github.com/browser-use/video-use) 24373★ 收藏🌐 | 让编码 agent 用代码编辑视频:自动化剪辑/拼接/特效(browser-use 出品)。 | 视频编辑、agent、自动化剪辑、编程控制 |
 | [huobao-drama](https://github.com/chatfire-AI/huobao-drama) 14863★ 收藏🌐 | 火宝短剧:AI 一站式短剧生成平台,一句话从剧本到成片全自动化。 | 短剧生成、剧本、AI视频、一站式 |
 | [waoowaoo](https://github.com/waooAI/waoowaoo) 14003★ 收藏🌐 | 工业级全流程 AI 影视生产平台:可控的电影级 AI Agent 制作(waooAI)。 | 影视制作、AI电影、全流程、Agent平台 |
+| [NarratoAI](https://github.com/linyqh/NarratoAI) 11007★ 收藏🌐 | 用 AI 大模型一键解说并剪辑视频(自动配音+剪辑)。 | 视频解说、自动配音、AI剪辑、一键 |
 | [OmniVoice](https://github.com/k2-fsa/OmniVoice) 10514★ 收藏🌐 | 高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。 | 语音合成、TTS、语音克隆、多语言、音色克隆、文字转语音、zero-shot、语音设计 |
 | [awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free) 8262★ 收藏🌐 | 免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。 | 追剧、影视资源、TVBox、IPTV |
+| [autoclip](https://github.com/zhouxiaoka/autoclip) 7244★ 收藏🌐 | AutoClip:AI 智能高光提取与剪辑的二创工具。 | 高光提取、智能剪辑、二创、短视频 |
+| [SoulX-Podcast](https://github.com/Soul-AILab/SoulX-Podcast) 3547★ 收藏🌐 | SoulX-Podcast:高保真播客生成推理代码库(Soul AI)。 | 播客生成、TTS、语音合成、高保真 |
+| [fogsight](https://github.com/fogsightai/fogsight) 2551★ 收藏🌐 | LLM 驱动的 AI agent 与动画引擎。 | 动画引擎、LLM、agent、创作 |
 | [manim_skill](https://github.com/adithya-s-k/manim_skill) 1095★ 收藏🌐 | Manim 动画 agent 技能:创建 3Blue1Brown 风格数学动画。 | Manim、数学动画、3Blue1Brown、可视化 |
 | [female-outfit-director](https://github.com/liyue-aigc/female-outfit-director) 773★ 收藏🌐 | 女性多套穿搭拼贴首帧与卡点换装视频导演 Skill。 | 穿搭、换装视频、首帧拼贴、视频导演 |
 | [ecommerce-image-suite](https://github.com/wzj177/ecommerce-image-suite) 379★ 收藏🌐 | 电商商品图生产 Skill:分析/卖点提炼/Prompt 组织到成图,适配主流平台。 | 电商图片、商品图、卖点提炼、Prompt |
