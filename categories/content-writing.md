@@ -2,7 +2,7 @@
 
 > 公众号排版、小红书运营、网文写作、内容工厂规范与素材
 
-共 14 个仓库。
+共 16 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
@@ -10,6 +10,8 @@
 | [AiToEarn](https://github.com/yikart/AiToEarn) 25772★ 收藏🌐 | 用 AI 赚钱:AI 变现/副业相关(Let's use AI to Earn!)。 | AI变现、赚钱、副业、商业化 |
 | [banana-slides](https://github.com/Anionex/banana-slides) 15561★ 收藏🌐 | 一站式原生 AI PPT 生成应用:模板图/素材智能解析、一句话/大纲生成、可编辑导出。 | PPT生成、AI演示、模板、自动排版 |
 | [RedInk](https://github.com/HisMax/RedInk) 5518★ 收藏🌐 | 基于 Nano Banana Pro 的小红书图文一键生成器。 | 小红书、图文生成、Nano Banana、一键 |
+| [markdown-nice](https://github.com/mdnice/markdown-nice) 4677★ 收藏🌐 | 支持主题设计的 Markdown 编辑器,让排版变 Nice(公众号用)。 | 公众号、Markdown、排版、主题 |
+| [markdown-online-editor](https://github.com/nicejade/markdown-online-editor) 3965★ 收藏🌐 | Vue2+Vditor 在线 Markdown 编辑器:流程图/甘特/图表/PPT 预览。 | Markdown、在线编辑器、图表、排版 |
 | [LandPPT](https://github.com/sligter/LandPPT) 3586★ 收藏🌐 | 基于 LLM 的 PPT 生成平台:文档自动转专业演示文稿,多模型+丰富模板。 | PPT生成、演示文稿、LLM、文档转PPT |
 | [human-writing](https://github.com/KKKKhazix/human-writing) 3519★ 收藏🌐 | 中文写作与改稿 Skill:让 AI 文字像具体的人在说话,去 AI 腔。 | 中文写作、改稿、人味、去AI腔 |
 | [Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator) 2293★ 收藏🌐 | Seedance 2.0 剧情分镜(Storyboard)生成 Skill:小说/脚本一键改写剧本。 | 分镜、剧本生成、Seedance、Storyboard |

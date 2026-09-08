@@ -2,22 +2,26 @@
 
 > 开发者工具、安全、API 与数据集清单、自建小服务
 
-共 56 个仓库。
+共 65 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
 | [firecrawl](https://github.com/firecrawl/firecrawl) 177728★ 收藏🌐 | 搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。 | 网页抓取、搜索、爬虫、API |
+| [PowerToys](https://github.com/microsoft/PowerToys) 138488★ 收藏🌐 | 微软效率工具集(窗口管理/取色/批量重命名等)。 | 效率工具、微软、PowerToys、桌面 |
 | [spec-kit](https://github.com/github/spec-kit) 133960★ 收藏🌐 | Spec-Driven Development 工具包(github 官方)。 | Spec驱动、开发工具、规范、github |
 | [cc-switch](https://github.com/farion1231/cc-switch) 131606★ 收藏🌐 | 跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。 | Claude Code、Codex、一键切换、桌面工具 |
 | [RuView](https://github.com/ruvnet/RuView) 92757★ 收藏🌐 | 把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。 | WiFi感知、生命体征、空间智能、雷达 |
 | [localsend](https://github.com/localsend/localsend) 90319★ 收藏🌐 | 开源跨平台 AirDrop 替代:局域网文件互传。 | 文件传输、AirDrop替代、跨平台、局域网 |
 | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 89071★ 收藏🌐 | 把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。 | OCR、文字识别、文档解析、PDF |
+| [funNLP](https://github.com/fighting41love/funNLP) 82945★ 收藏🌐 | NLP 工具集:敏感词/语言检测、手机归属地、身份证/邮箱抽取、情感词表、拆字词典等。 | NLP、敏感词、信息抽取、情感分析、词典 |
 | [fzf](https://github.com/junegunn/fzf) 82864★ 收藏🌐 | 命令行模糊查找器(Go 编写,终端神器)。 | fzf、模糊查找、命令行、终端 |
+| [Ventoy](https://github.com/ventoy/Ventoy) 79196★ 收藏🌐 | 启动 U 盘解决方案(多 ISO 启动盘)。 | 启动盘、U盘、多ISO、装机 |
 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) 78687★ 收藏🌐 | 给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。 | 全网搜索、社媒阅读、16平台、信息获取 |
 | [codegraph](https://github.com/colbymchenry/codegraph) 69995★ 收藏🌐 | 预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。 | 代码图谱、知识图谱、索引、agent上下文 |
 | [memos](https://github.com/usememos/memos) 62836★ 收藏🌐 | 开源自托管笔记工具:快速捕获、Markdown 原生、轻量。 | 笔记、自托管、Markdown、轻量 |
 | [desktop](https://github.com/zen-browser/desktop) 44326★ 收藏🌐 | Zen 浏览器:更宁静的互联网体验(C++ 开源浏览器)。 | 浏览器、Zen、开源、宁静 |
 | [agent-browser](https://github.com/vercel-labs/agent-browser) 42126★ 收藏🌐 | AI agent 的浏览器自动化 CLI(vercel)。 | 浏览器自动化、CLI、agent、vercel |
+| [langextract](https://github.com/google/langextract) 38550★ 收藏🌐 | 用 LLM 从非结构化文本提取结构化信息的 Python 库(google)。 | 信息提取、LLM、结构化、Python库 |
 | [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 35023★ 收藏🌐 | 逆向工程/授权渗透测试/安全研究 Skill 路由包。 | 逆向工程、渗透测试、安全研究、红队 |
 | [browser](https://github.com/lightpanda-io/browser) 34975★ 收藏🌐 | Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。 | 无头浏览器、Lightpanda、自动化、AI |
 | [cli](https://github.com/googleworkspace/cli) 30777★ 收藏🌐 | Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。 | Google Workspace、CLI、Drive、Gmail |
@@ -30,8 +34,13 @@
 | [Termix](https://github.com/Termix-SSH/Termix) 15059★ 收藏🌐 | 自托管 SSH 与远程桌面管理。 | SSH、远程桌面、自托管、管理 |
 | [blind_watermark](https://github.com/guofei9987/blind_watermark) 14753★ 收藏🌐 | 图片盲水印:提取水印无须原图。 | 盲水印、图片水印、版权、提取 |
 | [ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) 14328★ 收藏🌐 | 闲鱼多任务实时/定时监控与智能分析系统(Playwright+AI,带后台管理 UI)。 | 闲鱼、监控、抢购、Playwright、分析 |
+| [galaxy](https://github.com/uiverse-io/galaxy) 12549★ 收藏🌐 | 最大开源 UI 库:社区制作、免费使用(uiverse)。 | UI库、开源、CSS、组件 |
 | [blinko](https://github.com/blinkospace/blinko) 10996★ 收藏🌐 | 开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。 | 笔记、自托管、隐私、AI |
+| [RTranslator](https://github.com/niedev/RTranslator) 10389★ 收藏🌐 | Android 开源实时翻译应用,完全本地运行。 | 翻译、实时、Android、本地运行 |
+| [workout-cool](https://github.com/Snouzy/workout-cool) 8445★ 收藏🌐 | 开源健身教练平台:创建计划、追踪进度。 | 健身、训练计划、开源、追踪 |
 | [bb-browser](https://github.com/epiral/bb-browser) 6184★ 收藏🌐 | 你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。 | 浏览器控制、MCP、Chrome、登录态、CLI |
+| [cursor-free-everyday](https://github.com/agentcodee/cursor-free-everyday) 6108★ 收藏🌐 | 完全免费:自动获取新账号、一键重置额度、解决机器码问题。 | Cursor、免费额度、重置、账号 |
+| [Automatic_ticket_purchase](https://github.com/MakiNaruto/Automatic_ticket_purchase) 5643★ 收藏🌐 | 大麦网抢票脚本。 | 抢票、大麦网、脚本、自动化 |
 | [termux-x11](https://github.com/termux/termux-x11) 4721★ 收藏🌐 | Termux X-server 插件(Android 上跑图形应用)。 | Termux、X11、Android、图形 |
 | [open-data](https://github.com/hudl/open-data) 3593★ 收藏🌐 | StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。 | 足球数据、StatsBomb、数据集、比赛数据 |
 | [what-to-eat](https://github.com/liu-ziting/what-to-eat) 3522★ 收藏🌐 | 一饭封神:AI 智能菜谱生成平台,八大菜系+国际料理,营养分析/酒水推荐/效果图。 | 菜谱、AI推荐、美食、营养分析 |

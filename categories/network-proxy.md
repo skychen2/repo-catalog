@@ -2,10 +2,11 @@
 
 > 机场、订阅汇聚、VLESS/Trojan、Cloudflare Workers、VPS 运维
 
-共 9 个仓库。
+共 10 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [karing](https://github.com/KaringX/karing) 14746★ 收藏🌐 | 简单强大的代理工具:支持 clash/sing-box 路由规则。 | 代理、clash、sing-box、路由规则 |
 | [sing-box-yg](https://github.com/skychen2/sing-box-yg) 1★ fork | fork 自 yonggekkk/sing-box-yg:sing-box 精装桶脚本:Hysteria2、Tuic5、Vless-reality、Vmess-ws/argo 等协议,自签/acme 双证书、Argo 隧道、Psiphon 分流。 | sing-box、Hysteria2、Vless、科学上网、一键脚本、协议聚合 |
 | [CF-Workers-SUB](https://github.com/skychen2/CF-Workers-SUB) 0★ fork | fork 自 cmliu/CF-Workers-SUB:Cloudflare Workers 搭建的订阅汇聚工具:把你任意节点与多个订阅汇聚成专属于你的订阅链接,支持 Clash/Sing-box 等转换。 | 机场订阅、订阅汇聚、Cloudflare Workers、Clash、Sing-box、节点转换 |
 | [CF-Workers-docker.io](https://github.com/skychen2/CF-Workers-docker.io) 0★ fork | fork 自 cmliu/CF-Workers-docker.io:基于 Cloudflare Workers 的 Docker 镜像仓库代理工具,中转 Docker 官方仓库请求,解决访问限制并加速拉取。 | Docker镜像、代理、Cloudflare Workers、加速、镜像加速 |
