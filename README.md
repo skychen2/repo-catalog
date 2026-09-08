@@ -19,6 +19,8 @@
 | `scripts/curated.json` | 人工维护的中文说明与关键词(唯一需要手工编辑的文件) |
 | `scripts/curated.private.json` | 私有仓库的中文说明(本地文件,已被 gitignore,不进入公开仓库;配合 generate.py 生成本地完整版) |
 | `scripts/generate.py` | 生成器:合并 GitHub 元数据 + curated 说明,重新生成所有文件 |
+| `scripts/add_repo.py` | 通过链接/owner-name 新增仓库(校验 + 写入 curated + 自动补 fork 来源) |
+| `scripts/build_full_md.py` | 生成本地完整版目录 Markdown(含私有),供索引进 context-mode 知识库 |
 | `scripts/fetch_public_repos.py` | 拉取仓库元数据(CI 用,匿名/带 token 均可) |
 | `.github/workflows/refresh.yml` | GitHub Actions:每周一自动刷新元数据并提交 |
 
@@ -58,6 +60,31 @@
 - "微信聊天记录搜索/情报工具" → `wechat-intelligence-hub`
 - "AI 新闻摘要聚合工具" → `clawfeed`
 - "公众号排版工具" → `md`
+
+## 新增仓库(两种入口)
+
+**入口 A — 与 AI 对话发链接(推荐)**:主人直接把 GitHub 链接发给 AI,AI 执行:
+
+```bash
+# 1. 校验仓库 + 写入中文说明与关键词:
+python3 scripts/add_repo.py <https://github.com/owner/repo 或 owner/repo> \
+    --cn "中文功能说明" --kw "关键词,逗号分隔" --cat 分类key
+# 2. 重新生成 + 推送:
+python3 scripts/generate.py --public && git add -A && git commit -m "add repo" && git push
+# 3. 重建本地完整版并索引进 KB:
+python3 scripts/build_full_md.py
+#    然后 AI 用 ctx_index 把 /tmp/repo-catalog-full.md 重新索引进知识库(同 source 覆盖,无重复)
+```
+
+说明:AI 需要先判断该仓库的用途(阅读 README),写准中文说明与关键词;fork 仓库会自动补上游来源。
+只收录 **skychen2 名下** 的仓库(自建或 fork);第三方仓库请先 fork 到名下。
+
+**入口 B — 发现后点 star/fork**:仓库进入 skychen2 名下后(仅 fork 会出现在名下仓库列表),
+GitHub Actions 每周一自动刷新会发现它并加入公开目录;缺中文说明时会先用上游描述占位
+(标注「待补充中文说明」),之后用入口 A 的 add_repo.py 补说明即可。
+
+> ⚠ 注意:star 的仓库属于原作者,**不会**出现在名下仓库列表,也不会被自动收录。
+> 若想收录 star 的收藏,需要另加功能拉取 starred 列表(见对话记录)。
 
 ## 维护方法
 
