@@ -2,7 +2,7 @@
 
 > 模型、微调、Agent 框架、prompt 工程、AI 接口与自部署 UI
 
-共 35 个仓库。
+共 32 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
@@ -11,12 +11,10 @@
 | [BettaFish](https://github.com/skychen2/BettaFish) 0★ fork | 微舆:多 Agent 舆情分析助手。打破信息茧房、还原舆情原貌、预测走向、辅助决策,从零实现不依赖框架。 | 舆情分析、多Agent、信息茧房、预测、决策 |
 | [GPT_API_free](https://github.com/skychen2/GPT_API_free) 0★ fork | 免费 ChatGPT API Key 收集(含国内可用免费转发 API),直连无需代理,可搭配 ChatBox 等使用,降低接口成本。 | 免费API、ChatGPT、转发API、国内可用、省钱 |
 | [GPTs](https://github.com/skychen2/GPTs) 0★ fork | GPTs 泄露的系统提示词(prompt)合集,研究他人 GPTs 构建思路。 | GPTs、泄露提示词、系统提示词、prompt研究 |
-| [Google-Gemini-Web](https://github.com/skychen2/Google-Gemini-Web) 0★ 自建 🔒私有 | 自建私有:NextChat(ChatGPT Next Web)的部署 fork——一键部署跨平台私人 ChatGPT 网页应用,支持 GPT3/4 与 Gemini。 | ChatGPT网页、NextChat、自部署、Gemini、私人Chat |
 | [LangGPT](https://github.com/skychen2/LangGPT) 0★ fork | LangGPT:结构化提示词框架,让人人都能成为 prompt 专家(结构化 Prompt 方法论)。 | 结构化提示词、prompt工程、LangGPT、框架 |
 | [MiniCPM](https://github.com/skychen2/MiniCPM) 0★ fork | MiniCPM-2B:端侧小模型,性能超越 Llama2-13B,适合移动端/边缘部署。 | 小模型、端侧、MiniCPM、轻量LLM、边缘部署 |
 | [PromptJailbreakManual](https://github.com/skychen2/PromptJailbreakManual) 0★ fork | Prompt 越狱手册:研究模型安全边界的提示词技巧合集(安全研究向)。 | 越狱、提示词、安全测试、jailbreak |
 | [WTF-Langchain](https://github.com/skychen2/WTF-Langchain) 0★ fork | Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。 | Langchain、源码解析、教程、原理 |
-| [ai-toolkit](https://github.com/skychen2/ai-toolkit) 0★ 自建 🔒私有 | 自建私有:AI 工具资产库——集中收集管理可复用的 Claude skill、提示词库、工具教程与优质 AI 项目索引,含 raw 原始文件与 L1 摘要层(_brain)。 | AI工具资产、Claude skill、提示词库、工具教程、项目索引 |
 | [anthropic-cookbook](https://github.com/skychen2/anthropic-cookbook) 0★ fork | Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等)。 | Claude、官方教程、notebook、cookbook、tool use |
 | [awesome-claude-skills](https://github.com/skychen2/awesome-claude-skills) 0★ fork | Claude Skills 精选清单:定制 Claude AI 工作流的优质 skills、资源与工具。 | Claude Skills、技能清单、Claude工作流、精选 |
 | [awesome-llm-apps](https://github.com/skychen2/awesome-llm-apps) 0★ fork | 优质 LLM 应用合集:基于 OpenAI/Anthropic/Gemini 与开源模型的 AI Agents 与 RAG 应用。 | LLM应用、Agent、RAG、应用合集 |
@@ -28,7 +26,6 @@
 | [easy-dataset](https://github.com/skychen2/easy-dataset) 0★ fork | 为 LLM 创建微调数据集的强大工具(可视化界面)。 | 微调数据集、数据集制作、LLM微调、数据标注 |
 | [llamafile](https://github.com/skychen2/llamafile) 0★ fork | 把 LLM 分发和运行做成单个文件(自带运行时),最省心的本地部署方式之一。 | llamafile、单文件部署、本地LLM、Mozilla |
 | [llm-cookbook](https://github.com/skychen2/llm-cookbook) 0★ fork | 面向开发者的 LLM 入门教程:吴恩达大模型系列课程中文版。 | 吴恩达、LLM入门、教程、中文版 |
-| [lobe-chat](https://github.com/skychen2/lobe-chat) 0★ 自建 🔒私有 | 自建私有:Lobe Chat——开源现代设计的 ChatGPT/LLM 前端框架,支持语音合成、多模态、插件系统,一键免费部署私人聊天应用。 | ChatGPT UI、自部署、LobeChat、LLM前端、开源 |
 | [ollama](https://github.com/skychen2/ollama) 0★ fork | 本地一键运行大模型:支持 Llama、Mistral、Gemma、Qwen 等,最流行的本地 LLM 运行时。 | ollama、本地部署、LLM运行时、一键运行 |
 | [open-interpreter](https://github.com/skychen2/open-interpreter) 0★ fork | 自然语言操作电脑:让 LLM 写代码并执行,像本地版 Code Interpreter,可控制浏览器/文件等。 | 代码解释器、自然语言操作、自动化、Agent |
 | [openai-gemini](https://github.com/skychen2/openai-gemini) 0★ fork | Gemini → OpenAI API 兼容代理(serverless),把 Gemini 当 OpenAI 接口用。 | Gemini、API代理、OpenAI兼容、serverless、免费额度 |

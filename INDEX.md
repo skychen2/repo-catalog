@@ -9,12 +9,10 @@
 | [BettaFish](https://github.com/skychen2/BettaFish) | AI / 大模型 / 提示词 | 微舆:多 Agent 舆情分析助手。打破信息茧房、还原舆情原貌、预测走向、辅助决策,从零实现不依赖框架。 | fork |
 | [GPT_API_free](https://github.com/skychen2/GPT_API_free) | AI / 大模型 / 提示词 | 免费 ChatGPT API Key 收集(含国内可用免费转发 API),直连无需代理,可搭配 ChatBox 等使用, | fork |
 | [GPTs](https://github.com/skychen2/GPTs) | AI / 大模型 / 提示词 | GPTs 泄露的系统提示词(prompt)合集,研究他人 GPTs 构建思路。 | fork |
-| [Google-Gemini-Web](https://github.com/skychen2/Google-Gemini-Web) | AI / 大模型 / 提示词 | 自建私有:NextChat(ChatGPT Next Web)的部署 fork——一键部署跨平台私人 ChatGPT 网 | 自建/🔒 |
 | [LangGPT](https://github.com/skychen2/LangGPT) | AI / 大模型 / 提示词 | LangGPT:结构化提示词框架,让人人都能成为 prompt 专家(结构化 Prompt 方法论)。 | fork |
 | [MiniCPM](https://github.com/skychen2/MiniCPM) | AI / 大模型 / 提示词 | MiniCPM-2B:端侧小模型,性能超越 Llama2-13B,适合移动端/边缘部署。 | fork |
 | [PromptJailbreakManual](https://github.com/skychen2/PromptJailbreakManual) | AI / 大模型 / 提示词 | Prompt 越狱手册:研究模型安全边界的提示词技巧合集(安全研究向)。 | fork |
 | [WTF-Langchain](https://github.com/skychen2/WTF-Langchain) | AI / 大模型 / 提示词 | Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。 | fork |
-| [ai-toolkit](https://github.com/skychen2/ai-toolkit) | AI / 大模型 / 提示词 | 自建私有:AI 工具资产库——集中收集管理可复用的 Claude skill、提示词库、工具教程与优质 AI 项目索引, | 自建/🔒 |
 | [anthropic-cookbook](https://github.com/skychen2/anthropic-cookbook) | AI / 大模型 / 提示词 | Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等 | fork |
 | [awesome-claude-skills](https://github.com/skychen2/awesome-claude-skills) | AI / 大模型 / 提示词 | Claude Skills 精选清单:定制 Claude AI 工作流的优质 skills、资源与工具。 | fork |
 | [awesome-llm-apps](https://github.com/skychen2/awesome-llm-apps) | AI / 大模型 / 提示词 | 优质 LLM 应用合集:基于 OpenAI/Anthropic/Gemini 与开源模型的 AI Agents 与 RA | fork |
@@ -26,7 +24,6 @@
 | [easy-dataset](https://github.com/skychen2/easy-dataset) | AI / 大模型 / 提示词 | 为 LLM 创建微调数据集的强大工具(可视化界面)。 | fork |
 | [llamafile](https://github.com/skychen2/llamafile) | AI / 大模型 / 提示词 | 把 LLM 分发和运行做成单个文件(自带运行时),最省心的本地部署方式之一。 | fork |
 | [llm-cookbook](https://github.com/skychen2/llm-cookbook) | AI / 大模型 / 提示词 | 面向开发者的 LLM 入门教程:吴恩达大模型系列课程中文版。 | fork |
-| [lobe-chat](https://github.com/skychen2/lobe-chat) | AI / 大模型 / 提示词 | 自建私有:Lobe Chat——开源现代设计的 ChatGPT/LLM 前端框架,支持语音合成、多模态、插件系统,一键免 | 自建/🔒 |
 | [ollama](https://github.com/skychen2/ollama) | AI / 大模型 / 提示词 | 本地一键运行大模型:支持 Llama、Mistral、Gemma、Qwen 等,最流行的本地 LLM 运行时。 | fork |
 | [open-interpreter](https://github.com/skychen2/open-interpreter) | AI / 大模型 / 提示词 | 自然语言操作电脑:让 LLM 写代码并执行,像本地版 Code Interpreter,可控制浏览器/文件等。 | fork |
 | [openai-gemini](https://github.com/skychen2/openai-gemini) | AI / 大模型 / 提示词 | Gemini → OpenAI API 兼容代理(serverless),把 Gemini 当 OpenAI 接口用。 | fork |
@@ -39,8 +36,6 @@
 | [transformers-code](https://github.com/skychen2/transformers-code) | AI / 大模型 / 提示词 | 手把手实战 Huggingface Transformers 课程,视频同步在 B 站与 YouTube。 | fork |
 | [unsloth](https://github.com/skychen2/unsloth) | AI / 大模型 / 提示词 | LLM 微调与强化学习训练工具:2-5 倍提速、省 70-80% 显存,支持 Qwen3/Llama 4/DeepSee | fork |
 | [vibe-coding-cn](https://github.com/skychen2/vibe-coding-cn) | AI / 大模型 / 提示词 | Vibe Coding(AI 编程)中文内容/资源合集(README 缺失,具体内容待核对)。 | fork |
-| [.github](https://github.com/skychen2/.github) | 内容创作 / 写作 / 运营 | 个人账号的中央配置与规范枢纽。唯一写入源,通过 GitHub Actions 自动创建 PR 把规范/模板/规则同步到各 | 自建/🔒 |
-| [content-assets](https://github.com/skychen2/content-assets) | 内容创作 / 写作 / 运营 | 内容工厂素材库(自建私有):写作规范、违禁词、标题公式、平台风格等模板/规则文件的唯一集中地,由 .github 仓库  | 自建/🔒 |
 | [md](https://github.com/skychen2/md) | 内容创作 / 写作 / 运营 | 微信 Markdown 编辑器:支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS,公众号排 | fork |
 | [oh-story-claudecode](https://github.com/skychen2/oh-story-claudecode) | 内容创作 / 写作 / 运营 | 网文写作 skill 包(Claude Code):覆盖长篇与短篇网文的扫榜、拆文、写作、去 AI 味全流程。 | fork |
 | [one-person-businesses-methodology-v2.0](https://github.com/skychen2/one-person-businesses-methodology-v2.0) | 内容创作 / 写作 / 运营 | 《一人企业方法论》第二版:一人企业/副业方法论,适合自媒体、电商、数字商品等非技术人群。 | fork |
@@ -88,15 +83,6 @@
 | [fanqiang](https://github.com/skychen2/fanqiang) | 代理 / 科学上网 / Cloudflare | 翻墙-科学上网资料/工具合集。 | fork |
 | [node-ws](https://github.com/skychen2/node-ws) | 代理 / 科学上网 / Cloudflare | 基于 serverless 的 vless+trojan 双协议代理,无内核,node 环境通用项目(部署在 CF Wo | fork |
 | [reinstall](https://github.com/skychen2/reinstall) | 代理 / 科学上网 / Cloudflare | 一键 DD/重装 VPS 系统脚本(One-click reinstall OS on VPS)。 | fork |
-| [scdy](https://github.com/skychen2/scdy) | 代理 / 科学上网 / Cloudflare | 自建私有:基于 CF-Workers-SUB 的定制汇聚订阅(Cloudflare Workers 部署,汇聚节点与订阅 | 自建/🔒 |
-| [Obsidian](https://github.com/skychen2/Obsidian) | 个人自建项目 | 自建私有:Obsidian 相关(模板/插件配置,README 过简,用途待补充)。 | 自建/🔒 |
-| [Projects](https://github.com/skychen2/Projects) | 个人自建项目 | 自建私有:项目汇总/索引(README 过简,用途待补充)。 | 自建/🔒 |
-| [AI-Vault](https://github.com/skychen2/AI-Vault) | 个人自建项目 | 个人知识库:AI 相关的笔记、技能与资源。含 Notes(学习笔记)、Skills(写作技能)、Inbox(待处理想法) | 自建/🔒 |
-| [Football](https://github.com/skychen2/Football) | 个人自建项目 | 世界杯赔率研究项目(自建私有):历史世界杯终测回放、冻结策略维护、2026 世界杯预测与纸交易支持。Python 配置驱 | 自建/🔒 |
 | [clawfeed](https://github.com/skychen2/clawfeed) | 个人自建项目 | 自建:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。 | fork |
 | [clawserver](https://github.com/skychen2/clawserver) | 个人自建项目 | 自建公有:服务器相关(README 过简,用途待补充)。 | 自建 |
-| [mind-os](https://github.com/skychen2/mind-os) | 个人自建项目 | 自建私有:认知工作流系统——以 llm-wiki 证据库、贝叶斯校准、决策账本、观察池、反馈队列、版本日志与全局审计驱动 | 自建/🔒 |
-| [my-brain](https://github.com/skychen2/my-brain) | 个人自建项目 | 自建私有:个人知识库,AI 主导管理,双链组织。 | 自建/🔒 |
-| [n8n-workflow-backup](https://github.com/skychen2/n8n-workflow-backup) | 个人自建项目 | 自建私有:n8n 工作流备份仓库。 | 自建/🔒 |
-| [obsidian-bases](https://github.com/skychen2/obsidian-bases) | 个人自建项目 | 自建私有:obsidian-bases(README 过简,疑似 Obsidian 双链知识库的基底/模板,用途待补充) | 自建/🔒 |
 | [wechat-intelligence-hub](https://github.com/skychen2/wechat-intelligence-hub) | 个人自建项目 | 自建:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。 | fork |

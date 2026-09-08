@@ -2,7 +2,7 @@
 
 > 机场、订阅汇聚、VLESS/Trojan、Cloudflare Workers、VPS 运维
 
-共 10 个仓库。
+共 9 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
@@ -15,4 +15,3 @@
 | [fanqiang](https://github.com/skychen2/fanqiang) 0★ fork | 翻墙-科学上网资料/工具合集。 | 科学上网、翻墙、代理、工具合集 |
 | [node-ws](https://github.com/skychen2/node-ws) 0★ fork | 基于 serverless 的 vless+trojan 双协议代理,无内核,node 环境通用项目(部署在 CF Workers 等平台)。 | vless、trojan、serverless、Node、代理 |
 | [reinstall](https://github.com/skychen2/reinstall) 0★ fork | 一键 DD/重装 VPS 系统脚本(One-click reinstall OS on VPS)。 | VPS重装、DD系统、一键脚本、服务器 |
-| [scdy](https://github.com/skychen2/scdy) 0★ 自建 🔒私有 | 自建私有:基于 CF-Workers-SUB 的定制汇聚订阅(Cloudflare Workers 部署,汇聚节点与订阅)。 | 订阅汇聚、机场、Cloudflare、节点订阅、自用定制 |

@@ -3,8 +3,11 @@
 """
 repo-catalog 生成器
 用法:
-    python scripts/generate.py [repos.json路径]
-    不带参数时自动执行 gh repo list 拉取最新数据。
+    python scripts/generate.py [--public] [repos.json路径]
+    --public           仅输出 PUBLIC 仓库(用于公开仓库内容,过滤私有仓库)
+    不带 repos.json 时自动执行 gh repo list 拉取最新数据。
+    若存在 scripts/curated.private.json(已被 gitignore),会自动合并,
+    用于本地生成含私有仓库的完整目录。
 
 生成内容:
     categories/*.md   按分类的仓库清单(中文说明 + 检索关键词)
@@ -44,13 +47,20 @@ def load_repos(path):
 
 
 def load_curated():
-    with open(os.path.join(HERE, "curated.json"), encoding="utf-8") as f:
-        return json.load(f)
+    curated = json.load(open(os.path.join(HERE, "curated.json"), encoding="utf-8"))
+    private_path = os.path.join(HERE, "curated.private.json")
+    if os.path.exists(private_path):
+        curated.update(json.load(open(private_path, encoding="utf-8")))
+    return curated
 
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else None
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    public_only = "--public" in sys.argv[1:]
+    path = args[0] if args else None
     repos = load_repos(path)
+    if public_only:
+        repos = [r for r in repos if r.get("visibility") == "PUBLIC"]
     curated = load_curated()
     by_name = {r["name"]: r for r in repos}
 

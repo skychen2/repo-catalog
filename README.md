@@ -1,7 +1,8 @@
 # repo-catalog — 我的 GitHub 仓库目录
 
-> **给 AI 看的仓库目录**:记录 skychen2 名下全部 96 个仓库(自建 + fork + 私有)的基本信息与中文功能说明。
+> **给 AI 看的仓库目录**:记录 skychen2 名下全部 82 个 public 仓库(自建 + fork)的基本信息与中文功能说明。
 > 当主人模糊地提出一个功能需求时,AI 应通过本仓库快速检索定位到具体仓库。
+> 本地另有含私有仓库的完整版(见「维护方法」)。
 
 ## 这个仓库解决什么问题
 
@@ -16,6 +17,7 @@
 | `categories/*.md` | 按主题分类的仓库清单,含详细中文说明与关键词 |
 | `data/repos.json` | 机器可读的完整元数据(名称/URL/语言/星标/中文说明/关键词/分类) |
 | `scripts/curated.json` | 人工维护的中文说明与关键词(唯一需要手工编辑的文件) |
+| `scripts/curated.private.json` | 私有仓库的中文说明(本地文件,已被 gitignore,不进入公开仓库;配合 generate.py 生成本地完整版) |
 | `scripts/generate.py` | 生成器:合并 GitHub 元数据 + curated 说明,重新生成所有文件 |
 
 ## 分类
@@ -55,9 +57,10 @@
 ```bash
 # 1. 修改 scripts/curated.json,补全新仓库的中文说明与关键词
 # 2. 重新生成(自动拉取最新 GitHub 元数据):
-python3 scripts/generate.py
+python3 scripts/generate.py --public   # 公开仓库版本(提交用)
+python3 scripts/generate.py             # 本地完整版(含私有仓库,不提交)
 # 3. 提交推送
-git add -A && git commit -m "update catalog" && git push
+cd .. && git add -A && git commit -m "update catalog" && git push
 ```
 
 注意:

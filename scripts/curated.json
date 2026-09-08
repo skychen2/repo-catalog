@@ -1,29 +1,5 @@
 {
   "_comment": "人工维护的中文功能说明与检索关键词。key 为仓库名。category 取值: ai-llm / network-proxy / media / content-writing / dev-data-tools / knowledge-books / personal-projects。新增仓库或功能变更时更新此文件,然后运行 scripts/generate.py 重新生成 INDEX.md / categories/ / data/repos.json",
-  ".github": {
-    "category": "content-writing",
-    "cn": "个人账号的中央配置与规范枢纽。唯一写入源,通过 GitHub Actions 自动创建 PR 把规范/模板/规则同步到各目标仓库,避免跨仓库手工维护不一致(内容工厂的 CI/CD 中枢)。",
-    "keywords": [
-      "CI/CD",
-      "配置同步",
-      "规范中心",
-      "GitHub Actions",
-      "内容工厂",
-      "模板",
-      "规则"
-    ]
-  },
-  "AI-Vault": {
-    "category": "personal-projects",
-    "cn": "个人知识库:AI 相关的笔记、技能与资源。含 Notes(学习笔记)、Skills(写作技能)、Inbox(待处理想法)、content-assets(创作资源),用 Obsidian + Git 管理。",
-    "keywords": [
-      "知识库",
-      "笔记",
-      "Obsidian",
-      "AI 学习",
-      "个人收藏"
-    ]
-  },
   "Adversarial-Evolution": {
     "category": "knowledge-books",
     "cn": "《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活动的本质)。",
@@ -144,18 +120,6 @@
       "代理"
     ]
   },
-  "Football": {
-    "category": "personal-projects",
-    "cn": "世界杯赔率研究项目(自建私有):历史世界杯终测回放、冻结策略维护、2026 世界杯预测与纸交易支持。Python 配置驱动。",
-    "keywords": [
-      "世界杯",
-      "赔率",
-      "预测",
-      "纸交易",
-      "Python",
-      "策略回测"
-    ]
-  },
   "GPT_API_free": {
     "category": "ai-llm",
     "cn": "免费 ChatGPT API Key 收集(含国内可用免费转发 API),直连无需代理,可搭配 ChatBox 等使用,降低接口成本。",
@@ -195,17 +159,6 @@
       "技术资讯",
       "开源项目",
       "周报"
-    ]
-  },
-  "Google-Gemini-Web": {
-    "category": "ai-llm",
-    "cn": "自建私有:NextChat(ChatGPT Next Web)的部署 fork——一键部署跨平台私人 ChatGPT 网页应用,支持 GPT3/4 与 Gemini。",
-    "keywords": [
-      "ChatGPT网页",
-      "NextChat",
-      "自部署",
-      "Gemini",
-      "私人Chat"
     ]
   },
   "HowToCook": {
@@ -282,15 +235,6 @@
       "MoneyPrinter"
     ]
   },
-  "Obsidian": {
-    "category": "personal-projects",
-    "cn": "自建私有:Obsidian 相关(模板/插件配置,README 过简,用途待补充)。",
-    "keywords": [
-      "Obsidian",
-      "知识库",
-      "模板"
-    ]
-  },
   "PDFPatcher": {
     "category": "dev-data-tools",
     "cn": "PDF 补丁丁:PDF 工具箱——编辑书签、裁剪旋转页面、解除限制、提取合并文档、提取图片、探查结构等。",
@@ -300,14 +244,6 @@
       "解除限制",
       "PDF合并",
       "Windows工具"
-    ]
-  },
-  "Projects": {
-    "category": "personal-projects",
-    "cn": "自建私有:项目汇总/索引(README 过简,用途待补充)。",
-    "keywords": [
-      "项目索引",
-      "汇总"
     ]
   },
   "PromptJailbreakManual": {
@@ -339,17 +275,6 @@
       "DD系统",
       "一键脚本",
       "服务器"
-    ]
-  },
-  "scdy": {
-    "category": "network-proxy",
-    "cn": "自建私有:基于 CF-Workers-SUB 的定制汇聚订阅(Cloudflare Workers 部署,汇聚节点与订阅)。",
-    "keywords": [
-      "订阅汇聚",
-      "机场",
-      "Cloudflare",
-      "节点订阅",
-      "自用定制"
     ]
   },
   "short-video-factory": {
@@ -550,18 +475,6 @@
       "开源"
     ]
   },
-  "content-assets": {
-    "category": "content-writing",
-    "cn": "内容工厂素材库(自建私有):写作规范、违禁词、标题公式、平台风格等模板/规则文件的唯一集中地,由 .github 仓库 CI/CD 自动同步。含微信公众号工作区。",
-    "keywords": [
-      "内容工厂",
-      "写作规范",
-      "违禁词",
-      "标题公式",
-      "素材库",
-      "公众号"
-    ]
-  },
   "cozeworkflows": {
     "category": "ai-llm",
     "cn": "Coze 200+ 工作流合集汇总,持续更新,可直接参考/导入。",
@@ -674,17 +587,6 @@
       "Mozilla"
     ]
   },
-  "lobe-chat": {
-    "category": "ai-llm",
-    "cn": "自建私有:Lobe Chat——开源现代设计的 ChatGPT/LLM 前端框架,支持语音合成、多模态、插件系统,一键免费部署私人聊天应用。",
-    "keywords": [
-      "ChatGPT UI",
-      "自部署",
-      "LobeChat",
-      "LLM前端",
-      "开源"
-    ]
-  },
   "md": {
     "category": "content-writing",
     "cn": "微信 Markdown 编辑器:支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS,公众号排版利器。",
@@ -694,38 +596,6 @@
       "排版",
       "编辑器",
       "公众号文章"
-    ]
-  },
-  "mind-os": {
-    "category": "personal-projects",
-    "cn": "自建私有:认知工作流系统——以 llm-wiki 证据库、贝叶斯校准、决策账本、观察池、反馈队列、版本日志与全局审计驱动学习与决策。本机配套 mind-os-operator skill。",
-    "keywords": [
-      "认知系统",
-      "贝叶斯",
-      "决策",
-      "知识管理",
-      "llm-wiki",
-      "心智"
-    ]
-  },
-  "my-brain": {
-    "category": "personal-projects",
-    "cn": "自建私有:个人知识库,AI 主导管理,双链组织。",
-    "keywords": [
-      "知识库",
-      "双链",
-      "AI管理",
-      "个人笔记"
-    ]
-  },
-  "n8n-workflow-backup": {
-    "category": "personal-projects",
-    "cn": "自建私有:n8n 工作流备份仓库。",
-    "keywords": [
-      "n8n",
-      "工作流",
-      "自动化",
-      "备份"
     ]
   },
   "newsnow": {
@@ -951,27 +821,6 @@
       "自动发布",
       "RPA",
       "内容生成"
-    ]
-  },
-  "ai-toolkit": {
-    "category": "ai-llm",
-    "cn": "自建私有:AI 工具资产库——集中收集管理可复用的 Claude skill、提示词库、工具教程与优质 AI 项目索引,含 raw 原始文件与 L1 摘要层(_brain)。",
-    "keywords": [
-      "AI工具资产",
-      "Claude skill",
-      "提示词库",
-      "工具教程",
-      "项目索引"
-    ]
-  },
-  "obsidian-bases": {
-    "category": "personal-projects",
-    "cn": "自建私有:obsidian-bases(README 过简,疑似 Obsidian 双链知识库的基底/模板,用途待补充)。",
-    "keywords": [
-      "Obsidian",
-      "知识库",
-      "基底",
-      "模板"
     ]
   },
   "spotube": {
