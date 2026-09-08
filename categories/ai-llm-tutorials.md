@@ -2,10 +2,12 @@
 
 > 入门课程、源码解析、实战教程、资源清单
 
-共 8 个仓库。
+共 10 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [dive-into-llms](https://github.com/Lordog/dive-into-llms) 52500★ 收藏🌐 | 《动手学大模型 Dive into LLMs》编程实践教程。 | LLM教程、大模型、编程实践、动手学 |
+| [OpenMythos](https://github.com/kyegomez/OpenMythos) 14891★ 收藏🌐 | 基于第一性原理对 Claude Mythos(agent 架构)的理论重构。 | Claude架构、Mythos、第一性原理、理论重构 |
 | [WTF-Langchain](https://github.com/skychen2/WTF-Langchain) 0★ fork | fork 自 WTFAcademy/WTF-Langchain:Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。 | Langchain、源码解析、教程、原理 |
 | [anthropic-cookbook](https://github.com/skychen2/anthropic-cookbook) 0★ fork | fork 自 anthropics/claude-cookbooks:Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等)。 | Claude、官方教程、notebook、cookbook、tool use |
 | [awesome-claude-skills](https://github.com/skychen2/awesome-claude-skills) 0★ fork | fork 自 ComposioHQ/awesome-claude-skills:Claude Skills 精选清单:定制 Claude AI 工作流的优质 skills、资源与工具。 | Claude Skills、技能清单、Claude工作流、精选 |

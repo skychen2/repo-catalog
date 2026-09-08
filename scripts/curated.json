@@ -989,5 +989,881 @@
     "stars": 10514,
     "forks": 1663,
     "updatedAt": "2026-09-08"
+  },
+  "awesome-gpt-image-2": {
+    "category": "ai-llm-prompts",
+    "cn": "GPT-Image2 提示词引擎与模板库(Prompt as Code):530+ 案例逆向,20+ 套工业级模板,提炼为 Skills。",
+    "keywords": [
+      "GPT-Image2",
+      "提示词引擎",
+      "模板库",
+      "Prompt as Code"
+    ],
+    "external": true,
+    "owner": "freestylefly",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "language": "JavaScript",
+    "stars": 28710,
+    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+  },
+  "Open-Sora": {
+    "category": "media",
+    "cn": "开源文生视频模型(类 Sora):文本/图像生成视频,ColossalAI 出品。",
+    "keywords": [
+      "视频生成",
+      "Sora",
+      "文生视频",
+      "开源模型"
+    ],
+    "external": true,
+    "owner": "hpcaitech",
+    "url": "https://github.com/hpcaitech/Open-Sora",
+    "language": "Python",
+    "stars": 29644,
+    "description": "Open-Sora: Democratizing Efficient Video Production for All"
+  },
+  "female-outfit-director": {
+    "category": "media",
+    "cn": "女性多套穿搭拼贴首帧与卡点换装视频导演 Skill。",
+    "keywords": [
+      "穿搭",
+      "换装视频",
+      "首帧拼贴",
+      "视频导演"
+    ],
+    "external": true,
+    "owner": "liyue-aigc",
+    "url": "https://github.com/liyue-aigc/female-outfit-director",
+    "language": "-",
+    "stars": 773,
+    "description": "女性多套穿搭拼贴首帧与卡点换装视频导演 Skill"
+  },
+  "MeiGen-AI-Design-MCP": {
+    "category": "ai-llm-prompts",
+    "cn": "设计生图 MCP 服务器:统一接入 GPT Image 2/Seedance/ComfyUI,内置 1400+ 提示词库。",
+    "keywords": [
+      "MCP",
+      "GPT Image",
+      "Seedance",
+      "ComfyUI"
+    ],
+    "external": true,
+    "owner": "jau123",
+    "url": "https://github.com/jau123/MeiGen-AI-Design-MCP",
+    "language": "TypeScript",
+    "stars": 1746,
+    "description": "Supports GPT Image 2, Seedance & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system"
+  },
+  "awesome-ceo": {
+    "category": "knowledge-books",
+    "cn": "面向创业公司创始人与高增长公司领导者的资源清单。",
+    "keywords": [
+      "创业",
+      "CEO",
+      "资源清单",
+      "商业"
+    ],
+    "external": true,
+    "owner": "kuchin",
+    "url": "https://github.com/kuchin/awesome-ceo",
+    "language": "-",
+    "stars": 2636,
+    "description": "A curated and opinionated list of resources for startup founders and leaders of high-growth companies"
+  },
+  "OmniRoute": {
+    "category": "ai-llm-api",
+    "cn": "免费 MIT AI 网关:一个端点接入 352 供应商(150+ 免费)、1200+ 模型。",
+    "keywords": [
+      "AI网关",
+      "API中转",
+      "多模型",
+      "免费"
+    ],
+    "external": true,
+    "owner": "diegosouzapw",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "language": "TypeScript",
+    "stars": 62580,
+    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors"
+  },
+  "hyperframes": {
+    "category": "media",
+    "cn": "用 HTML/CSS 动画直接渲染成视频,专为 AI agent 生成短视频设计(HeyGen)。",
+    "keywords": [
+      "HTML转视频",
+      "视频渲染",
+      "agent",
+      "短视频"
+    ],
+    "external": true,
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 46501,
+    "description": "Write HTML. Render video. Built for agents."
+  },
+  "video-use": {
+    "category": "media",
+    "cn": "让编码 agent 用代码编辑视频:自动化剪辑/拼接/特效(browser-use 出品)。",
+    "keywords": [
+      "视频编辑",
+      "agent",
+      "自动化剪辑",
+      "编程控制"
+    ],
+    "external": true,
+    "owner": "browser-use",
+    "url": "https://github.com/browser-use/video-use",
+    "language": "Python",
+    "stars": 24373,
+    "description": "Edit videos with coding agents"
+  },
+  "OpenMontage": {
+    "category": "media",
+    "cn": "开源 agentic 视频制作系统:12 条生产管线、100+ 工具,自动化视频生产。",
+    "keywords": [
+      "视频制作",
+      "agent",
+      "自动化",
+      "生产管线"
+    ],
+    "external": true,
+    "owner": "calesthio",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "language": "Python",
+    "stars": 56601,
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
+  },
+  "huobao-drama": {
+    "category": "media",
+    "cn": "火宝短剧:AI 一站式短剧生成平台,一句话从剧本到成片全自动化。",
+    "keywords": [
+      "短剧生成",
+      "剧本",
+      "AI视频",
+      "一站式"
+    ],
+    "external": true,
+    "owner": "chatfire-AI",
+    "url": "https://github.com/chatfire-AI/huobao-drama",
+    "language": "Vue",
+    "stars": 14863,
+    "description": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video\""
+  },
+  "awesome-zhuiju-free": {
+    "category": "media",
+    "cn": "免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。",
+    "keywords": [
+      "追剧",
+      "影视资源",
+      "TVBox",
+      "IPTV"
+    ],
+    "external": true,
+    "owner": "laoma2053",
+    "url": "https://github.com/laoma2053/awesome-zhuiju-free",
+    "language": "JavaScript",
+    "stars": 8262,
+    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。"
+  },
+  "reverse-skill": {
+    "category": "dev-data-tools",
+    "cn": "逆向工程/授权渗透测试/安全研究 Skill 路由包。",
+    "keywords": [
+      "逆向工程",
+      "渗透测试",
+      "安全研究",
+      "红队"
+    ],
+    "external": true,
+    "owner": "zhaoxuya520",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "language": "PowerShell",
+    "stars": 35023,
+    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
+  },
+  "codex-host": {
+    "category": "ai-llm-agents",
+    "cn": "在 Codex Desktop 中直接运行 Pi 与 Claude Code 的宿主集成工具。",
+    "keywords": [
+      "Codex",
+      "Pi",
+      "Claude Code",
+      "宿主"
+    ],
+    "external": true,
+    "owner": "BytePioneer-AI",
+    "url": "https://github.com/BytePioneer-AI/codex-host",
+    "language": "TypeScript",
+    "stars": 2008,
+    "description": "Run Pi and Claude Code directly in Codex Desktop. 在 Codex Desktop 中直接运行 Pi 和 Claude Code。"
+  },
+  "deepseek-harness": {
+    "category": "ai-llm-agents",
+    "cn": "DeepSeek 官方 agent harness:全插件化架构(Everything is a Plugin)。",
+    "keywords": [
+      "DeepSeek",
+      "插件化",
+      "harness",
+      "agent框架"
+    ],
+    "external": true,
+    "owner": "deepseek-ai",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "language": "TypeScript",
+    "stars": 215396,
+    "description": "DeepSeek Harness: Everything is a Plugin."
+  },
+  "pi": {
+    "category": "ai-llm-agents",
+    "cn": "AI agent 工具包:统一 LLM API、agent 循环、TUI 与编码 agent CLI(pi 本体)。",
+    "keywords": [
+      "agent",
+      "LLM API",
+      "TUI",
+      "编码助手"
+    ],
+    "external": true,
+    "owner": "earendil-works",
+    "url": "https://github.com/earendil-works/pi",
+    "language": "TypeScript",
+    "stars": 102859,
+    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI"
+  },
+  "pi-provider-newapi": {
+    "category": "ai-llm-api",
+    "cn": "pi 的 NewAPI 自托管网关 provider 扩展:动态模型发现与成本计算。",
+    "keywords": [
+      "pi",
+      "NewAPI",
+      "provider",
+      "扩展"
+    ],
+    "external": true,
+    "owner": "ttimasdf",
+    "url": "https://github.com/ttimasdf/pi-provider-newapi",
+    "language": "TypeScript",
+    "stars": 57,
+    "description": "pi provider extension for self-hosted NewAPI AI gateway — dynamic model discovery with cost calculation from ratio_config. 适用于自托管 NewAPI AI 网关的 pi 模型提供商扩展 — 支持基于 ratio_config 进行动态模型发现并计算模型单价"
+  },
+  "LandPPT": {
+    "category": "content-writing",
+    "cn": "基于 LLM 的 PPT 生成平台:文档自动转专业演示文稿,多模型+丰富模板。",
+    "keywords": [
+      "PPT生成",
+      "演示文稿",
+      "LLM",
+      "文档转PPT"
+    ],
+    "external": true,
+    "owner": "sligter",
+    "url": "https://github.com/sligter/LandPPT",
+    "language": "Python",
+    "stars": 3586,
+    "description": "一个基于LLM的演示文稿生成平台，能够自动将文档内容转换为专业的PPT演示文稿。平台支持多种AI模型，提供丰富的模板和样式选择，让用户能够创建高质量的演示文稿。"
+  },
+  "Seedance2-Storyboard-Generator": {
+    "category": "content-writing",
+    "cn": "Seedance 2.0 剧情分镜(Storyboard)生成 Skill:小说/脚本一键改写剧本。",
+    "keywords": [
+      "分镜",
+      "剧本生成",
+      "Seedance",
+      "Storyboard"
+    ],
+    "external": true,
+    "owner": "liangdabiao",
+    "url": "https://github.com/liangdabiao/Seedance2-Storyboard-Generator",
+    "language": "-",
+    "stars": 2293,
+    "description": "一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。Seedance 2.0 Storyboard Generator 开源剧情剧本Skill工具，帮佬友一键写好剧本 - 将小说/故事转化为多集视频。 为什么做这个？ 因为 seedance2 已经改变了一切，需要新的剧本剧情制作工具，更好的利用新AI的能力和更方便的制作短剧"
+  },
+  "human-writing": {
+    "category": "content-writing",
+    "cn": "中文写作与改稿 Skill:让 AI 文字像具体的人在说话,去 AI 腔。",
+    "keywords": [
+      "中文写作",
+      "改稿",
+      "人味",
+      "去AI腔"
+    ],
+    "external": true,
+    "owner": "KKKKhazix",
+    "url": "https://github.com/KKKKhazix/human-writing",
+    "language": "Python",
+    "stars": 3519,
+    "description": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。"
+  },
+  "dive-into-llms": {
+    "category": "ai-llm-tutorials",
+    "cn": "《动手学大模型 Dive into LLMs》编程实践教程。",
+    "keywords": [
+      "LLM教程",
+      "大模型",
+      "编程实践",
+      "动手学"
+    ],
+    "external": true,
+    "owner": "Lordog",
+    "url": "https://github.com/Lordog/dive-into-llms",
+    "language": "Jupyter Notebook",
+    "stars": 52500,
+    "description": "《动手学大模型Dive into LLMs》系列编程实践教程"
+  },
+  "ai-interview-guide": {
+    "category": "knowledge-books",
+    "cn": "AI 应用/Agent/RAG/FDE 开发岗位面试宝典。",
+    "keywords": [
+      "面试",
+      "AI应用",
+      "Agent",
+      "RAG"
+    ],
+    "external": true,
+    "owner": "guocong-bincai",
+    "url": "https://github.com/guocong-bincai/ai-interview-guide",
+    "language": "-",
+    "stars": 591,
+    "description": "AI 应用开发、Agent开发、RAG开发、FDE开发岗位面试宝典 - 二狗子整理"
+  },
+  "openwiki": {
+    "category": "dev-data-tools",
+    "cn": "CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。",
+    "keywords": [
+      "文档生成",
+      "agent文档",
+      "CLI",
+      "OpenWiki"
+    ],
+    "external": true,
+    "owner": "langchain-ai",
+    "url": "https://github.com/langchain-ai/openwiki",
+    "language": "TypeScript",
+    "stars": 16211,
+    "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase."
+  },
+  "SkillOpt": {
+    "category": "ai-llm-agents",
+    "cn": "文本空间技能优化器:为冻结 LLM 训练可复用自然语言技能(微软)。",
+    "keywords": [
+      "技能优化",
+      "提示优化",
+      "SkillOpt",
+      "LLM技能"
+    ],
+    "external": true,
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/SkillOpt",
+    "language": "Python",
+    "stars": 16764,
+    "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts."
+  },
+  "deep-research": {
+    "category": "content-writing",
+    "cn": "专业深度研究报告生成 Skill:一条命令十分钟出券商级报告。",
+    "keywords": [
+      "深度研究",
+      "研究报告",
+      "自动生成",
+      "调研"
+    ],
+    "external": true,
+    "owner": "hoolulu",
+    "url": "https://github.com/hoolulu/deep-research",
+    "language": "Python",
+    "stars": 565,
+    "description": "Professional deep research report generation Skill — one command, ten minutes, broker-grade deep research / 深度调研报告生成 Skill — 一条命令，十分钟出券商级深度调研报告"
+  },
+  "OmniBot": {
+    "category": "ai-llm-agents",
+    "cn": "手机端移动 AI Agent(Claw 系):可操作终端与应用。",
+    "keywords": [
+      "移动Agent",
+      "手机",
+      "Claw",
+      "终端操作"
+    ],
+    "external": true,
+    "owner": "omnimind-ai",
+    "url": "https://github.com/omnimind-ai/OmniBot",
+    "language": "Dart",
+    "stars": 1969,
+    "description": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 "
+  },
+  "PilotDeck": {
+    "category": "ai-llm-agents",
+    "cn": "面向任务的 AI Agent 生产力平台(OpenBMB)。",
+    "keywords": [
+      "Agent平台",
+      "任务编排",
+      "生产力",
+      "OpenBMB"
+    ],
+    "external": true,
+    "owner": "OpenBMB",
+    "url": "https://github.com/OpenBMB/PilotDeck",
+    "language": "TypeScript",
+    "stars": 3982,
+    "description": "Task-oriented AI Agent productivity platform"
+  },
+  "ECC": {
+    "category": "ai-llm-agents",
+    "cn": "agent harness 性能优化系统:技能/本能/记忆/安全/资源一体化。",
+    "keywords": [
+      "agent优化",
+      "harness",
+      "技能",
+      "记忆"
+    ],
+    "external": true,
+    "owner": "affaan-m",
+    "url": "https://github.com/affaan-m/ECC",
+    "language": "JavaScript",
+    "stars": 253114,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  "DeepSeek-Reasonix": {
+    "category": "ai-llm-agents",
+    "cn": "DeepSeek 原生终端编码 agent:前缀缓存稳定,长会话低成本。",
+    "keywords": [
+      "编码Agent",
+      "DeepSeek",
+      "终端",
+      "前缀缓存"
+    ],
+    "external": true,
+    "owner": "esengine",
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "language": "Go",
+    "stars": 35447,
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
+  },
+  "codegraph": {
+    "category": "dev-data-tools",
+    "cn": "预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。",
+    "keywords": [
+      "代码图谱",
+      "知识图谱",
+      "索引",
+      "agent上下文"
+    ],
+    "external": true,
+    "owner": "colbymchenry",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "language": "C",
+    "stars": 69995,
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+  },
+  "ccg-workflow": {
+    "category": "ai-llm-agents",
+    "cn": "多模型协作工作流引擎:/ccg:go 一条命令编排 Codex+Gemini+Claude 协作。",
+    "keywords": [
+      "多模型协作",
+      "工作流引擎",
+      "编排",
+      "Codex"
+    ],
+    "external": true,
+    "owner": "fengshao1227",
+    "url": "https://github.com/fengshao1227/ccg-workflow",
+    "language": "Go",
+    "stars": 5879,
+    "description": "多模型协作工作流引擎 — /ccg:go 一个命令，AI 自动分析意图、选择策略、编排 Codex + Gemini + Claude 协作执行"
+  },
+  "linux-android": {
+    "category": "dev-data-tools",
+    "cn": "把旧 Android 手机改装成 GPU 加速 Linux 桌面。",
+    "keywords": [
+      "Android",
+      "Linux桌面",
+      "GPU加速",
+      "旧手机"
+    ],
+    "external": true,
+    "owner": "mayukh4",
+    "url": "https://github.com/mayukh4/linux-android",
+    "language": "Shell",
+    "stars": 3130,
+    "description": "Turn an old Android phone into a GPU-accelerated Linux desktop (XFCE4 / KDE Plasma / LXQt / MATE) or a Home Assistant smart home server — using Termux. No root, no PC, no cloud."
+  },
+  "agency-agents-zh": {
+    "category": "ai-llm-agents",
+    "cn": "267 个即插即用 AI 专家角色:支持 18 种工具、20 个部门。",
+    "keywords": [
+      "专家角色",
+      "Agent预设",
+      "角色扮演",
+      "团队协作"
+    ],
+    "external": true,
+    "owner": "jnMetaCode",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh",
+    "language": "Shell",
+    "stars": 20385,
+    "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。"
+  },
+  "caveman-cn": {
+    "category": "ai-llm-prompts",
+    "cn": "Claude Code 技能:让 agent 原始人式简洁输出,省约 75% token,支持文言文。",
+    "keywords": [
+      "省token",
+      "提示技巧",
+      "Claude Code",
+      "文言文"
+    ],
+    "external": true,
+    "owner": "bbylw",
+    "url": "https://github.com/bbylw/caveman-cn",
+    "language": "HTML",
+    "stars": 39,
+    "description": "一个 Claude Code 技能/插件和 Codex 插件，让智能体像原始人一样说话——在保持完全技术准确性的同时，减少 约 75% 的输出 token。现在支持 文言文模式、简洁提交、单行代码审查，以及一个每会话可减少 约 46% 输入 token 的压缩工具。 基于一个广为流传的观察：原始人语言能显著减少 LLM 的 token 使用量，且不丢失技术内容。所以我们将其改为一行安装。"
+  },
+  "SessionToJson": {
+    "category": "dev-data-tools",
+    "cn": "(无描述)推断为 Session 数据转 JSON 工具,用途待补充。",
+    "keywords": [
+      "Session",
+      "JSON",
+      "转换"
+    ],
+    "external": true,
+    "owner": "killervillsy",
+    "url": "https://github.com/killervillsy/SessionToJson",
+    "language": "JavaScript",
+    "stars": 276,
+    "description": ""
+  },
+  "obscura": {
+    "category": "dev-data-tools",
+    "cn": "面向 AI agent 与网页抓取的无头浏览器(headless)。",
+    "keywords": [
+      "无头浏览器",
+      "headless",
+      "网页抓取",
+      "AI agent"
+    ],
+    "external": true,
+    "owner": "h4ckf0r0day",
+    "url": "https://github.com/h4ckf0r0day/obscura",
+    "language": "Rust",
+    "stars": 26443,
+    "description": "The headless browser for AI agents and web scraping"
+  },
+  "baibaiAIGC": {
+    "category": "dev-data-tools",
+    "cn": "(无描述)baibaiAIGC,用途待补充。",
+    "keywords": [
+      "AIGC"
+    ],
+    "external": true,
+    "owner": "poleHansen",
+    "url": "https://github.com/poleHansen/baibaiAIGC",
+    "language": "Python",
+    "stars": 957,
+    "description": "baibaiAIGC"
+  },
+  "sub2api": {
+    "category": "ai-llm-api",
+    "cn": "一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。",
+    "keywords": [
+      "订阅转API",
+      "中转",
+      "Claude",
+      "拼车"
+    ],
+    "external": true,
+    "owner": "Wei-Shaw",
+    "url": "https://github.com/Wei-Shaw/sub2api",
+    "language": "Go",
+    "stars": 40800,
+    "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
+  },
+  "CliProxyAPI-2-Sub2API": {
+    "category": "ai-llm-api",
+    "cn": "cliProxyAPI 与 Sub2API 账号文件互转工具。",
+    "keywords": [
+      "账号转换",
+      "Sub2API",
+      "cliProxyAPI",
+      "中转"
+    ],
+    "external": true,
+    "owner": "Nitmi",
+    "url": "https://github.com/Nitmi/CliProxyAPI-2-Sub2API",
+    "language": "Python",
+    "stars": 30,
+    "description": "cliProxyAPI 与 sub2api 账号文件互转工具。"
+  },
+  "Fashion-AI": {
+    "category": "media",
+    "cn": "电商 AI 生图爆款流水线:新品平铺图自动检索爆款、分析风格、生成宣传图。",
+    "keywords": [
+      "电商生图",
+      "爆款分析",
+      "服装宣传图",
+      "AI绘图"
+    ],
+    "external": true,
+    "owner": "liangdabiao",
+    "url": "https://github.com/liangdabiao/Fashion-AI",
+    "language": "Python",
+    "stars": 313,
+    "description": "电商 AI 生图爆款流水线 — 输入新品平铺图，自动检索相似爆款、分析风格，生成专业宣传图。 ## 项目简介 跨境电商场景中，商家每出一款新品都需要制作宣传图（模特穿着商品的照片）。传统方式需要请模特、搭场景、拍摄修图，成本高、周期长。 本项目实现了一套全自动的 AI 生图流水线"
+  },
+  "open-data": {
+    "category": "dev-data-tools",
+    "cn": "StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。",
+    "keywords": [
+      "足球数据",
+      "StatsBomb",
+      "数据集",
+      "比赛数据"
+    ],
+    "external": true,
+    "owner": "hudl",
+    "url": "https://github.com/hudl/open-data",
+    "language": "-",
+    "stars": 3593,
+    "description": "Free football data from StatsBomb"
+  },
+  "autogluon": {
+    "category": "ai-llm-models",
+    "cn": "AutoML 库:3 行代码快速准确建模(亚马逊)。",
+    "keywords": [
+      "AutoML",
+      "机器学习",
+      "自动建模",
+      "表格数据"
+    ],
+    "external": true,
+    "owner": "autogluon",
+    "url": "https://github.com/autogluon/autogluon",
+    "language": "Python",
+    "stars": 10640,
+    "description": "Fast and Accurate ML in 3 Lines of Code"
+  },
+  "GenericAgent": {
+    "category": "ai-llm-agents",
+    "cn": "自进化 agent:从 3300 行种子代码长出技能树,实现系统控制。",
+    "keywords": [
+      "自进化",
+      "技能树",
+      "通用Agent",
+      "系统控制"
+    ],
+    "external": true,
+    "owner": "lsdefine",
+    "url": "https://github.com/lsdefine/GenericAgent",
+    "language": "Python",
+    "stars": 14138,
+    "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption"
+  },
+  "Chat2API": {
+    "category": "ai-llm-api",
+    "cn": "通过官方网页 UI 实现主流 AI 模型零成本 API 调用。",
+    "keywords": [
+      "免费API",
+      "网页转API",
+      "零成本",
+      "逆向"
+    ],
+    "external": true,
+    "owner": "xiaoY233",
+    "url": "https://github.com/xiaoY233/Chat2API",
+    "language": "TypeScript",
+    "stars": 1584,
+    "description": "Chat2API enables zero-cost access to leading AI models by leveraging official web UIs. It supports providers such as DeepSeek, GLM, Kimi, MiniMax, Qwen, and Z.ai, and seamlessly integrates with tools like openlcaw, Cline, and Roo-Code."
+  },
+  "warp": {
+    "category": "ai-llm-agents",
+    "cn": "Warp:诞生于终端的 agentic 开发环境(AI 驱动 IDE)。",
+    "keywords": [
+      "终端",
+      "agentic",
+      "IDE",
+      "开发环境"
+    ],
+    "external": true,
+    "owner": "warpdotdev",
+    "url": "https://github.com/warpdotdev/warp",
+    "language": "Rust",
+    "stars": 64864,
+    "description": "Warp is an agentic development environment, born out of the terminal."
+  },
+  "Gpt-Agreement-Payment": {
+    "category": "ai-llm-api",
+    "cn": "ChatGPT Plus/Team/Pro 订阅协议端到端重放工具:hCaptcha 视觉求解器。",
+    "keywords": [
+      "ChatGPT订阅",
+      "协议重放",
+      "拼车",
+      "hCaptcha"
+    ],
+    "external": true,
+    "owner": "DanOps-1",
+    "url": "https://github.com/DanOps-1/Gpt-Agreement-Payment",
+    "language": "Python",
+    "stars": 2241,
+    "description": "ChatGPT Plus/Team/Pro 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit for ChatGPT Plus/Team/Pro subscription with from-scratch hCaptcha solver and empirical anti-fraud research"
+  },
+  "skills": {
+    "category": "ai-llm-agents",
+    "cn": "面向真实工程师的 agent Skills 合集(mattpocock 实战项目)。",
+    "keywords": [
+      "Skills",
+      "工程实践",
+      "agent技能",
+      "实战"
+    ],
+    "external": true,
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "language": "Python",
+    "stars": 175082,
+    "description": "Public repository for Agent Skills"
+  },
+  "ecommerce-image-suite": {
+    "category": "media",
+    "cn": "电商商品图生产 Skill:分析/卖点提炼/Prompt 组织到成图,适配主流平台。",
+    "keywords": [
+      "电商图片",
+      "商品图",
+      "卖点提炼",
+      "Prompt"
+    ],
+    "external": true,
+    "owner": "wzj177",
+    "url": "https://github.com/wzj177/ecommerce-image-suite",
+    "language": "Python",
+    "stars": 379,
+    "description": "面向电商商品图生产场景的图片套图 Skill。仓库提供一套从商品图分析、卖点提炼、Prompt 组织到成图输出的脚本与配置，适合用在淘宝、京东、拼多多、抖音等国内平台，以及独立站、Amazon 等跨境场景。"
+  },
+  "abtop": {
+    "category": "dev-data-tools",
+    "cn": "类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。",
+    "keywords": [
+      "agent监控",
+      "htop",
+      "token统计",
+      "Claude Code"
+    ],
+    "external": true,
+    "owner": "graykode",
+    "url": "https://github.com/graykode/abtop",
+    "language": "Rust",
+    "stars": 3498,
+    "description": "Like htop, but for AI coding agents. Monitor Claude Code & Codex CLI sessions, tokens, context window, rate limits, and ports in real-time."
+  },
+  "agent-skills": {
+    "category": "ai-llm-agents",
+    "cn": "面向编码 agent 的生产级工程 Skills(addyosmani 维护)。",
+    "keywords": [
+      "工程Skills",
+      "编码agent",
+      "生产级",
+      "最佳实践"
+    ],
+    "external": true,
+    "owner": "addyosmani",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 92864,
+    "description": "Production-grade engineering skills for AI coding agents."
+  },
+  "andrej-karpathy-skills": {
+    "category": "ai-llm-prompts",
+    "cn": "单文件 CLAUDE.md:基于 Karpathy 观察的 Claude Code 行为优化配置。",
+    "keywords": [
+      "CLAUDE.md",
+      "Claude Code",
+      "行为优化",
+      "Karpathy"
+    ],
+    "external": true,
+    "owner": "multica-ai",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "language": "-",
+    "stars": 210974,
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+  },
+  "OpenMythos": {
+    "category": "ai-llm-tutorials",
+    "cn": "基于第一性原理对 Claude Mythos(agent 架构)的理论重构。",
+    "keywords": [
+      "Claude架构",
+      "Mythos",
+      "第一性原理",
+      "理论重构"
+    ],
+    "external": true,
+    "owner": "kyegomez",
+    "url": "https://github.com/kyegomez/OpenMythos",
+    "language": "Python",
+    "stars": 14891,
+    "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature."
+  },
+  "Vibe-Skills": {
+    "category": "ai-llm-agents",
+    "cn": "智能 Skill 路由与工作流编排:+21pp 奖励、-30% token 消耗。",
+    "keywords": [
+      "Skill路由",
+      "工作流编排",
+      "性能优化",
+      "效率"
+    ],
+    "external": true,
+    "owner": "foryourhealth111-pixel",
+    "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+    "language": "Python",
+    "stars": 3202,
+    "description": "Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE."
+  },
+  "VoxCPM": {
+    "category": "media",
+    "cn": "VoxCPM2 免 tokenizer 多语言 TTS:创意语音设计与真实语音克隆。",
+    "keywords": [
+      "TTS",
+      "语音合成",
+      "语音克隆",
+      "多语言"
+    ],
+    "external": true,
+    "owner": "OpenBMB",
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "language": "Python",
+    "stars": 36829,
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+  },
+  "qwen-code": {
+    "category": "ai-llm-agents",
+    "cn": "Qwen 官方开源终端 AI 编码 agent。",
+    "keywords": [
+      "编码Agent",
+      "Qwen",
+      "终端",
+      "代码生成"
+    ],
+    "external": true,
+    "owner": "QwenLM",
+    "url": "https://github.com/QwenLM/qwen-code",
+    "language": "TypeScript",
+    "stars": 27707,
+    "description": "An open-source AI coding agent that lives in your terminal."
+  },
+  "hermes-agent": {
+    "category": "ai-llm-agents",
+    "cn": "自成长 AI agent(Nous Research):随使用进化,长期记忆。",
+    "keywords": [
+      "自成长",
+      "agent",
+      "记忆",
+      "持续学习"
+    ],
+    "external": true,
+    "owner": "NousResearch",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "language": "Python",
+    "stars": 243129,
+    "description": "The agent that grows with you"
   }
 }

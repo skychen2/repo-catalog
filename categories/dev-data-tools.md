@@ -2,10 +2,19 @@
 
 > 开发者工具、安全、API 与数据集清单、自建小服务
 
-共 16 个仓库。
+共 25 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [codegraph](https://github.com/colbymchenry/codegraph) 69995★ 收藏🌐 | 预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。 | 代码图谱、知识图谱、索引、agent上下文 |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 35023★ 收藏🌐 | 逆向工程/授权渗透测试/安全研究 Skill 路由包。 | 逆向工程、渗透测试、安全研究、红队 |
+| [obscura](https://github.com/h4ckf0r0day/obscura) 26443★ 收藏🌐 | 面向 AI agent 与网页抓取的无头浏览器(headless)。 | 无头浏览器、headless、网页抓取、AI agent |
+| [openwiki](https://github.com/langchain-ai/openwiki) 16211★ 收藏🌐 | CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。 | 文档生成、agent文档、CLI、OpenWiki |
+| [open-data](https://github.com/hudl/open-data) 3593★ 收藏🌐 | StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。 | 足球数据、StatsBomb、数据集、比赛数据 |
+| [abtop](https://github.com/graykode/abtop) 3498★ 收藏🌐 | 类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。 | agent监控、htop、token统计、Claude Code |
+| [linux-android](https://github.com/mayukh4/linux-android) 3130★ 收藏🌐 | 把旧 Android 手机改装成 GPU 加速 Linux 桌面。 | Android、Linux桌面、GPU加速、旧手机 |
+| [baibaiAIGC](https://github.com/poleHansen/baibaiAIGC) 957★ 收藏🌐 | (无描述)baibaiAIGC,用途待补充。 | AIGC |
+| [SessionToJson](https://github.com/killervillsy/SessionToJson) 276★ 收藏🌐 | (无描述)推断为 Session 数据转 JSON 工具,用途待补充。 | Session、JSON、转换 |
 | [public-apis](https://github.com/skychen2/public-apis) 1★ fork | fork 自 public-apis/public-apis:免费公开 API 大合集(collective list of free APIs),做项目找接口的第一站。 | API、免费接口、开发者资源、清单 |
 | [GitHub-Chinese-Top-Charts](https://github.com/skychen2/GitHub-Chinese-Top-Charts) 0★ fork | fork 自 GrowingGit/GitHub-Chinese-Top-Charts:GitHub 中文排行榜,各语言分设「软件/资料」榜单,精准定位中文好项目。 | GitHub排行、中文项目、榜单、发现项目 |
 | [GitHubDaily](https://github.com/skychen2/GitHubDaily) 0★ fork | fork 自 GitHubDaily/GitHubDaily:坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站与技术资讯。 | GitHub精选、技术资讯、开源项目、周报 |
