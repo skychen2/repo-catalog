@@ -40,6 +40,13 @@ CATEGORIES = [
 CAT_KEYS = {c[0] for c in CATEGORIES}
 
 
+def extract_owner_from_url(url):
+    """从 GitHub URL 提取 owner"""
+    import re
+    m = re.search(r'github\.com/([^/]+)/([^/?#\s]+)', url)
+    return m.group(1) if m else ""
+
+
 def load_repos(path):
     if path and os.path.exists(path):
         with open(path, encoding="utf-8") as f:
@@ -72,7 +79,15 @@ def with_display(r):
 
 
 def main():
+    # 检查 gh 命令是否可用（仅当未提供 repos.json 路径时）
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    if not args:  # 无 repos.json 路径，需要调用 gh
+        if subprocess.run(["gh", "--version"], capture_output=True).returncode != 0:
+            print("❌ 错误: 未找到 'gh' 命令（GitHub CLI）。")
+            print("   安装方法: https://cli.github.com/")
+            print("   或提供 repos.json 路径： python3 scripts/generate.py --public /tmp/repos.json")
+            sys.exit(1)
+
     public_only = "--public" in sys.argv[1:]
     path = args[0] if args else None
     repos = load_repos(path)
@@ -118,9 +133,12 @@ def main():
         if public_only and c.get("visibility") == "PRIVATE":
             continue  # 防御:公开模式绝不输出私有条目
         if c.get("external"):
+            url = c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}"
+            owner = c.get("owner") or extract_owner_from_url(url)
             records.append(with_display({
                 "name": name,
-                "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+                "url": url,
+                "owner": owner,
                 "visibility": "PUBLIC",
                 "isFork": False,
                 "forkedFrom": c.get("forkedFrom", ""),

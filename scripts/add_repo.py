@@ -53,6 +53,13 @@ def main():
     ap.add_argument("--kw", default="", help="检索关键词,逗号分隔")
     ap.add_argument("--cat", default="", help=f"分类 key,可选: {', '.join(CATS)}")
     args = ap.parse_args()
+    
+    # 检查 gh 命令是否可用
+    if subprocess.run(["gh", "--version"], capture_output=True).returncode != 0:
+        print("❌ 错误: 未找到 'gh' 命令（GitHub CLI）。")
+        print("   安装方法: https://cli.github.com/")
+        print("   或使用: brew install gh / apt install gh / scoop install gh")
+        sys.exit(1)
 
     owner, name = parse_target(args.target)
     if not name:
@@ -97,7 +104,6 @@ def main():
         print(f"⚠ 该仓库是私有仓库,不应写入公开版 curated.json。"
               f"私有仓库说明请维护在 scripts/curated.private.json(本地文件,不会推送)。")
         sys.exit(1)
-    if is_external:
     if is_external:
         entry["external"] = True
         entry["owner"] = owner

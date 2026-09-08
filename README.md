@@ -112,6 +112,32 @@ git add -A && git commit -m "update catalog" && git push
 自动刷新:GitHub Actions 每周一自动重跑 `fetch_public_repos.py` + `generate.py --public`,
 元数据(描述/星标/新仓库)无需人工维护;`curated.json` 的中文说明新增仓库时仍需手工补一条。
 
+
+## 数据验证与调试
+
+```bash
+# 验证数据完整性（检查 curated/repos/categories 一致性）
+python3 scripts/validate.py
+
+# 本地测试 add_repo.py（无实际写入）
+# 先 fork 一个测试仓库，然后测试解析和 API 调用
+python3 scripts/add_repo.py owner/repo --cn "测试" --kw "test" --cat dev-data-tools --dry-run  # （当前未实现 --dry-run，直接运行会写入 curated.json）
+
+# 比对生成前后的差异
+cp data/repos.json /tmp/repos-old.json
+python3 scripts/generate.py --public
+diff -u /tmp/repos-old.json data/repos.json | head -50
+
+# CI 失败时的调试步骤
+# 1. 检查 GitHub Actions 日志，确认失败的具体步骤
+# 2. 本地复现：
+python3 scripts/fetch_public_repos.py /tmp/repos.json
+python3 scripts/generate.py --public /tmp/repos.json
+python3 scripts/validate.py
+# 3. 检查 curated.json 语法（JSON 格式错误、缺失必须字段）
+python3 -m json.tool scripts/curated.json > /dev/null && echo "JSON 格式正确" || echo "JSON 语法错误"
+```
+
 注意:
 - `curated.json` 里 `_comment` 字段说明字段含义与 category 取值,新增仓库时照抄已有条目格式即可。
 - fork 仓库会自动在说明前标注 `fork 自 <上游>`,来源固化在 curated 条目的 `forkedFrom` 字段(可用 `gh api repos/skychen2/<name> --jq '.parent.full_name'` 查询补全)。

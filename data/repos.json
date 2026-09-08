@@ -1893,7 +1893,8 @@
       "阿里"
     ],
     "external": true,
-    "display_cn": "ACE-Step:音乐生成基础模型(阿里音乐方向)。"
+    "display_cn": "ACE-Step:音乐生成基础模型(阿里音乐方向)。",
+    "owner": "ace-step"
   },
   {
     "name": "ACE_plus",
@@ -1916,7 +1917,8 @@
       "ACE"
     ],
     "external": true,
-    "display_cn": "(无描述)阿里视频实验室(ali-vilab)ACE+ 图像/视频生成系列,用途待补充。"
+    "display_cn": "(无描述)阿里视频实验室(ali-vilab)ACE+ 图像/视频生成系列,用途待补充。",
+    "owner": "ali-vilab"
   },
   {
     "name": "AI-Media2Doc",
@@ -1939,7 +1941,8 @@
       "公众号"
     ],
     "external": true,
-    "display_cn": "一键把音视频转为小红书/公众号/知识笔记/思维导图/视频字幕等文档。"
+    "display_cn": "一键把音视频转为小红书/公众号/知识笔记/思维导图/视频字幕等文档。",
+    "owner": "hanshuaikang"
   },
   {
     "name": "Agent-Reach",
@@ -1962,7 +1965,8 @@
       "信息获取"
     ],
     "external": true,
-    "display_cn": "给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。"
+    "display_cn": "给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。",
+    "owner": "Panniantong"
   },
   {
     "name": "Agent-Skills-for-Context-Engineering",
@@ -1985,7 +1989,8 @@
       "合集"
     ],
     "external": true,
-    "display_cn": "上下文工程、多智能体架构的 Agent Skills 合集。"
+    "display_cn": "上下文工程、多智能体架构的 Agent Skills 合集。",
+    "owner": "muratcankoylan"
   },
   {
     "name": "AiToEarn",
@@ -2008,7 +2013,8 @@
       "商业化"
     ],
     "external": true,
-    "display_cn": "用 AI 赚钱:AI 变现/副业相关(Let's use AI to Earn!)。"
+    "display_cn": "用 AI 赚钱:AI 变现/副业相关(Let's use AI to Earn!)。",
+    "owner": "yikart"
   },
   {
     "name": "Amphion",
@@ -2031,7 +2037,8 @@
       "OpenMMLab"
     ],
     "external": true,
-    "display_cn": "音频、音乐与语音生成工具包(OpenMMLab)。"
+    "display_cn": "音频、音乐与语音生成工具包(OpenMMLab)。",
+    "owner": "open-mmlab"
   },
   {
     "name": "AntigravityQuotaWatcher",
@@ -2054,7 +2061,8 @@
       "Gemini"
     ],
     "external": true,
-    "display_cn": "Google Antigravity AI 模型配额监控插件。"
+    "display_cn": "Google Antigravity AI 模型配额监控插件。",
+    "owner": "wusimpl"
   },
   {
     "name": "Archon",
@@ -2077,7 +2085,8 @@
       "构建器"
     ],
     "external": true,
-    "display_cn": "首个开源 harness 构建器:让 AI 编码确定、可重复。"
+    "display_cn": "首个开源 harness 构建器:让 AI 编码确定、可重复。",
+    "owner": "coleam00"
   },
   {
     "name": "AutoCLI",
@@ -2100,7 +2109,8 @@
       "agent工具"
     ],
     "external": true,
-    "display_cn": "快速内存安全 CLI:从任意网站抓取信息(面向 AI agent)。"
+    "display_cn": "快速内存安全 CLI:从任意网站抓取信息(面向 AI agent)。",
+    "owner": "nashsu"
   },
   {
     "name": "Automatic_ticket_purchase",
@@ -2123,7 +2133,8 @@
       "自动化"
     ],
     "external": true,
-    "display_cn": "大麦网抢票脚本。"
+    "display_cn": "大麦网抢票脚本。",
+    "owner": "MakiNaruto"
   },
   {
     "name": "Awesome-Dify-Workflow",
@@ -2146,7 +2157,8 @@
       "分享"
     ],
     "external": true,
-    "display_cn": "好用的 Dify DSL 工作流程分享(自用学习两相宜)。"
+    "display_cn": "好用的 Dify DSL 工作流程分享(自用学习两相宜)。",
+    "owner": "svcvit"
   },
   {
     "name": "Awesome-Nano-Banana-images",
@@ -2169,7 +2181,8 @@
       "合集"
     ],
     "external": true,
-    "display_cn": "Nano Banana 生成的有趣创意示例合集。"
+    "display_cn": "Nano Banana 生成的有趣创意示例合集。",
+    "owner": "PicoTrex"
   },
   {
     "name": "BPB-Worker-Panel",
@@ -2192,7 +2205,8 @@
       "Warp"
     ],
     "external": true,
-    "display_cn": "Worker 订阅 GUI 面板:VLESS/Trojan/Warp 配置管理。"
+    "display_cn": "Worker 订阅 GUI 面板:VLESS/Trojan/Warp 配置管理。",
+    "owner": "bia-pain-bache"
   },
   {
     "name": "BiliBiliToolPro",
@@ -2215,7 +2229,8 @@
       "docker"
     ],
     "external": true,
-    "display_cn": "B 站自动任务工具:支持 docker/青龙/k8s 部署,全面拥抱 AI。"
+    "display_cn": "B 站自动任务工具:支持 docker/青龙/k8s 部署,全面拥抱 AI。",
+    "owner": "RayWangQvQ"
   },
   {
     "name": "BiliNote",
@@ -2238,7 +2253,8 @@
       "笔记"
     ],
     "external": true,
-    "display_cn": "AI 视频笔记生成工具:让 AI 为视频自动做笔记。"
+    "display_cn": "AI 视频笔记生成工具:让 AI 为视频自动做笔记。",
+    "owner": "JefferyHcool"
   },
   {
     "name": "BlockX",
@@ -2260,7 +2276,8 @@
       "工具"
     ],
     "external": true,
-    "display_cn": "emoji 图片分割工具。"
+    "display_cn": "emoji 图片分割工具。",
+    "owner": "onebtcdesign"
   },
   {
     "name": "CLI-Anything",
@@ -2283,7 +2300,8 @@
       "GUI转CLI"
     ],
     "external": true,
-    "display_cn": "让所有软件 Agent-Native:把 GUI 软件变成 CLI 供 AI agent 调用(HKUDS)。"
+    "display_cn": "让所有软件 Agent-Native:把 GUI 软件变成 CLI 供 AI agent 调用(HKUDS)。",
+    "owner": "HKUDS"
   },
   {
     "name": "CLIProxyAPI",
@@ -2306,7 +2324,8 @@
       "Grok"
     ],
     "external": true,
-    "display_cn": "把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。"
+    "display_cn": "把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。",
+    "owner": "router-for-me"
   },
   {
     "name": "Chat2API",
@@ -2329,7 +2348,8 @@
       "逆向"
     ],
     "external": true,
-    "display_cn": "通过官方网页 UI 实现主流 AI 模型零成本 API 调用。"
+    "display_cn": "通过官方网页 UI 实现主流 AI 模型零成本 API 调用。",
+    "owner": "xiaoY233"
   },
   {
     "name": "ChinaTextbook",
@@ -2352,7 +2372,8 @@
       "大学"
     ],
     "external": true,
-    "display_cn": "所有小初高、大学 PDF 教材合集。"
+    "display_cn": "所有小初高、大学 PDF 教材合集。",
+    "owner": "TapXWorld"
   },
   {
     "name": "ChromeAppHeroes",
@@ -2375,7 +2396,8 @@
       "插件推荐"
     ],
     "external": true,
-    "display_cn": "谷粒 Chrome 插件英雄榜:优秀 Chrome 插件中文说明书合集。"
+    "display_cn": "谷粒 Chrome 插件英雄榜:优秀 Chrome 插件中文说明书合集。",
+    "owner": "zhaoolee"
   },
   {
     "name": "Ciphey",
@@ -2398,7 +2420,8 @@
       "CTF"
     ],
     "external": true,
-    "display_cn": "自动解密工具:不知密钥/密码也能解,自动识别编码与加密。"
+    "display_cn": "自动解密工具:不知密钥/密码也能解,自动识别编码与加密。",
+    "owner": "bee-san"
   },
   {
     "name": "Claude-meta-skill",
@@ -2420,7 +2443,8 @@
       "可复用"
     ],
     "external": true,
-    "display_cn": "Claude Code 可复用技能合集,增强 Claude 能力。"
+    "display_cn": "Claude Code 可复用技能合集,增强 Claude 能力。",
+    "owner": "YYH211"
   },
   {
     "name": "CliProxyAPI-2-Sub2API",
@@ -2443,7 +2467,8 @@
       "中转"
     ],
     "external": true,
-    "display_cn": "cliProxyAPI 与 Sub2API 账号文件互转工具。"
+    "display_cn": "cliProxyAPI 与 Sub2API 账号文件互转工具。",
+    "owner": "Nitmi"
   },
   {
     "name": "Cloudflare-vless-trojan",
@@ -2466,7 +2491,8 @@
       "代理脚本"
     ],
     "external": true,
-    "display_cn": "CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。"
+    "display_cn": "CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。",
+    "owner": "yonggekkk"
   },
   {
     "name": "ComfyUI-IF_AI_tools",
@@ -2489,7 +2515,8 @@
       "AI工具"
     ],
     "external": true,
-    "display_cn": "ComfyUI 自定义节点集:AI 提示词生成等(IF_AI_tools)。"
+    "display_cn": "ComfyUI 自定义节点集:AI 提示词生成等(IF_AI_tools)。",
+    "owner": "if-ai"
   },
   {
     "name": "ComfyUI_PuLID_Flux_ll",
@@ -2512,7 +2539,8 @@
       "人脸"
     ],
     "external": true,
-    "display_cn": "ComfyUI 的 PuLID Flux 人脸保持节点。"
+    "display_cn": "ComfyUI 的 PuLID Flux 人脸保持节点。",
+    "owner": "lldacing"
   },
   {
     "name": "Context-Engineering",
@@ -2535,7 +2563,8 @@
       "LLM"
     ],
     "external": true,
-    "display_cn": "上下文工程:填充上下文窗口的艺术与科学(教程)。"
+    "display_cn": "上下文工程:填充上下文窗口的艺术与科学(教程)。",
+    "owner": "jasontang-ai"
   },
   {
     "name": "DeepSeek-Reasonix",
@@ -2558,7 +2587,8 @@
       "前缀缓存"
     ],
     "external": true,
-    "display_cn": "DeepSeek 原生终端编码 agent:前缀缓存稳定,长会话低成本。"
+    "display_cn": "DeepSeek 原生终端编码 agent:前缀缓存稳定,长会话低成本。",
+    "owner": "esengine"
   },
   {
     "name": "Deepseek-goes-from-beginner-to-master.PDF",
@@ -2581,7 +2611,8 @@
       "PDF"
     ],
     "external": true,
-    "display_cn": "清华大学出品的 DeepSeek 从入门到精通 PDF。"
+    "display_cn": "清华大学出品的 DeepSeek 从入门到精通 PDF。",
+    "owner": "2XUID"
   },
   {
     "name": "ECC",
@@ -2604,7 +2635,8 @@
       "记忆"
     ],
     "external": true,
-    "display_cn": "agent harness 性能优化系统:技能/本能/记忆/安全/资源一体化。"
+    "display_cn": "agent harness 性能优化系统:技能/本能/记忆/安全/资源一体化。",
+    "owner": "affaan-m"
   },
   {
     "name": "Fashion-AI",
@@ -2627,7 +2659,8 @@
       "AI绘图"
     ],
     "external": true,
-    "display_cn": "电商 AI 生图爆款流水线:新品平铺图自动检索爆款、分析风格、生成宣传图。"
+    "display_cn": "电商 AI 生图爆款流水线:新品平铺图自动检索爆款、分析风格、生成宣传图。",
+    "owner": "liangdabiao"
   },
   {
     "name": "FramePack",
@@ -2650,7 +2683,8 @@
       "实用"
     ],
     "external": true,
-    "display_cn": "让视频扩散实用化(lllyasviel)。"
+    "display_cn": "让视频扩散实用化(lllyasviel)。",
+    "owner": "lllyasviel"
   },
   {
     "name": "FreeAskInternet",
@@ -2673,7 +2707,8 @@
       "问答"
     ],
     "external": true,
-    "display_cn": "完全免费、私有、本地运行的搜索聚合与问答工具。"
+    "display_cn": "完全免费、私有、本地运行的搜索聚合与问答工具。",
+    "owner": "nashsu"
   },
   {
     "name": "FreeDomain",
@@ -2696,7 +2731,8 @@
       "学习资源"
     ],
     "external": true,
-    "display_cn": "免费域名注册与实用 DNS 学习资源。"
+    "display_cn": "免费域名注册与实用 DNS 学习资源。",
+    "owner": "DigitalPlatDev"
   },
   {
     "name": "GPT-SoVITS",
@@ -2719,7 +2755,8 @@
       "声音训练"
     ],
     "external": true,
-    "display_cn": "1 分钟语音数据即可训练优质 TTS(few-shot 语音克隆)。"
+    "display_cn": "1 分钟语音数据即可训练优质 TTS(few-shot 语音克隆)。",
+    "owner": "RVC-Boss"
   },
   {
     "name": "GenericAgent",
@@ -2742,7 +2779,8 @@
       "系统控制"
     ],
     "external": true,
-    "display_cn": "自进化 agent:从 3300 行种子代码长出技能树,实现系统控制。"
+    "display_cn": "自进化 agent:从 3300 行种子代码长出技能树,实现系统控制。",
+    "owner": "lsdefine"
   },
   {
     "name": "Gpt-Agreement-Payment",
@@ -2765,7 +2803,8 @@
       "hCaptcha"
     ],
     "external": true,
-    "display_cn": "ChatGPT Plus/Team/Pro 订阅协议端到端重放工具:hCaptcha 视觉求解器。"
+    "display_cn": "ChatGPT Plus/Team/Pro 订阅协议端到端重放工具:hCaptcha 视觉求解器。",
+    "owner": "DanOps-1"
   },
   {
     "name": "HivisionIDPhotos",
@@ -2788,7 +2827,8 @@
       "轻量"
     ],
     "external": true,
-    "display_cn": "轻量高效 AI 证件照制作算法。"
+    "display_cn": "轻量高效 AI 证件照制作算法。",
+    "owner": "Zeyi-Lin"
   },
   {
     "name": "ICEdit",
@@ -2811,7 +2851,8 @@
       "少样本"
     ],
     "external": true,
-    "display_cn": "NeurIPS 2025:图像编辑只需单个 LoRA(0.1% 训练数据)。"
+    "display_cn": "NeurIPS 2025:图像编辑只需单个 LoRA(0.1% 训练数据)。",
+    "owner": "River-Zhang"
   },
   {
     "name": "Kimi-Audio",
@@ -2834,7 +2875,8 @@
       "月之暗面"
     ],
     "external": true,
-    "display_cn": "开源音频基础模型:音频理解、生成与对话(月之暗面)。"
+    "display_cn": "开源音频基础模型:音频理解、生成与对话(月之暗面)。",
+    "owner": "MoonshotAI"
   },
   {
     "name": "LandPPT",
@@ -2857,7 +2899,8 @@
       "文档转PPT"
     ],
     "external": true,
-    "display_cn": "基于 LLM 的 PPT 生成平台:文档自动转专业演示文稿,多模型+丰富模板。"
+    "display_cn": "基于 LLM 的 PPT 生成平台:文档自动转专业演示文稿,多模型+丰富模板。",
+    "owner": "sligter"
   },
   {
     "name": "MaoZeDongAnthology",
@@ -2880,7 +2923,8 @@
       "电子书"
     ],
     "external": true,
-    "display_cn": "毛泽东选集官方五卷及静火版两卷。"
+    "display_cn": "毛泽东选集官方五卷及静火版两卷。",
+    "owner": "NpTIme"
   },
   {
     "name": "MediaCrawler",
@@ -2903,7 +2947,8 @@
       "数据采集"
     ],
     "external": true,
-    "display_cn": "小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。"
+    "display_cn": "小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。",
+    "owner": "NanmiCoder"
   },
   {
     "name": "MeiGen-AI-Design-MCP",
@@ -2926,7 +2971,8 @@
       "ComfyUI"
     ],
     "external": true,
-    "display_cn": "设计生图 MCP 服务器:统一接入 GPT Image 2/Seedance/ComfyUI,内置 1400+ 提示词库。"
+    "display_cn": "设计生图 MCP 服务器:统一接入 GPT Image 2/Seedance/ComfyUI,内置 1400+ 提示词库。",
+    "owner": "jau123"
   },
   {
     "name": "MemOS-Cloud-OpenClaw-Plugin",
@@ -2949,7 +2995,8 @@
       "插件"
     ],
     "external": true,
-    "display_cn": "OpenClaw 的 MemOS 云插件:长期记忆召回。"
+    "display_cn": "OpenClaw 的 MemOS 云插件:长期记忆召回。",
+    "owner": "MemTensor"
   },
   {
     "name": "MinerU",
@@ -2972,7 +3019,8 @@
       "OCR"
     ],
     "external": true,
-    "display_cn": "把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。"
+    "display_cn": "把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。",
+    "owner": "opendatalab"
   },
   {
     "name": "NLM2Img",
@@ -2995,7 +3043,8 @@
       "工具"
     ],
     "external": true,
-    "display_cn": "把 NotebookLM 导出的 PDF 图片合成为一张或几组图片。"
+    "display_cn": "把 NotebookLM 导出的 PDF 图片合成为一张或几组图片。",
+    "owner": "cclank"
   },
   {
     "name": "NagaAgent",
@@ -3018,7 +3067,8 @@
       "强大"
     ],
     "external": true,
-    "display_cn": "简单强大的个人助理 agent 框架。"
+    "display_cn": "简单强大的个人助理 agent 框架。",
+    "owner": "RTGS2017"
   },
   {
     "name": "NarratoAI",
@@ -3041,7 +3091,8 @@
       "一键"
     ],
     "external": true,
-    "display_cn": "用 AI 大模型一键解说并剪辑视频(自动配音+剪辑)。"
+    "display_cn": "用 AI 大模型一键解说并剪辑视频(自动配音+剪辑)。",
+    "owner": "linyqh"
   },
   {
     "name": "OmniBot",
@@ -3064,7 +3115,8 @@
       "终端操作"
     ],
     "external": true,
-    "display_cn": "手机端移动 AI Agent(Claw 系):可操作终端与应用。"
+    "display_cn": "手机端移动 AI Agent(Claw 系):可操作终端与应用。",
+    "owner": "omnimind-ai"
   },
   {
     "name": "OmniRoute",
@@ -3087,7 +3139,8 @@
       "免费"
     ],
     "external": true,
-    "display_cn": "免费 MIT AI 网关:一个端点接入 352 供应商(150+ 免费)、1200+ 模型。"
+    "display_cn": "免费 MIT AI 网关:一个端点接入 352 供应商(150+ 免费)、1200+ 模型。",
+    "owner": "diegosouzapw"
   },
   {
     "name": "OmniVoice",
@@ -3114,7 +3167,8 @@
       "语音设计"
     ],
     "external": true,
-    "display_cn": "高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。"
+    "display_cn": "高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。",
+    "owner": "k2-fsa"
   },
   {
     "name": "Open-Sora",
@@ -3137,7 +3191,8 @@
       "开源模型"
     ],
     "external": true,
-    "display_cn": "开源文生视频模型(类 Sora):文本/图像生成视频,ColossalAI 出品。"
+    "display_cn": "开源文生视频模型(类 Sora):文本/图像生成视频,ColossalAI 出品。",
+    "owner": "hpcaitech"
   },
   {
     "name": "OpenCLI",
@@ -3160,7 +3215,8 @@
       "登录态"
     ],
     "external": true,
-    "display_cn": "把任意网站变成 CLI,AI agent 用你的已登录浏览器操作。"
+    "display_cn": "把任意网站变成 CLI,AI agent 用你的已登录浏览器操作。",
+    "owner": "jackwener"
   },
   {
     "name": "OpenClawInstaller",
@@ -3183,7 +3239,8 @@
       "安装"
     ],
     "external": true,
-    "display_cn": "ClawdBot 一键部署工具。"
+    "display_cn": "ClawdBot 一键部署工具。",
+    "owner": "miaoxworld"
   },
   {
     "name": "OpenCreator",
@@ -3206,7 +3263,8 @@
       "创作者"
     ],
     "external": true,
-    "display_cn": "创作者 AI 工作空间(原 KrillinAI):Codex 驱动,视频创作。"
+    "display_cn": "创作者 AI 工作空间(原 KrillinAI):Codex 驱动,视频创作。",
+    "owner": "krillinai"
   },
   {
     "name": "OpenMAIC",
@@ -3229,7 +3287,8 @@
       "清华"
     ],
     "external": true,
-    "display_cn": "多智能体互动课堂(清华 THU-MAIC):沉浸式多 agent 学习体验。"
+    "display_cn": "多智能体互动课堂(清华 THU-MAIC):沉浸式多 agent 学习体验。",
+    "owner": "THU-MAIC"
   },
   {
     "name": "OpenManus",
@@ -3252,7 +3311,8 @@
       "自主"
     ],
     "external": true,
-    "display_cn": "无堡垒、纯开放地:开源通用 agent(OpenManus)。"
+    "display_cn": "无堡垒、纯开放地:开源通用 agent(OpenManus)。",
+    "owner": "FoundationAgents"
   },
   {
     "name": "OpenMontage",
@@ -3275,7 +3335,8 @@
       "生产管线"
     ],
     "external": true,
-    "display_cn": "开源 agentic 视频制作系统:12 条生产管线、100+ 工具,自动化视频生产。"
+    "display_cn": "开源 agentic 视频制作系统:12 条生产管线、100+ 工具,自动化视频生产。",
+    "owner": "calesthio"
   },
   {
     "name": "OpenMythos",
@@ -3298,7 +3359,8 @@
       "理论重构"
     ],
     "external": true,
-    "display_cn": "基于第一性原理对 Claude Mythos(agent 架构)的理论重构。"
+    "display_cn": "基于第一性原理对 Claude Mythos(agent 架构)的理论重构。",
+    "owner": "kyegomez"
   },
   {
     "name": "OpenViking",
@@ -3321,7 +3383,8 @@
       "技能"
     ],
     "external": true,
-    "display_cn": "自进化上下文数据库:统一 agent 记忆、知识 RAG 与技能(字节跳动)。"
+    "display_cn": "自进化上下文数据库:统一 agent 记忆、知识 RAG 与技能(字节跳动)。",
+    "owner": "volcengine"
   },
   {
     "name": "Operit",
@@ -3344,7 +3407,8 @@
       "移动"
     ],
     "external": true,
-    "display_cn": "Android 上能力强大、发展久的 AI agent 与 AI 聊天软件。"
+    "display_cn": "Android 上能力强大、发展久的 AI agent 与 AI 聊天软件。",
+    "owner": "AAswordman"
   },
   {
     "name": "PaddleOCR",
@@ -3367,7 +3431,8 @@
       "PDF"
     ],
     "external": true,
-    "display_cn": "把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。"
+    "display_cn": "把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。",
+    "owner": "PaddlePaddle"
   },
   {
     "name": "PilotDeck",
@@ -3390,7 +3455,8 @@
       "OpenBMB"
     ],
     "external": true,
-    "display_cn": "面向任务的 AI Agent 生产力平台(OpenBMB)。"
+    "display_cn": "面向任务的 AI Agent 生产力平台(OpenBMB)。",
+    "owner": "OpenBMB"
   },
   {
     "name": "Pixelle-Video",
@@ -3413,7 +3479,8 @@
       "引擎"
     ],
     "external": true,
-    "display_cn": "AI 全自动短视频引擎(ATH-MaaS)。"
+    "display_cn": "AI 全自动短视频引擎(ATH-MaaS)。",
+    "owner": "ATH-MaaS"
   },
   {
     "name": "PowerToys",
@@ -3436,7 +3503,8 @@
       "桌面"
     ],
     "external": true,
-    "display_cn": "微软效率工具集(窗口管理/取色/批量重命名等)。"
+    "display_cn": "微软效率工具集(窗口管理/取色/批量重命名等)。",
+    "owner": "microsoft"
   },
   {
     "name": "PromptX",
@@ -3459,7 +3527,8 @@
       "管理"
     ],
     "external": true,
-    "display_cn": "领先的 AI 智能体上下文平台。"
+    "display_cn": "领先的 AI 智能体上下文平台。",
+    "owner": "Deepractice"
   },
   {
     "name": "RTranslator",
@@ -3482,7 +3551,8 @@
       "本地运行"
     ],
     "external": true,
-    "display_cn": "Android 开源实时翻译应用,完全本地运行。"
+    "display_cn": "Android 开源实时翻译应用,完全本地运行。",
+    "owner": "niedev"
   },
   {
     "name": "Real-Time-Voice-Cloning",
@@ -3505,7 +3575,8 @@
       "声音合成"
     ],
     "external": true,
-    "display_cn": "5 秒克隆声音,实时生成任意语音。"
+    "display_cn": "5 秒克隆声音,实时生成任意语音。",
+    "owner": "CorentinJ"
   },
   {
     "name": "RedInk",
@@ -3528,7 +3599,8 @@
       "一键"
     ],
     "external": true,
-    "display_cn": "基于 Nano Banana Pro 的小红书图文一键生成器。"
+    "display_cn": "基于 Nano Banana Pro 的小红书图文一键生成器。",
+    "owner": "HisMax"
   },
   {
     "name": "RuView",
@@ -3551,7 +3623,8 @@
       "雷达"
     ],
     "external": true,
-    "display_cn": "把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。"
+    "display_cn": "把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。",
+    "owner": "ruvnet"
   },
   {
     "name": "Seedance2-Storyboard-Generator",
@@ -3574,7 +3647,8 @@
       "Storyboard"
     ],
     "external": true,
-    "display_cn": "Seedance 2.0 剧情分镜(Storyboard)生成 Skill:小说/脚本一键改写剧本。"
+    "display_cn": "Seedance 2.0 剧情分镜(Storyboard)生成 Skill:小说/脚本一键改写剧本。",
+    "owner": "liangdabiao"
   },
   {
     "name": "SessionToJson",
@@ -3596,7 +3670,8 @@
       "转换"
     ],
     "external": true,
-    "display_cn": "(无描述)推断为 Session 数据转 JSON 工具,用途待补充。"
+    "display_cn": "(无描述)推断为 Session 数据转 JSON 工具,用途待补充。",
+    "owner": "killervillsy"
   },
   {
     "name": "SkillOpt",
@@ -3619,7 +3694,8 @@
       "LLM技能"
     ],
     "external": true,
-    "display_cn": "文本空间技能优化器:为冻结 LLM 训练可复用自然语言技能(微软)。"
+    "display_cn": "文本空间技能优化器:为冻结 LLM 训练可复用自然语言技能(微软)。",
+    "owner": "microsoft"
   },
   {
     "name": "Skill_Seekers",
@@ -3642,7 +3718,8 @@
       "自动化"
     ],
     "external": true,
-    "display_cn": "把文档网站、GitHub 仓库、PDF 转成 Claude AI skills。"
+    "display_cn": "把文档网站、GitHub 仓库、PDF 转成 Claude AI skills。",
+    "owner": "yusufkaraaslan"
   },
   {
     "name": "SoulX-Podcast",
@@ -3665,7 +3742,8 @@
       "高保真"
     ],
     "external": true,
-    "display_cn": "SoulX-Podcast:高保真播客生成推理代码库(Soul AI)。"
+    "display_cn": "SoulX-Podcast:高保真播客生成推理代码库(Soul AI)。",
+    "owner": "Soul-AILab"
   },
   {
     "name": "SuperClaude_Framework",
@@ -3688,7 +3766,8 @@
       "认知模式"
     ],
     "external": true,
-    "display_cn": "增强 Claude Code 的配置框架:专用命令、认知模式。"
+    "display_cn": "增强 Claude Code 的配置框架:专用命令、认知模式。",
+    "owner": "SuperClaude-Org"
   },
   {
     "name": "SurfSense",
@@ -3711,7 +3790,8 @@
       "开源"
     ],
     "external": true,
-    "display_cn": "开源 NotebookLM 替代:实时研究开放网页(Reddit/YT/IG 等)。"
+    "display_cn": "开源 NotebookLM 替代:实时研究开放网页(Reddit/YT/IG 等)。",
+    "owner": "MODSetter"
   },
   {
     "name": "Termix",
@@ -3734,7 +3814,8 @@
       "管理"
     ],
     "external": true,
-    "display_cn": "自托管 SSH 与远程桌面管理。"
+    "display_cn": "自托管 SSH 与远程桌面管理。",
+    "owner": "Termix-SSH"
   },
   {
     "name": "Thinking-Claude",
@@ -3757,7 +3838,8 @@
       "技巧"
     ],
     "external": true,
-    "display_cn": "让 Claude 能够思考(增强推理的提示技巧)。"
+    "display_cn": "让 Claude 能够思考(增强推理的提示技巧)。",
+    "owner": "richards199999"
   },
   {
     "name": "TikTokDownloader",
@@ -3780,7 +3862,8 @@
       "采集"
     ],
     "external": true,
-    "display_cn": "抖音/TikTok 作品下载与数据采集工具。"
+    "display_cn": "抖音/TikTok 作品下载与数据采集工具。",
+    "owner": "JoeanAmier"
   },
   {
     "name": "TradingAgents",
@@ -3803,7 +3886,8 @@
       "量化"
     ],
     "external": true,
-    "display_cn": "多智能体 LLM 金融交易框架:分析师/研究员/交易员协作。"
+    "display_cn": "多智能体 LLM 金融交易框架:分析师/研究员/交易员协作。",
+    "owner": "TauricResearch"
   },
   {
     "name": "UltraRAG",
@@ -3826,7 +3910,8 @@
       "流水线"
     ],
     "external": true,
-    "display_cn": "低代码 MCP 框架:构建复杂创新的 RAG 流水线(OpenBMB)。"
+    "display_cn": "低代码 MCP 框架:构建复杂创新的 RAG 流水线(OpenBMB)。",
+    "owner": "OpenBMB"
   },
   {
     "name": "VERT",
@@ -3849,7 +3934,8 @@
       "免费"
     ],
     "external": true,
-    "display_cn": "下一代文件转换器:开源、全本地、永久免费。"
+    "display_cn": "下一代文件转换器:开源、全本地、永久免费。",
+    "owner": "VERT-sh"
   },
   {
     "name": "Ventoy",
@@ -3872,7 +3958,8 @@
       "装机"
     ],
     "external": true,
-    "display_cn": "启动 U 盘解决方案(多 ISO 启动盘)。"
+    "display_cn": "启动 U 盘解决方案(多 ISO 启动盘)。",
+    "owner": "ventoy"
   },
   {
     "name": "Vibe-Skills",
@@ -3895,7 +3982,8 @@
       "效率"
     ],
     "external": true,
-    "display_cn": "智能 Skill 路由与工作流编排:+21pp 奖励、-30% token 消耗。"
+    "display_cn": "智能 Skill 路由与工作流编排:+21pp 奖励、-30% token 消耗。",
+    "owner": "foryourhealth111-pixel"
   },
   {
     "name": "VibeVoice",
@@ -3918,7 +4006,8 @@
       "TTS"
     ],
     "external": true,
-    "display_cn": "开源前沿语音 AI(微软):语音生成/克隆。"
+    "display_cn": "开源前沿语音 AI(微软):语音生成/克隆。",
+    "owner": "microsoft"
   },
   {
     "name": "VideoLLaMA3",
@@ -3941,7 +4030,8 @@
       "DAMO"
     ],
     "external": true,
-    "display_cn": "图像与视频理解前沿多模态基础模型(DAMO-NLP 阿里巴巴)。"
+    "display_cn": "图像与视频理解前沿多模态基础模型(DAMO-NLP 阿里巴巴)。",
+    "owner": "DAMO-NLP-SG"
   },
   {
     "name": "VideoLingo",
@@ -3964,7 +4054,8 @@
       "视频本地化"
     ],
     "external": true,
-    "display_cn": "Netflix 级字幕切割/翻译/对齐/配音,一键全流程。"
+    "display_cn": "Netflix 级字幕切割/翻译/对齐/配音,一键全流程。",
+    "owner": "Huanshere"
   },
   {
     "name": "VoxCPM",
@@ -3987,7 +4078,8 @@
       "多语言"
     ],
     "external": true,
-    "display_cn": "VoxCPM2 免 tokenizer 多语言 TTS:创意语音设计与真实语音克隆。"
+    "display_cn": "VoxCPM2 免 tokenizer 多语言 TTS:创意语音设计与真实语音克隆。",
+    "owner": "OpenBMB"
   },
   {
     "name": "ZHO-nano-banana-Creation",
@@ -4010,7 +4102,8 @@
       "合集"
     ],
     "external": true,
-    "display_cn": "nano-banana 创意玩法大合集(持续更新)。"
+    "display_cn": "nano-banana 创意玩法大合集(持续更新)。",
+    "owner": "ZHO-ZHO-ZHO"
   },
   {
     "name": "abtop",
@@ -4033,7 +4126,8 @@
       "Claude Code"
     ],
     "external": true,
-    "display_cn": "类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。"
+    "display_cn": "类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。",
+    "owner": "graykode"
   },
   {
     "name": "agency-agents",
@@ -4056,7 +4150,8 @@
       "社区运营"
     ],
     "external": true,
-    "display_cn": "完整 AI agency 技能包:从前端向导到 Reddit 社区运营。"
+    "display_cn": "完整 AI agency 技能包:从前端向导到 Reddit 社区运营。",
+    "owner": "msitarzewski"
   },
   {
     "name": "agency-agents-zh",
@@ -4079,7 +4174,8 @@
       "团队协作"
     ],
     "external": true,
-    "display_cn": "267 个即插即用 AI 专家角色:支持 18 种工具、20 个部门。"
+    "display_cn": "267 个即插即用 AI 专家角色:支持 18 种工具、20 个部门。",
+    "owner": "jnMetaCode"
   },
   {
     "name": "agent-browser",
@@ -4102,7 +4198,8 @@
       "vercel"
     ],
     "external": true,
-    "display_cn": "AI agent 的浏览器自动化 CLI(vercel)。"
+    "display_cn": "AI agent 的浏览器自动化 CLI(vercel)。",
+    "owner": "vercel-labs"
   },
   {
     "name": "agent-skills",
@@ -4125,7 +4222,8 @@
       "最佳实践"
     ],
     "external": true,
-    "display_cn": "面向编码 agent 的生产级工程 Skills(addyosmani 维护)。"
+    "display_cn": "面向编码 agent 的生产级工程 Skills(addyosmani 维护)。",
+    "owner": "addyosmani"
   },
   {
     "name": "agent-zero",
@@ -4147,7 +4245,8 @@
       "Agent Zero"
     ],
     "external": true,
-    "display_cn": "Agent Zero AI 框架(自动化 agent)。"
+    "display_cn": "Agent Zero AI 框架(自动化 agent)。",
+    "owner": "agent0ai"
   },
   {
     "name": "agents",
@@ -4170,7 +4269,8 @@
       "生态"
     ],
     "external": true,
-    "display_cn": "多 harness agentic 插件市场:Claude Code/Codex/Cursor/OpenCode/GitHub 插件。"
+    "display_cn": "多 harness agentic 插件市场:Claude Code/Codex/Cursor/OpenCode/GitHub 插件。",
+    "owner": "contains-studio"
   },
   {
     "name": "ai-agents-for-beginners",
@@ -4193,7 +4293,8 @@
       "18课"
     ],
     "external": true,
-    "display_cn": "微软 AI Agents 入门:18 课从零构建 AI Agent。"
+    "display_cn": "微软 AI Agents 入门:18 课从零构建 AI Agent。",
+    "owner": "microsoft"
   },
   {
     "name": "ai-engineering-hub",
@@ -4216,7 +4317,8 @@
       "教程"
     ],
     "external": true,
-    "display_cn": "LLM、RAG 与真实 AI agent 应用的深度教程。"
+    "display_cn": "LLM、RAG 与真实 AI agent 应用的深度教程。",
+    "owner": "patchy631"
   },
   {
     "name": "ai-goofish-monitor",
@@ -4240,7 +4342,8 @@
       "分析"
     ],
     "external": true,
-    "display_cn": "闲鱼多任务实时/定时监控与智能分析系统(Playwright+AI,带后台管理 UI)。"
+    "display_cn": "闲鱼多任务实时/定时监控与智能分析系统(Playwright+AI,带后台管理 UI)。",
+    "owner": "Usagi-org"
   },
   {
     "name": "ai-interview-guide",
@@ -4263,7 +4366,8 @@
       "RAG"
     ],
     "external": true,
-    "display_cn": "AI 应用/Agent/RAG/FDE 开发岗位面试宝典。"
+    "display_cn": "AI 应用/Agent/RAG/FDE 开发岗位面试宝典。",
+    "owner": "guocong-bincai"
   },
   {
     "name": "ai_agents_az",
@@ -4284,7 +4388,8 @@
       "清单"
     ],
     "external": true,
-    "display_cn": "(无描述)AI agents A-Z 相关,用途待补充。"
+    "display_cn": "(无描述)AI agents A-Z 相关,用途待补充。",
+    "owner": "gyoridavid"
   },
   {
     "name": "airi",
@@ -4307,7 +4412,8 @@
       "聊天"
     ],
     "external": true,
-    "display_cn": "自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。"
+    "display_cn": "自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。",
+    "owner": "moeru-ai"
   },
   {
     "name": "andrej-karpathy-skills",
@@ -4330,7 +4436,8 @@
       "Karpathy"
     ],
     "external": true,
-    "display_cn": "单文件 CLAUDE.md:基于 Karpathy 观察的 Claude Code 行为优化配置。"
+    "display_cn": "单文件 CLAUDE.md:基于 Karpathy 观察的 Claude Code 行为优化配置。",
+    "owner": "multica-ai"
   },
   {
     "name": "antigravity-claude-proxy",
@@ -4353,7 +4460,8 @@
       "Claude"
     ],
     "external": true,
-    "display_cn": "代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。"
+    "display_cn": "代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。",
+    "owner": "badrisnarayanan"
   },
   {
     "name": "anx-reader",
@@ -4376,7 +4484,8 @@
       "开源"
     ],
     "external": true,
-    "display_cn": "强大 AI 能力、支持多种电子书格式的阅读器。"
+    "display_cn": "强大 AI 能力、支持多种电子书格式的阅读器。",
+    "owner": "Anxcye"
   },
   {
     "name": "audiblez",
@@ -4399,7 +4508,8 @@
       "生成"
     ],
     "external": true,
-    "display_cn": "从电子书生成有声书。"
+    "display_cn": "从电子书生成有声书。",
+    "owner": "santinic"
   },
   {
     "name": "auto-claude-writing-agent-pub",
@@ -4421,7 +4531,8 @@
       "自动化"
     ],
     "external": true,
-    "display_cn": "(无描述)推断为自动 Claude 写作 agent,用途待补充。"
+    "display_cn": "(无描述)推断为自动 Claude 写作 agent,用途待补充。",
+    "owner": "MapleShaw"
   },
   {
     "name": "autoclip",
@@ -4444,7 +4555,8 @@
       "短视频"
     ],
     "external": true,
-    "display_cn": "AutoClip:AI 智能高光提取与剪辑的二创工具。"
+    "display_cn": "AutoClip:AI 智能高光提取与剪辑的二创工具。",
+    "owner": "zhouxiaoka"
   },
   {
     "name": "autogluon",
@@ -4467,7 +4579,8 @@
       "表格数据"
     ],
     "external": true,
-    "display_cn": "AutoML 库:3 行代码快速准确建模(亚马逊)。"
+    "display_cn": "AutoML 库:3 行代码快速准确建模(亚马逊)。",
+    "owner": "autogluon"
   },
   {
     "name": "autox-release",
@@ -4490,7 +4603,8 @@
       "下载"
     ],
     "external": true,
-    "display_cn": "网页自动化:视频下载、一键搬家、多平台发布(油管/小红书/快手/抖音/B站)。"
+    "display_cn": "网页自动化:视频下载、一键搬家、多平台发布(油管/小红书/快手/抖音/B站)。",
+    "owner": "spider-ios"
   },
   {
     "name": "awesome-LLM-resources",
@@ -4513,7 +4627,8 @@
       "Agent"
     ],
     "external": true,
-    "display_cn": "全世界最好的 LLM 资料总结:多模态/Agent/编程/训练/推理/o1/MCP/小模型。"
+    "display_cn": "全世界最好的 LLM 资料总结:多模态/Agent/编程/训练/推理/o1/MCP/小模型。",
+    "owner": "WangRongsheng"
   },
   {
     "name": "awesome-ceo",
@@ -4536,7 +4651,8 @@
       "商业"
     ],
     "external": true,
-    "display_cn": "面向创业公司创始人与高增长公司领导者的资源清单。"
+    "display_cn": "面向创业公司创始人与高增长公司领导者的资源清单。",
+    "owner": "kuchin"
   },
   {
     "name": "awesome-gpt-image-2",
@@ -4559,7 +4675,8 @@
       "Prompt as Code"
     ],
     "external": true,
-    "display_cn": "GPT-Image2 提示词引擎与模板库(Prompt as Code):530+ 案例逆向,20+ 套工业级模板,提炼为 Skills。"
+    "display_cn": "GPT-Image2 提示词引擎与模板库(Prompt as Code):530+ 案例逆向,20+ 套工业级模板,提炼为 Skills。",
+    "owner": "freestylefly"
   },
   {
     "name": "awesome-gpt4o-images",
@@ -4582,7 +4699,8 @@
       "精选"
     ],
     "external": true,
-    "display_cn": "GPT-4o/gpt-image-1 生成图像与提示词精选合集。"
+    "display_cn": "GPT-4o/gpt-image-1 生成图像与提示词精选合集。",
+    "owner": "jamez-bondos"
   },
   {
     "name": "awesome-mcp-servers",
@@ -4605,7 +4723,8 @@
       "工具"
     ],
     "external": true,
-    "display_cn": "MCP 服务器合集。"
+    "display_cn": "MCP 服务器合集。",
+    "owner": "punkpeye"
   },
   {
     "name": "awesome-n8n-templates",
@@ -4628,7 +4747,8 @@
       "工作流"
     ],
     "external": true,
-    "display_cn": "280+ 免费 n8n 自动化模板:Gmail/Telegram/Slack/Discord 即用工作流。"
+    "display_cn": "280+ 免费 n8n 自动化模板:Gmail/Telegram/Slack/Discord 即用工作流。",
+    "owner": "enescingoz"
   },
   {
     "name": "awesome-nano-banana-pro-prompts",
@@ -4651,7 +4771,8 @@
       "10000+"
     ],
     "external": true,
-    "display_cn": "全球最大 Nano Banana Pro 提示词库:10000+ 精选提示词带预览图。"
+    "display_cn": "全球最大 Nano Banana Pro 提示词库:10000+ 精选提示词带预览图。",
+    "owner": "YouMind-OpenLab"
   },
   {
     "name": "awesome-openclaw-skills",
@@ -4674,7 +4795,8 @@
       "5400+"
     ],
     "external": true,
-    "display_cn": "OpenClaw skills 合集:5400+ 技能过滤分类。"
+    "display_cn": "OpenClaw skills 合集:5400+ 技能过滤分类。",
+    "owner": "VoltAgent"
   },
   {
     "name": "awesome-openclaw-usecases",
@@ -4697,7 +4819,8 @@
       "自动化"
     ],
     "external": true,
-    "display_cn": "OpenClaw 用例社区合集:让生活更轻松的真实自动化案例。"
+    "display_cn": "OpenClaw 用例社区合集:让生活更轻松的真实自动化案例。",
+    "owner": "hesamsheikh"
   },
   {
     "name": "awesome-openclaw-usecases-moltbook",
@@ -4720,7 +4843,8 @@
       "自动化"
     ],
     "external": true,
-    "display_cn": "OpenClaw 真实自动化案例集(Moltbook 社区示例)。"
+    "display_cn": "OpenClaw 真实自动化案例集(Moltbook 社区示例)。",
+    "owner": "EvoLinkAI"
   },
   {
     "name": "awesome-useful-websites",
@@ -4742,7 +4866,8 @@
       "精选"
     ],
     "external": true,
-    "display_cn": "人工精选的实用网站清单。"
+    "display_cn": "人工精选的实用网站清单。",
+    "owner": "atakanaltok"
   },
   {
     "name": "awesome-zhuiju-free",
@@ -4765,7 +4890,8 @@
       "IPTV"
     ],
     "external": true,
-    "display_cn": "免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。"
+    "display_cn": "免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。",
+    "owner": "laoma2053"
   },
   {
     "name": "awesome_docker_cn",
@@ -4788,7 +4914,8 @@
       "教程"
     ],
     "external": true,
-    "display_cn": "上百款可 Docker 部署的项目合集:项目地址+部署教程。"
+    "display_cn": "上百款可 Docker 部署的项目合集:项目地址+部署教程。",
+    "owner": "coracoo"
   },
   {
     "name": "baibaiAIGC",
@@ -4808,7 +4935,8 @@
       "AIGC"
     ],
     "external": true,
-    "display_cn": "(无描述)baibaiAIGC,用途待补充。"
+    "display_cn": "(无描述)baibaiAIGC,用途待补充。",
+    "owner": "poleHansen"
   },
   {
     "name": "banana-prompt-quicker",
@@ -4831,7 +4959,8 @@
       "数据"
     ],
     "external": true,
-    "display_cn": "Banana/Nano Banana Pro/Gemini AI Studio 提示词快捷数据工具。"
+    "display_cn": "Banana/Nano Banana Pro/Gemini AI Studio 提示词快捷数据工具。",
+    "owner": "glidea"
   },
   {
     "name": "banana-slides",
@@ -4854,7 +4983,8 @@
       "自动排版"
     ],
     "external": true,
-    "display_cn": "一站式原生 AI PPT 生成应用:模板图/素材智能解析、一句话/大纲生成、可编辑导出。"
+    "display_cn": "一站式原生 AI PPT 生成应用:模板图/素材智能解析、一句话/大纲生成、可编辑导出。",
+    "owner": "Anionex"
   },
   {
     "name": "bb-browser",
@@ -4878,7 +5008,8 @@
       "CLI"
     ],
     "external": true,
-    "display_cn": "你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。"
+    "display_cn": "你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。",
+    "owner": "epiral"
   },
   {
     "name": "bilive",
@@ -4901,7 +5032,8 @@
       "投稿"
     ],
     "external": true,
-    "display_cn": "极快的 B 站直播录制、自动切片、自动渲染弹幕字幕并投稿。"
+    "display_cn": "极快的 B 站直播录制、自动切片、自动渲染弹幕字幕并投稿。",
+    "owner": "timerring"
   },
   {
     "name": "blind_watermark",
@@ -4924,7 +5056,8 @@
       "提取"
     ],
     "external": true,
-    "display_cn": "图片盲水印:提取水印无须原图。"
+    "display_cn": "图片盲水印:提取水印无须原图。",
+    "owner": "guofei9987"
   },
   {
     "name": "blinko",
@@ -4947,7 +5080,8 @@
       "AI"
     ],
     "external": true,
-    "display_cn": "开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。"
+    "display_cn": "开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。",
+    "owner": "blinkospace"
   },
   {
     "name": "blog",
@@ -4967,7 +5101,8 @@
       "博客"
     ],
     "external": true,
-    "display_cn": "(无描述)ninehills 个人博客,用途待补充。"
+    "display_cn": "(无描述)ninehills 个人博客,用途待补充。",
+    "owner": "ninehills"
   },
   {
     "name": "browser",
@@ -4990,7 +5125,8 @@
       "AI"
     ],
     "external": true,
-    "display_cn": "Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。"
+    "display_cn": "Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。",
+    "owner": "lightpanda-io"
   },
   {
     "name": "caveman-cn",
@@ -5013,7 +5149,8 @@
       "文言文"
     ],
     "external": true,
-    "display_cn": "Claude Code 技能:让 agent 原始人式简洁输出,省约 75% token,支持文言文。"
+    "display_cn": "Claude Code 技能:让 agent 原始人式简洁输出,省约 75% token,支持文言文。",
+    "owner": "bbylw"
   },
   {
     "name": "cc-switch",
@@ -5036,7 +5173,8 @@
       "桌面工具"
     ],
     "external": true,
-    "display_cn": "跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。"
+    "display_cn": "跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。",
+    "owner": "farion1231"
   },
   {
     "name": "ccg-workflow",
@@ -5059,7 +5197,8 @@
       "Codex"
     ],
     "external": true,
-    "display_cn": "多模型协作工作流引擎:/ccg:go 一条命令编排 Codex+Gemini+Claude 协作。"
+    "display_cn": "多模型协作工作流引擎:/ccg:go 一条命令编排 Codex+Gemini+Claude 协作。",
+    "owner": "fengshao1227"
   },
   {
     "name": "chatterbox",
@@ -5082,7 +5221,8 @@
       "SoTA"
     ],
     "external": true,
-    "display_cn": "SoTA 开源 TTS(resemble-ai)。"
+    "display_cn": "SoTA 开源 TTS(resemble-ai)。",
+    "owner": "resemble-ai"
   },
   {
     "name": "chatwiki",
@@ -5106,7 +5246,8 @@
       "工作流"
     ],
     "external": true,
-    "display_cn": "微信公众号 AI 知识库工作流 Agent 平台:RAG 大模型客服机器人,垂直领域 coze/n8n。"
+    "display_cn": "微信公众号 AI 知识库工作流 Agent 平台:RAG 大模型客服机器人,垂直领域 coze/n8n。",
+    "owner": "zhimaAi"
   },
   {
     "name": "cherry-studio-app",
@@ -5129,7 +5270,8 @@
       "多模型"
     ],
     "external": true,
-    "display_cn": "Cherry Studio 移动版(开源多模型 AI 客户端)。"
+    "display_cn": "Cherry Studio 移动版(开源多模型 AI 客户端)。",
+    "owner": "CherryHQ"
   },
   {
     "name": "claude-code-cheat-sheet",
@@ -5152,7 +5294,8 @@
       "工作流"
     ],
     "external": true,
-    "display_cn": "Claude Code 技巧/窍门/命令/工作流终极合集。"
+    "display_cn": "Claude Code 技巧/窍门/命令/工作流终极合集。",
+    "owner": "Njengah"
   },
   {
     "name": "claude-code-guide",
@@ -5175,7 +5318,8 @@
       "技巧"
     ],
     "external": true,
-    "display_cn": "Claude Code 指南:设置/命令/工作流/agents/skills 从入门到进阶。"
+    "display_cn": "Claude Code 指南:设置/命令/工作流/agents/skills 从入门到进阶。",
+    "owner": "zebbern"
   },
   {
     "name": "claude-code-infrastructure-showcase",
@@ -5198,7 +5342,8 @@
       "配置示例"
     ],
     "external": true,
-    "display_cn": "Claude Code 基础设施示例:技能自动激活、hooks、agents 配置。"
+    "display_cn": "Claude Code 基础设施示例:技能自动激活、hooks、agents 配置。",
+    "owner": "diet103"
   },
   {
     "name": "claude-code-router",
@@ -5221,7 +5366,8 @@
       "接入"
     ],
     "external": true,
-    "display_cn": "本地控制平面:跨模型路由、融合新能力、统一管理 AI agent 接入。"
+    "display_cn": "本地控制平面:跨模型路由、融合新能力、统一管理 AI agent 接入。",
+    "owner": "musistudio"
   },
   {
     "name": "claude-code-templates",
@@ -5244,7 +5390,8 @@
       "CLI"
     ],
     "external": true,
-    "display_cn": "Claude Code 配置与监控 CLI 工具(模板管理)。"
+    "display_cn": "Claude Code 配置与监控 CLI 工具(模板管理)。",
+    "owner": "davila7"
   },
   {
     "name": "claude-cookbooks",
@@ -5267,7 +5414,8 @@
       "notebook"
     ],
     "external": true,
-    "display_cn": "Anthropic 官方 Claude notebook 食谱合集(有趣有效的用法)。"
+    "display_cn": "Anthropic 官方 Claude notebook 食谱合集(有趣有效的用法)。",
+    "owner": "anthropics"
   },
   {
     "name": "claude-hud",
@@ -5290,7 +5438,8 @@
       "插件"
     ],
     "external": true,
-    "display_cn": "Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。"
+    "display_cn": "Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。",
+    "owner": "jarrodwatts"
   },
   {
     "name": "claude-mem",
@@ -5313,7 +5462,8 @@
       "跨会话"
     ],
     "external": true,
-    "display_cn": "跨会话持久上下文:捕获 agent 所做的一切,实现长期记忆。"
+    "display_cn": "跨会话持久上下文:捕获 agent 所做的一切,实现长期记忆。",
+    "owner": "thedotmack"
   },
   {
     "name": "claude-reflect",
@@ -5336,7 +5486,8 @@
       "行为改进"
     ],
     "external": true,
-    "display_cn": "Claude Code 自学习系统:捕获纠正、正反馈与偏好,持续改进行为。"
+    "display_cn": "Claude Code 自学习系统:捕获纠正、正反馈与偏好,持续改进行为。",
+    "owner": "BayramAnnakov"
   },
   {
     "name": "claw-code",
@@ -5359,7 +5510,8 @@
       "Gajae-Code"
     ],
     "external": true,
-    "display_cn": "Rust 编写的 agent 管理博物馆展品(Gajae-Code/LazyCodex 开发)。"
+    "display_cn": "Rust 编写的 agent 管理博物馆展品(Gajae-Code/LazyCodex 开发)。",
+    "owner": "ultraworkers"
   },
   {
     "name": "clawdbot-feishu",
@@ -5381,7 +5533,8 @@
       "集成"
     ],
     "external": true,
-    "display_cn": "(无描述)推断为 ClawdBot 飞书集成,用途待补充。"
+    "display_cn": "(无描述)推断为 ClawdBot 飞书集成,用途待补充。",
+    "owner": "m1heng"
   },
   {
     "name": "cli",
@@ -5404,7 +5557,8 @@
       "Gmail"
     ],
     "external": true,
-    "display_cn": "Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。"
+    "display_cn": "Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。",
+    "owner": "googleworkspace"
   },
   {
     "name": "codegraph",
@@ -5427,7 +5581,8 @@
       "agent上下文"
     ],
     "external": true,
-    "display_cn": "预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。"
+    "display_cn": "预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。",
+    "owner": "colbymchenry"
   },
   {
     "name": "codex-host",
@@ -5450,7 +5605,8 @@
       "宿主"
     ],
     "external": true,
-    "display_cn": "在 Codex Desktop 中直接运行 Pi 与 Claude Code 的宿主集成工具。"
+    "display_cn": "在 Codex Desktop 中直接运行 Pi 与 Claude Code 的宿主集成工具。",
+    "owner": "BytePioneer-AI"
   },
   {
     "name": "cognee",
@@ -5473,7 +5629,8 @@
       "RAG"
     ],
     "external": true,
-    "display_cn": "开源 AI 记忆平台:给 agent 持久长期记忆。"
+    "display_cn": "开源 AI 记忆平台:给 agent 持久长期记忆。",
+    "owner": "topoteretes"
   },
   {
     "name": "crawl4ai",
@@ -5496,7 +5653,8 @@
       "开源"
     ],
     "external": true,
-    "display_cn": "开源 LLM 友好网页爬虫与抓取器。"
+    "display_cn": "开源 LLM 友好网页爬虫与抓取器。",
+    "owner": "unclecode"
   },
   {
     "name": "cursor-free-everyday",
@@ -5519,7 +5677,8 @@
       "账号"
     ],
     "external": true,
-    "display_cn": "完全免费:自动获取新账号、一键重置额度、解决机器码问题。"
+    "display_cn": "完全免费:自动获取新账号、一键重置额度、解决机器码问题。",
+    "owner": "agentcodee"
   },
   {
     "name": "deep-research",
@@ -5542,7 +5701,8 @@
       "调研"
     ],
     "external": true,
-    "display_cn": "专业深度研究报告生成 Skill:一条命令十分钟出券商级报告。"
+    "display_cn": "专业深度研究报告生成 Skill:一条命令十分钟出券商级报告。",
+    "owner": "hoolulu"
   },
   {
     "name": "deepseek-harness",
@@ -5565,7 +5725,8 @@
       "agent框架"
     ],
     "external": true,
-    "display_cn": "DeepSeek 官方 agent harness:全插件化架构(Everything is a Plugin)。"
+    "display_cn": "DeepSeek 官方 agent harness:全插件化架构(Everything is a Plugin)。",
+    "owner": "deepseek-ai"
   },
   {
     "name": "deer-flow",
@@ -5588,7 +5749,8 @@
       "字节"
     ],
     "external": true,
-    "display_cn": "开源长时程 SuperAgent harness:研究、编码、创造(字节跳动)。"
+    "display_cn": "开源长时程 SuperAgent harness:研究、编码、创造(字节跳动)。",
+    "owner": "bytedance"
   },
   {
     "name": "desktop",
@@ -5611,7 +5773,8 @@
       "宁静"
     ],
     "external": true,
-    "display_cn": "Zen 浏览器:更宁静的互联网体验(C++ 开源浏览器)。"
+    "display_cn": "Zen 浏览器:更宁静的互联网体验(C++ 开源浏览器)。",
+    "owner": "zen-browser"
   },
   {
     "name": "dive-into-llms",
@@ -5634,7 +5797,8 @@
       "动手学"
     ],
     "external": true,
-    "display_cn": "《动手学大模型 Dive into LLMs》编程实践教程。"
+    "display_cn": "《动手学大模型 Dive into LLMs》编程实践教程。",
+    "owner": "Lordog"
   },
   {
     "name": "dotnet-content-creators",
@@ -5657,7 +5821,8 @@
       "博客"
     ],
     "external": true,
-    "display_cn": ".NET 内容创作者清单(博客/视频/播客)。"
+    "display_cn": ".NET 内容创作者清单(博客/视频/播客)。",
+    "owner": "matthiasjost"
   },
   {
     "name": "easy-llm-cli",
@@ -5680,7 +5845,8 @@
       "兼容"
     ],
     "external": true,
-    "display_cn": "兼容多 LLM 模型的开源 AI agent(终端)。"
+    "display_cn": "兼容多 LLM 模型的开源 AI agent(终端)。",
+    "owner": "ConardLi"
   },
   {
     "name": "ebook2audiobook",
@@ -5703,7 +5869,8 @@
       "TTS"
     ],
     "external": true,
-    "display_cn": "电子书转有声书:语音克隆,支持 1158+ 语言。"
+    "display_cn": "电子书转有声书:语音克隆,支持 1158+ 语言。",
+    "owner": "DrewThomasson"
   },
   {
     "name": "ech-wk",
@@ -5723,7 +5890,8 @@
       "ech-wk"
     ],
     "external": true,
-    "display_cn": "(无描述)用途待补充。"
+    "display_cn": "(无描述)用途待补充。",
+    "owner": "byJoey"
   },
   {
     "name": "ecommerce-image-suite",
@@ -5746,7 +5914,8 @@
       "Prompt"
     ],
     "external": true,
-    "display_cn": "电商商品图生产 Skill:分析/卖点提炼/Prompt 组织到成图,适配主流平台。"
+    "display_cn": "电商商品图生产 Skill:分析/卖点提炼/Prompt 组织到成图,适配主流平台。",
+    "owner": "wzj177"
   },
   {
     "name": "epeius",
@@ -5769,7 +5938,8 @@
       "sing-box"
     ],
     "external": true,
-    "display_cn": "Trojan 配置转 Clash/Singbox 等订阅工具。"
+    "display_cn": "Trojan 配置转 Clash/Singbox 等订阅工具。",
+    "owner": "cmliu"
   },
   {
     "name": "exo",
@@ -5792,7 +5962,8 @@
       "推理"
     ],
     "external": true,
-    "display_cn": "分布式本地运行前沿 AI 模型。"
+    "display_cn": "分布式本地运行前沿 AI 模型。",
+    "owner": "exo-explore"
   },
   {
     "name": "female-outfit-director",
@@ -5815,7 +5986,8 @@
       "视频导演"
     ],
     "external": true,
-    "display_cn": "女性多套穿搭拼贴首帧与卡点换装视频导演 Skill。"
+    "display_cn": "女性多套穿搭拼贴首帧与卡点换装视频导演 Skill。",
+    "owner": "liyue-aigc"
   },
   {
     "name": "firecrawl",
@@ -5838,7 +6010,8 @@
       "API"
     ],
     "external": true,
-    "display_cn": "搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。"
+    "display_cn": "搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。",
+    "owner": "firecrawl"
   },
   {
     "name": "firecrawl-mcp-server",
@@ -5861,7 +6034,8 @@
       "搜索"
     ],
     "external": true,
-    "display_cn": "Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。"
+    "display_cn": "Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。",
+    "owner": "firecrawl"
   },
   {
     "name": "fogsight",
@@ -5884,7 +6058,8 @@
       "创作"
     ],
     "external": true,
-    "display_cn": "LLM 驱动的 AI agent 与动画引擎。"
+    "display_cn": "LLM 驱动的 AI agent 与动画引擎。",
+    "owner": "fogsightai"
   },
   {
     "name": "funNLP",
@@ -5908,7 +6083,8 @@
       "词典"
     ],
     "external": true,
-    "display_cn": "NLP 工具集:敏感词/语言检测、手机归属地、身份证/邮箱抽取、情感词表、拆字词典等。"
+    "display_cn": "NLP 工具集:敏感词/语言检测、手机归属地、身份证/邮箱抽取、情感词表、拆字词典等。",
+    "owner": "fighting41love"
   },
   {
     "name": "fzf",
@@ -5931,7 +6107,8 @@
       "终端"
     ],
     "external": true,
-    "display_cn": "命令行模糊查找器(Go 编写,终端神器)。"
+    "display_cn": "命令行模糊查找器(Go 编写,终端神器)。",
+    "owner": "junegunn"
   },
   {
     "name": "galaxy",
@@ -5954,7 +6131,8 @@
       "组件"
     ],
     "external": true,
-    "display_cn": "最大开源 UI 库:社区制作、免费使用(uiverse)。"
+    "display_cn": "最大开源 UI 库:社区制作、免费使用(uiverse)。",
+    "owner": "uiverse-io"
   },
   {
     "name": "gemini-cli",
@@ -5977,7 +6155,8 @@
       "谷歌"
     ],
     "external": true,
-    "display_cn": "Google 官方开源 AI agent:把 Gemini 带进终端(编码/任务)。"
+    "display_cn": "Google 官方开源 AI agent:把 Gemini 带进终端(编码/任务)。",
+    "owner": "google-gemini"
   },
   {
     "name": "generative-ai-for-beginners",
@@ -6000,7 +6179,8 @@
       "21课"
     ],
     "external": true,
-    "display_cn": "微软生成式 AI 入门:21 课从零开始构建。"
+    "display_cn": "微软生成式 AI 入门:21 课从零开始构建。",
+    "owner": "microsoft"
   },
   {
     "name": "git-mcp",
@@ -6023,7 +6203,8 @@
       "远程"
     ],
     "external": true,
-    "display_cn": "免费开源远程 MCP 服务器:消除代码幻觉。"
+    "display_cn": "免费开源远程 MCP 服务器:消除代码幻觉。",
+    "owner": "idosal"
   },
   {
     "name": "gpt4o-image-prompts",
@@ -6046,7 +6227,8 @@
       "生图"
     ],
     "external": true,
-    "display_cn": "Nano Banana/GPT-5/GPT-4o 图像提示词合集。"
+    "display_cn": "Nano Banana/GPT-5/GPT-4o 图像提示词合集。",
+    "owner": "songguoxs"
   },
   {
     "name": "gpt_academic",
@@ -6069,7 +6251,8 @@
       "插件化"
     ],
     "external": true,
-    "display_cn": "为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。"
+    "display_cn": "为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。",
+    "owner": "binary-husky"
   },
   {
     "name": "gstack",
@@ -6092,7 +6275,8 @@
       "YC"
     ],
     "external": true,
-    "display_cn": "Garry Tan 的 Claude Code 配置:23 个意见型工具(CEO/设计师/产品等角色)。"
+    "display_cn": "Garry Tan 的 Claude Code 配置:23 个意见型工具(CEO/设计师/产品等角色)。",
+    "owner": "garrytan"
   },
   {
     "name": "hello2cc",
@@ -6115,7 +6299,8 @@
       "模型注入"
     ],
     "external": true,
-    "display_cn": "Claude Code 原生插件:接入第三方模型,支持静默 Agent 模型注入。"
+    "display_cn": "Claude Code 原生插件:接入第三方模型,支持静默 Agent 模型注入。",
+    "owner": "hellowind777"
   },
   {
     "name": "hermes-agent",
@@ -6138,7 +6323,8 @@
       "持续学习"
     ],
     "external": true,
-    "display_cn": "自成长 AI agent(Nous Research):随使用进化,长期记忆。"
+    "display_cn": "自成长 AI agent(Nous Research):随使用进化,长期记忆。",
+    "owner": "NousResearch"
   },
   {
     "name": "huasheng_editor",
@@ -6160,7 +6346,8 @@
       "编辑器"
     ],
     "external": true,
-    "display_cn": "花生公众号排版器。"
+    "display_cn": "花生公众号排版器。",
+    "owner": "alchaincyf"
   },
   {
     "name": "human-writing",
@@ -6183,7 +6370,8 @@
       "去AI腔"
     ],
     "external": true,
-    "display_cn": "中文写作与改稿 Skill:让 AI 文字像具体的人在说话,去 AI 腔。"
+    "display_cn": "中文写作与改稿 Skill:让 AI 文字像具体的人在说话,去 AI 腔。",
+    "owner": "KKKKhazix"
   },
   {
     "name": "huobao-drama",
@@ -6206,7 +6394,8 @@
       "一站式"
     ],
     "external": true,
-    "display_cn": "火宝短剧:AI 一站式短剧生成平台,一句话从剧本到成片全自动化。"
+    "display_cn": "火宝短剧:AI 一站式短剧生成平台,一句话从剧本到成片全自动化。",
+    "owner": "chatfire-AI"
   },
   {
     "name": "hyperframes",
@@ -6229,7 +6418,8 @@
       "短视频"
     ],
     "external": true,
-    "display_cn": "用 HTML/CSS 动画直接渲染成视频,专为 AI agent 生成短视频设计(HeyGen)。"
+    "display_cn": "用 HTML/CSS 动画直接渲染成视频,专为 AI agent 生成短视频设计(HeyGen)。",
+    "owner": "heygen-com"
   },
   {
     "name": "iflow-cli",
@@ -6252,7 +6442,8 @@
       "执行"
     ],
     "external": true,
-    "display_cn": "嵌入终端的全面命令行智能体:分析环境并执行。"
+    "display_cn": "嵌入终端的全面命令行智能体:分析环境并执行。",
+    "owner": "iflow-ai"
   },
   {
     "name": "karing",
@@ -6275,7 +6466,8 @@
       "路由规则"
     ],
     "external": true,
-    "display_cn": "简单强大的代理工具:支持 clash/sing-box 路由规则。"
+    "display_cn": "简单强大的代理工具:支持 clash/sing-box 路由规则。",
+    "owner": "KaringX"
   },
   {
     "name": "kepano-obsidian",
@@ -6298,7 +6490,8 @@
       "知识管理"
     ],
     "external": true,
-    "display_cn": "kepano 个人 Obsidian 库模板:自底向上的笔记法。"
+    "display_cn": "kepano 个人 Obsidian 库模板:自底向上的笔记法。",
+    "owner": "kepano"
   },
   {
     "name": "langextract",
@@ -6321,7 +6514,8 @@
       "Python库"
     ],
     "external": true,
-    "display_cn": "用 LLM 从非结构化文本提取结构化信息的 Python 库(google)。"
+    "display_cn": "用 LLM 从非结构化文本提取结构化信息的 Python 库(google)。",
+    "owner": "google"
   },
   {
     "name": "last30days-skill",
@@ -6344,7 +6538,8 @@
       "agent技能"
     ],
     "external": true,
-    "display_cn": "AI agent skill:研究 Reddit/X/YouTube/HN/Polymarket 等平台近 30 天话题。"
+    "display_cn": "AI agent skill:研究 Reddit/X/YouTube/HN/Polymarket 等平台近 30 天话题。",
+    "owner": "mvanhorn"
   },
   {
     "name": "lean-side-bussiness",
@@ -6367,7 +6562,8 @@
       "变现"
     ],
     "external": true,
-    "display_cn": "精益副业:程序员如何优雅地做副业(easychen)。"
+    "display_cn": "精益副业:程序员如何优雅地做副业(easychen)。",
+    "owner": "easychen"
   },
   {
     "name": "linux-android",
@@ -6390,7 +6586,8 @@
       "旧手机"
     ],
     "external": true,
-    "display_cn": "把旧 Android 手机改装成 GPU 加速 Linux 桌面。"
+    "display_cn": "把旧 Android 手机改装成 GPU 加速 Linux 桌面。",
+    "owner": "mayukh4"
   },
   {
     "name": "localsend",
@@ -6413,7 +6610,8 @@
       "局域网"
     ],
     "external": true,
-    "display_cn": "开源跨平台 AirDrop 替代:局域网文件互传。"
+    "display_cn": "开源跨平台 AirDrop 替代:局域网文件互传。",
+    "owner": "localsend"
   },
   {
     "name": "makemd",
@@ -6436,7 +6634,8 @@
       "插件"
     ],
     "external": true,
-    "display_cn": "(无描述)推断为 Make.md(把 Obsidian 笔记变成数据库的插件),待补充。"
+    "display_cn": "(无描述)推断为 Make.md(把 Obsidian 笔记变成数据库的插件),待补充。",
+    "owner": "Make-md"
   },
   {
     "name": "manim_skill",
@@ -6459,7 +6658,8 @@
       "可视化"
     ],
     "external": true,
-    "display_cn": "Manim 动画 agent 技能:创建 3Blue1Brown 风格数学动画。"
+    "display_cn": "Manim 动画 agent 技能:创建 3Blue1Brown 风格数学动画。",
+    "owner": "adithya-s-k"
   },
   {
     "name": "markdown-nice",
@@ -6482,7 +6682,8 @@
       "主题"
     ],
     "external": true,
-    "display_cn": "支持主题设计的 Markdown 编辑器,让排版变 Nice(公众号用)。"
+    "display_cn": "支持主题设计的 Markdown 编辑器,让排版变 Nice(公众号用)。",
+    "owner": "mdnice"
   },
   {
     "name": "markdown-online-editor",
@@ -6505,7 +6706,8 @@
       "排版"
     ],
     "external": true,
-    "display_cn": "Vue2+Vditor 在线 Markdown 编辑器:流程图/甘特/图表/PPT 预览。"
+    "display_cn": "Vue2+Vditor 在线 Markdown 编辑器:流程图/甘特/图表/PPT 预览。",
+    "owner": "nicejade"
   },
   {
     "name": "marketingskills",
@@ -6528,7 +6730,8 @@
       "增长"
     ],
     "external": true,
-    "display_cn": "Claude Code/AI agent 营销技能包:CRO、文案、SEO、分析、增长。"
+    "display_cn": "Claude Code/AI agent 营销技能包:CRO、文案、SEO、分析、增长。",
+    "owner": "coreyhaines31"
   },
   {
     "name": "markitdown",
@@ -6551,7 +6754,8 @@
       "Python"
     ],
     "external": true,
-    "display_cn": "把文件与 Office 文档转 Markdown 的 Python 工具(微软)。"
+    "display_cn": "把文件与 Office 文档转 Markdown 的 Python 工具(微软)。",
+    "owner": "microsoft"
   },
   {
     "name": "memory-lancedb-pro",
@@ -6574,7 +6778,8 @@
       "混合检索"
     ],
     "external": true,
-    "display_cn": "OpenClaw 增强 LanceDB 记忆插件:混合检索(Vector+BM25)+ 跨编码器。"
+    "display_cn": "OpenClaw 增强 LanceDB 记忆插件:混合检索(Vector+BM25)+ 跨编码器。",
+    "owner": "CortexReach"
   },
   {
     "name": "memos",
@@ -6597,7 +6802,8 @@
       "轻量"
     ],
     "external": true,
-    "display_cn": "开源自托管笔记工具:快速捕获、Markdown 原生、轻量。"
+    "display_cn": "开源自托管笔记工具:快速捕获、Markdown 原生、轻量。",
+    "owner": "usememos"
   },
   {
     "name": "memvid",
@@ -6620,7 +6826,8 @@
       "agent"
     ],
     "external": true,
-    "display_cn": "agent 记忆层:用 serverless 单文件替代复杂 RAG 流水线。"
+    "display_cn": "agent 记忆层:用 serverless 单文件替代复杂 RAG 流水线。",
+    "owner": "memvid"
   },
   {
     "name": "n8n-mcp",
@@ -6643,7 +6850,8 @@
       "Claude"
     ],
     "external": true,
-    "display_cn": "给 Claude Desktop/Claude Code/Windsurf/Cursor 的 MCP:帮 AI 构建 n8n 工作流。"
+    "display_cn": "给 Claude Desktop/Claude Code/Windsurf/Cursor 的 MCP:帮 AI 构建 n8n 工作流。",
+    "owner": "czlonkowski"
   },
   {
     "name": "n8n-workflows",
@@ -6690,7 +6898,8 @@
       "导入"
     ],
     "external": true,
-    "display_cn": "N8N 工作流配置文件集合(YouTube 分享,可直接导入)。"
+    "display_cn": "N8N 工作流配置文件集合(YouTube 分享,可直接导入)。",
+    "owner": "soluckysummer"
   },
   {
     "name": "nano-banana-pro-prompts-recommend-skill",
@@ -6713,7 +6922,8 @@
       "生图"
     ],
     "external": true,
-    "display_cn": "OpenClaw/Claude Code 技能:从 10000+ Nano Banana Pro(Gemini)图像提示词中推荐。"
+    "display_cn": "OpenClaw/Claude Code 技能:从 10000+ Nano Banana Pro(Gemini)图像提示词中推荐。",
+    "owner": "YouMind-OpenLab"
   },
   {
     "name": "nano-image-generator-skill",
@@ -6735,7 +6945,8 @@
       "skill"
     ],
     "external": true,
-    "display_cn": "(无描述)Nano 图像生成 skill,用途待补充。"
+    "display_cn": "(无描述)Nano 图像生成 skill,用途待补充。",
+    "owner": "lxfater"
   },
   {
     "name": "nanoclaw",
@@ -6758,7 +6969,8 @@
       "WhatsApp"
     ],
     "external": true,
-    "display_cn": "OpenClaw 轻量替代:容器化运行更安全,可连接 WhatsApp。"
+    "display_cn": "OpenClaw 轻量替代:容器化运行更安全,可连接 WhatsApp。",
+    "owner": "nanocoai"
   },
   {
     "name": "notebooklm-py",
@@ -6781,7 +6993,8 @@
       "封装"
     ],
     "external": true,
-    "display_cn": "Google NotebookLM 非官方 Python API 与 agentic skill,完整程序化访问。"
+    "display_cn": "Google NotebookLM 非官方 Python API 与 agentic skill,完整程序化访问。",
+    "owner": "teng-lin"
   },
   {
     "name": "obs-studio",
@@ -6804,7 +7017,8 @@
       "开源"
     ],
     "external": true,
-    "display_cn": "OBS Studio:免费开源的直播与录屏软件。"
+    "display_cn": "OBS Studio:免费开源的直播与录屏软件。",
+    "owner": "obsproject"
   },
   {
     "name": "obscura",
@@ -6827,7 +7041,8 @@
       "AI agent"
     ],
     "external": true,
-    "display_cn": "面向 AI agent 与网页抓取的无头浏览器(headless)。"
+    "display_cn": "面向 AI agent 与网页抓取的无头浏览器(headless)。",
+    "owner": "h4ckf0r0day"
   },
   {
     "name": "obsidian-releases",
@@ -6850,7 +7065,8 @@
       "社区"
     ],
     "external": true,
-    "display_cn": "Obsidian 社区插件列表、主题列表与发布(官方仓库)。"
+    "display_cn": "Obsidian 社区插件列表、主题列表与发布(官方仓库)。",
+    "owner": "obsidianmd"
   },
   {
     "name": "obsidian-skills",
@@ -6873,7 +7089,8 @@
       "Markdown"
     ],
     "external": true,
-    "display_cn": "Obsidian 的 agent 技能:教 agent 用 Obsidian CLI 与开放格式(kepano)。"
+    "display_cn": "Obsidian 的 agent 技能:教 agent 用 Obsidian CLI 与开放格式(kepano)。",
+    "owner": "kepano"
   },
   {
     "name": "oh-my-openagent",
@@ -6896,7 +7113,8 @@
       "工作流"
     ],
     "external": true,
-    "display_cn": "OmO:极致高效的 agent 工作流工具。"
+    "display_cn": "OmO:极致高效的 agent 工作流工具。",
+    "owner": "code-yeongyu"
   },
   {
     "name": "one-api",
@@ -6919,7 +7137,8 @@
       "中转"
     ],
     "external": true,
-    "display_cn": "LLM API 管理与分发系统:支持 OpenAI/Azure/Claude/Gemini/DeepSeek 等。"
+    "display_cn": "LLM API 管理与分发系统:支持 OpenAI/Azure/Claude/Gemini/DeepSeek 等。",
+    "owner": "songquanpeng"
   },
   {
     "name": "one-person-company",
@@ -6942,7 +7161,8 @@
       "Vibe"
     ],
     "external": true,
-    "display_cn": "一人公司 AI 工具系列:遇事不决 Vibe 力学,持续更新提升生产力。"
+    "display_cn": "一人公司 AI 工具系列:遇事不决 Vibe 力学,持续更新提升生产力。",
+    "owner": "cyfyifanchen"
   },
   {
     "name": "opc-methodology",
@@ -6965,7 +7185,8 @@
       "数字商品"
     ],
     "external": true,
-    "display_cn": "《一人企业方法论》第二版,也适合自媒体/电商/数字商品副业。"
+    "display_cn": "《一人企业方法论》第二版,也适合自媒体/电商/数字商品副业。",
+    "owner": "easychen"
   },
   {
     "name": "open-data",
@@ -6988,7 +7209,8 @@
       "比赛数据"
     ],
     "external": true,
-    "display_cn": "StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。"
+    "display_cn": "StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。",
+    "owner": "hudl"
   },
   {
     "name": "openclaw",
@@ -7011,7 +7233,8 @@
       "自动化"
     ],
     "external": true,
-    "display_cn": "真的会做事的 AI:任意 OS、任意平台(OpenClaw 本体,lobster 方式)。"
+    "display_cn": "真的会做事的 AI:任意 OS、任意平台(OpenClaw 本体,lobster 方式)。",
+    "owner": "openclaw"
   },
   {
     "name": "openclaw-android",
@@ -7034,7 +7257,8 @@
       "一键运行"
     ],
     "external": true,
-    "display_cn": "一条命令在 Android 上运行 OpenClaw,无需 proot/Linux。"
+    "display_cn": "一条命令在 Android 上运行 OpenClaw,无需 proot/Linux。",
+    "owner": "AidanPark"
   },
   {
     "name": "openclaw-cn",
@@ -7058,7 +7282,8 @@
       "国内优化"
     ],
     "external": true,
-    "display_cn": "OpenClaw 中文社区版:内置钉钉/企业微信/飞书/QQ/微信接入与国内网络优化。"
+    "display_cn": "OpenClaw 中文社区版:内置钉钉/企业微信/飞书/QQ/微信接入与国内网络优化。",
+    "owner": "mf-yang"
   },
   {
     "name": "openclaw-min-bundle",
@@ -7081,7 +7306,8 @@
       "最小化"
     ],
     "external": true,
-    "display_cn": "OpenClaw 最小化自愈网关(systemd user+auto-fix)+ codex deep search bundle。"
+    "display_cn": "OpenClaw 最小化自愈网关(systemd user+auto-fix)+ codex deep search bundle。",
+    "owner": "win4r"
   },
   {
     "name": "opencode",
@@ -7104,7 +7330,8 @@
       "代码生成"
     ],
     "external": true,
-    "display_cn": "开源编码 agent(terminal 内 AI 编程助手)。"
+    "display_cn": "开源编码 agent(terminal 内 AI 编程助手)。",
+    "owner": "opencode-ai"
   },
   {
     "name": "openfang",
@@ -7127,7 +7354,8 @@
       "开源"
     ],
     "external": true,
-    "display_cn": "开源 Agent 操作系统(Agent OS)。"
+    "display_cn": "开源 Agent 操作系统(Agent OS)。",
+    "owner": "RightNow-AI"
   },
   {
     "name": "openskills",
@@ -7150,7 +7378,8 @@
       "agent技能"
     ],
     "external": true,
-    "display_cn": "AI 编码 agent 的通用技能加载器(npm i -g openskills)。"
+    "display_cn": "AI 编码 agent 的通用技能加载器(npm i -g openskills)。",
+    "owner": "numman-ali"
   },
   {
     "name": "openwiki",
@@ -7173,7 +7402,8 @@
       "OpenWiki"
     ],
     "external": true,
-    "display_cn": "CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。"
+    "display_cn": "CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。",
+    "owner": "langchain-ai"
   },
   {
     "name": "pal-mcp-server",
@@ -7196,7 +7426,8 @@
       "多模型"
     ],
     "external": true,
-    "display_cn": "MCP 服务器:聚合 Claude Code/GeminiCLI/CodexCLI 与 Gemini/OpenAI/OpenRouter/Azure 等模型。"
+    "display_cn": "MCP 服务器:聚合 Claude Code/GeminiCLI/CodexCLI 与 Gemini/OpenAI/OpenRouter/Azure 等模型。",
+    "owner": "BeehiveInnovations"
   },
   {
     "name": "parlant",
@@ -7219,7 +7450,8 @@
       "可靠性"
     ],
     "external": true,
-    "display_cn": "构建可靠客服 AI agent 的交互控制 harness。"
+    "display_cn": "构建可靠客服 AI agent 的交互控制 harness。",
+    "owner": "emcie-co"
   },
   {
     "name": "pi",
@@ -7242,7 +7474,8 @@
       "编码助手"
     ],
     "external": true,
-    "display_cn": "AI agent 工具包:统一 LLM API、agent 循环、TUI 与编码 agent CLI(pi 本体)。"
+    "display_cn": "AI agent 工具包:统一 LLM API、agent 循环、TUI 与编码 agent CLI(pi 本体)。",
+    "owner": "earendil-works"
   },
   {
     "name": "pi-provider-newapi",
@@ -7265,7 +7498,8 @@
       "扩展"
     ],
     "external": true,
-    "display_cn": "pi 的 NewAPI 自托管网关 provider 扩展:动态模型发现与成本计算。"
+    "display_cn": "pi 的 NewAPI 自托管网关 provider 扩展:动态模型发现与成本计算。",
+    "owner": "ttimasdf"
   },
   {
     "name": "picoclaw",
@@ -7288,7 +7522,8 @@
       "Go"
     ],
     "external": true,
-    "display_cn": "小巧、快速、随处可部署的 agent:自动化琐事,释放创造力。"
+    "display_cn": "小巧、快速、随处可部署的 agent:自动化琐事,释放创造力。",
+    "owner": "sipeed"
   },
   {
     "name": "planning-with-files",
@@ -7311,7 +7546,8 @@
       "崩溃安全"
     ],
     "external": true,
-    "display_cn": "基于文件持久化的规划:崩溃安全的长期任务管理。"
+    "display_cn": "基于文件持久化的规划:崩溃安全的长期任务管理。",
+    "owner": "OthmanAdi"
   },
   {
     "name": "podcastfy",
@@ -7334,7 +7570,8 @@
       "Python"
     ],
     "external": true,
-    "display_cn": "NotebookLM 播客功能的开源 Python 替代:多模态内容转播客。"
+    "display_cn": "NotebookLM 播客功能的开源 Python 替代:多模态内容转播客。",
+    "owner": "souzatharsis"
   },
   {
     "name": "prompt-eng-interactive-tutorial",
@@ -7357,7 +7594,8 @@
       "交互式"
     ],
     "external": true,
-    "display_cn": "Anthropic 官方交互式提示工程教程(notebook)。"
+    "display_cn": "Anthropic 官方交互式提示工程教程(notebook)。",
+    "owner": "anthropics"
   },
   {
     "name": "prompt-optimizer",
@@ -7380,7 +7618,8 @@
       "结果"
     ],
     "external": true,
-    "display_cn": "AI 提示词优化器:写出更好的提示词,获得更好的 AI 结果。"
+    "display_cn": "AI 提示词优化器:写出更好的提示词,获得更好的 AI 结果。",
+    "owner": "linshenkx"
   },
   {
     "name": "prompts.chat",
@@ -7403,7 +7642,8 @@
       "合集"
     ],
     "external": true,
-    "display_cn": "Awesome ChatGPT Prompts:社区分享与发现的提示词合集。"
+    "display_cn": "Awesome ChatGPT Prompts:社区分享与发现的提示词合集。",
+    "owner": "f"
   },
   {
     "name": "pua",
@@ -7426,7 +7666,8 @@
       "skill"
     ],
     "external": true,
-    "display_cn": "高能动性 agent skill:扮演曾被寄予厚望的 P8 级工程师。"
+    "display_cn": "高能动性 agent skill:扮演曾被寄予厚望的 P8 级工程师。",
+    "owner": "tanweai"
   },
   {
     "name": "qwen-code",
@@ -7449,7 +7690,8 @@
       "代码生成"
     ],
     "external": true,
-    "display_cn": "Qwen 官方开源终端 AI 编码 agent。"
+    "display_cn": "Qwen 官方开源终端 AI 编码 agent。",
+    "owner": "QwenLM"
   },
   {
     "name": "register",
@@ -7469,7 +7711,8 @@
       "register"
     ],
     "external": true,
-    "display_cn": "(无描述)用途待补充。"
+    "display_cn": "(无描述)用途待补充。",
+    "owner": "MasterAlanLab"
   },
   {
     "name": "reverse-skill",
@@ -7492,7 +7735,8 @@
       "红队"
     ],
     "external": true,
-    "display_cn": "逆向工程/授权渗透测试/安全研究 Skill 路由包。"
+    "display_cn": "逆向工程/授权渗透测试/安全研究 Skill 路由包。",
+    "owner": "zhaoxuya520"
   },
   {
     "name": "ruflo",
@@ -7515,7 +7759,8 @@
       "部署"
     ],
     "external": true,
-    "display_cn": "agent meta-harness:部署多智能体群、协调自动化(ruvnet)。"
+    "display_cn": "agent meta-harness:部署多智能体群、协调自动化(ruvnet)。",
+    "owner": "ruvnet"
   },
   {
     "name": "scientific-agent-skills",
@@ -7538,7 +7783,8 @@
       "数据分析"
     ],
     "external": true,
-    "display_cn": "把 AI agent 变成 AI 科学家:科学领域 #1 Agent Skills 库。"
+    "display_cn": "把 AI agent 变成 AI 科学家:科学领域 #1 Agent Skills 库。",
+    "owner": "K-Dense-AI"
   },
   {
     "name": "serv00-play",
@@ -7561,7 +7807,8 @@
       "自动化部署"
     ],
     "external": true,
-    "display_cn": "serv00/hostuno 应用:argo+vmess/hy2/socks5/mtproto/alist/哪吒探针,自动化部署保号。"
+    "display_cn": "serv00/hostuno 应用:argo+vmess/hy2/socks5/mtproto/alist/哪吒探针,自动化部署保号。",
+    "owner": "frankiejun"
   },
   {
     "name": "sing-box",
@@ -7584,7 +7831,8 @@
       "跨平台"
     ],
     "external": true,
-    "display_cn": "通用代理平台(SagerNet)。"
+    "display_cn": "通用代理平台(SagerNet)。",
+    "owner": "SagerNet"
   },
   {
     "name": "skill-from-masters",
@@ -7606,7 +7854,8 @@
       "技能工程"
     ],
     "external": true,
-    "display_cn": "站在巨人肩上:基于各领域大师方法论创建 AI skills。"
+    "display_cn": "站在巨人肩上:基于各领域大师方法论创建 AI skills。",
+    "owner": "GBSOSS"
   },
   {
     "name": "skill-prompt-generator",
@@ -7629,7 +7878,8 @@
       "Claude Skill"
     ],
     "external": true,
-    "display_cn": "AI 人像 Prompt 生成系统:从特征库智能组合人像描述,自动学习扩展。"
+    "display_cn": "AI 人像 Prompt 生成系统:从特征库智能组合人像描述,自动学习扩展。",
+    "owner": "huangserva"
   },
   {
     "name": "skills",
@@ -7652,7 +7902,8 @@
       "实战"
     ],
     "external": true,
-    "display_cn": "面向真实工程师的 agent Skills 合集(mattpocock 实战项目)。"
+    "display_cn": "面向真实工程师的 agent Skills 合集(mattpocock 实战项目)。",
+    "owner": "anthropics"
   },
   {
     "name": "spec-kit",
@@ -7675,7 +7926,8 @@
       "github"
     ],
     "external": true,
-    "display_cn": "Spec-Driven Development 工具包(github 官方)。"
+    "display_cn": "Spec-Driven Development 工具包(github 官方)。",
+    "owner": "github"
   },
   {
     "name": "sub2api",
@@ -7698,7 +7950,8 @@
       "拼车"
     ],
     "external": true,
-    "display_cn": "一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。"
+    "display_cn": "一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。",
+    "owner": "Wei-Shaw"
   },
   {
     "name": "suna",
@@ -7721,7 +7974,8 @@
       "治理"
     ],
     "external": true,
-    "display_cn": "开源 AI 管理系统(kortix-ai)。"
+    "display_cn": "开源 AI 管理系统(kortix-ai)。",
+    "owner": "kortix-ai"
   },
   {
     "name": "supermemory",
@@ -7744,7 +7998,8 @@
       "RAG"
     ],
     "external": true,
-    "display_cn": "记忆与上下文引擎+应用:极快、可扩展、可全本地运行。"
+    "display_cn": "记忆与上下文引擎+应用:极快、可扩展、可全本地运行。",
+    "owner": "supermemoryai"
   },
   {
     "name": "superpowers",
@@ -7767,7 +8022,8 @@
       "软件开发"
     ],
     "external": true,
-    "display_cn": "agentic 技能框架与软件开发方法论(obra)。"
+    "display_cn": "agentic 技能框架与软件开发方法论(obra)。",
+    "owner": "obra"
   },
   {
     "name": "system_prompts_leaks",
@@ -7790,7 +8046,8 @@
       "逆向"
     ],
     "external": true,
-    "display_cn": "从 Anthropic Claude 系列提取的系统提示词(Claude Fable/Opus/Design 等)。"
+    "display_cn": "从 Anthropic Claude 系列提取的系统提示词(Claude Fable/Opus/Design 等)。",
+    "owner": "asgeirtj"
   },
   {
     "name": "termux-x11",
@@ -7813,7 +8070,8 @@
       "图形"
     ],
     "external": true,
-    "display_cn": "Termux X-server 插件(Android 上跑图形应用)。"
+    "display_cn": "Termux X-server 插件(Android 上跑图形应用)。",
+    "owner": "termux"
   },
   {
     "name": "tianyashentie",
@@ -7836,7 +8094,8 @@
       "合集"
     ],
     "external": true,
-    "display_cn": "天涯论坛神贴 PDF 版合集(206 篇)。"
+    "display_cn": "天涯论坛神贴 PDF 版合集(206 篇)。",
+    "owner": "mariacowie81"
   },
   {
     "name": "ttsfm",
@@ -7859,7 +8118,8 @@
       "语音"
     ],
     "external": true,
-    "display_cn": "镜像 OpenAI TTS 服务,提供兼容接口的文本转语音服务。"
+    "display_cn": "镜像 OpenAI TTS 服务,提供兼容接口的文本转语音服务。",
+    "owner": "dbccccccc"
   },
   {
     "name": "video-use",
@@ -7882,7 +8142,8 @@
       "编程控制"
     ],
     "external": true,
-    "display_cn": "让编码 agent 用代码编辑视频:自动化剪辑/拼接/特效(browser-use 出品)。"
+    "display_cn": "让编码 agent 用代码编辑视频:自动化剪辑/拼接/特效(browser-use 出品)。",
+    "owner": "browser-use"
   },
   {
     "name": "waoowaoo",
@@ -7905,7 +8166,8 @@
       "Agent平台"
     ],
     "external": true,
-    "display_cn": "工业级全流程 AI 影视生产平台:可控的电影级 AI Agent 制作(waooAI)。"
+    "display_cn": "工业级全流程 AI 影视生产平台:可控的电影级 AI Agent 制作(waooAI)。",
+    "owner": "waooAI"
   },
   {
     "name": "warp",
@@ -7928,7 +8190,8 @@
       "开发环境"
     ],
     "external": true,
-    "display_cn": "Warp:诞生于终端的 agentic 开发环境(AI 驱动 IDE)。"
+    "display_cn": "Warp:诞生于终端的 agentic 开发环境(AI 驱动 IDE)。",
+    "owner": "warpdotdev"
   },
   {
     "name": "weekly",
@@ -7951,7 +8214,8 @@
       "资讯"
     ],
     "external": true,
-    "display_cn": "科技爱好者周刊(阮一峰),每周五发布。"
+    "display_cn": "科技爱好者周刊(阮一峰),每周五发布。",
+    "owner": "ruanyf"
   },
   {
     "name": "what-to-eat",
@@ -7974,7 +8238,8 @@
       "营养分析"
     ],
     "external": true,
-    "display_cn": "一饭封神:AI 智能菜谱生成平台,八大菜系+国际料理,营养分析/酒水推荐/效果图。"
+    "display_cn": "一饭封神:AI 智能菜谱生成平台,八大菜系+国际料理,营养分析/酒水推荐/效果图。",
+    "owner": "liu-ziting"
   },
   {
     "name": "windows-update-disabler",
@@ -7997,7 +8262,8 @@
       "系统"
     ],
     "external": true,
-    "display_cn": "用轻量批处理工具禁用/启用 Windows 更新。"
+    "display_cn": "用轻量批处理工具禁用/启用 Windows 更新。",
+    "owner": "tsgrgo"
   },
   {
     "name": "workout-cool",
@@ -8020,7 +8286,8 @@
       "追踪"
     ],
     "external": true,
-    "display_cn": "开源健身教练平台:创建计划、追踪进度。"
+    "display_cn": "开源健身教练平台:创建计划、追踪进度。",
+    "owner": "Snouzy"
   },
   {
     "name": "x-tweet-fetcher",
@@ -8043,6 +8310,7 @@
       "时间线"
     ],
     "external": true,
-    "display_cn": "免登录、免 API key 抓取 X/Twitter 推文/回复/时间线。"
+    "display_cn": "免登录、免 API key 抓取 X/Twitter 推文/回复/时间线。",
+    "owner": "ythx-101"
   }
 ]
