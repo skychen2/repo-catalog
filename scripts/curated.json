@@ -1,5 +1,5 @@
 {
-  "_comment": "人工维护的中文功能说明与检索关键词。key 为仓库名。category 取值: ai-llm / network-proxy / media / content-writing / dev-data-tools / knowledge-books / personal-projects。新增仓库或功能变更时更新此文件,然后运行 scripts/generate.py 重新生成 INDEX.md / categories/ / data/repos.json",
+  "_comment": "人工维护的中文功能说明与检索关键词。key 为仓库名。category 取值: ai-llm-models / ai-llm-prompts / ai-llm-agents / ai-llm-api / ai-llm-tutorials / network-proxy / media / content-writing / dev-data-tools / knowledge-books / personal-projects。fork 仓库可加 forkedFrom 字段(上游项目,如 'owner/repo'),生成时会自动标注。新增仓库或功能变更时更新此文件,然后运行 scripts/generate.py 重新生成 INDEX.md / categories/ / data/repos.json",
   "Adversarial-Evolution": {
     "category": "knowledge-books",
     "cn": "《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活动的本质)。",
@@ -9,20 +9,22 @@
       "科普书",
       "人类社会",
       "文明"
-    ]
+    ],
+    "forkedFrom": "Wing-2025/Adversarial-Evolution"
   },
   "Awesome-Chinese-LLM": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "中文开源大模型整理清单,聚焦规模较小、可私有化部署、训练成本低的模型(底座模型、垂直微调、数据集与教程)。",
     "keywords": [
       "中文大模型",
       "开源LLM",
       "私有化部署",
       "模型清单"
-    ]
+    ],
+    "forkedFrom": "AiHubCN/Awesome-Chinese-LLM"
   },
   "BettaFish": {
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "微舆:多 Agent 舆情分析助手。打破信息茧房、还原舆情原貌、预测走向、辅助决策,从零实现不依赖框架。",
     "keywords": [
       "舆情分析",
@@ -30,7 +32,8 @@
       "信息茧房",
       "预测",
       "决策"
-    ]
+    ],
+    "forkedFrom": "666ghj/BettaFish"
   },
   "CF-Workers-SUB": {
     "category": "network-proxy",
@@ -42,7 +45,8 @@
       "Clash",
       "Sing-box",
       "节点转换"
-    ]
+    ],
+    "forkedFrom": "cmliu/CF-Workers-SUB"
   },
   "CF-Workers-docker.io": {
     "category": "network-proxy",
@@ -53,7 +57,8 @@
       "Cloudflare Workers",
       "加速",
       "镜像加速"
-    ]
+    ],
+    "forkedFrom": "cmliu/CF-Workers-docker.io"
   },
   "Classical-Modern": {
     "category": "knowledge-books",
@@ -64,7 +69,8 @@
       "古文",
       "平行语料",
       "数据集"
-    ]
+    ],
+    "forkedFrom": "NiuTrans/Classical-Modern"
   },
   "Cloudflare_vless_trojan": {
     "category": "network-proxy",
@@ -76,7 +82,8 @@
       "科学上网",
       "一键脚本",
       "优选IP"
-    ]
+    ],
+    "forkedFrom": "yonggekkk/Cloudflare-vless-trojan"
   },
   "Collection_TianYa": {
     "category": "knowledge-books",
@@ -86,7 +93,8 @@
       "天涯论坛",
       "合集",
       "PDF"
-    ]
+    ],
+    "forkedFrom": "als3453/Collection_TianYa"
   },
   "ComfyUI-Workflows-ZHO": {
     "category": "media",
@@ -96,7 +104,8 @@
       "工作流",
       "AI绘画",
       "Stable Diffusion"
-    ]
+    ],
+    "forkedFrom": "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO"
   },
   "ControlNet": {
     "category": "media",
@@ -107,7 +116,8 @@
       "姿态控制",
       "Stable Diffusion",
       "条件生成"
-    ]
+    ],
+    "forkedFrom": "lllyasviel/ControlNet"
   },
   "EDtunnel": {
     "category": "network-proxy",
@@ -118,10 +128,11 @@
       "Pages",
       "Worker",
       "代理"
-    ]
+    ],
+    "forkedFrom": "3Kmfi6HP/EDtunnel"
   },
   "GPT_API_free": {
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "免费 ChatGPT API Key 收集(含国内可用免费转发 API),直连无需代理,可搭配 ChatBox 等使用,降低接口成本。",
     "keywords": [
       "免费API",
@@ -129,17 +140,19 @@
       "转发API",
       "国内可用",
       "省钱"
-    ]
+    ],
+    "forkedFrom": "chatanywhere/GPT_API_free"
   },
   "GPTs": {
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "GPTs 泄露的系统提示词(prompt)合集,研究他人 GPTs 构建思路。",
     "keywords": [
       "GPTs",
       "泄露提示词",
       "系统提示词",
       "prompt研究"
-    ]
+    ],
+    "forkedFrom": "linexjlin/GPTs"
   },
   "GitHub-Chinese-Top-Charts": {
     "category": "dev-data-tools",
@@ -149,7 +162,8 @@
       "中文项目",
       "榜单",
       "发现项目"
-    ]
+    ],
+    "forkedFrom": "GrowingGit/GitHub-Chinese-Top-Charts"
   },
   "GitHubDaily": {
     "category": "dev-data-tools",
@@ -159,7 +173,8 @@
       "技术资讯",
       "开源项目",
       "周报"
-    ]
+    ],
+    "forkedFrom": "GitHubDaily/GitHubDaily"
   },
   "HowToCook": {
     "category": "knowledge-books",
@@ -169,7 +184,8 @@
       "菜谱",
       "程序员",
       "生活指南"
-    ]
+    ],
+    "forkedFrom": "Anduin2017/HowToCook"
   },
   "HumanSystemOptimization": {
     "category": "knowledge-books",
@@ -180,7 +196,8 @@
       "学习效率",
       "身体调优",
       "自我提升"
-    ]
+    ],
+    "forkedFrom": "zijie0/HumanSystemOptimization"
   },
   "IDM-Activation-Script": {
     "category": "dev-data-tools",
@@ -190,17 +207,19 @@
       "激活",
       "下载工具",
       "脚本"
-    ]
+    ],
+    "forkedFrom": "lstprjct/IDM-Activation-Script"
   },
   "LangGPT": {
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "LangGPT:结构化提示词框架,让人人都能成为 prompt 专家(结构化 Prompt 方法论)。",
     "keywords": [
       "结构化提示词",
       "prompt工程",
       "LangGPT",
       "框架"
-    ]
+    ],
+    "forkedFrom": "langgptai/LangGPT"
   },
   "MidJourney-Styles-and-Keywords-Reference": {
     "category": "media",
@@ -211,10 +230,11 @@
       "关键词",
       "AI绘画",
       "提示词手册"
-    ]
+    ],
+    "forkedFrom": "willwulfken/MidJourney-Styles-and-Keywords-Reference"
   },
   "MiniCPM": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "MiniCPM-2B:端侧小模型,性能超越 Llama2-13B,适合移动端/边缘部署。",
     "keywords": [
       "小模型",
@@ -222,7 +242,8 @@
       "MiniCPM",
       "轻量LLM",
       "边缘部署"
-    ]
+    ],
+    "forkedFrom": "OpenBMB/MiniCPM"
   },
   "MoneyPrinterTurbo": {
     "category": "media",
@@ -233,7 +254,8 @@
       "AI视频",
       "自动剪辑",
       "MoneyPrinter"
-    ]
+    ],
+    "forkedFrom": "harry0703/MoneyPrinterTurbo"
   },
   "PDFPatcher": {
     "category": "dev-data-tools",
@@ -244,17 +266,19 @@
       "解除限制",
       "PDF合并",
       "Windows工具"
-    ]
+    ],
+    "forkedFrom": "wmjordan/PDFPatcher"
   },
   "PromptJailbreakManual": {
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "Prompt 越狱手册:研究模型安全边界的提示词技巧合集(安全研究向)。",
     "keywords": [
       "越狱",
       "提示词",
       "安全测试",
       "jailbreak"
-    ]
+    ],
+    "forkedFrom": "Acmesec/PromptJailbreakManual"
   },
   "Python-100-Days": {
     "category": "knowledge-books",
@@ -265,7 +289,8 @@
       "入门",
       "100天",
       "自学"
-    ]
+    ],
+    "forkedFrom": "jackfrued/Python-100-Days"
   },
   "reinstall": {
     "category": "network-proxy",
@@ -275,7 +300,8 @@
       "DD系统",
       "一键脚本",
       "服务器"
-    ]
+    ],
+    "forkedFrom": "bin456789/reinstall"
   },
   "short-video-factory": {
     "category": "media",
@@ -286,7 +312,8 @@
       "营销视频",
       "桌面工具",
       "批量生成"
-    ]
+    ],
+    "forkedFrom": "YILS-LIN/short-video-factory"
   },
   "sing-box-yg": {
     "category": "network-proxy",
@@ -298,7 +325,8 @@
       "科学上网",
       "一键脚本",
       "协议聚合"
-    ]
+    ],
+    "forkedFrom": "yonggekkk/sing-box-yg"
   },
   "SMSBoom": {
     "category": "dev-data-tools",
@@ -308,7 +336,8 @@
       "压力测试",
       "Python",
       "灰色工具"
-    ]
+    ],
+    "forkedFrom": "OpenEthan/SMSBoom"
   },
   "Telegraph-Image": {
     "category": "dev-data-tools",
@@ -319,7 +348,8 @@
       "Cloudflare",
       "免费",
       "Telegraph"
-    ]
+    ],
+    "forkedFrom": "lxyer/Telegraph-Image"
   },
   "Url-Shorten-Worker": {
     "category": "dev-data-tools",
@@ -330,20 +360,22 @@
       "Cloudflare Workers",
       "KV",
       "自建服务"
-    ]
+    ],
+    "forkedFrom": "crazypeace/Url-Shorten-Worker"
   },
   "WTF-Langchain": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。",
     "keywords": [
       "Langchain",
       "源码解析",
       "教程",
       "原理"
-    ]
+    ],
+    "forkedFrom": "WTFAcademy/WTF-Langchain"
   },
   "anthropic-cookbook": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等)。",
     "keywords": [
       "Claude",
@@ -351,7 +383,8 @@
       "notebook",
       "cookbook",
       "tool use"
-    ]
+    ],
+    "forkedFrom": "anthropics/claude-cookbooks"
   },
   "awesome-ai-painting": {
     "category": "media",
@@ -362,37 +395,41 @@
       "教程合集",
       "SDXL",
       "绘画平台"
-    ]
+    ],
+    "forkedFrom": "hua1995116/awesome-ai-painting"
   },
   "awesome-chatgpt-prompts": {
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "ChatGPT 提示词精选合集,让 ChatGPT 和其他 LLM 用得更顺手。",
     "keywords": [
       "ChatGPT",
       "提示词",
       "prompt合集",
       "精选"
-    ]
+    ],
+    "forkedFrom": "f/prompts.chat"
   },
   "awesome-claude-skills": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Claude Skills 精选清单:定制 Claude AI 工作流的优质 skills、资源与工具。",
     "keywords": [
       "Claude Skills",
       "技能清单",
       "Claude工作流",
       "精选"
-    ]
+    ],
+    "forkedFrom": "ComposioHQ/awesome-claude-skills"
   },
   "awesome-llm-apps": {
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "优质 LLM 应用合集:基于 OpenAI/Anthropic/Gemini 与开源模型的 AI Agents 与 RAG 应用。",
     "keywords": [
       "LLM应用",
       "Agent",
       "RAG",
       "应用合集"
-    ]
+    ],
+    "forkedFrom": "Shubhamsaboo/awesome-llm-apps"
   },
   "awesome-public-datasets": {
     "category": "dev-data-tools",
@@ -402,17 +439,19 @@
       "开放数据",
       "数据源",
       "清单"
-    ]
+    ],
+    "forkedFrom": "awesomedata/awesome-public-datasets"
   },
   "awesome-prompt": {
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "让你一眼惊艳的 prompt 合集。",
     "keywords": [
       "prompt",
       "提示词",
       "惊艳prompt",
       "合集"
-    ]
+    ],
+    "forkedFrom": "NeekChaw/awesome-prompt"
   },
   "chinese-poetry": {
     "category": "knowledge-books",
@@ -423,17 +462,19 @@
       "唐诗",
       "宋词",
       "语料"
-    ]
+    ],
+    "forkedFrom": "chinese-poetry/chinese-poetry"
   },
   "claude-code": {
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "Claude Code 源码快照(Anthropic 官方,仅研究用快照,源码版权归 Anthropic)。",
     "keywords": [
       "Claude Code",
       "Anthropic",
       "源码",
       "CLI工具"
-    ]
+    ],
+    "forkedFrom": "ultraworkers/claw-code"
   },
   "clawfeed": {
     "category": "personal-projects",
@@ -444,7 +485,8 @@
       "AI摘要",
       "Twitter",
       "自建"
-    ]
+    ],
+    "forkedFrom": "kevinho/clawfeed"
   },
   "clawserver": {
     "category": "personal-projects",
@@ -456,14 +498,15 @@
     ]
   },
   "cgft-llm": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "LLM 实践教程(从零到大模型,中文),逐步练习。",
     "keywords": [
       "LLM教程",
       "实践",
       "中文教程",
       "大模型学习"
-    ]
+    ],
+    "forkedFrom": "echonoshy/cgft-llm"
   },
   "cobalt": {
     "category": "media",
@@ -473,17 +516,19 @@
       "音频下载",
       "在线工具",
       "开源"
-    ]
+    ],
+    "forkedFrom": "imputnet/cobalt"
   },
   "cozeworkflows": {
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "Coze 200+ 工作流合集汇总,持续更新,可直接参考/导入。",
     "keywords": [
       "Coze",
       "工作流",
       "Agent",
       "合集"
-    ]
+    ],
+    "forkedFrom": "Hammer1/cozeworkflows"
   },
   "cs-self-learning": {
     "category": "knowledge-books",
@@ -493,10 +538,11 @@
       "自学",
       "学习路线",
       "CS教程"
-    ]
+    ],
+    "forkedFrom": "PKUFlyingPig/cs-self-learning"
   },
   "cursor2api": {
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "将 Cursor Web Docs 免费额度转换为 OpenAI/Anthropic 兼容格式 API 的代理服务,支持 Claude Code 工具调用与图片。",
     "keywords": [
       "Cursor",
@@ -504,7 +550,8 @@
       "免费API",
       "OpenAI兼容",
       "Claude Code"
-    ]
+    ],
+    "forkedFrom": "7836246/cursor2api"
   },
   "daodejing": {
     "category": "knowledge-books",
@@ -514,17 +561,19 @@
       "读书笔记",
       "人生感悟",
       "哲学"
-    ]
+    ],
+    "forkedFrom": "jarry/daodejing"
   },
   "easy-dataset": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "为 LLM 创建微调数据集的强大工具(可视化界面)。",
     "keywords": [
       "微调数据集",
       "数据集制作",
       "LLM微调",
       "数据标注"
-    ]
+    ],
+    "forkedFrom": "ConardLi/easy-dataset"
   },
   "edgetunnel": {
     "category": "network-proxy",
@@ -535,7 +584,8 @@
       "Clash",
       "Sing-box",
       "Cloudflare"
-    ]
+    ],
+    "forkedFrom": "cmliu/edgetunnel"
   },
   "fanqiang": {
     "category": "network-proxy",
@@ -545,7 +595,8 @@
       "翻墙",
       "代理",
       "工具合集"
-    ]
+    ],
+    "forkedFrom": "bannedbook/fanqiang"
   },
   "hackingtool": {
     "category": "dev-data-tools",
@@ -555,7 +606,8 @@
       "渗透测试",
       "工具箱",
       "hacking"
-    ]
+    ],
+    "forkedFrom": "Z4nzu/hackingtool"
   },
   "kkndme_tianya": {
     "category": "knowledge-books",
@@ -565,27 +617,30 @@
       "房价",
       "kkndme",
       "楼市"
-    ]
+    ],
+    "forkedFrom": "kkndmetianya/kkndme_tianya"
   },
   "llm-cookbook": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "面向开发者的 LLM 入门教程:吴恩达大模型系列课程中文版。",
     "keywords": [
       "吴恩达",
       "LLM入门",
       "教程",
       "中文版"
-    ]
+    ],
+    "forkedFrom": "datawhalechina/llm-cookbook"
   },
   "llamafile": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "把 LLM 分发和运行做成单个文件(自带运行时),最省心的本地部署方式之一。",
     "keywords": [
       "llamafile",
       "单文件部署",
       "本地LLM",
       "Mozilla"
-    ]
+    ],
+    "forkedFrom": "mozilla-ai/llamafile"
   },
   "md": {
     "category": "content-writing",
@@ -596,7 +651,8 @@
       "排版",
       "编辑器",
       "公众号文章"
-    ]
+    ],
+    "forkedFrom": "doocs/md"
   },
   "newsnow": {
     "category": "dev-data-tools",
@@ -606,7 +662,8 @@
       "热点",
       "阅读",
       "实时"
-    ]
+    ],
+    "forkedFrom": "ourongxing/newsnow"
   },
   "node-ws": {
     "category": "network-proxy",
@@ -617,7 +674,8 @@
       "serverless",
       "Node",
       "代理"
-    ]
+    ],
+    "forkedFrom": "eooce/node-ws"
   },
   "oh-story-claudecode": {
     "category": "content-writing",
@@ -628,17 +686,19 @@
       "Claude Code",
       "skill",
       "写作工作流"
-    ]
+    ],
+    "forkedFrom": "zenstory-ai/oh-story-claudecode"
   },
   "ollama": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "本地一键运行大模型:支持 Llama、Mistral、Gemma、Qwen 等,最流行的本地 LLM 运行时。",
     "keywords": [
       "ollama",
       "本地部署",
       "LLM运行时",
       "一键运行"
-    ]
+    ],
+    "forkedFrom": "ollama/ollama"
   },
   "one-person-businesses-methodology-v2.0": {
     "category": "content-writing",
@@ -649,20 +709,22 @@
       "自媒体",
       "方法论",
       "数字商品"
-    ]
+    ],
+    "forkedFrom": "easychen/opc-methodology"
   },
   "open-interpreter": {
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "自然语言操作电脑:让 LLM 写代码并执行,像本地版 Code Interpreter,可控制浏览器/文件等。",
     "keywords": [
       "代码解释器",
       "自然语言操作",
       "自动化",
       "Agent"
-    ]
+    ],
+    "forkedFrom": "openinterpreter/openinterpreter"
   },
   "openai-gemini": {
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "Gemini → OpenAI API 兼容代理(serverless),把 Gemini 当 OpenAI 接口用。",
     "keywords": [
       "Gemini",
@@ -670,10 +732,11 @@
       "OpenAI兼容",
       "serverless",
       "免费额度"
-    ]
+    ],
+    "forkedFrom": "PublicAffairs/openai-gemini"
   },
   "openclaw-zero-token": {
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "OpenClaw:免 API Token 使用主流大模型(Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi 等)的聚合方案。",
     "keywords": [
       "免token",
@@ -681,17 +744,19 @@
       "免费使用",
       "OpenClaw",
       "大模型"
-    ]
+    ],
+    "forkedFrom": "linuxhsj/openclaw-zero-token"
   },
   "phidata": {
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "用 function calling 构建 AI 助手:把 LLM 连接到外部工具,构建 Agent 框架。",
     "keywords": [
       "Agent",
       "function calling",
       "AI助手",
       "工具调用"
-    ]
+    ],
+    "forkedFrom": "agno-agi/agno"
   },
   "public-apis": {
     "category": "dev-data-tools",
@@ -701,10 +766,11 @@
       "免费接口",
       "开发者资源",
       "清单"
-    ]
+    ],
+    "forkedFrom": "public-apis/public-apis"
   },
   "system-prompts-and-models-of-ai-tools": {
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "各大 AI 工具的系统提示词与模型信息全集:v0、Cursor、Manus、Same.dev、Lovable、Devin、Replit Agent、Windsurf、VSCode Agent 等。",
     "keywords": [
       "系统提示词",
@@ -714,10 +780,11 @@
       "Devin",
       "Lovable",
       "逆向"
-    ]
+    ],
+    "forkedFrom": "x1xhlol/system-prompts-and-models-of-ai-tools"
   },
   "text-generation-webui": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "oobabooga 的 LLM 网页 UI(Gradio),支持 transformers/GPTQ/AWQ/EXL2/llama.cpp(GGUF)等多种后端。",
     "keywords": [
       "WebUI",
@@ -725,17 +792,19 @@
       "Gradio",
       "GPTQ",
       "GGUF"
-    ]
+    ],
+    "forkedFrom": "oobabooga/textgen"
   },
   "text-generation-webui-colab": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "text-generation-webui 的 Colab 版:在 Colab 免费 GPU 上跑 LLM 网页界面。",
     "keywords": [
       "Colab",
       "免费GPU",
       "WebUI",
       "LLM"
-    ]
+    ],
+    "forkedFrom": "camenduru/text-generation-webui-colab"
   },
   "tianya": {
     "category": "knowledge-books",
@@ -745,20 +814,22 @@
       "预言",
       "合集",
       "历史"
-    ]
+    ],
+    "forkedFrom": "hualin12/tianya"
   },
   "transformers-code": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "手把手实战 Huggingface Transformers 课程,视频同步在 B 站与 YouTube。",
     "keywords": [
       "Transformers",
       "Huggingface",
       "实战",
       "课程"
-    ]
+    ],
+    "forkedFrom": "zyds/transformers-code"
   },
   "unsloth": {
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "LLM 微调与强化学习训练工具:2-5 倍提速、省 70-80% 显存,支持 Qwen3/Llama 4/DeepSeek-R1/Gemma 3 等。",
     "keywords": [
       "微调",
@@ -767,17 +838,19 @@
       "省显存",
       "LoRA",
       "Qwen"
-    ]
+    ],
+    "forkedFrom": "unslothai/unsloth"
   },
   "vibe-coding-cn": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Vibe Coding(AI 编程)中文内容/资源合集(README 缺失,具体内容待核对)。",
     "keywords": [
       "Vibe Coding",
       "AI编程",
       "中文社区",
       "合集"
-    ]
+    ],
+    "forkedFrom": "2025Emma/vibe-coding-cn"
   },
   "video2x": {
     "category": "media",
@@ -788,7 +861,8 @@
       "画质增强",
       "视频放大",
       "AI视频处理"
-    ]
+    ],
+    "forkedFrom": "k4yt3x/video2x"
   },
   "weread2notion-pro": {
     "category": "dev-data-tools",
@@ -798,7 +872,8 @@
       "Notion",
       "读书笔记",
       "同步"
-    ]
+    ],
+    "forkedFrom": "malinkang/weread2notion-pro"
   },
   "wechat-intelligence-hub": {
     "category": "personal-projects",
@@ -810,7 +885,8 @@
       "每日简报",
       "商机",
       "CLI"
-    ]
+    ],
+    "forkedFrom": "Rion-Wu-tech/wechat-intelligence-hub"
   },
   "xhs_ai_publisher": {
     "category": "content-writing",
@@ -821,7 +897,8 @@
       "自动发布",
       "RPA",
       "内容生成"
-    ]
+    ],
+    "forkedFrom": "BetaStreetOmnis/xhs_ai_publisher"
   },
   "spotube": {
     "category": "media",
@@ -831,7 +908,8 @@
       "音乐",
       "开源客户端",
       "免会员"
-    ]
+    ],
+    "forkedFrom": "KRTirtho/spotube"
   },
   "sd-forge-layerdiffuse": {
     "category": "media",
@@ -842,7 +920,8 @@
       "Stable Diffusion",
       "Forge",
       "WebUI"
-    ]
+    ],
+    "forkedFrom": "lllyasviel/sd-forge-layerdiffuse"
   },
   "seedance-2.0": {
     "category": "media",
@@ -853,10 +932,11 @@
       "四模态",
       "视频生成",
       "影视制作"
-    ]
+    ],
+    "forkedFrom": "Emily2040/seedance-2.0"
   },
   "self-llm": {
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "《开源大模型食用指南》——基于 Linux 环境快速部署开源大模型的教程,更适合中文用户的部署指南。",
     "keywords": [
       "大模型部署",
@@ -864,7 +944,8 @@
       "Linux",
       "开源模型",
       "本地部署"
-    ]
+    ],
+    "forkedFrom": "datawhalechina/self-llm"
   },
   "repo-catalog": {
     "category": "dev-data-tools",
@@ -875,6 +956,17 @@
       "AI检索",
       "分类",
       "目录"
+    ]
+  },
+  "n8n-workflows": {
+    "category": "dev-data-tools",
+    "cn": "已被 GitHub DMCA 封禁(2025-08,版权投诉),仓库不可访问。n8n 工作流相关主题可检索关键词: n8n/工作流/自动化。",
+    "keywords": [
+      "n8n",
+      "工作流",
+      "DMCA",
+      "封禁",
+      "不可访问"
     ]
   }
 }

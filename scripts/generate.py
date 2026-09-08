@@ -23,7 +23,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 CATEGORIES = [
-    ("ai-llm", "AI / 大模型 / 提示词", "模型、微调、Agent 框架、prompt 工程、AI 接口与自部署 UI"),
+    ("ai-llm-models", "AI 模型 / 微调 / 部署", "本地运行、微调训练、模型清单、部署工具"),
+    ("ai-llm-prompts", "提示词 / 越狱 / 技巧", "prompt 合集、结构化提示词、系统提示词、越狱手册"),
+    ("ai-llm-agents", "Agent / 自动化 / 工具调用", "Agent 框架、function calling、自动操作、工作流"),
+    ("ai-llm-api", "AI 接口 / 代理 / 自部署 UI", "免费/中转 API、接口兼容代理、自部署聊天 UI"),
+    ("ai-llm-tutorials", "LLM 教程 / 学习资源", "入门课程、源码解析、实战教程、资源清单"),
     ("network-proxy", "代理 / 科学上网 / Cloudflare", "机场、订阅汇聚、VLESS/Trojan、Cloudflare Workers、VPS 运维"),
     ("media", "视频 / AI 绘画 / 媒体", "视频生成与剪辑、超分插帧、AI 绘画、下载工具、音乐"),
     ("content-writing", "内容创作 / 写作 / 运营", "公众号排版、小红书运营、网文写作、内容工厂规范与素材"),
@@ -74,11 +78,12 @@ def main():
         c = curated.get(name, {})
         lang = (meta.get("primaryLanguage") or {}).get("name") or "-"
         topics = ", ".join(t["name"] for t in (meta.get("repositoryTopics") or []))
-        records.append({
+        r = {
             "name": name,
             "url": meta.get("url", f"https://github.com/skychen2/{name}"),
             "visibility": meta.get("visibility", "PRIVATE"),
             "isFork": meta.get("isFork", False),
+            "forkedFrom": c.get("forkedFrom", "") if isinstance(c, dict) else "",
             "language": lang,
             "stars": meta.get("stargazerCount", 0),
             "forks": meta.get("forkCount", 0),
@@ -88,7 +93,13 @@ def main():
             "category": c.get("category", "personal-projects") if isinstance(c, dict) else "personal-projects",
             "cn": c.get("cn", meta.get("description") or "(待补充)") if isinstance(c, dict) else (meta.get("description") or "(待补充)"),
             "keywords": c.get("keywords", []) if isinstance(c, dict) else [],
-        })
+        }
+        # 组合展示用说明:fork 仓库自动补上游来源
+        if r["isFork"] and r["forkedFrom"] and "fork 自" not in r["cn"]:
+            r["display_cn"] = f"fork 自 {r['forkedFrom']}:" + r["cn"]
+        else:
+            r["display_cn"] = r["cn"]
+        records.append(r)
     # 校验分类
     for r in records:
         if r["category"] not in CAT_KEYS:
@@ -108,20 +119,23 @@ def main():
             vis = "" if r["visibility"] == "PUBLIC" else " 🔒私有"
             name_cell = f"[{r['name']}]({r['url']}) {r['stars']}★ {flag}{vis}"
             kw = "、".join(r["keywords"]) or "-"
-            safe_cn = r["cn"].replace("|", "\\|").replace("\n", " ")
+            safe_cn = r["display_cn"].replace("|", "\\|").replace("\n", " ")
             safe_kw = kw.replace("|", "\\|")
             lines.append(f"| {name_cell} | {safe_cn} | {safe_kw} |")
         with open(os.path.join(ROOT, "categories", f"{key}.md"), "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
 
     # 2) INDEX.md
+    def trunc(s, n=90):
+        return s if len(s) <= n else s[:n].rstrip("，。、；:：,.; ") + "…"
+
     lines = ["# 仓库索引 INDEX", "", "检索方法:按分类文件检索,或用关键词全文搜索。",
              "", "| 仓库 | 分类 | 一句话说明 | 属性 |", "|---|---|---|---|"]
     cat_title = {k: t for k, t, _ in CATEGORIES}
     for r in sorted(records, key=lambda x: (x["category"], -x["stars"])):
         attr = ("自建" if not r["isFork"] else "fork") + ("" if r["visibility"] == "PUBLIC" else "/🔒")
-        cn = r["cn"].replace("|", "\\|")
-        lines.append(f"| [{r['name']}]({r['url']}) | {cat_title.get(r['category'], r['category'])} | {cn[:60]} | {attr} |")
+        cn = trunc(r["display_cn"].replace("|", "\\|"))
+        lines.append(f"| [{r['name']}]({r['url']}) | {cat_title.get(r['category'], r['category'])} | {cn} | {attr} |")
     with open(os.path.join(ROOT, "INDEX.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 

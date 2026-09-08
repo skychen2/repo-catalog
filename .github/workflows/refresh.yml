@@ -1,0 +1,39 @@
+name: refresh-catalog
+on:
+  schedule:
+    # 每周一 09:00(北京时间)自动刷新元数据
+    - cron: "0 1 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 拉取公开仓库元数据(匿名 API,无需 PAT)
+        run: python3 scripts/fetch_public_repos.py /tmp/repos.json
+
+      - name: 重新生成目录
+        run: python3 scripts/generate.py --public /tmp/repos.json
+
+      - name: 提交变更(如有)
+        run: |
+          if git diff --quiet; then
+            echo "无元数据变化,跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: auto refresh catalog ($(date -u +%Y-%m-%d))"
+          git push

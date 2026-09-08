@@ -4,6 +4,7 @@
     "url": "https://github.com/skychen2/Adversarial-Evolution",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "Wing-2025/Adversarial-Evolution",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -18,40 +19,44 @@
       "科普书",
       "人类社会",
       "文明"
-    ]
+    ],
+    "display_cn": "fork 自 Wing-2025/Adversarial-Evolution:《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活动的本质)。"
   },
   {
     "name": "Awesome-Chinese-LLM",
     "url": "https://github.com/skychen2/Awesome-Chinese-LLM",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "AiHubCN/Awesome-Chinese-LLM",
     "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-10",
     "topics": "",
     "description": "整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "中文开源大模型整理清单,聚焦规模较小、可私有化部署、训练成本低的模型(底座模型、垂直微调、数据集与教程)。",
     "keywords": [
       "中文大模型",
       "开源LLM",
       "私有化部署",
       "模型清单"
-    ]
+    ],
+    "display_cn": "fork 自 AiHubCN/Awesome-Chinese-LLM:中文开源大模型整理清单,聚焦规模较小、可私有化部署、训练成本低的模型(底座模型、垂直微调、数据集与教程)。"
   },
   {
     "name": "BettaFish",
     "url": "https://github.com/skychen2/BettaFish",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "666ghj/BettaFish",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-11-04",
     "topics": "",
     "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "微舆:多 Agent 舆情分析助手。打破信息茧房、还原舆情原貌、预测走向、辅助决策,从零实现不依赖框架。",
     "keywords": [
       "舆情分析",
@@ -59,14 +64,16 @@
       "信息茧房",
       "预测",
       "决策"
-    ]
+    ],
+    "display_cn": "fork 自 666ghj/BettaFish:微舆:多 Agent 舆情分析助手。打破信息茧房、还原舆情原貌、预测走向、辅助决策,从零实现不依赖框架。"
   },
   {
     "name": "CF-Workers-SUB",
     "url": "https://github.com/skychen2/CF-Workers-SUB",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "cmliu/CF-Workers-SUB",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-03-29",
@@ -81,14 +88,16 @@
       "Clash",
       "Sing-box",
       "节点转换"
-    ]
+    ],
+    "display_cn": "fork 自 cmliu/CF-Workers-SUB:Cloudflare Workers 搭建的订阅汇聚工具:把你任意节点与多个订阅汇聚成专属于你的订阅链接,支持 Clash/Sing-box 等转换。"
   },
   {
     "name": "CF-Workers-docker.io",
     "url": "https://github.com/skychen2/CF-Workers-docker.io",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "cmliu/CF-Workers-docker.io",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-03-20",
@@ -102,14 +111,16 @@
       "Cloudflare Workers",
       "加速",
       "镜像加速"
-    ]
+    ],
+    "display_cn": "fork 自 cmliu/CF-Workers-docker.io:基于 Cloudflare Workers 的 Docker 镜像仓库代理工具,中转 Docker 官方仓库请求,解决访问限制并加速拉取。"
   },
   {
     "name": "Classical-Modern",
     "url": "https://github.com/skychen2/Classical-Modern",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "NiuTrans/Classical-Modern",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-03-30",
@@ -123,14 +134,16 @@
       "古文",
       "平行语料",
       "数据集"
-    ]
+    ],
+    "display_cn": "fork 自 NiuTrans/Classical-Modern:文言文(古文)-现代文平行语料库,数据量全,可用于翻译模型训练/学习对照。"
   },
   {
     "name": "Cloudflare_vless_trojan",
     "url": "https://github.com/skychen2/Cloudflare_vless_trojan",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "yonggekkk/Cloudflare-vless-trojan",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-08-15",
@@ -145,13 +158,15 @@
       "科学上网",
       "一键脚本",
       "优选IP"
-    ]
+    ],
+    "display_cn": "fork 自 yonggekkk/Cloudflare-vless-trojan:Cloudflare 代理脚本,支持 Vless 与 Trojan,无需变量设置;支持单节点/多节点订阅分享,多平台一键脚本含 CF 优选域名/IP。"
   },
   {
     "name": "Collection_TianYa",
     "url": "https://github.com/skychen2/Collection_TianYa",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "als3453/Collection_TianYa",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -165,13 +180,15 @@
       "天涯论坛",
       "合集",
       "PDF"
-    ]
+    ],
+    "display_cn": "fork 自 als3453/Collection_TianYa:天涯神贴合集 PDF 版,无水印、免费分享,方便阅读。"
   },
   {
     "name": "ComfyUI-Workflows-ZHO",
     "url": "https://github.com/skychen2/ComfyUI-Workflows-ZHO",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -185,14 +202,16 @@
       "工作流",
       "AI绘画",
       "Stable Diffusion"
-    ]
+    ],
+    "display_cn": "fork 自 ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO:ComfyUI 工作流合集(ZHO 大佬),可直接下载使用的图像/视频生成工作流。"
   },
   {
     "name": "ControlNet",
     "url": "https://github.com/skychen2/ControlNet",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "lllyasviel/ControlNet",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-08-20",
@@ -206,14 +225,16 @@
       "姿态控制",
       "Stable Diffusion",
       "条件生成"
-    ]
+    ],
+    "display_cn": "fork 自 lllyasviel/ControlNet:让扩散模型可控的经典框架:通过姿态/深度/边缘/线稿等条件控制图像生成结果。"
   },
   {
     "name": "EDtunnel",
     "url": "https://github.com/skychen2/EDtunnel",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "3Kmfi6HP/EDtunnel",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-02-27",
@@ -227,20 +248,22 @@
       "Pages",
       "Worker",
       "代理"
-    ]
+    ],
+    "display_cn": "fork 自 3Kmfi6HP/EDtunnel:用 Cloudflare Pages/Worker serverless 实现 VLESS 协议的代理(经典 EDtunnel)。"
   },
   {
     "name": "GPT_API_free",
     "url": "https://github.com/skychen2/GPT_API_free",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "chatanywhere/GPT_API_free",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-08",
     "topics": "",
     "description": "Free ChatGPT API Key，免费ChatGPT API，支持GPT4 API（免费），ChatGPT国内可用免费转发API，直连无需代理。可以搭配ChatBox等软件/插件使用，极大降低接口使用成本。国内即可无限制畅快聊天。",
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "免费 ChatGPT API Key 收集(含国内可用免费转发 API),直连无需代理,可搭配 ChatBox 等使用,降低接口成本。",
     "keywords": [
       "免费API",
@@ -248,34 +271,38 @@
       "转发API",
       "国内可用",
       "省钱"
-    ]
+    ],
+    "display_cn": "fork 自 chatanywhere/GPT_API_free:免费 ChatGPT API Key 收集(含国内可用免费转发 API),直连无需代理,可搭配 ChatBox 等使用,降低接口成本。"
   },
   {
     "name": "GPTs",
     "url": "https://github.com/skychen2/GPTs",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "linexjlin/GPTs",
     "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-11-15",
     "topics": "",
     "description": "leaked prompts of GPTs",
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "GPTs 泄露的系统提示词(prompt)合集,研究他人 GPTs 构建思路。",
     "keywords": [
       "GPTs",
       "泄露提示词",
       "系统提示词",
       "prompt研究"
-    ]
+    ],
+    "display_cn": "fork 自 linexjlin/GPTs:GPTs 泄露的系统提示词(prompt)合集,研究他人 GPTs 构建思路。"
   },
   {
     "name": "GitHub-Chinese-Top-Charts",
     "url": "https://github.com/skychen2/GitHub-Chinese-Top-Charts",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Java",
+    "forkedFrom": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-02-23",
@@ -288,13 +315,15 @@
       "中文项目",
       "榜单",
       "发现项目"
-    ]
+    ],
+    "display_cn": "fork 自 GrowingGit/GitHub-Chinese-Top-Charts:GitHub 中文排行榜,各语言分设「软件/资料」榜单,精准定位中文好项目。"
   },
   {
     "name": "GitHubDaily",
     "url": "https://github.com/skychen2/GitHubDaily",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "GitHubDaily/GitHubDaily",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -308,13 +337,15 @@
       "技术资讯",
       "开源项目",
       "周报"
-    ]
+    ],
+    "display_cn": "fork 自 GitHubDaily/GitHubDaily:坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站与技术资讯。"
   },
   {
     "name": "HowToCook",
     "url": "https://github.com/skychen2/HowToCook",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "Anduin2017/HowToCook",
     "language": "Dockerfile",
     "stars": 0,
     "forks": 0,
@@ -328,13 +359,15 @@
       "菜谱",
       "程序员",
       "生活指南"
-    ]
+    ],
+    "display_cn": "fork 自 Anduin2017/HowToCook:《程序员做饭指南》——开源菜谱项目,用程序员的思路教做饭(仅简体中文)。"
   },
   {
     "name": "HumanSystemOptimization",
     "url": "https://github.com/skychen2/HumanSystemOptimization",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "zijie0/HumanSystemOptimization",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -349,14 +382,16 @@
       "学习效率",
       "身体调优",
       "自我提升"
-    ]
+    ],
+    "display_cn": "fork 自 zijie0/HumanSystemOptimization:《健康学习到 150 岁——人体系统调优不完全指南》:健康、学习、人体优化。"
   },
   {
     "name": "IDM-Activation-Script",
     "url": "https://github.com/skychen2/IDM-Activation-Script",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Batchfile",
+    "forkedFrom": "lstprjct/IDM-Activation-Script",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-25",
@@ -369,33 +404,37 @@
       "激活",
       "下载工具",
       "脚本"
-    ]
+    ],
+    "display_cn": "fork 自 lstprjct/IDM-Activation-Script:IDM(Internet Download Manager)激活与试用重置脚本。"
   },
   {
     "name": "LangGPT",
     "url": "https://github.com/skychen2/LangGPT",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "langgptai/LangGPT",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-01-15",
     "topics": "",
     "description": "LangGPT: Empowering everyone to become a prompt expert!🚀  Structured Prompt，Language of GPT, 结构化提示词，结构化Prompt",
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "LangGPT:结构化提示词框架,让人人都能成为 prompt 专家(结构化 Prompt 方法论)。",
     "keywords": [
       "结构化提示词",
       "prompt工程",
       "LangGPT",
       "框架"
-    ]
+    ],
+    "display_cn": "fork 自 langgptai/LangGPT:LangGPT:结构化提示词框架,让人人都能成为 prompt 专家(结构化 Prompt 方法论)。"
   },
   {
     "name": "MidJourney-Styles-and-Keywords-Reference",
     "url": "https://github.com/skychen2/MidJourney-Styles-and-Keywords-Reference",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "willwulfken/MidJourney-Styles-and-Keywords-Reference",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -410,20 +449,22 @@
       "关键词",
       "AI绘画",
       "提示词手册"
-    ]
+    ],
+    "display_cn": "fork 自 willwulfken/MidJourney-Styles-and-Keywords-Reference:MidJourney 风格与关键词参考手册:可用的风格列表、关键词与示例图。"
   },
   {
     "name": "MiniCPM",
     "url": "https://github.com/skychen2/MiniCPM",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "OpenBMB/MiniCPM",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-26",
     "topics": "",
     "description": "MiniCPM-2B: An end-side LLM outperforms Llama2-13B.",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "MiniCPM-2B:端侧小模型,性能超越 Llama2-13B,适合移动端/边缘部署。",
     "keywords": [
       "小模型",
@@ -431,14 +472,16 @@
       "MiniCPM",
       "轻量LLM",
       "边缘部署"
-    ]
+    ],
+    "display_cn": "fork 自 OpenBMB/MiniCPM:MiniCPM-2B:端侧小模型,性能超越 Llama2-13B,适合移动端/边缘部署。"
   },
   {
     "name": "MoneyPrinterTurbo",
     "url": "https://github.com/skychen2/MoneyPrinterTurbo",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "harry0703/MoneyPrinterTurbo",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-29",
@@ -452,14 +495,16 @@
       "AI视频",
       "自动剪辑",
       "MoneyPrinter"
-    ]
+    ],
+    "display_cn": "fork 自 harry0703/MoneyPrinterTurbo:利用 AI 大模型一键生成高清短视频:输入主题自动产出成片(文案/配音/剪辑)。"
   },
   {
     "name": "PDFPatcher",
     "url": "https://github.com/skychen2/PDFPatcher",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "C#",
+    "forkedFrom": "wmjordan/PDFPatcher",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-10-22",
@@ -473,34 +518,38 @@
       "解除限制",
       "PDF合并",
       "Windows工具"
-    ]
+    ],
+    "display_cn": "fork 自 wmjordan/PDFPatcher:PDF 补丁丁:PDF 工具箱——编辑书签、裁剪旋转页面、解除限制、提取合并文档、提取图片、探查结构等。"
   },
   {
     "name": "PromptJailbreakManual",
     "url": "https://github.com/skychen2/PromptJailbreakManual",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "Acmesec/PromptJailbreakManual",
     "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-03-31",
     "topics": "",
     "description": "Prompt越狱手册",
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "Prompt 越狱手册:研究模型安全边界的提示词技巧合集(安全研究向)。",
     "keywords": [
       "越狱",
       "提示词",
       "安全测试",
       "jailbreak"
-    ]
+    ],
+    "display_cn": "fork 自 Acmesec/PromptJailbreakManual:Prompt 越狱手册:研究模型安全边界的提示词技巧合集(安全研究向)。"
   },
   {
     "name": "Python-100-Days",
     "url": "https://github.com/skychen2/Python-100-Days",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "jackfrued/Python-100-Days",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-04-07",
@@ -514,14 +563,16 @@
       "入门",
       "100天",
       "自学"
-    ]
+    ],
+    "display_cn": "fork 自 jackfrued/Python-100-Days:《Python-100天从新手到大师》——经典 Python 自学教程。"
   },
   {
     "name": "SMSBoom",
     "url": "https://github.com/skychen2/SMSBoom",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "OpenEthan/SMSBoom",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-02-23",
@@ -534,14 +585,16 @@
       "压力测试",
       "Python",
       "灰色工具"
-    ]
+    ],
+    "display_cn": "fork 自 OpenEthan/SMSBoom:短信轰炸/短信压力测试脚本(重制中)。注意:仅限授权测试,慎用。"
   },
   {
     "name": "Telegraph-Image",
     "url": "https://github.com/skychen2/Telegraph-Image",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "HTML",
+    "forkedFrom": "lxyer/Telegraph-Image",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-15",
@@ -555,14 +608,16 @@
       "Cloudflare",
       "免费",
       "Telegraph"
-    ]
+    ],
+    "display_cn": "fork 自 lxyer/Telegraph-Image:免费图床方案:基于 Cloudflare Workers/Telegraph,类似 Flickr/imgur,方便分享图片。"
   },
   {
     "name": "Url-Shorten-Worker",
     "url": "https://github.com/skychen2/Url-Shorten-Worker",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "HTML",
+    "forkedFrom": "crazypeace/Url-Shorten-Worker",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-08",
@@ -576,40 +631,44 @@
       "Cloudflare Workers",
       "KV",
       "自建服务"
-    ]
+    ],
+    "display_cn": "fork 自 crazypeace/Url-Shorten-Worker:Cloudflare Worker 短链服务:秘密路径管理、自定义短链、KV 缓存,还可变身网络记事本/图床。"
   },
   {
     "name": "WTF-Langchain",
     "url": "https://github.com/skychen2/WTF-Langchain",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "WTFAcademy/WTF-Langchain",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-28",
     "topics": "",
     "description": "",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。",
     "keywords": [
       "Langchain",
       "源码解析",
       "教程",
       "原理"
-    ]
+    ],
+    "display_cn": "fork 自 WTFAcademy/WTF-Langchain:Langchain 源码走读与解析系列教程(WTF 系列),深入理解 Langchain 内部机制。"
   },
   {
     "name": "anthropic-cookbook",
     "url": "https://github.com/skychen2/anthropic-cookbook",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "anthropics/claude-cookbooks",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-07-04",
     "topics": "",
     "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等)。",
     "keywords": [
       "Claude",
@@ -617,13 +676,15 @@
       "notebook",
       "cookbook",
       "tool use"
-    ]
+    ],
+    "display_cn": "fork 自 anthropics/claude-cookbooks:Anthropic 官方 Claude 用法笔记本合集:展示各种有趣有效的 Claude 使用方式(工具调用、RAG 等)。"
   },
   {
     "name": "awesome-ai-painting",
     "url": "https://github.com/skychen2/awesome-ai-painting",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "hua1995116/awesome-ai-painting",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -638,93 +699,103 @@
       "教程合集",
       "SDXL",
       "绘画平台"
-    ]
+    ],
+    "display_cn": "fork 自 hua1995116/awesome-ai-painting:AI 绘画资料合集:国内外可用平台、使用教程、参数教程、部署教程、业界新闻(Stable Diffusion、AnimateDiff、SDXL 等)。"
   },
   {
     "name": "awesome-chatgpt-prompts",
     "url": "https://github.com/skychen2/awesome-chatgpt-prompts",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "f/prompts.chat",
+    "language": "-",
     "stars": 1,
     "forks": 0,
     "updatedAt": "2025-05-21",
     "topics": "",
     "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "ChatGPT 提示词精选合集,让 ChatGPT 和其他 LLM 用得更顺手。",
     "keywords": [
       "ChatGPT",
       "提示词",
       "prompt合集",
       "精选"
-    ]
+    ],
+    "display_cn": "fork 自 f/prompts.chat:ChatGPT 提示词精选合集,让 ChatGPT 和其他 LLM 用得更顺手。"
   },
   {
     "name": "awesome-claude-skills",
     "url": "https://github.com/skychen2/awesome-claude-skills",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "ComposioHQ/awesome-claude-skills",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-01-13",
     "topics": "",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Claude Skills 精选清单:定制 Claude AI 工作流的优质 skills、资源与工具。",
     "keywords": [
       "Claude Skills",
       "技能清单",
       "Claude工作流",
       "精选"
-    ]
+    ],
+    "display_cn": "fork 自 ComposioHQ/awesome-claude-skills:Claude Skills 精选清单:定制 Claude AI 工作流的优质 skills、资源与工具。"
   },
   {
     "name": "awesome-llm-apps",
     "url": "https://github.com/skychen2/awesome-llm-apps",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "Shubhamsaboo/awesome-llm-apps",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-11-25",
     "topics": "",
     "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "优质 LLM 应用合集:基于 OpenAI/Anthropic/Gemini 与开源模型的 AI Agents 与 RAG 应用。",
     "keywords": [
       "LLM应用",
       "Agent",
       "RAG",
       "应用合集"
-    ]
+    ],
+    "display_cn": "fork 自 Shubhamsaboo/awesome-llm-apps:优质 LLM 应用合集:基于 OpenAI/Anthropic/Gemini 与开源模型的 AI Agents 与 RAG 应用。"
   },
   {
     "name": "awesome-prompt",
     "url": "https://github.com/skychen2/awesome-prompt",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "GCC Machine Description",
+    "forkedFrom": "NeekChaw/awesome-prompt",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-06-27",
     "topics": "",
     "description": "让你一眼惊艳的prompt",
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "让你一眼惊艳的 prompt 合集。",
     "keywords": [
       "prompt",
       "提示词",
       "惊艳prompt",
       "合集"
-    ]
+    ],
+    "display_cn": "fork 自 NeekChaw/awesome-prompt:让你一眼惊艳的 prompt 合集。"
   },
   {
     "name": "awesome-public-datasets",
     "url": "https://github.com/skychen2/awesome-public-datasets",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "awesomedata/awesome-public-datasets",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -738,34 +809,38 @@
       "开放数据",
       "数据源",
       "清单"
-    ]
+    ],
+    "display_cn": "fork 自 awesomedata/awesome-public-datasets:高质量开放数据集清单(按主题分类),找数据集的第一站。"
   },
   {
     "name": "cgft-llm",
     "url": "https://github.com/skychen2/cgft-llm",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "echonoshy/cgft-llm",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-08-15",
     "topics": "",
     "description": "Practice to LLM.",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "LLM 实践教程(从零到大模型,中文),逐步练习。",
     "keywords": [
       "LLM教程",
       "实践",
       "中文教程",
       "大模型学习"
-    ]
+    ],
+    "display_cn": "fork 自 echonoshy/cgft-llm:LLM 实践教程(从零到大模型,中文),逐步练习。"
   },
   {
     "name": "chinese-poetry",
     "url": "https://github.com/skychen2/chinese-poetry",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "chinese-poetry/chinese-poetry",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-06-10",
@@ -779,34 +854,38 @@
       "唐诗",
       "宋词",
       "语料"
-    ]
+    ],
+    "display_cn": "fork 自 chinese-poetry/chinese-poetry:最全中华古诗词数据库:唐宋近一万四千古诗人、约 5.5 万首唐诗、26 万首宋诗,两宋 1564 位词人。"
   },
   {
     "name": "claude-code",
     "url": "https://github.com/skychen2/claude-code",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "TypeScript",
+    "forkedFrom": "ultraworkers/claw-code",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-04-02",
     "topics": "",
     "description": "Claude Code Snapshot for Research. All original source code is the property of Anthropic.",
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "Claude Code 源码快照(Anthropic 官方,仅研究用快照,源码版权归 Anthropic)。",
     "keywords": [
       "Claude Code",
       "Anthropic",
       "源码",
       "CLI工具"
-    ]
+    ],
+    "display_cn": "fork 自 ultraworkers/claw-code:Claude Code 源码快照(Anthropic 官方,仅研究用快照,源码版权归 Anthropic)。"
   },
   {
     "name": "clawfeed",
     "url": "https://github.com/skychen2/clawfeed",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "HTML",
+    "forkedFrom": "kevinho/clawfeed",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-02-26",
@@ -820,13 +899,15 @@
       "AI摘要",
       "Twitter",
       "自建"
-    ]
+    ],
+    "display_cn": "fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。"
   },
   {
     "name": "clawserver",
     "url": "https://github.com/skychen2/clawserver",
     "visibility": "PUBLIC",
     "isFork": false,
+    "forkedFrom": "",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -839,14 +920,16 @@
       "服务器",
       "自建",
       "运维"
-    ]
+    ],
+    "display_cn": "自建公有:服务器相关(README 过简,用途待补充)。"
   },
   {
     "name": "cobalt",
     "url": "https://github.com/skychen2/cobalt",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Svelte",
+    "forkedFrom": "imputnet/cobalt",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-01-15",
@@ -859,34 +942,38 @@
       "音频下载",
       "在线工具",
       "开源"
-    ]
+    ],
+    "display_cn": "fork 自 imputnet/cobalt:最爱的保存工具:cobalt——在线下载视频/音频(支持多数平台),开源、干净、无广告。"
   },
   {
     "name": "cozeworkflows",
     "url": "https://github.com/skychen2/cozeworkflows",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "Hammer1/cozeworkflows",
     "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-08-07",
     "topics": "",
     "description": "coze 的200+工作流合集汇总，一直更新",
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "Coze 200+ 工作流合集汇总,持续更新,可直接参考/导入。",
     "keywords": [
       "Coze",
       "工作流",
       "Agent",
       "合集"
-    ]
+    ],
+    "display_cn": "fork 自 Hammer1/cozeworkflows:Coze 200+ 工作流合集汇总,持续更新,可直接参考/导入。"
   },
   {
     "name": "cs-self-learning",
     "url": "https://github.com/skychen2/cs-self-learning",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "HTML",
+    "forkedFrom": "PKUFlyingPig/cs-self-learning",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-23",
@@ -899,20 +986,22 @@
       "自学",
       "学习路线",
       "CS教程"
-    ]
+    ],
+    "display_cn": "fork 自 PKUFlyingPig/cs-self-learning:计算机自学指南(CS Self-learning):系统的计算机学习路线与资源。"
   },
   {
     "name": "cursor2api",
     "url": "https://github.com/skychen2/cursor2api",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "TypeScript",
+    "forkedFrom": "7836246/cursor2api",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-03-21",
     "topics": "",
     "description": "将 Cursor Web Docs 免费 API 转换为 OpenAI/Anthropic 兼容格式的代理服务。提供 Claude Code工具及图片支持。",
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "将 Cursor Web Docs 免费额度转换为 OpenAI/Anthropic 兼容格式 API 的代理服务,支持 Claude Code 工具调用与图片。",
     "keywords": [
       "Cursor",
@@ -920,13 +1009,15 @@
       "免费API",
       "OpenAI兼容",
       "Claude Code"
-    ]
+    ],
+    "display_cn": "fork 自 7836246/cursor2api:将 Cursor Web Docs 免费额度转换为 OpenAI/Anthropic 兼容格式 API 的代理服务,支持 Claude Code 工具调用与图片。"
   },
   {
     "name": "daodejing",
     "url": "https://github.com/skychen2/daodejing",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "jarry/daodejing",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -940,34 +1031,38 @@
       "读书笔记",
       "人生感悟",
       "哲学"
-    ]
+    ],
+    "display_cn": "fork 自 jarry/daodejing:《道德经》读书笔记:四十年人生感悟,思考编程本质与人生意义。"
   },
   {
     "name": "easy-dataset",
     "url": "https://github.com/skychen2/easy-dataset",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "ConardLi/easy-dataset",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-08-30",
     "topics": "",
     "description": "A powerful tool for creating fine-tuning datasets for LLM",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "为 LLM 创建微调数据集的强大工具(可视化界面)。",
     "keywords": [
       "微调数据集",
       "数据集制作",
       "LLM微调",
       "数据标注"
-    ]
+    ],
+    "display_cn": "fork 自 ConardLi/easy-dataset:为 LLM 创建微调数据集的强大工具(可视化界面)。"
   },
   {
     "name": "edgetunnel",
     "url": "https://github.com/skychen2/edgetunnel",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "cmliu/edgetunnel",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-02-27",
@@ -981,14 +1076,16 @@
       "Clash",
       "Sing-box",
       "Cloudflare"
-    ]
+    ],
+    "display_cn": "fork 自 cmliu/edgetunnel:原版 EDtunnel 改进:显示 VLESS 配置信息并转换为订阅内容,可在线转换到 Clash/Sing-box。"
   },
   {
     "name": "fanqiang",
     "url": "https://github.com/skychen2/fanqiang",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Kotlin",
+    "forkedFrom": "bannedbook/fanqiang",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-09-07",
@@ -1001,14 +1098,16 @@
       "翻墙",
       "代理",
       "工具合集"
-    ]
+    ],
+    "display_cn": "fork 自 bannedbook/fanqiang:翻墙-科学上网资料/工具合集。"
   },
   {
     "name": "hackingtool",
     "url": "https://github.com/skychen2/hackingtool",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "Z4nzu/hackingtool",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-16",
@@ -1021,13 +1120,15 @@
       "渗透测试",
       "工具箱",
       "hacking"
-    ]
+    ],
+    "display_cn": "fork 自 Z4nzu/hackingtool:ALL IN ONE 黑客工具集:整合大量渗透测试/安全工具于一身的工具箱(注意合规使用)。"
   },
   {
     "name": "kkndme_tianya",
     "url": "https://github.com/skychen2/kkndme_tianya",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "kkndmetianya/kkndme_tianya",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -1041,54 +1142,60 @@
       "房价",
       "kkndme",
       "楼市"
-    ]
+    ],
+    "display_cn": "fork 自 kkndmetianya/kkndme_tianya:天涯 kkndme 神贴:聊房价的长文合集,早年预测楼市走势的著名帖子。"
   },
   {
     "name": "llamafile",
     "url": "https://github.com/skychen2/llamafile",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "C++",
+    "forkedFrom": "mozilla-ai/llamafile",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-10-29",
     "topics": "",
     "description": "Distribute and run LLMs with a single file.",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "把 LLM 分发和运行做成单个文件(自带运行时),最省心的本地部署方式之一。",
     "keywords": [
       "llamafile",
       "单文件部署",
       "本地LLM",
       "Mozilla"
-    ]
+    ],
+    "display_cn": "fork 自 mozilla-ai/llamafile:把 LLM 分发和运行做成单个文件(自带运行时),最省心的本地部署方式之一。"
   },
   {
     "name": "llm-cookbook",
     "url": "https://github.com/skychen2/llm-cookbook",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "datawhalechina/llm-cookbook",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-17",
     "topics": "",
     "description": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "面向开发者的 LLM 入门教程:吴恩达大模型系列课程中文版。",
     "keywords": [
       "吴恩达",
       "LLM入门",
       "教程",
       "中文版"
-    ]
+    ],
+    "display_cn": "fork 自 datawhalechina/llm-cookbook:面向开发者的 LLM 入门教程:吴恩达大模型系列课程中文版。"
   },
   {
     "name": "md",
     "url": "https://github.com/skychen2/md",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Vue",
+    "forkedFrom": "doocs/md",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-03-20",
@@ -1102,14 +1209,39 @@
       "排版",
       "编辑器",
       "公众号文章"
-    ]
+    ],
+    "display_cn": "fork 自 doocs/md:微信 Markdown 编辑器:支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS,公众号排版利器。"
+  },
+  {
+    "name": "n8n-workflows",
+    "url": "https://github.com/skychen2/n8n-workflows",
+    "visibility": "PUBLIC",
+    "isFork": true,
+    "forkedFrom": "",
+    "language": "-",
+    "stars": 0,
+    "forks": 0,
+    "updatedAt": "2025-08-26",
+    "topics": "",
+    "description": "all of the workflows of n8n i could find (also from the site itself)",
+    "category": "dev-data-tools",
+    "cn": "已被 GitHub DMCA 封禁(2025-08,版权投诉),仓库不可访问。n8n 工作流相关主题可检索关键词: n8n/工作流/自动化。",
+    "keywords": [
+      "n8n",
+      "工作流",
+      "DMCA",
+      "封禁",
+      "不可访问"
+    ],
+    "display_cn": "已被 GitHub DMCA 封禁(2025-08,版权投诉),仓库不可访问。n8n 工作流相关主题可检索关键词: n8n/工作流/自动化。"
   },
   {
     "name": "newsnow",
     "url": "https://github.com/skychen2/newsnow",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "TypeScript",
+    "forkedFrom": "ourongxing/newsnow",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-05-21",
@@ -1122,13 +1254,15 @@
       "热点",
       "阅读",
       "实时"
-    ]
+    ],
+    "display_cn": "fork 自 ourongxing/newsnow:优雅地阅读实时与最热新闻(NewsNow 风格,代码驱动的新闻流)。"
   },
   {
     "name": "node-ws",
     "url": "https://github.com/skychen2/node-ws",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "eooce/node-ws",
     "language": "JavaScript",
     "stars": 0,
     "forks": 0,
@@ -1143,14 +1277,16 @@
       "serverless",
       "Node",
       "代理"
-    ]
+    ],
+    "display_cn": "fork 自 eooce/node-ws:基于 serverless 的 vless+trojan 双协议代理,无内核,node 环境通用项目(部署在 CF Workers 等平台)。"
   },
   {
     "name": "oh-story-claudecode",
     "url": "https://github.com/skychen2/oh-story-claudecode",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Shell",
+    "forkedFrom": "zenstory-ai/oh-story-claudecode",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-08-24",
@@ -1164,34 +1300,38 @@
       "Claude Code",
       "skill",
       "写作工作流"
-    ]
+    ],
+    "display_cn": "fork 自 zenstory-ai/oh-story-claudecode:网文写作 skill 包(Claude Code):覆盖长篇与短篇网文的扫榜、拆文、写作、去 AI 味全流程。"
   },
   {
     "name": "ollama",
     "url": "https://github.com/skychen2/ollama",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Go",
+    "forkedFrom": "ollama/ollama",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-25",
     "topics": "",
     "description": "Get up and running with Llama 2, Mistral, Gemma, and other large language models.",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "本地一键运行大模型:支持 Llama、Mistral、Gemma、Qwen 等,最流行的本地 LLM 运行时。",
     "keywords": [
       "ollama",
       "本地部署",
       "LLM运行时",
       "一键运行"
-    ]
+    ],
+    "display_cn": "fork 自 ollama/ollama:本地一键运行大模型:支持 Llama、Mistral、Gemma、Qwen 等,最流行的本地 LLM 运行时。"
   },
   {
     "name": "one-person-businesses-methodology-v2.0",
     "url": "https://github.com/skychen2/one-person-businesses-methodology-v2.0",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "PHP",
+    "forkedFrom": "easychen/opc-methodology",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-01-15",
@@ -1205,40 +1345,44 @@
       "自媒体",
       "方法论",
       "数字商品"
-    ]
+    ],
+    "display_cn": "fork 自 easychen/opc-methodology:《一人企业方法论》第二版:一人企业/副业方法论,适合自媒体、电商、数字商品等非技术人群。"
   },
   {
     "name": "open-interpreter",
     "url": "https://github.com/skychen2/open-interpreter",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "openinterpreter/openinterpreter",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-08",
     "topics": "",
     "description": "A natural language interface for computers",
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "自然语言操作电脑:让 LLM 写代码并执行,像本地版 Code Interpreter,可控制浏览器/文件等。",
     "keywords": [
       "代码解释器",
       "自然语言操作",
       "自动化",
       "Agent"
-    ]
+    ],
+    "display_cn": "fork 自 openinterpreter/openinterpreter:自然语言操作电脑:让 LLM 写代码并执行,像本地版 Code Interpreter,可控制浏览器/文件等。"
   },
   {
     "name": "openai-gemini",
     "url": "https://github.com/skychen2/openai-gemini",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "JavaScript",
+    "forkedFrom": "PublicAffairs/openai-gemini",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-06-19",
     "topics": "",
     "description": "Gemini ➜ OpenAI API proxy. Serverless!",
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "Gemini → OpenAI API 兼容代理(serverless),把 Gemini 当 OpenAI 接口用。",
     "keywords": [
       "Gemini",
@@ -1246,20 +1390,22 @@
       "OpenAI兼容",
       "serverless",
       "免费额度"
-    ]
+    ],
+    "display_cn": "fork 自 PublicAffairs/openai-gemini:Gemini → OpenAI API 兼容代理(serverless),把 Gemini 当 OpenAI 接口用。"
   },
   {
     "name": "openclaw-zero-token",
     "url": "https://github.com/skychen2/openclaw-zero-token",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "linuxhsj/openclaw-zero-token",
     "language": "TypeScript",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-03-30",
     "topics": "",
     "description": "OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi",
-    "category": "ai-llm",
+    "category": "ai-llm-api",
     "cn": "OpenClaw:免 API Token 使用主流大模型(Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi 等)的聚合方案。",
     "keywords": [
       "免token",
@@ -1267,34 +1413,38 @@
       "免费使用",
       "OpenClaw",
       "大模型"
-    ]
+    ],
+    "display_cn": "fork 自 linuxhsj/openclaw-zero-token:OpenClaw:免 API Token 使用主流大模型(Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi 等)的聚合方案。"
   },
   {
     "name": "phidata",
     "url": "https://github.com/skychen2/phidata",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "agno-agi/agno",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-02",
     "topics": "",
     "description": "Build AI Assistants with function calling and connect LLMs to external tools.",
-    "category": "ai-llm",
+    "category": "ai-llm-agents",
     "cn": "用 function calling 构建 AI 助手:把 LLM 连接到外部工具,构建 Agent 框架。",
     "keywords": [
       "Agent",
       "function calling",
       "AI助手",
       "工具调用"
-    ]
+    ],
+    "display_cn": "fork 自 agno-agi/agno:用 function calling 构建 AI 助手:把 LLM 连接到外部工具,构建 Agent 框架。"
   },
   {
     "name": "public-apis",
     "url": "https://github.com/skychen2/public-apis",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "public-apis/public-apis",
+    "language": "-",
     "stars": 1,
     "forks": 0,
     "updatedAt": "2025-03-18",
@@ -1307,14 +1457,16 @@
       "免费接口",
       "开发者资源",
       "清单"
-    ]
+    ],
+    "display_cn": "fork 自 public-apis/public-apis:免费公开 API 大合集(collective list of free APIs),做项目找接口的第一站。"
   },
   {
     "name": "reinstall",
     "url": "https://github.com/skychen2/reinstall",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Shell",
+    "forkedFrom": "bin456789/reinstall",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-02-16",
@@ -1327,13 +1479,15 @@
       "DD系统",
       "一键脚本",
       "服务器"
-    ]
+    ],
+    "display_cn": "fork 自 bin456789/reinstall:一键 DD/重装 VPS 系统脚本(One-click reinstall OS on VPS)。"
   },
   {
     "name": "repo-catalog",
     "url": "https://github.com/skychen2/repo-catalog",
     "visibility": "PUBLIC",
     "isFork": false,
+    "forkedFrom": "",
     "language": "Python",
     "stars": 0,
     "forks": 0,
@@ -1348,14 +1502,16 @@
       "AI检索",
       "分类",
       "目录"
-    ]
+    ],
+    "display_cn": "本仓库自身:skychen2 名下所有公开仓库的中文目录与检索索引,按 7 大分类组织,含中文功能说明与检索关键词,专为 AI 模糊检索定位仓库而建。"
   },
   {
     "name": "sd-forge-layerdiffuse",
     "url": "https://github.com/skychen2/sd-forge-layerdiffuse",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "lllyasviel/sd-forge-layerdiffuse",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-08-14",
@@ -1369,14 +1525,16 @@
       "Stable Diffusion",
       "Forge",
       "WebUI"
-    ]
+    ],
+    "display_cn": "fork 自 lllyasviel/sd-forge-layerdiffuse:Layer Diffusion(透明图层生成)的 Forge WebUI 版本,可生成透明背景图像。"
   },
   {
     "name": "seedance-2.0",
     "url": "https://github.com/skychen2/seedance-2.0",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "Emily2040/seedance-2.0",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-09-01",
@@ -1390,20 +1548,22 @@
       "四模态",
       "视频生成",
       "影视制作"
-    ]
+    ],
+    "display_cn": "fork 自 Emily2040/seedance-2.0:Seedance 2.0 全流程生产管线:四模态(文/图/音/视频)AI 电影制作,含提示词技能等配套。"
   },
   {
     "name": "self-llm",
     "url": "https://github.com/skychen2/self-llm",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "datawhalechina/self-llm",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-17",
     "topics": "",
     "description": "《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "《开源大模型食用指南》——基于 Linux 环境快速部署开源大模型的教程,更适合中文用户的部署指南。",
     "keywords": [
       "大模型部署",
@@ -1411,14 +1571,16 @@
       "Linux",
       "开源模型",
       "本地部署"
-    ]
+    ],
+    "display_cn": "fork 自 datawhalechina/self-llm:《开源大模型食用指南》——基于 Linux 环境快速部署开源大模型的教程,更适合中文用户的部署指南。"
   },
   {
     "name": "short-video-factory",
     "url": "https://github.com/skychen2/short-video-factory",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "TypeScript",
+    "forkedFrom": "YILS-LIN/short-video-factory",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-12-19",
@@ -1432,13 +1594,15 @@
       "营销视频",
       "桌面工具",
       "批量生成"
-    ]
+    ],
+    "display_cn": "fork 自 YILS-LIN/short-video-factory:一键生成产品营销与泛内容短视频:AI 批量自动剪辑,高颜值跨平台桌面端工具。"
   },
   {
     "name": "sing-box-yg",
     "url": "https://github.com/skychen2/sing-box-yg",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "yonggekkk/sing-box-yg",
     "language": "Shell",
     "stars": 1,
     "forks": 0,
@@ -1454,14 +1618,16 @@
       "科学上网",
       "一键脚本",
       "协议聚合"
-    ]
+    ],
+    "display_cn": "fork 自 yonggekkk/sing-box-yg:sing-box 精装桶脚本:Hysteria2、Tuic5、Vless-reality、Vmess-ws/argo 等协议,自签/acme 双证书、Argo 隧道、Psiphon 分流。"
   },
   {
     "name": "spotube",
     "url": "https://github.com/skychen2/spotube",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Dart",
+    "forkedFrom": "KRTirtho/spotube",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-04-01",
@@ -1474,20 +1640,22 @@
       "音乐",
       "开源客户端",
       "免会员"
-    ]
+    ],
+    "display_cn": "fork 自 KRTirtho/spotube:开源 Spotify 客户端:免 Premium、非 Electron,桌面与移动端皆可用,界面清爽。"
   },
   {
     "name": "system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/skychen2/system-prompts-and-models-of-ai-tools",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-04-28",
     "topics": "",
     "description": "FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent & VSCode Agent (And other Open Sourced) System Prompts, Tools & AI Models.",
-    "category": "ai-llm",
+    "category": "ai-llm-prompts",
     "cn": "各大 AI 工具的系统提示词与模型信息全集:v0、Cursor、Manus、Same.dev、Lovable、Devin、Replit Agent、Windsurf、VSCode Agent 等。",
     "keywords": [
       "系统提示词",
@@ -1497,20 +1665,22 @@
       "Devin",
       "Lovable",
       "逆向"
-    ]
+    ],
+    "display_cn": "fork 自 x1xhlol/system-prompts-and-models-of-ai-tools:各大 AI 工具的系统提示词与模型信息全集:v0、Cursor、Manus、Same.dev、Lovable、Devin、Replit Agent、Windsurf、VSCode Agent 等。"
   },
   {
     "name": "text-generation-webui",
     "url": "https://github.com/skychen2/text-generation-webui",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "oobabooga/textgen",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-07",
     "topics": "",
     "description": "A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models.",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "oobabooga 的 LLM 网页 UI(Gradio),支持 transformers/GPTQ/AWQ/EXL2/llama.cpp(GGUF)等多种后端。",
     "keywords": [
       "WebUI",
@@ -1518,33 +1688,37 @@
       "Gradio",
       "GPTQ",
       "GGUF"
-    ]
+    ],
+    "display_cn": "fork 自 oobabooga/textgen:oobabooga 的 LLM 网页 UI(Gradio),支持 transformers/GPTQ/AWQ/EXL2/llama.cpp(GGUF)等多种后端。"
   },
   {
     "name": "text-generation-webui-colab",
     "url": "https://github.com/skychen2/text-generation-webui-colab",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "camenduru/text-generation-webui-colab",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-03-30",
     "topics": "",
     "description": "A colab gradio web UI for running Large Language Models",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "text-generation-webui 的 Colab 版:在 Colab 免费 GPU 上跑 LLM 网页界面。",
     "keywords": [
       "Colab",
       "免费GPU",
       "WebUI",
       "LLM"
-    ]
+    ],
+    "display_cn": "fork 自 camenduru/text-generation-webui-colab:text-generation-webui 的 Colab 版:在 Colab 免费 GPU 上跑 LLM 网页界面。"
   },
   {
     "name": "tianya",
     "url": "https://github.com/skychen2/tianya",
     "visibility": "PUBLIC",
     "isFork": true,
+    "forkedFrom": "hualin12/tianya",
     "language": "-",
     "stars": 0,
     "forks": 0,
@@ -1558,40 +1732,44 @@
       "预言",
       "合集",
       "历史"
-    ]
+    ],
+    "display_cn": "fork 自 hualin12/tianya:天涯神贴完整合集:早年成功预言诸多形势与事件的著名帖子整理。"
   },
   {
     "name": "transformers-code",
     "url": "https://github.com/skychen2/transformers-code",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Jupyter Notebook",
+    "forkedFrom": "zyds/transformers-code",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-04-01",
     "topics": "",
     "description": "手把手带你实战 Huggingface Transformers 课程视频同步更新在B站与YouTube",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "手把手实战 Huggingface Transformers 课程,视频同步在 B 站与 YouTube。",
     "keywords": [
       "Transformers",
       "Huggingface",
       "实战",
       "课程"
-    ]
+    ],
+    "display_cn": "fork 自 zyds/transformers-code:手把手实战 Huggingface Transformers 课程,视频同步在 B 站与 YouTube。"
   },
   {
     "name": "unsloth",
     "url": "https://github.com/skychen2/unsloth",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "unslothai/unsloth",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-08-15",
     "topics": "",
     "description": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, Qwen3, Llama 4, DeepSeek-R1, Gemma 3, TTS 2x faster with 70% less VRAM.",
-    "category": "ai-llm",
+    "category": "ai-llm-models",
     "cn": "LLM 微调与强化学习训练工具:2-5 倍提速、省 70-80% 显存,支持 Qwen3/Llama 4/DeepSeek-R1/Gemma 3 等。",
     "keywords": [
       "微调",
@@ -1600,34 +1778,38 @@
       "省显存",
       "LoRA",
       "Qwen"
-    ]
+    ],
+    "display_cn": "fork 自 unslothai/unsloth:LLM 微调与强化学习训练工具:2-5 倍提速、省 70-80% 显存,支持 Qwen3/Llama 4/DeepSeek-R1/Gemma 3 等。"
   },
   {
     "name": "vibe-coding-cn",
     "url": "https://github.com/skychen2/vibe-coding-cn",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "2025Emma/vibe-coding-cn",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-12-24",
     "topics": "",
     "description": "",
-    "category": "ai-llm",
+    "category": "ai-llm-tutorials",
     "cn": "Vibe Coding(AI 编程)中文内容/资源合集(README 缺失,具体内容待核对)。",
     "keywords": [
       "Vibe Coding",
       "AI编程",
       "中文社区",
       "合集"
-    ]
+    ],
+    "display_cn": "fork 自 2025Emma/vibe-coding-cn:Vibe Coding(AI 编程)中文内容/资源合集(README 缺失,具体内容待核对)。"
   },
   {
     "name": "video2x",
     "url": "https://github.com/skychen2/video2x",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "C++",
+    "forkedFrom": "k4yt3x/video2x",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-10-29",
@@ -1641,14 +1823,16 @@
       "画质增强",
       "视频放大",
       "AI视频处理"
-    ]
+    ],
+    "display_cn": "fork 自 k4yt3x/video2x:基于机器学习的视频超分辨率与插帧框架(放大画质、补帧),支持多后端。"
   },
   {
     "name": "wechat-intelligence-hub",
     "url": "https://github.com/skychen2/wechat-intelligence-hub",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "Rion-Wu-tech/wechat-intelligence-hub",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2026-09-07",
@@ -1663,14 +1847,16 @@
       "每日简报",
       "商机",
       "CLI"
-    ]
+    ],
+    "display_cn": "fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。"
   },
   {
     "name": "weread2notion-pro",
     "url": "https://github.com/skychen2/weread2notion-pro",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "malinkang/weread2notion-pro",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2024-02-22",
@@ -1683,14 +1869,16 @@
       "Notion",
       "读书笔记",
       "同步"
-    ]
+    ],
+    "display_cn": "fork 自 malinkang/weread2notion-pro:微信读书笔记同步到 Notion 的工具(Pro 版)。"
   },
   {
     "name": "xhs_ai_publisher",
     "url": "https://github.com/skychen2/xhs_ai_publisher",
     "visibility": "PUBLIC",
     "isFork": true,
-    "language": "Python",
+    "forkedFrom": "BetaStreetOmnis/xhs_ai_publisher",
+    "language": "-",
     "stars": 0,
     "forks": 0,
     "updatedAt": "2025-01-15",
@@ -1704,6 +1892,7 @@
       "自动发布",
       "RPA",
       "内容生成"
-    ]
+    ],
+    "display_cn": "fork 自 BetaStreetOmnis/xhs_ai_publisher:小红书 AI 运营助手:小红书风格内容(含图片)生成 + 自动发布(Selenium RPA 模拟点击)。"
   }
 ]

@@ -1,6 +1,6 @@
 # repo-catalog — 我的 GitHub 仓库目录
 
-> **给 AI 看的仓库目录**:记录 skychen2 名下全部 82 个 public 仓库(自建 + fork)的基本信息与中文功能说明。
+> **给 AI 看的仓库目录**:记录 skychen2 名下全部 84 个 public 仓库(自建 + fork)的基本信息与中文功能说明。
 > 当主人模糊地提出一个功能需求时,AI 应通过本仓库快速检索定位到具体仓库。
 > 本地另有含私有仓库的完整版(见「维护方法」)。
 
@@ -19,10 +19,16 @@
 | `scripts/curated.json` | 人工维护的中文说明与关键词(唯一需要手工编辑的文件) |
 | `scripts/curated.private.json` | 私有仓库的中文说明(本地文件,已被 gitignore,不进入公开仓库;配合 generate.py 生成本地完整版) |
 | `scripts/generate.py` | 生成器:合并 GitHub 元数据 + curated 说明,重新生成所有文件 |
+| `scripts/fetch_public_repos.py` | 拉取仓库元数据(CI 用,匿名/带 token 均可) |
+| `.github/workflows/refresh.yml` | GitHub Actions:每周一自动刷新元数据并提交 |
 
 ## 分类
 
-- `ai-llm` — AI / 大模型 / 提示词(模型、微调、Agent 框架、prompt 工程、AI 接口)
+- `ai-llm-models` — AI 模型 / 微调 / 部署(本地运行、微调训练、模型清单)
+- `ai-llm-prompts` — 提示词 / 越狱 / 技巧(prompt 合集、结构化提示词、系统提示词)
+- `ai-llm-agents` — Agent / 自动化 / 工具调用(Agent 框架、function calling、自动操作)
+- `ai-llm-api` — AI 接口 / 代理 / 自部署 UI(免费/中转 API、接口兼容代理)
+- `ai-llm-tutorials` — LLM 教程 / 学习资源(入门课程、源码解析、资源清单)
 - `network-proxy` — 代理 / 科学上网 / Cloudflare(机场、订阅、VLESS/Trojan、VPS)
 - `media` — 视频 / AI 绘画 / 媒体(视频生成剪辑、超分插帧、绘画、下载)
 - `content-writing` — 内容创作 / 写作 / 运营(公众号、小红书、网文、内容工厂)
@@ -36,7 +42,7 @@
 
 1. **解析需求**,提取 2-4 个核心意图词(中英文均可)。
 2. 优先 **全文搜索 `categories/` 目录** 和 `INDEX.md`,命中说明或关键词。
-3. 需要结构化数据时,直接读取 `data/repos.json` 并用脚本过滤(字段:name, category, cn, keywords, language, isFork, visibility, stars)。
+3. 需要结构化数据时,直接读取 `data/repos.json` 并用脚本过滤(字段:name, category, cn, keywords, language, isFork, forkedFrom, visibility, stars)。
 4. 命中后,把仓库名、URL、分类和一句话说明回复给主人;如有多个候选,按相关度排序并说明各自差异。
 5. 若未命中,明确告知"目录里没有",不要编造。
 
@@ -45,7 +51,7 @@
 - "我要批量生成短视频" → `MoneyPrinterTurbo`、`short-video-factory`
 - "视频画质太差想放大补帧" → `video2x`
 - "给 AI 模型做微调" → `unsloth`、`self-llm`
-- "免费搞个 ChatGPT 网页版" → `lobe-chat`、`Google-Gemini-Web`
+- "免费搞个 ChatGPT 网页版" → 自部署 UI 类仓库(本地完整版含 lobe-chat 等私有部署)
 - "机场订阅怎么聚合" → `CF-Workers-SUB`、`edgetunnel`
 - "微信读书笔记同步到 Notion" → `weread2notion-pro`
 - "找免费公开 API" → `public-apis`、`awesome-public-datasets`
@@ -61,10 +67,15 @@
 python3 scripts/generate.py --public   # 公开仓库版本(提交用)
 python3 scripts/generate.py             # 本地完整版(含私有仓库,不提交)
 # 3. 提交推送
-cd .. && git add -A && git commit -m "update catalog" && git push
+git add -A && git commit -m "update catalog" && git push
 ```
+
+自动刷新:GitHub Actions 每周一自动重跑 `fetch_public_repos.py` + `generate.py --public`,
+元数据(描述/星标/新仓库)无需人工维护;`curated.json` 的中文说明新增仓库时仍需手工补一条。
 
 注意:
 - `curated.json` 里 `_comment` 字段说明字段含义与 category 取值,新增仓库时照抄已有条目格式即可。
+- fork 仓库会自动在说明前标注 `fork 自 <上游>`,来源固化在 curated 条目的 `forkedFrom` 字段(可用 `gh api repos/skychen2/<name> --jq '.parent.full_name'` 查询补全)。
 - 仓库描述/星标等元数据每次生成时自动从 GitHub 刷新,无需手工维护。
-- fork 仓库的功能说明以上游项目为准,标注"fork"表示非自建。
+- 被 GitHub 封禁/删除的仓库(如 n8n-workflows,DMCA)也会收录并标注状态,检索时如实说明。
+- 维护完整版(含私有仓库)时注意:公开版产物(categories/INDEX/data)不得出现私有仓库名。
