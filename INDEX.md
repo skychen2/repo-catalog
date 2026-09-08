@@ -67,6 +67,7 @@
 | [daodejing](https://github.com/skychen2/daodejing) | 知识 / 教程 / 资料 | fork 自 jarry/daodejing:《道德经》读书笔记:四十年人生感悟,思考编程本质与人生意义。 | fork |
 | [kkndme_tianya](https://github.com/skychen2/kkndme_tianya) | 知识 / 教程 / 资料 | fork 自 kkndmetianya/kkndme_tianya:天涯 kkndme 神贴:聊房价的长文合集,早年预测楼市走势的著名帖子。 | fork |
 | [tianya](https://github.com/skychen2/tianya) | 知识 / 教程 / 资料 | fork 自 hualin12/tianya:天涯神贴完整合集:早年成功预言诸多形势与事件的著名帖子整理。 | fork |
+| [OmniVoice](https://github.com/k2-fsa/OmniVoice) | 视频 / AI 绘画 / 媒体 | 高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0… | 收藏 |
 | [ComfyUI-Workflows-ZHO](https://github.com/skychen2/ComfyUI-Workflows-ZHO) | 视频 / AI 绘画 / 媒体 | fork 自 ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO:ComfyUI 工作流合集(ZHO 大佬),可直接下载使用的图像/视频生成工作流。 | fork |
 | [ControlNet](https://github.com/skychen2/ControlNet) | 视频 / AI 绘画 / 媒体 | fork 自 lllyasviel/ControlNet:让扩散模型可控的经典框架:通过姿态/深度/边缘/线稿等条件控制图像生成结果。 | fork |
 | [MidJourney-Styles-and-Keywords-Reference](https://github.com/skychen2/MidJourney-Styles-and-Keywords-Reference) | 视频 / AI 绘画 / 媒体 | fork 自 willwulfken/MidJourney-Styles-and-Keywords-Reference:MidJourney 风格与关键词参考手册:可用的风格列表… | fork |

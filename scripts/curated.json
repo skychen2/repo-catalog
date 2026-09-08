@@ -968,5 +968,26 @@
       "封禁",
       "不可访问"
     ]
+  },
+  "OmniVoice": {
+    "category": "media",
+    "cn": "高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。",
+    "keywords": [
+      "语音合成",
+      "TTS",
+      "语音克隆",
+      "多语言",
+      "音色克隆",
+      "文字转语音",
+      "zero-shot",
+      "语音设计"
+    ],
+    "external": true,
+    "owner": "k2-fsa",
+    "url": "https://github.com/k2-fsa/OmniVoice",
+    "language": "Python",
+    "stars": 10514,
+    "forks": 1663,
+    "updatedAt": "2026-09-08"
   }
 }

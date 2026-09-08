@@ -68,6 +68,26 @@ def main():
             "keywords": "、".join(c.get("keywords", []) or []),
         })
 
+    # 外部收藏条目(curated 中 external=True 的第三方仓库)
+    by_name = {r["name"] for r in records}
+    for name, c in sorted(curated.items()):
+        if not isinstance(c, dict) or not c.get("external") or name in by_name:
+            continue
+        records.append({
+            "name": name,
+            "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+            "visibility": "PUBLIC",
+            "isFork": False,
+            "forkedFrom": c.get("forkedFrom", ""),
+            "language": c.get("language", "-"),
+            "stars": c.get("stars", 0),
+            "updatedAt": c.get("updatedAt", ""),
+            "category": c.get("category", "dev-data-tools"),
+            "cn": c.get("cn", "(待补充)"),
+            "keywords": "、".join(c.get("keywords", []) or []),
+            "external": True,
+        })
+
     md = ["# skychen2 仓库完整目录(含私有仓库)", "",
           "> AI 检索用:按分类检索或关键词全文搜索。公开仓库亦收录,含私有仓库条目(标注 🔒)。", ""]
     for key, title in CATS:
@@ -77,11 +97,12 @@ def main():
         md += [f"## {title} ({key})", ""]
         for r in sorted(items, key=lambda x: -x["stars"]):
             lock = " 🔒" if r["visibility"] == "PRIVATE" else ""
+            tag = "外部收藏" if r.get("external") else ("fork" if r["isFork"] else "自建")
             md += [f"### {r['name']}{lock}",
                    f"- 分类: {key}",
                    f"- 说明: {r['cn']}",
                    f"- 关键词: {r['keywords'] or '-'}",
-                   f"- 属性: {'fork' if r['isFork'] else '自建'}"
+                   f"- 属性: {tag}"
                    f"{(' (fork 自 ' + r['forkedFrom'] + ')') if r['forkedFrom'] else ''}"
                    f" | {r['language']} | {r['stars']}★ | 更新 {r['updatedAt']}",
                    f"- URL: {r['url']}", ""]

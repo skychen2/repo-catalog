@@ -60,7 +60,8 @@ def main():
         sys.exit(1)
 
     r = gh(["api", f"repos/{owner}/{name}",
-            "--jq", "{name, full_name, description, fork, language, html_url, visibility}"])
+            "--jq", "{name, full_name, description, fork, language, html_url, visibility, "
+                     "stars: .stargazers_count, forks: .forks_count, updated_at}"])
     if r.returncode != 0:
         print(f"仓库不存在或不可访问: {owner}/{name} ({r.stderr.strip()[:200]})")
         sys.exit(1)
@@ -90,13 +91,25 @@ def main():
         parent = gh(["api", f"repos/{owner}/{name}", "--jq", ".parent.full_name // \"\""]).stdout.strip()
         if parent:
             entry["forkedFrom"] = parent
+    is_external = owner != "skychen2"
+    if is_external:
+        entry["external"] = True
+        entry["owner"] = owner
+        entry["url"] = meta.get("html_url")
+        entry["language"] = meta.get("language") or "-"
+        entry["stars"] = meta.get("stars", 0)
+        entry["forks"] = meta.get("forks", 0)
+        entry["updatedAt"] = (meta.get("updated_at") or "")[:10]
 
     curated[name] = entry
     json.dump(curated, open(curated_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"✓ 已新增: {name} ({meta.get('full_name')})")
+    kind = "外部收藏" if is_external else "名下仓库"
+    print(f"✓ 已新增({kind}): {name} ({meta.get('full_name')})")
     print(f"  说明: {entry['cn'][:80]}{'…' if len(entry['cn']) > 80 else ''}")
     print(f"  关键词: {entry['keywords']} | 分类: {entry['category']} | "
           f"fork: {meta.get('fork')} {('<- ' + entry['forkedFrom']) if 'forkedFrom' in entry else ''}")
+    if is_external:
+        print("  提示: 该仓库不属于 skychen2 名下,将作为「外部收藏」收录(公开版与本地完整版均可见)。")
     print("\n后续步骤:")
     print("  1) python3 scripts/generate.py --public   # 重新生成公开产物")
     print("  2) git add -A && git commit -m \"add repo: <name>\" && git push")

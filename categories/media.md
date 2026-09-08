@@ -2,10 +2,11 @@
 
 > 视频生成与剪辑、超分插帧、AI 绘画、下载工具、音乐
 
-共 11 个仓库。
+共 12 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
+| [OmniVoice](https://github.com/k2-fsa/OmniVoice) 10514★ 收藏🌐 | 高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。 | 语音合成、TTS、语音克隆、多语言、音色克隆、文字转语音、zero-shot、语音设计 |
 | [ComfyUI-Workflows-ZHO](https://github.com/skychen2/ComfyUI-Workflows-ZHO) 0★ fork | fork 自 ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO:ComfyUI 工作流合集(ZHO 大佬),可直接下载使用的图像/视频生成工作流。 | ComfyUI、工作流、AI绘画、Stable Diffusion |
 | [ControlNet](https://github.com/skychen2/ControlNet) 0★ fork | fork 自 lllyasviel/ControlNet:让扩散模型可控的经典框架:通过姿态/深度/边缘/线稿等条件控制图像生成结果。 | ControlNet、可控生成、姿态控制、Stable Diffusion、条件生成 |
 | [MidJourney-Styles-and-Keywords-Reference](https://github.com/skychen2/MidJourney-Styles-and-Keywords-Reference) 0★ fork | fork 自 willwulfken/MidJourney-Styles-and-Keywords-Reference:MidJourney 风格与关键词参考手册:可用的风格列表、关键词与示例图。 | MidJourney、风格参考、关键词、AI绘画、提示词手册 |

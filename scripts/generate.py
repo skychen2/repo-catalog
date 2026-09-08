@@ -58,6 +58,15 @@ def load_curated():
     return curated
 
 
+def with_display(r):
+    """组合展示用说明:fork 仓库自动补上游来源"""
+    if r["isFork"] and r["forkedFrom"] and "fork 自" not in r["cn"]:
+        r["display_cn"] = f"fork 自 {r['forkedFrom']}:" + r["cn"]
+    else:
+        r["display_cn"] = r["cn"]
+    return r
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
     public_only = "--public" in sys.argv[1:]
@@ -95,11 +104,29 @@ def main():
             "keywords": c.get("keywords", []) if isinstance(c, dict) else [],
         }
         # 组合展示用说明:fork 仓库自动补上游来源
-        if r["isFork"] and r["forkedFrom"] and "fork 自" not in r["cn"]:
-            r["display_cn"] = f"fork 自 {r['forkedFrom']}:" + r["cn"]
-        else:
-            r["display_cn"] = r["cn"]
-        records.append(r)
+        records.append(with_display(r))
+
+    # 外部收藏条目(curated 中 external=True 且不在名下列表的第三方仓库)
+    for name, c in sorted(curated.items()):
+        if not isinstance(c, dict) or not c.get("external") or name in by_name:
+            continue
+        records.append(with_display({
+            "name": name,
+            "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+            "visibility": "PUBLIC",
+            "isFork": False,
+            "forkedFrom": c.get("forkedFrom", ""),
+            "language": c.get("language", "-"),
+            "stars": c.get("stars", 0),
+            "forks": c.get("forks", 0),
+            "updatedAt": c.get("updatedAt", ""),
+            "topics": c.get("topics", ""),
+            "description": c.get("description", ""),
+            "category": c.get("category", "dev-data-tools"),
+            "cn": c.get("cn", "(待补充)"),
+            "keywords": c.get("keywords", []),
+            "external": True,
+        }))
     # 校验分类
     for r in records:
         if r["category"] not in CAT_KEYS:
@@ -121,9 +148,9 @@ def main():
         lines.append(f"共 {len(items)} 个仓库。")
         lines += ["", "| 仓库 | 说明 | 关键词 |", "|---|---|---|"]
         for r in sorted(items, key=lambda x: (-x["stars"], x["name"])):
-            flag = "自建" if not r["isFork"] else "fork"
+            tag = "收藏🌐" if r.get("external") else ("自建" if not r["isFork"] else "fork")
             vis = "" if r["visibility"] == "PUBLIC" else " 🔒私有"
-            name_cell = f"[{r['name']}]({r['url']}) {r['stars']}★ {flag}{vis}"
+            name_cell = f"[{r['name']}]({r['url']}) {r['stars']}★ {tag}{vis}"
             kw = "、".join(r["keywords"]) or "-"
             safe_cn = r["display_cn"].replace("|", "\\|").replace("\n", " ")
             safe_kw = kw.replace("|", "\\|")
@@ -139,7 +166,8 @@ def main():
              "", "| 仓库 | 分类 | 一句话说明 | 属性 |", "|---|---|---|---|"]
     cat_title = {k: t for k, t, _ in CATEGORIES}
     for r in sorted(records, key=lambda x: (x["category"], -x["stars"])):
-        attr = ("自建" if not r["isFork"] else "fork") + ("" if r["visibility"] == "PUBLIC" else "/🔒")
+        attr = ("收藏" if r.get("external") else ("自建" if not r["isFork"] else "fork")) + \
+               ("" if r["visibility"] == "PUBLIC" else "/🔒")
         cn = trunc(r["display_cn"].replace("|", "\\|"))
         lines.append(f"| [{r['name']}]({r['url']}) | {cat_title.get(r['category'], r['category'])} | {cn} | {attr} |")
     with open(os.path.join(ROOT, "INDEX.md"), "w", encoding="utf-8") as f:
