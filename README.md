@@ -46,10 +46,11 @@
 - "视频画质太差想放大补帧" → `video2x`
 - "给 AI 模型做微调" → `unsloth`、`self-llm`
 - "免费搞个 ChatGPT 网页版" → `lobe-chat`、`Google-Gemini-Web`
-- "机场订阅怎么聚合" → `CF-Workers-SUB`、`scdy`、`edgetunnel`
+- "机场订阅怎么聚合" → `CF-Workers-SUB`、`edgetunnel`
 - "微信读书笔记同步到 Notion" → `weread2notion-pro`
 - "找免费公开 API" → `public-apis`、`awesome-public-datasets`
-- "我之前自己写过的世界杯预测项目" → `Football`
+- "我之前做过的微信情报系统" → `wechat-intelligence-hub`
+- "AI 新闻摘要聚合工具" → `clawfeed`
 - "公众号排版工具" → `md`
 
 ## 维护方法
