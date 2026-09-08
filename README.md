@@ -49,7 +49,7 @@
 - "机场订阅怎么聚合" → `CF-Workers-SUB`、`edgetunnel`
 - "微信读书笔记同步到 Notion" → `weread2notion-pro`
 - "找免费公开 API" → `public-apis`、`awesome-public-datasets`
-- "我之前做过的微信情报系统" → `wechat-intelligence-hub`
+- "微信聊天记录搜索/情报工具" → `wechat-intelligence-hub`
 - "AI 新闻摘要聚合工具" → `clawfeed`
 - "公众号排版工具" → `md`
 

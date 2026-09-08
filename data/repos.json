@@ -282,7 +282,7 @@
     "topics": "",
     "description": ":cn: GitHub中文排行榜，各语言分设「软件 | 资料」榜单，精准定位中文好项目。各取所需，高效学习。",
     "category": "dev-data-tools",
-    "cn": "GitHub 中文排行榜,各语言分设「软件|资料」榜单,精准定位中文好项目。",
+    "cn": "GitHub 中文排行榜,各语言分设「软件/资料」榜单,精准定位中文好项目。",
     "keywords": [
       "GitHub排行",
       "中文项目",
@@ -813,7 +813,7 @@
     "topics": "",
     "description": "ClawFeed — AI-powered news digest with structured summaries from Twitter/RSS feeds and web dashboard",
     "category": "personal-projects",
-    "cn": "自建:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。",
+    "cn": "fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。",
     "keywords": [
       "新闻聚合",
       "RSS",
@@ -1330,6 +1330,27 @@
     ]
   },
   {
+    "name": "repo-catalog",
+    "url": "https://github.com/skychen2/repo-catalog",
+    "visibility": "PUBLIC",
+    "isFork": false,
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "updatedAt": "2026-09-08",
+    "topics": "",
+    "description": "My GitHub repos catalog: Chinese descriptions & search keywords for AI to locate the right repo from vague requests",
+    "category": "dev-data-tools",
+    "cn": "本仓库自身:skychen2 名下所有公开仓库的中文目录与检索索引,按 7 大分类组织,含中文功能说明与检索关键词,专为 AI 模糊检索定位仓库而建。",
+    "keywords": [
+      "仓库目录",
+      "索引",
+      "AI检索",
+      "分类",
+      "目录"
+    ]
+  },
+  {
     "name": "sd-forge-layerdiffuse",
     "url": "https://github.com/skychen2/sd-forge-layerdiffuse",
     "visibility": "PUBLIC",
@@ -1634,7 +1655,7 @@
     "topics": "",
     "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
     "category": "personal-projects",
-    "cn": "自建:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。",
+    "cn": "fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。",
     "keywords": [
       "微信",
       "情报系统",

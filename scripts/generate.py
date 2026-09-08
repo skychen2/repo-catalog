@@ -108,7 +108,9 @@ def main():
             vis = "" if r["visibility"] == "PUBLIC" else " 🔒私有"
             name_cell = f"[{r['name']}]({r['url']}) {r['stars']}★ {flag}{vis}"
             kw = "、".join(r["keywords"]) or "-"
-            lines.append(f"| {name_cell} | {r['cn']} | {kw} |")
+            safe_cn = r["cn"].replace("|", "\\|").replace("\n", " ")
+            safe_kw = kw.replace("|", "\\|")
+            lines.append(f"| {name_cell} | {safe_cn} | {safe_kw} |")
         with open(os.path.join(ROOT, "categories", f"{key}.md"), "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
 

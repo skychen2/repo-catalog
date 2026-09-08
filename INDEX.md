@@ -41,7 +41,7 @@
 | [one-person-businesses-methodology-v2.0](https://github.com/skychen2/one-person-businesses-methodology-v2.0) | 内容创作 / 写作 / 运营 | 《一人企业方法论》第二版:一人企业/副业方法论,适合自媒体、电商、数字商品等非技术人群。 | fork |
 | [xhs_ai_publisher](https://github.com/skychen2/xhs_ai_publisher) | 内容创作 / 写作 / 运营 | 小红书 AI 运营助手:小红书风格内容(含图片)生成 + 自动发布(Selenium RPA 模拟点击)。 | fork |
 | [public-apis](https://github.com/skychen2/public-apis) | 开发工具 / 效率 / 数据集 | 免费公开 API 大合集(collective list of free APIs),做项目找接口的第一站。 | fork |
-| [GitHub-Chinese-Top-Charts](https://github.com/skychen2/GitHub-Chinese-Top-Charts) | 开发工具 / 效率 / 数据集 | GitHub 中文排行榜,各语言分设「软件\|资料」榜单,精准定位中文好项目。 | fork |
+| [GitHub-Chinese-Top-Charts](https://github.com/skychen2/GitHub-Chinese-Top-Charts) | 开发工具 / 效率 / 数据集 | GitHub 中文排行榜,各语言分设「软件/资料」榜单,精准定位中文好项目。 | fork |
 | [GitHubDaily](https://github.com/skychen2/GitHubDaily) | 开发工具 / 效率 / 数据集 | 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站与技术资讯。 | fork |
 | [IDM-Activation-Script](https://github.com/skychen2/IDM-Activation-Script) | 开发工具 / 效率 / 数据集 | IDM(Internet Download Manager)激活与试用重置脚本。 | fork |
 | [PDFPatcher](https://github.com/skychen2/PDFPatcher) | 开发工具 / 效率 / 数据集 | PDF 补丁丁:PDF 工具箱——编辑书签、裁剪旋转页面、解除限制、提取合并文档、提取图片、探查结构等。 | fork |
@@ -51,6 +51,7 @@
 | [awesome-public-datasets](https://github.com/skychen2/awesome-public-datasets) | 开发工具 / 效率 / 数据集 | 高质量开放数据集清单(按主题分类),找数据集的第一站。 | fork |
 | [hackingtool](https://github.com/skychen2/hackingtool) | 开发工具 / 效率 / 数据集 | ALL IN ONE 黑客工具集:整合大量渗透测试/安全工具于一身的工具箱(注意合规使用)。 | fork |
 | [newsnow](https://github.com/skychen2/newsnow) | 开发工具 / 效率 / 数据集 | 优雅地阅读实时与最热新闻(NewsNow 风格,代码驱动的新闻流)。 | fork |
+| [repo-catalog](https://github.com/skychen2/repo-catalog) | 开发工具 / 效率 / 数据集 | 本仓库自身:skychen2 名下所有公开仓库的中文目录与检索索引,按 7 大分类组织,含中文功能说明与检索关键词,专为 | 自建 |
 | [weread2notion-pro](https://github.com/skychen2/weread2notion-pro) | 开发工具 / 效率 / 数据集 | 微信读书笔记同步到 Notion 的工具(Pro 版)。 | fork |
 | [Adversarial-Evolution](https://github.com/skychen2/Adversarial-Evolution) | 知识 / 教程 / 资料 | 《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活 | fork |
 | [Classical-Modern](https://github.com/skychen2/Classical-Modern) | 知识 / 教程 / 资料 | 文言文(古文)-现代文平行语料库,数据量全,可用于翻译模型训练/学习对照。 | fork |
@@ -83,6 +84,6 @@
 | [fanqiang](https://github.com/skychen2/fanqiang) | 代理 / 科学上网 / Cloudflare | 翻墙-科学上网资料/工具合集。 | fork |
 | [node-ws](https://github.com/skychen2/node-ws) | 代理 / 科学上网 / Cloudflare | 基于 serverless 的 vless+trojan 双协议代理,无内核,node 环境通用项目(部署在 CF Wo | fork |
 | [reinstall](https://github.com/skychen2/reinstall) | 代理 / 科学上网 / Cloudflare | 一键 DD/重装 VPS 系统脚本(One-click reinstall OS on VPS)。 | fork |
-| [clawfeed](https://github.com/skychen2/clawfeed) | 个人自建项目 | 自建:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。 | fork |
+| [clawfeed](https://github.com/skychen2/clawfeed) | 个人自建项目 | fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化 | fork |
 | [clawserver](https://github.com/skychen2/clawserver) | 个人自建项目 | 自建公有:服务器相关(README 过简,用途待补充)。 | 自建 |
-| [wechat-intelligence-hub](https://github.com/skychen2/wechat-intelligence-hub) | 个人自建项目 | 自建:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。 | fork |
+| [wechat-intelligence-hub](https://github.com/skychen2/wechat-intelligence-hub) | 个人自建项目 | fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史 | fork |
