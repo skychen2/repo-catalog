@@ -108,6 +108,12 @@ def main():
     os.makedirs(os.path.join(ROOT, "categories"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
 
+    # 清理不在当前分类列表中的旧分类文件(防止分类重命名/拆分后残留)
+    for f in os.listdir(os.path.join(ROOT, "categories")):
+        if f.endswith(".md") and f[:-3] not in CAT_KEYS:
+            os.remove(os.path.join(ROOT, "categories", f))
+            print(f"清理旧分类文件: {f}")
+
     # 1) categories/*.md
     for key, title, subtitle in CATEGORIES:
         items = [r for r in records if r["category"] == key]

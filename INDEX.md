@@ -49,10 +49,12 @@
 | [Telegraph-Image](https://github.com/skychen2/Telegraph-Image) | 开发工具 / 效率 / 数据集 | fork 自 lxyer/Telegraph-Image:免费图床方案:基于 Cloudflare Workers/Telegraph,类似 Flickr/imgur,方便分享图片… | fork |
 | [Url-Shorten-Worker](https://github.com/skychen2/Url-Shorten-Worker) | 开发工具 / 效率 / 数据集 | fork 自 crazypeace/Url-Shorten-Worker:Cloudflare Worker 短链服务:秘密路径管理、自定义短链、KV 缓存,还可变身网络记事本/图… | fork |
 | [awesome-public-datasets](https://github.com/skychen2/awesome-public-datasets) | 开发工具 / 效率 / 数据集 | fork 自 awesomedata/awesome-public-datasets:高质量开放数据集清单(按主题分类),找数据集的第一站。 | fork |
+| [clawfeed](https://github.com/skychen2/clawfeed) | 开发工具 / 效率 / 数据集 | fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。 | fork |
 | [hackingtool](https://github.com/skychen2/hackingtool) | 开发工具 / 效率 / 数据集 | fork 自 Z4nzu/hackingtool:ALL IN ONE 黑客工具集:整合大量渗透测试/安全工具于一身的工具箱(注意合规使用)。 | fork |
 | [n8n-workflows](https://github.com/skychen2/n8n-workflows) | 开发工具 / 效率 / 数据集 | 已被 GitHub DMCA 封禁(2025-08,版权投诉),仓库不可访问。n8n 工作流相关主题可检索关键词: n8n/工作流/自动化。 | fork |
 | [newsnow](https://github.com/skychen2/newsnow) | 开发工具 / 效率 / 数据集 | fork 自 ourongxing/newsnow:优雅地阅读实时与最热新闻(NewsNow 风格,代码驱动的新闻流)。 | fork |
 | [repo-catalog](https://github.com/skychen2/repo-catalog) | 开发工具 / 效率 / 数据集 | 本仓库自身:skychen2 名下所有公开仓库的中文目录与检索索引,按 7 大分类组织,含中文功能说明与检索关键词,专为 AI 模糊检索定位仓库而建。 | 自建 |
+| [wechat-intelligence-hub](https://github.com/skychen2/wechat-intelligence-hub) | 开发工具 / 效率 / 数据集 | fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。 | fork |
 | [weread2notion-pro](https://github.com/skychen2/weread2notion-pro) | 开发工具 / 效率 / 数据集 | fork 自 malinkang/weread2notion-pro:微信读书笔记同步到 Notion 的工具(Pro 版)。 | fork |
 | [Adversarial-Evolution](https://github.com/skychen2/Adversarial-Evolution) | 知识 / 教程 / 资料 | fork 自 Wing-2025/Adversarial-Evolution:《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗… | fork |
 | [Classical-Modern](https://github.com/skychen2/Classical-Modern) | 知识 / 教程 / 资料 | fork 自 NiuTrans/Classical-Modern:文言文(古文)-现代文平行语料库,数据量全,可用于翻译模型训练/学习对照。 | fork |
@@ -85,6 +87,4 @@
 | [fanqiang](https://github.com/skychen2/fanqiang) | 代理 / 科学上网 / Cloudflare | fork 自 bannedbook/fanqiang:翻墙-科学上网资料/工具合集。 | fork |
 | [node-ws](https://github.com/skychen2/node-ws) | 代理 / 科学上网 / Cloudflare | fork 自 eooce/node-ws:基于 serverless 的 vless+trojan 双协议代理,无内核,node 环境通用项目(部署在 CF Workers 等平台… | fork |
 | [reinstall](https://github.com/skychen2/reinstall) | 代理 / 科学上网 / Cloudflare | fork 自 bin456789/reinstall:一键 DD/重装 VPS 系统脚本(One-click reinstall OS on VPS)。 | fork |
-| [clawfeed](https://github.com/skychen2/clawfeed) | 个人自建项目 | fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。 | fork |
 | [clawserver](https://github.com/skychen2/clawserver) | 个人自建项目 | 自建公有:服务器相关(README 过简,用途待补充)。 | 自建 |
-| [wechat-intelligence-hub](https://github.com/skychen2/wechat-intelligence-hub) | 个人自建项目 | fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。 | fork |

@@ -477,7 +477,7 @@
     "forkedFrom": "ultraworkers/claw-code"
   },
   "clawfeed": {
-    "category": "personal-projects",
+    "category": "dev-data-tools",
     "cn": "fork 自 kevinho:ClawFeed——AI 驱动的新闻摘要聚合,从 Twitter/RSS 抓取并输出结构化摘要,带 Web 面板。",
     "keywords": [
       "新闻聚合",
@@ -876,7 +876,7 @@
     "forkedFrom": "malinkang/weread2notion-pro"
   },
   "wechat-intelligence-hub": {
-    "category": "personal-projects",
+    "category": "dev-data-tools",
     "cn": "fork 自 Rion-Wu-tech:本地优先的微信情报系统——只读 CLI、Codex skills、可搜索聊天历史、每日简报、跟进与商机机会追踪。",
     "keywords": [
       "微信",
