@@ -134,7 +134,7 @@ def main():
 
 
     if not args.dry_run:
-        fd, temp_path = tempfile.mkstemp(prefix="curated-", suffix=".json", dir=HERE)
+        fd, temp_path = tempfile.mkstemp(prefix="curated-", suffix=".json", dir=os.path.dirname(CURATED_PATH))
         try:
             with os.fdopen(fd, "w", encoding="utf-8") as file:
                 json.dump(curated, file, ensure_ascii=False, indent=2)
