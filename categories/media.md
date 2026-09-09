@@ -6,31 +6,31 @@
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
-| [obs-studio](https://github.com/obsproject/obs-studio) 75977★ 收藏🌐 | OBS Studio:免费开源的直播与录屏软件。 | 直播、录屏、OBS、开源 |
+| [obs-studio](https://github.com/obsproject/obs-studio) 75978★ 收藏🌐 | OBS Studio:免费开源的直播与录屏软件。 | 直播、录屏、OBS、开源 |
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 61640★ 收藏🌐 | 1 分钟语音数据即可训练优质 TTS(few-shot 语音克隆)。 | 语音克隆、TTS、少样本、声音训练 |
 | [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) 60129★ 收藏🌐 | 5 秒克隆声音,实时生成任意语音。 | 语音克隆、实时、TTS、声音合成 |
-| [OpenMontage](https://github.com/calesthio/OpenMontage) 56693★ 收藏🌐 | 开源 agentic 视频制作系统:12 条生产管线、100+ 工具,自动化视频生产。 | 视频制作、agent、自动化、生产管线 |
-| [VibeVoice](https://github.com/microsoft/VibeVoice) 53998★ 收藏🌐 | 开源前沿语音 AI(微软):语音生成/克隆。 | 语音AI、语音生成、微软、TTS |
-| [hyperframes](https://github.com/heygen-com/hyperframes) 47766★ 收藏🌐 | 用 HTML/CSS 动画直接渲染成视频,专为 AI agent 生成短视频设计(HeyGen)。 | HTML转视频、视频渲染、agent、短视频 |
-| [VoxCPM](https://github.com/OpenBMB/VoxCPM) 36862★ 收藏🌐 | VoxCPM2 免 tokenizer 多语言 TTS:创意语音设计与真实语音克隆。 | TTS、语音合成、语音克隆、多语言 |
-| [Open-Sora](https://github.com/hpcaitech/Open-Sora) 29703★ 收藏🌐 | 开源文生视频模型(类 Sora):文本/图像生成视频,ColossalAI 出品。 | 视频生成、Sora、文生视频、开源模型 |
-| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) 27902★ 收藏🌐 | AI 全自动短视频引擎(ATH-MaaS)。 | 短视频、自动生成、AI视频、引擎 |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) 56706★ 收藏🌐 | 开源 agentic 视频制作系统:12 条生产管线、100+ 工具,自动化视频生产。 | 视频制作、agent、自动化、生产管线 |
+| [VibeVoice](https://github.com/microsoft/VibeVoice) 54002★ 收藏🌐 | 开源前沿语音 AI(微软):语音生成/克隆。 | 语音AI、语音生成、微软、TTS |
+| [hyperframes](https://github.com/heygen-com/hyperframes) 47820★ 收藏🌐 | 用 HTML/CSS 动画直接渲染成视频,专为 AI agent 生成短视频设计(HeyGen)。 | HTML转视频、视频渲染、agent、短视频 |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) 36863★ 收藏🌐 | VoxCPM2 免 tokenizer 多语言 TTS:创意语音设计与真实语音克隆。 | TTS、语音合成、语音克隆、多语言 |
+| [Open-Sora](https://github.com/hpcaitech/Open-Sora) 29707★ 收藏🌐 | 开源文生视频模型(类 Sora):文本/图像生成视频,ColossalAI 出品。 | 视频生成、Sora、文生视频、开源模型 |
+| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) 27908★ 收藏🌐 | AI 全自动短视频引擎(ATH-MaaS)。 | 短视频、自动生成、AI视频、引擎 |
 | [chatterbox](https://github.com/resemble-ai/chatterbox) 26323★ 收藏🌐 | SoTA 开源 TTS(resemble-ai)。 | TTS、语音合成、开源、SoTA |
-| [video-use](https://github.com/browser-use/video-use) 24444★ 收藏🌐 | 让编码 agent 用代码编辑视频:自动化剪辑/拼接/特效(browser-use 出品)。 | 视频编辑、agent、自动化剪辑、编程控制 |
+| [video-use](https://github.com/browser-use/video-use) 24449★ 收藏🌐 | 让编码 agent 用代码编辑视频:自动化剪辑/拼接/特效(browser-use 出品)。 | 视频编辑、agent、自动化剪辑、编程控制 |
 | [HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) 21500★ 收藏🌐 | 轻量高效 AI 证件照制作算法。 | 证件照、AI图像、换底、轻量 |
-| [ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) 20138★ 收藏🌐 | 电子书转有声书:语音克隆,支持 1158+ 语言。 | 有声书、电子书转音频、语音克隆、TTS |
+| [ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) 20139★ 收藏🌐 | 电子书转有声书:语音克隆,支持 1158+ 语言。 | 有声书、电子书转音频、语音克隆、TTS |
 | [VideoLingo](https://github.com/Huanshere/VideoLingo) 18394★ 收藏🌐 | Netflix 级字幕切割/翻译/对齐/配音,一键全流程。 | 字幕、翻译、配音、视频本地化 |
 | [FramePack](https://github.com/lllyasviel/FramePack) 17248★ 收藏🌐 | 让视频扩散实用化(lllyasviel)。 | 视频生成、扩散模型、lllyasviel、实用 |
 | [TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) 15831★ 收藏🌐 | 抖音/TikTok 作品下载与数据采集工具。 | 抖音、TikTok、下载、采集 |
-| [huobao-drama](https://github.com/chatfire-AI/huobao-drama) 14883★ 收藏🌐 | 火宝短剧:AI 一站式短剧生成平台,一句话从剧本到成片全自动化。 | 短剧生成、剧本、AI视频、一站式 |
-| [waoowaoo](https://github.com/waooAI/waoowaoo) 14010★ 收藏🌐 | 工业级全流程 AI 影视生产平台:可控的电影级 AI Agent 制作(waooAI)。 | 影视制作、AI电影、全流程、Agent平台 |
+| [huobao-drama](https://github.com/chatfire-AI/huobao-drama) 14885★ 收藏🌐 | 火宝短剧:AI 一站式短剧生成平台,一句话从剧本到成片全自动化。 | 短剧生成、剧本、AI视频、一站式 |
+| [waoowaoo](https://github.com/waooAI/waoowaoo) 14011★ 收藏🌐 | 工业级全流程 AI 影视生产平台:可控的电影级 AI Agent 制作(waooAI)。 | 影视制作、AI电影、全流程、Agent平台 |
 | [OpenCreator](https://github.com/krillinai/OpenCreator) 11364★ 收藏🌐 | 创作者 AI 工作空间(原 KrillinAI):Codex 驱动,视频创作。 | 视频创作、Codex、工作空间、创作者 |
 | [NarratoAI](https://github.com/linyqh/NarratoAI) 11016★ 收藏🌐 | 用 AI 大模型一键解说并剪辑视频(自动配音+剪辑)。 | 视频解说、自动配音、AI剪辑、一键 |
-| [OmniVoice](https://github.com/k2-fsa/OmniVoice) 10750★ 收藏🌐 | 高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。 | 语音合成、TTS、语音克隆、多语言、音色克隆、文字转语音、zero-shot、语音设计 |
+| [OmniVoice](https://github.com/k2-fsa/OmniVoice) 10760★ 收藏🌐 | 高质量多语言零样本语音克隆 TTS:支持 600+ 语言,可克隆任意音色,语音设计(性别/年龄/语调/方言/耳语),支持 laugh 等非语言符号与拼音/音素发音纠正,RTF 0.025 超快推理(40 倍实时),Diffusion LM 架构。 | 语音合成、TTS、语音克隆、多语言、音色克隆、文字转语音、zero-shot、语音设计 |
 | [Amphion](https://github.com/open-mmlab/Amphion) 10281★ 收藏🌐 | 音频、音乐与语音生成工具包(OpenMMLab)。 | 音频生成、音乐生成、语音合成、OpenMMLab |
 | [audiblez](https://github.com/santinic/audiblez) 8541★ 收藏🌐 | 从电子书生成有声书。 | 有声书、电子书、TTS、生成 |
-| [awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free) 8294★ 收藏🌐 | 免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。 | 追剧、影视资源、TVBox、IPTV |
-| [autoclip](https://github.com/zhouxiaoka/autoclip) 7251★ 收藏🌐 | AutoClip:AI 智能高光提取与剪辑的二创工具。 | 高光提取、智能剪辑、二创、短视频 |
+| [awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free) 8296★ 收藏🌐 | 免费无广告追剧资源指南:在线影视/APP/网盘搜索/磁力BT/字幕/TVBox 配置/IPTV 直播源。 | 追剧、影视资源、TVBox、IPTV |
+| [autoclip](https://github.com/zhouxiaoka/autoclip) 7253★ 收藏🌐 | AutoClip:AI 智能高光提取与剪辑的二创工具。 | 高光提取、智能剪辑、二创、短视频 |
 | [podcastfy](https://github.com/souzatharsis/podcastfy) 6532★ 收藏🌐 | NotebookLM 播客功能的开源 Python 替代:多模态内容转播客。 | 播客生成、多模态、NotebookLM替代、Python |
 | [ACE-Step](https://github.com/ace-step/ACE-Step) 4812★ 收藏🌐 | ACE-Step:音乐生成基础模型(阿里音乐方向)。 | 音乐生成、基础模型、音频、阿里 |
 | [Kimi-Audio](https://github.com/MoonshotAI/Kimi-Audio) 4734★ 收藏🌐 | 开源音频基础模型:音频理解、生成与对话(月之暗面)。 | 音频模型、语音对话、Kimi、月之暗面 |
@@ -41,7 +41,7 @@
 | [ACE_plus](https://github.com/ali-vilab/ACE_plus) 1364★ 收藏🌐 | ACE++:基于 FLUX 的指令式图像生成与编辑模型/工作流,支持参考图生成、局部重绘、换装、贴 logo、换脸等,并提供 ComfyUI 示例。 | ACE++、图像生成、图像编辑、参考图、局部重绘、ComfyUI、FLUX |
 | [manim_skill](https://github.com/adithya-s-k/manim_skill) 1096★ 收藏🌐 | Manim 动画 agent 技能:创建 3Blue1Brown 风格数学动画。 | Manim、数学动画、3Blue1Brown、可视化 |
 | [autox-release](https://github.com/spider-ios/autox-release) 1071★ 收藏🌐 | 网页自动化:视频下载、一键搬家、多平台发布(油管/小红书/快手/抖音/B站)。 | 视频发布、多平台、自动化、下载 |
-| [female-outfit-director](https://github.com/liyue-aigc/female-outfit-director) 790★ 收藏🌐 | 女性多套穿搭拼贴首帧与卡点换装视频导演 Skill。 | 穿搭、换装视频、首帧拼贴、视频导演 |
+| [female-outfit-director](https://github.com/liyue-aigc/female-outfit-director) 791★ 收藏🌐 | 女性多套穿搭拼贴首帧与卡点换装视频导演 Skill。 | 穿搭、换装视频、首帧拼贴、视频导演 |
 | [ComfyUI-IF_AI_tools](https://github.com/if-ai/ComfyUI-IF_AI_tools) 700★ 收藏🌐 | ComfyUI 自定义节点集:AI 提示词生成等(IF_AI_tools)。 | ComfyUI、自定义节点、提示词生成、AI工具 |
 | [ComfyUI_PuLID_Flux_ll](https://github.com/lldacing/ComfyUI_PuLID_Flux_ll) 477★ 收藏🌐 | ComfyUI 的 PuLID Flux 人脸保持节点。 | ComfyUI、PuLID、Flux、人脸 |
 | [ecommerce-image-suite](https://github.com/wzj177/ecommerce-image-suite) 382★ 收藏🌐 | 电商商品图生产 Skill:分析/卖点提炼/Prompt 组织到成图,适配主流平台。 | 电商图片、商品图、卖点提炼、Prompt |

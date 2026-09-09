@@ -6,8 +6,8 @@
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
-| [weekly](https://github.com/ruanyf/weekly) 102212★ 收藏🌐 | 科技爱好者周刊(阮一峰),每周五发布。 | 周刊、科技、阮一峰、资讯 |
-| [ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) 81690★ 收藏🌐 | 所有小初高、大学 PDF 教材合集。 | 教材、PDF、中小学、大学 |
+| [weekly](https://github.com/ruanyf/weekly) 102215★ 收藏🌐 | 科技爱好者周刊(阮一峰),每周五发布。 | 周刊、科技、阮一峰、资讯 |
+| [ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) 81693★ 收藏🌐 | 所有小初高、大学 PDF 教材合集。 | 教材、PDF、中小学、大学 |
 | [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) 25808★ 收藏🌐 | 谷粒 Chrome 插件英雄榜:优秀 Chrome 插件中文说明书合集。 | Chrome插件、英雄榜、中文说明书、插件推荐 |
 | [opc-methodology](https://github.com/easychen/opc-methodology) 16725★ 收藏🌐 | 《一人企业方法论》第二版,也适合自媒体/电商/数字商品副业。 | 一人企业、方法论、副业、数字商品 |
 | [lean-side-bussiness](https://github.com/easychen/lean-side-bussiness) 12117★ 收藏🌐 | 精益副业:程序员如何优雅地做副业(easychen)。 | 副业、程序员、精益、变现 |
@@ -15,10 +15,10 @@
 | [awesome_docker_cn](https://github.com/coracoo/awesome_docker_cn) 3650★ 收藏🌐 | 上百款可 Docker 部署的项目合集:项目地址+部署教程。 | Docker、部署、合集、教程 |
 | [one-person-company](https://github.com/cyfyifanchen/one-person-company) 2730★ 收藏🌐 | 一人公司 AI 工具系列:遇事不决 Vibe 力学,持续更新提升生产力。 | 一人公司、AI工具、生产力、Vibe |
 | [blog](https://github.com/ninehills/blog) 2710★ 收藏🌐 | 个人博客与文章归档站点,包含文章、静态页面和博客主题资源。 | 博客、个人网站、文章归档、静态站点 |
-| [awesome-ceo](https://github.com/kuchin/awesome-ceo) 2636★ 收藏🌐 | 面向创业公司创始人与高增长公司领导者的资源清单。 | 创业、CEO、资源清单、商业 |
+| [awesome-ceo](https://github.com/kuchin/awesome-ceo) 2637★ 收藏🌐 | 面向创业公司创始人与高增长公司领导者的资源清单。 | 创业、CEO、资源清单、商业 |
 | [awesome-useful-websites](https://github.com/atakanaltok/awesome-useful-websites) 1268★ 收藏🌐 | 人工精选的实用网站清单。 | 实用网站、清单、精选 |
 | [dotnet-content-creators](https://github.com/matthiasjost/dotnet-content-creators) 1148★ 收藏🌐 | .NET 内容创作者清单(博客/视频/播客)。 | .NET、内容创作者、清单、博客 |
-| [ai-interview-guide](https://github.com/guocong-bincai/ai-interview-guide) 597★ 收藏🌐 | AI 应用/Agent/RAG/FDE 开发岗位面试宝典。 | 面试、AI应用、Agent、RAG |
+| [ai-interview-guide](https://github.com/guocong-bincai/ai-interview-guide) 598★ 收藏🌐 | AI 应用/Agent/RAG/FDE 开发岗位面试宝典。 | 面试、AI应用、Agent、RAG |
 | [MaoZeDongAnthology](https://github.com/NpTIme/MaoZeDongAnthology) 320★ 收藏🌐 | 毛泽东选集官方五卷及静火版两卷。 | 毛选、毛泽东、著作、电子书 |
 | [tianyashentie](https://github.com/mariacowie81/tianyashentie) 17★ 收藏🌐 | 天涯论坛神贴 PDF 版合集(206 篇)。 | 天涯、神贴、PDF、合集 |
 | [Adversarial-Evolution](https://github.com/skychen2/Adversarial-Evolution) 0★ fork | fork 自 Wing-2025/Adversarial-Evolution:《对抗演化与合作跃升》——用演化视角解读生命史与社会本质(真核生命、寒武纪、人类起源、国家兴起,以及宗教、法等人类社会活动的本质)。 | 演化、生物学、科普书、人类社会、文明 |

@@ -35,7 +35,9 @@
 | `scripts/fetch_starred_repos.py` | 发现当前账号 star 的第三方仓库并加入外部收藏 |
 | `scripts/refresh_external_repos.py` | 刷新外部收藏的 GitHub 状态、更新时间和基础元数据 |
 | `scripts/audit.py` | 检查未审核、长期未更新、已归档、不可访问和重复候选仓库 |
+| `scripts/validate.py` | 校验 curated、公开 JSON、分类文件、分类字段和外部标记的一致性 |
 | `scripts/recommend.py` | 按功能匹配度优先,结合优先级、活跃度和热度输出推荐排序 |
+| `.agents/skills/repo-catalog-operator/SKILL.md` | 标准操作 Skill:新增、Star 发现、刷新、生成、审计、验证、推荐与发布流程 |
 | `tests/recommend_cases.json` | 典型模糊需求与期望第一推荐项目 |
 | `tests/test_recommend.py` | 推荐结果回归测试 |
 | `.github/workflows/refresh.yml` | GitHub Actions:每周一自动刷新元数据并提交 |
@@ -54,7 +56,11 @@
 - `knowledge-books` — 知识 / 教程 / 资料(学习路线、书籍、语料、合集)
 - `personal-projects` — 个人自建项目(自建 / 私有,含个人知识库)
 
-当主人提出模糊需求时,优先使用推荐脚本:
+## 标准操作 Skill
+
+后续由其他模型维护本目录时，必须先读取并遵循
+[`.agents/skills/repo-catalog-operator/SKILL.md`](.agents/skills/repo-catalog-operator/SKILL.md)。该 Skill 固定了数据源、字段契约、分类决策、添加仓库、Star 发现、元数据刷新、目录生成、审计、验证、测试和发布顺序，并规定了失败时不得继续生成或提交。
+
 
 ```bash
 python3 scripts/recommend.py "批量生成短视频"

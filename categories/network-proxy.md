@@ -6,9 +6,9 @@
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
-| [FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) 198244★ 收藏🌐 | 免费域名注册与实用 DNS 学习资源。 | 免费域名、DNS、注册、学习资源 |
-| [sing-box](https://github.com/SagerNet/sing-box) 37773★ 收藏🌐 | 通用代理平台(SagerNet)。 | 代理、sing-box、通用、跨平台 |
-| [Cloudflare-vless-trojan](https://github.com/yonggekkk/Cloudflare-vless-trojan) 16045★ 收藏🌐 | CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。 | Cloudflare、VLESS、Trojan、代理脚本 |
+| [FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) 198251★ 收藏🌐 | 免费域名注册与实用 DNS 学习资源。 | 免费域名、DNS、注册、学习资源 |
+| [sing-box](https://github.com/SagerNet/sing-box) 37776★ 收藏🌐 | 通用代理平台(SagerNet)。 | 代理、sing-box、通用、跨平台 |
+| [Cloudflare-vless-trojan](https://github.com/yonggekkk/Cloudflare-vless-trojan) 16044★ 收藏🌐 | CF workers/pages 代理脚本:VLESS/Trojan/Socks5/http,可选 ECH-TLS。 | Cloudflare、VLESS、Trojan、代理脚本 |
 | [karing](https://github.com/KaringX/karing) 14764★ 收藏🌐 | 简单强大的代理工具:支持 clash/sing-box 路由规则。 | 代理、clash、sing-box、路由规则 |
 | [BPB-Worker-Panel](https://github.com/bia-pain-bache/BPB-Worker-Panel) 13384★ 收藏🌐 | Worker 订阅 GUI 面板:VLESS/Trojan/Warp 配置管理。 | Workers、订阅面板、VLESS、Warp |
 | [epeius](https://github.com/cmliu/epeius) 3224★ 收藏🌐 | fork 自 ca110us/epeius:Trojan 配置转 Clash/Singbox 等订阅工具。 | Trojan、订阅转换、Clash、sing-box |

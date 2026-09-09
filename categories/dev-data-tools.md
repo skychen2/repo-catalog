@@ -2,44 +2,44 @@
 
 > 开发者工具、安全、API 与数据集清单、自建小服务
 
-共 75 个仓库。
+共 76 个仓库。
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
-| [markitdown](https://github.com/microsoft/markitdown) 181692★ 收藏🌐 | 把文件与 Office 文档转 Markdown 的 Python 工具(微软)。 | 转Markdown、文档转换、Office、Python |
-| [firecrawl](https://github.com/firecrawl/firecrawl) 178028★ 收藏🌐 | 搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。 | 网页抓取、搜索、爬虫、API |
-| [PowerToys](https://github.com/microsoft/PowerToys) 138505★ 收藏🌐 | 微软效率工具集(窗口管理/取色/批量重命名等)。 | 效率工具、微软、PowerToys、桌面 |
-| [spec-kit](https://github.com/github/spec-kit) 134228★ 收藏🌐 | Spec-Driven Development 工具包(github 官方)。 | Spec驱动、开发工具、规范、github |
-| [cc-switch](https://github.com/farion1231/cc-switch) 131760★ 收藏🌐 | 跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。 | Claude Code、Codex、一键切换、桌面工具 |
-| [RuView](https://github.com/ruvnet/RuView) 92832★ 收藏🌐 | 把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。 | WiFi感知、生命体征、空间智能、雷达 |
-| [localsend](https://github.com/localsend/localsend) 90387★ 收藏🌐 | 开源跨平台 AirDrop 替代:局域网文件互传。 | 文件传输、AirDrop替代、跨平台、局域网 |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 89137★ 收藏🌐 | 把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。 | OCR、文字识别、文档解析、PDF |
-| [funNLP](https://github.com/fighting41love/funNLP) 82959★ 收藏🌐 | NLP 工具集:敏感词/语言检测、手机归属地、身份证/邮箱抽取、情感词表、拆字词典等。 | NLP、敏感词、信息抽取、情感分析、词典 |
-| [fzf](https://github.com/junegunn/fzf) 82876★ 收藏🌐 | 命令行模糊查找器(Go 编写,终端神器)。 | fzf、模糊查找、命令行、终端 |
-| [crawl4ai](https://github.com/unclecode/crawl4ai) 81991★ 收藏🌐 | 开源 LLM 友好网页爬虫与抓取器。 | 爬虫、LLM友好、网页抓取、开源 |
-| [MinerU](https://github.com/opendatalab/MinerU) 79489★ 收藏🌐 | 把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。 | PDF解析、文档转Markdown、LLM就绪、OCR |
+| [markitdown](https://github.com/microsoft/markitdown) 181747★ 收藏🌐 | 把文件与 Office 文档转 Markdown 的 Python 工具(微软)。 | 转Markdown、文档转换、Office、Python |
+| [firecrawl](https://github.com/firecrawl/firecrawl) 178055★ 收藏🌐 | 搜索、抓取、交互 web 的 context API(本机 firecrawl 工具同源)。 | 网页抓取、搜索、爬虫、API |
+| [PowerToys](https://github.com/microsoft/PowerToys) 138504★ 收藏🌐 | 微软效率工具集(窗口管理/取色/批量重命名等)。 | 效率工具、微软、PowerToys、桌面 |
+| [spec-kit](https://github.com/github/spec-kit) 134241★ 收藏🌐 | Spec-Driven Development 工具包(github 官方)。 | Spec驱动、开发工具、规范、github |
+| [cc-switch](https://github.com/farion1231/cc-switch) 131780★ 收藏🌐 | 跨平台桌面 All-in-One 助手:Claude Code/Codex/OpenCode/OpenClaw 一键切换配置。 | Claude Code、Codex、一键切换、桌面工具 |
+| [RuView](https://github.com/ruvnet/RuView) 92835★ 收藏🌐 | 把 WiFi 信号变成实时空间智能、生命体征监测(π 雷达)。 | WiFi感知、生命体征、空间智能、雷达 |
+| [localsend](https://github.com/localsend/localsend) 90388★ 收藏🌐 | 开源跨平台 AirDrop 替代:局域网文件互传。 | 文件传输、AirDrop替代、跨平台、局域网 |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) 89140★ 收藏🌐 | 把 PDF/图片文档转结构化数据:轻量强大的 OCR(百度)。 | OCR、文字识别、文档解析、PDF |
+| [funNLP](https://github.com/fighting41love/funNLP) 82961★ 收藏🌐 | NLP 工具集:敏感词/语言检测、手机归属地、身份证/邮箱抽取、情感词表、拆字词典等。 | NLP、敏感词、信息抽取、情感分析、词典 |
+| [fzf](https://github.com/junegunn/fzf) 82878★ 收藏🌐 | 命令行模糊查找器(Go 编写,终端神器)。 | fzf、模糊查找、命令行、终端 |
+| [crawl4ai](https://github.com/unclecode/crawl4ai) 81996★ 收藏🌐 | 开源 LLM 友好网页爬虫与抓取器。 | 爬虫、LLM友好、网页抓取、开源 |
+| [MinerU](https://github.com/opendatalab/MinerU) 79495★ 收藏🌐 | 把 PDF/Office 复杂文档转 LLM 就绪 markdown/JSON(上海 AI Lab)。 | PDF解析、文档转Markdown、LLM就绪、OCR |
 | [Ventoy](https://github.com/ventoy/Ventoy) 79215★ 收藏🌐 | 启动 U 盘解决方案(多 ISO 启动盘)。 | 启动盘、U盘、多ISO、装机 |
-| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) 78864★ 收藏🌐 | 给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。 | 全网搜索、社媒阅读、16平台、信息获取 |
-| [codegraph](https://github.com/colbymchenry/codegraph) 70126★ 收藏🌐 | 预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。 | 代码图谱、知识图谱、索引、agent上下文 |
-| [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) 64641★ 收藏🌐 | 小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。 | 爬虫、小红书、抖音、数据采集 |
-| [memos](https://github.com/usememos/memos) 62853★ 收藏🌐 | 开源自托管笔记工具:快速捕获、Markdown 原生、轻量。 | 笔记、自托管、Markdown、轻量 |
+| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) 78877★ 收藏🌐 | 给 AI agent 眼睛看整个互联网:搜索阅读 Twitter/Reddit/YouTube/GitHub 等 16 平台(本机 agent-reach skill 同源)。 | 全网搜索、社媒阅读、16平台、信息获取 |
+| [codegraph](https://github.com/colbymchenry/codegraph) 70135★ 收藏🌐 | 预索引代码知识图谱:变更自动同步,为编码 agent 提供即时上下文。 | 代码图谱、知识图谱、索引、agent上下文 |
+| [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) 64644★ 收藏🌐 | 小红书/抖音/快手/B 站/微博/贴吧/知乎 爬虫:笔记/视频/评论/帖子采集。 | 爬虫、小红书、抖音、数据采集 |
+| [memos](https://github.com/usememos/memos) 62854★ 收藏🌐 | 开源自托管笔记工具:快速捕获、Markdown 原生、轻量。 | 笔记、自托管、Markdown、轻量 |
 | [desktop](https://github.com/zen-browser/desktop) 44356★ 收藏🌐 | Zen 浏览器:更宁静的互联网体验(C++ 开源浏览器)。 | 浏览器、Zen、开源、宁静 |
-| [agent-browser](https://github.com/vercel-labs/agent-browser) 42228★ 收藏🌐 | AI agent 的浏览器自动化 CLI(vercel)。 | 浏览器自动化、CLI、agent、vercel |
-| [langextract](https://github.com/google/langextract) 38550★ 收藏🌐 | 用 LLM 从非结构化文本提取结构化信息的 Python 库(google)。 | 信息提取、LLM、结构化、Python库 |
-| [browser](https://github.com/lightpanda-io/browser) 35166★ 收藏🌐 | Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。 | 无头浏览器、Lightpanda、自动化、AI |
-| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 35123★ 收藏🌐 | 逆向工程/授权渗透测试/安全研究 Skill 路由包。 | 逆向工程、渗透测试、安全研究、红队 |
-| [cli](https://github.com/googleworkspace/cli) 30792★ 收藏🌐 | Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。 | Google Workspace、CLI、Drive、Gmail |
+| [agent-browser](https://github.com/vercel-labs/agent-browser) 42235★ 收藏🌐 | AI agent 的浏览器自动化 CLI(vercel)。 | 浏览器自动化、CLI、agent、vercel |
+| [langextract](https://github.com/google/langextract) 38551★ 收藏🌐 | 用 LLM 从非结构化文本提取结构化信息的 Python 库(google)。 | 信息提取、LLM、结构化、Python库 |
+| [browser](https://github.com/lightpanda-io/browser) 35171★ 收藏🌐 | Lightpanda:为 AI 与自动化设计的无头浏览器(Zig 编写)。 | 无头浏览器、Lightpanda、自动化、AI |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 35129★ 收藏🌐 | 逆向工程/授权渗透测试/安全研究 Skill 路由包。 | 逆向工程、渗透测试、安全研究、红队 |
+| [cli](https://github.com/googleworkspace/cli) 30793★ 收藏🌐 | Google Workspace CLI:一条命令操作 Drive/Gmail/Calendar/Sheets/Docs/Chat。 | Google Workspace、CLI、Drive、Gmail |
 | [OpenCLI](https://github.com/jackwener/OpenCLI) 29110★ 收藏🌐 | 把任意网站变成 CLI,AI agent 用你的已登录浏览器操作。 | 网站转CLI、浏览器自动化、agent、登录态 |
-| [claude-hud](https://github.com/jarrodwatts/claude-hud) 27875★ 收藏🌐 | Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。 | Claude Code、HUD、上下文监控、插件 |
-| [obscura](https://github.com/h4ckf0r0day/obscura) 26536★ 收藏🌐 | 面向 AI agent 与网页抓取的无头浏览器(headless)。 | 无头浏览器、headless、网页抓取、AI agent |
+| [claude-hud](https://github.com/jarrodwatts/claude-hud) 27879★ 收藏🌐 | Claude Code 插件:实时显示上下文用量、活动工具、运行中的 agent。 | Claude Code、HUD、上下文监控、插件 |
+| [obscura](https://github.com/h4ckf0r0day/obscura) 26542★ 收藏🌐 | 面向 AI agent 与网页抓取的无头浏览器(headless)。 | 无头浏览器、headless、网页抓取、AI agent |
 | [Ciphey](https://github.com/bee-san/Ciphey) 21596★ 收藏🌐 | 自动解密工具:不知密钥/密码也能解,自动识别编码与加密。 | 解密、编码识别、加密破解、CTF |
 | [obsidian-releases](https://github.com/obsidianmd/obsidian-releases) 21412★ 收藏🌐 | Obsidian 社区插件列表、主题列表与发布(官方仓库)。 | Obsidian、插件列表、主题、社区 |
-| [openwiki](https://github.com/langchain-ai/openwiki) 16271★ 收藏🌐 | CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。 | 文档生成、agent文档、CLI、OpenWiki |
+| [openwiki](https://github.com/langchain-ai/openwiki) 16282★ 收藏🌐 | CLI:自动为代码库编写并维护 agent 可读文档(OpenWiki)。 | 文档生成、agent文档、CLI、OpenWiki |
 | [VERT](https://github.com/VERT-sh/VERT) 15566★ 收藏🌐 | 下一代文件转换器:开源、全本地、永久免费。 | 文件转换、开源、本地、免费 |
 | [Termix](https://github.com/Termix-SSH/Termix) 15064★ 收藏🌐 | 自托管 SSH 与远程桌面管理。 | SSH、远程桌面、自托管、管理 |
 | [blind_watermark](https://github.com/guofei9987/blind_watermark) 14757★ 收藏🌐 | 图片盲水印:提取水印无须原图。 | 盲水印、图片水印、版权、提取 |
 | [ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) 14333★ 收藏🌐 | 闲鱼多任务实时/定时监控与智能分析系统(Playwright+AI,带后台管理 UI)。 | 闲鱼、监控、抢购、Playwright、分析 |
-| [galaxy](https://github.com/uiverse-io/galaxy) 12583★ 收藏🌐 | 最大开源 UI 库:社区制作、免费使用(uiverse)。 | UI库、开源、CSS、组件 |
+| [galaxy](https://github.com/uiverse-io/galaxy) 12585★ 收藏🌐 | 最大开源 UI 库:社区制作、免费使用(uiverse)。 | UI库、开源、CSS、组件 |
 | [blinko](https://github.com/blinkospace/blinko) 10998★ 收藏🌐 | 开源自托管个人 AI 笔记工具:注重隐私(TypeScript)。 | 笔记、自托管、隐私、AI |
 | [RTranslator](https://github.com/niedev/RTranslator) 10390★ 收藏🌐 | Android 开源实时翻译应用,完全本地运行。 | 翻译、实时、Android、本地运行 |
 | [anx-reader](https://github.com/Anxcye/anx-reader) 8835★ 收藏🌐 | 强大 AI 能力、支持多种电子书格式的阅读器。 | 阅读器、电子书、AI功能、开源 |
@@ -47,15 +47,16 @@
 | [FreeAskInternet](https://github.com/nashsu/FreeAskInternet) 8744★ 收藏🌐 | 完全免费、私有、本地运行的搜索聚合与问答工具。 | 搜索聚合、本地运行、隐私、问答 |
 | [workout-cool](https://github.com/Snouzy/workout-cool) 8449★ 收藏🌐 | 开源健身教练平台:创建计划、追踪进度。 | 健身、训练计划、开源、追踪 |
 | [bb-browser](https://github.com/epiral/bb-browser) 6186★ 收藏🌐 | 你的浏览器就是 API:CLI+MCP 服务器,让 AI agent 用你的登录态控制 Chrome。 | 浏览器控制、MCP、Chrome、登录态、CLI |
-| [cursor-free-everyday](https://github.com/agentcodee/cursor-free-everyday) 6109★ 收藏🌐 | 完全免费:自动获取新账号、一键重置额度、解决机器码问题。 | Cursor、免费额度、重置、账号 |
+| [cursor-free-everyday](https://github.com/agentcodee/cursor-free-everyday) 6108★ 收藏🌐 | 完全免费:自动获取新账号、一键重置额度、解决机器码问题。 | Cursor、免费额度、重置、账号 |
 | [Automatic_ticket_purchase](https://github.com/MakiNaruto/Automatic_ticket_purchase) 5645★ 收藏🌐 | 大麦网抢票脚本。 | 抢票、大麦网、脚本、自动化 |
 | [termux-x11](https://github.com/termux/termux-x11) 4727★ 收藏🌐 | Termux X-server 插件(Android 上跑图形应用)。 | Termux、X11、Android、图形 |
+| [knowledge_graph](https://github.com/rahulnyk/knowledge_graph) 4042★ 收藏🌐 | 将文本或 PDF 转换为知识图谱,支持本地大模型 Graph RAG 与图谱问答 | 知识图谱、Knowledge Graph、Graph RAG、GRAG、RAG、Ollama、Pyvis、本地大模型 |
 | [open-data](https://github.com/hudl/open-data) 3597★ 收藏🌐 | StatsBomb 免费足球数据:比赛事件/射门/球员结构化数据。 | 足球数据、StatsBomb、数据集、比赛数据 |
 | [what-to-eat](https://github.com/liu-ziting/what-to-eat) 3521★ 收藏🌐 | 一饭封神:AI 智能菜谱生成平台,八大菜系+国际料理,营养分析/酒水推荐/效果图。 | 菜谱、AI推荐、美食、营养分析 |
 | [abtop](https://github.com/graykode/abtop) 3500★ 收藏🌐 | 类 htop 的 AI 编码 agent 监控:会话/token/上下文实时查看。 | agent监控、htop、token统计、Claude Code |
-| [linux-android](https://github.com/mayukh4/linux-android) 3241★ 收藏🌐 | 把旧 Android 手机改装成 GPU 加速 Linux 桌面。 | Android、Linux桌面、GPU加速、旧手机 |
+| [linux-android](https://github.com/mayukh4/linux-android) 3251★ 收藏🌐 | 把旧 Android 手机改装成 GPU 加速 Linux 桌面。 | Android、Linux桌面、GPU加速、旧手机 |
 | [AutoCLI](https://github.com/nashsu/AutoCLI) 2979★ 收藏🌐 | 快速内存安全 CLI:从任意网站抓取信息(面向 AI agent)。 | CLI、信息抓取、memory-safe、agent工具 |
-| [windows-update-disabler](https://github.com/tsgrgo/windows-update-disabler) 2356★ 收藏🌐 | 用轻量批处理工具禁用/启用 Windows 更新。 | Windows更新、禁用、批处理、系统 |
+| [windows-update-disabler](https://github.com/tsgrgo/windows-update-disabler) 2357★ 收藏🌐 | 用轻量批处理工具禁用/启用 Windows 更新。 | Windows更新、禁用、批处理、系统 |
 | [AntigravityQuotaWatcher](https://github.com/wusimpl/AntigravityQuotaWatcher) 2263★ 收藏🌐 | Google Antigravity AI 模型配额监控插件。 | Antigravity、配额监控、插件、Gemini |
 | [makemd](https://github.com/Make-md/makemd) 2021★ 收藏🌐 | Obsidian 的笔记组织与个性化插件,提供数据库、公式、标签和双向关系等能力,无需额外代码。 | Obsidian、笔记管理、数据库、公式、双向关系、插件 |
 | [ech-wk](https://github.com/byJoey/ech-wk) 1907★ 收藏🌐 | 跨平台 ECH Workers 代理客户端,支持 Windows、macOS、Linux,提供图形界面与命令行两种使用方式。 | ECH、代理客户端、Windows、macOS、Linux、GUI、命令行 |

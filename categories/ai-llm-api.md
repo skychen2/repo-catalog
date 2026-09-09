@@ -6,23 +6,23 @@
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) 94653★ 收藏🌐 | MCP 服务器合集。 | MCP、服务器、合集、工具 |
-| [gpt_academic](https://github.com/binary-husky/gpt_academic) 71307★ 收藏🌐 | 为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。 | 论文、润色、学术、插件化 |
-| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 63000★ 收藏🌐 | 免费 MIT AI 网关:一个端点接入 352 供应商(150+ 免费)、1200+ 模型。 | AI网关、API中转、多模型、免费 |
-| [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 51004★ 收藏🌐 | 把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。 | CLI转API、代理、Codex、Grok |
-| [airi](https://github.com/moeru-ai/airi) 48934★ 收藏🌐 | 自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。 | Grok、自托管、Companion、聊天 |
-| [sub2api](https://github.com/Wei-Shaw/sub2api) 40892★ 收藏🌐 | 一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。 | 订阅转API、中转、Claude、拼车 |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) 94658★ 收藏🌐 | MCP 服务器合集。 | MCP、服务器、合集、工具 |
+| [gpt_academic](https://github.com/binary-husky/gpt_academic) 71308★ 收藏🌐 | 为 GPT/GLM 提供实用化交互接口:论文阅读/润色/写作优化,模块化插件。 | 论文、润色、学术、插件化 |
+| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 63019★ 收藏🌐 | 免费 MIT AI 网关:一个端点接入 352 供应商(150+ 免费)、1200+ 模型。 | AI网关、API中转、多模型、免费 |
+| [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 51015★ 收藏🌐 | 把 Antigravity/ChatGPT Codex/Claude Code/Grok Build 包装成 OpenAI/Gemini/Claude/Codex API。 | CLI转API、代理、Codex、Grok |
+| [airi](https://github.com/moeru-ai/airi) 48936★ 收藏🌐 | 自托管、你完全拥有的 Grok Companion 应用(waifu 灵魂容器)。 | Grok、自托管、Companion、聊天 |
+| [sub2api](https://github.com/Wei-Shaw/sub2api) 40908★ 收藏🌐 | 一站式开源中转:Claude/OpenAI/Gemini/Grok 订阅统一转 API,支持拼车。 | 订阅转API、中转、Claude、拼车 |
 | [claude-code-router](https://github.com/musistudio/claude-code-router) 37137★ 收藏🌐 | 本地控制平面:跨模型路由、融合新能力、统一管理 AI agent 接入。 | 模型路由、控制平面、Claude Code、接入 |
 | [one-api](https://github.com/songquanpeng/one-api) 36788★ 收藏🌐 | LLM API 管理与分发系统:支持 OpenAI/Azure/Claude/Gemini/DeepSeek 等。 | API管理、分发、多模型、中转 |
-| [n8n-mcp](https://github.com/czlonkowski/n8n-mcp) 22846★ 收藏🌐 | 给 Claude Desktop/Claude Code/Windsurf/Cursor 的 MCP:帮 AI 构建 n8n 工作流。 | n8n、MCP、工作流构建、Claude |
+| [n8n-mcp](https://github.com/czlonkowski/n8n-mcp) 22848★ 收藏🌐 | 给 Claude Desktop/Claude Code/Windsurf/Cursor 的 MCP:帮 AI 构建 n8n 工作流。 | n8n、MCP、工作流构建、Claude |
 | [suna](https://github.com/kortix-ai/suna) 20183★ 收藏🌐 | 开源 AI 管理系统(kortix-ai)。 | AI管理、系统、开源、治理 |
-| [notebooklm-py](https://github.com/teng-lin/notebooklm-py) 19218★ 收藏🌐 | Google NotebookLM 非官方 Python API 与 agentic skill,完整程序化访问。 | NotebookLM、Python API、agentic、封装 |
+| [notebooklm-py](https://github.com/teng-lin/notebooklm-py) 19219★ 收藏🌐 | Google NotebookLM 非官方 Python API 与 agentic skill,完整程序化访问。 | NotebookLM、Python API、agentic、封装 |
 | [pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server) 11738★ 收藏🌐 | MCP 服务器:聚合 Claude Code/GeminiCLI/CodexCLI 与 Gemini/OpenAI/OpenRouter/Azure 等模型。 | MCP、模型聚合、Claude、多模型 |
 | [git-mcp](https://github.com/idosal/git-mcp) 8376★ 收藏🌐 | 免费开源远程 MCP 服务器:消除代码幻觉。 | MCP、Git、代码幻觉、远程 |
-| [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) 7420★ 收藏🌐 | Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。 | MCP、Firecrawl、网页抓取、搜索 |
-| [UltraRAG](https://github.com/OpenBMB/UltraRAG) 5684★ 收藏🌐 | 低代码 MCP 框架:构建复杂创新的 RAG 流水线(OpenBMB)。 | RAG、MCP框架、低代码、流水线 |
+| [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) 7421★ 收藏🌐 | Firecrawl 官方 MCP 服务器:给 Cursor/Claude 等加网页抓取与搜索能力。 | MCP、Firecrawl、网页抓取、搜索 |
+| [UltraRAG](https://github.com/OpenBMB/UltraRAG) 5685★ 收藏🌐 | 低代码 MCP 框架:构建复杂创新的 RAG 流水线(OpenBMB)。 | RAG、MCP框架、低代码、流水线 |
 | [antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy) 3952★ 收藏🌐 | 代理:把 Antigravity 提供的 claude/gemini 模型暴露给 Claude Code 使用。 | 代理、Antigravity、模型转发、Claude |
-| [cherry-studio-app](https://github.com/CherryHQ/cherry-studio-app) 3798★ 收藏🌐 | Cherry Studio 移动版(开源多模型 AI 客户端)。 | Cherry Studio、移动版、AI客户端、多模型 |
+| [cherry-studio-app](https://github.com/CherryHQ/cherry-studio-app) 3797★ 收藏🌐 | Cherry Studio 移动版(开源多模型 AI 客户端)。 | Cherry Studio、移动版、AI客户端、多模型 |
 | [Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) 2241★ 收藏🌐 | ChatGPT Plus/Team/Pro 订阅协议端到端重放工具:hCaptcha 视觉求解器。 | ChatGPT订阅、协议重放、拼车、hCaptcha |
 | [Chat2API](https://github.com/xiaoY233/Chat2API) 1589★ 收藏🌐 | 通过官方网页 UI 实现主流 AI 模型零成本 API 调用。 | 免费API、网页转API、零成本、逆向 |
 | [ttsfm](https://github.com/dbccccccc/ttsfm) 736★ 收藏🌐 | 镜像 OpenAI TTS 服务,提供兼容接口的文本转语音服务。 | TTS、OpenAI兼容、接口镜像、语音 |
