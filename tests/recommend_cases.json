@@ -1,0 +1,18 @@
+[
+  {"query": "批量生成短视频", "expectedTop": "short-video-factory"},
+  {"query": "终端 AI 编程助手", "expectedTop": "qwen-code"},
+  {"query": "网页抓取", "expectedTop": "firecrawl"},
+  {"query": "OpenClaw 接入飞书", "expectedTop": "openclaw-cn"},
+  {"query": "Obsidian 笔记数据库", "expectedTop": "makemd"},
+  {"query": "ChatGPT Session 转 JSON", "expectedTop": "SessionToJson"},
+  {"query": "中文长文去 AI 味", "expectedTop": "baibaiAIGC"},
+  {"query": "AI Agents n8n 工作流", "expectedTop": "awesome-n8n-templates"},
+  {"query": "Nano Banana 图像生成提示词", "expectedTop": "nano-image-generator-skill"},
+  {"query": "天涯神贴 PDF", "expectedTop": "tianyashentie"},
+  {"query": "微信公众号 Markdown 排版", "expectedTop": "md"},
+  {"query": "TTS 语音克隆", "expectedTop": "OmniVoice"},
+  {"query": "MCP server", "expectedTop": "firecrawl-mcp-server"},
+  {"query": "OpenAI Gemini API 代理", "expectedTop": "openai-gemini"},
+  {"query": "ECH 代理客户端", "expectedTop": "ech-wk"},
+  {"query": "自托管笔记", "expectedTop": "memos"}
+]

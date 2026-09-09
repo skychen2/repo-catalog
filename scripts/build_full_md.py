@@ -33,7 +33,7 @@ CATS = [
 def load_repos():
     out = subprocess.run(
         ["gh", "repo", "list", "skychen2", "--limit", "2000",
-         "--json", "name,visibility,description,primaryLanguage,isFork,stargazerCount,forkCount,updatedAt,url,repositoryTopics"],
+         "--json", "name,visibility,description,primaryLanguage,isFork,isArchived,pushedAt,stargazerCount,forkCount,updatedAt,url,repositoryTopics"],
         capture_output=True, text=True, check=True,
     ).stdout
     return json.loads(out)
@@ -49,7 +49,7 @@ def main():
 
     records = []
     for m in load_repos():
-        c = curated.get(m["name"], {})
+        c = curated.get(m["name"]) or curated.get(f"skychen2/{m['name']}", {})
         cn = c.get("cn") or m.get("description") or "(待补充)"
         fk = c.get("forkedFrom", "")
         if m.get("isFork") and fk and "fork 自" not in cn:
@@ -63,44 +63,75 @@ def main():
             "language": (m.get("primaryLanguage") or {}).get("name") or "-",
             "stars": m.get("stargazerCount", 0),
             "updatedAt": (m.get("updatedAt") or "")[:10],
+            "pushedAt": (m.get("pushedAt") or "")[:10],
+            "archived": m.get("isArchived", False),
             "category": c.get("category", "personal-projects"),
             "cn": cn,
             "keywords": "、".join(c.get("keywords", []) or []),
+            "status": c.get("status", "unreviewed"),
+            "priority": c.get("priority", "unclassified"),
+            "lastReviewedAt": c.get("lastReviewedAt", ""),
+            "duplicateGroup": c.get("duplicateGroup", ""),
+            "alternatives": c.get("alternatives", []),
+            "replacement": c.get("replacement", ""),
         })
 
     # curated 中不在名下列表的条目:外部收藏(external)+ 封禁/移除后消失的仓库(missing)
     by_name = {r["name"] for r in records}
-    for name, c in sorted(curated.items()):
-        if not isinstance(c, dict) or name in by_name:
+    for key, c in sorted(curated.items()):
+        if not isinstance(c, dict):
             continue
+        repo_name = key.rsplit("/", 1)[-1]
+        if repo_name in by_name and not c.get("external"):
+            continue
+        name = key
         if c.get("external"):
             records.append({
                 "name": name,
-                "url": c.get("url") or f"https://github.com/{c.get('owner', '')}/{name}",
+                "url": c.get("url") or f"https://github.com/{c.get('owner') or key.split('/', 1)[0]}/{repo_name}",
                 "visibility": "PUBLIC",
-                "isFork": False,
+                "isFork": bool(c.get("isFork", c.get("forkedFrom"))),
                 "forkedFrom": c.get("forkedFrom", ""),
                 "language": c.get("language", "-"),
                 "stars": c.get("stars", 0),
                 "updatedAt": c.get("updatedAt", ""),
+                "pushedAt": c.get("pushedAt", ""),
+                "archived": c.get("archived", False),
+                "disabled": c.get("disabled", False),
                 "category": c.get("category", "dev-data-tools"),
                 "cn": c.get("cn", "(待补充)"),
                 "keywords": "、".join(c.get("keywords", []) or []),
+                "status": c.get("status", "unreviewed"),
+                "priority": c.get("priority", "unclassified"),
+                "lastReviewedAt": c.get("lastReviewedAt", ""),
+                "duplicateGroup": c.get("duplicateGroup", ""),
+                "alternatives": c.get("alternatives", []),
+                "replacement": c.get("replacement", ""),
                 "external": True,
+                "missing": c.get("missing", False),
             })
             continue
         records.append({
             "name": name,
-            "url": f"https://github.com/skychen2/{name}",
+            "url": f"https://github.com/{'skychen2' if '/' not in name else name.split('/', 1)[0]}/{repo_name}",
             "visibility": "PUBLIC",
-            "isFork": False,
+            "isFork": bool(c.get("isFork", c.get("forkedFrom"))),
             "forkedFrom": c.get("forkedFrom", ""),
             "language": c.get("language", "-"),
             "stars": c.get("stars", 0),
             "updatedAt": c.get("updatedAt", ""),
+            "pushedAt": c.get("pushedAt", ""),
+            "archived": c.get("archived", False),
+            "disabled": c.get("disabled", False),
             "category": c.get("category", "dev-data-tools"),
             "cn": c.get("cn", "(待补充)"),
             "keywords": "、".join(c.get("keywords", []) or []),
+            "status": c.get("status", "unreviewed"),
+            "priority": c.get("priority", "unclassified"),
+            "lastReviewedAt": c.get("lastReviewedAt", ""),
+            "duplicateGroup": c.get("duplicateGroup", ""),
+            "alternatives": c.get("alternatives", []),
+            "replacement": c.get("replacement", ""),
             "missing": True,
         })
 
@@ -120,7 +151,8 @@ def main():
                    f"- 关键词: {r['keywords'] or '-'}",
                    f"- 属性: {tag}"
                    f"{(' (fork 自 ' + r['forkedFrom'] + ')') if r['forkedFrom'] else ''}"
-                   f" | {r['language']} | {r['stars']}★ | 更新 {r['updatedAt']}",
+                   f" | {r['language']} | {r['stars']}★ | 更新 {r['updatedAt']}"
+                   f" | 状态 {r['status']} | 优先级 {r['priority']}",
                    f"- URL: {r['url']}", ""]
 
     with open(out_path, "w", encoding="utf-8") as f:

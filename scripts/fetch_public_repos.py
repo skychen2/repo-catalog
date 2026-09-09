@@ -12,14 +12,26 @@
 """
 import json
 import os
+import subprocess
 import sys
 import urllib.request
 
 OWNER = "skychen2"
 
 
-def fetch():
+def auth_token():
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if token:
+        return token
+    try:
+        result = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True)
+    except OSError:
+        return ""
+    return result.stdout.strip() if result.returncode == 0 else ""
+
+
+def fetch():
+    token = auth_token()
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "repo-catalog-refresh"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
@@ -44,6 +56,10 @@ def fetch():
                 "stargazerCount": r["stargazers_count"],
                 "forkCount": r["forks_count"],
                 "updatedAt": r["updated_at"],
+                "pushedAt": r.get("pushed_at") or "",
+                "archived": r.get("archived", False),
+                "disabled": r.get("disabled", False),
+                "license": (r.get("license") or {}).get("spdx_id") or "",
                 "repositoryTopics": [{"name": t} for t in r.get("topics", [])],
             })
         if len(batch) < 100:

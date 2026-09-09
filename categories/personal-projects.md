@@ -6,4 +6,4 @@
 
 | 仓库 | 说明 | 关键词 |
 |---|---|---|
-| [clawserver](https://github.com/skychen2/clawserver) 0★ 自建 | 自建公有:服务器相关(README 过简,用途待补充)。 | 服务器、自建、运维 |
+| [clawserver](https://github.com/skychen2/clawserver) 0★ 自建 | 个人服务器相关仓库,用于记录自建服务器配置与服务信息; README 信息有限,仅作线索检索。 | 服务器、自建服务、服务器配置、运维 |

@@ -1,0 +1,102 @@
+{
+  "tts-voice-cloning": {
+    "summary": "语音合成、语音克隆和音色设计。",
+    "selection": "VoxCPM 偏高质量中文语音合成，OmniVoice 偏多语言和语音设计，GPT-SoVITS/Real-Time-Voice-Cloning 偏可控克隆，Chatterbox 偏通用开源 TTS。"
+  },
+  "wechat-markdown-editors": {
+    "summary": "Markdown 转微信公众号文章并进行在线排版。",
+    "selection": "markdown-nice 偏成熟的公众号 Markdown 排版，md 和 markdown-online-editor 偏在线编辑与转换，huasheng_editor 偏轻量公众号排版。"
+  },
+  "nano-banana-prompts": {
+    "summary": "Nano Banana 图像生成提示词、案例和工作流参考。",
+    "selection": "大型合集适合查案例和灵感，提示词推荐 Skill 更适合在编码助手中直接调用，按需选择资料库或自动化入口。"
+  },
+  "cloudflare-vless-trojan": {
+    "summary": "Cloudflare Workers 上部署 VLESS/Trojan 的代理方案。",
+    "selection": "Cloudflare-vless-trojan 偏完整的一键部署与多协议配置，其他项目更适合作为 fork、变体或配置参考。"
+  },
+  "tianya-collections": {
+    "summary": "天涯神贴和天涯内容合集。",
+    "selection": "优先按格式选择：PDF 版适合直接阅读，网页或文本合集适合搜索和二次整理。"
+  },
+  "general-prompt-collections": {
+    "summary": "通用 ChatGPT/LLM 提示词合集。",
+    "selection": "prompts.chat 偏社区规模和在线浏览，awesome-chatgpt-prompts 偏经典精选，awesome-prompt 偏分类汇总。"
+  },
+  "terminal-coding-agents": {
+    "summary": "终端中的 AI 编程 Agent。",
+    "selection": "qwen-code 偏官方模型生态和通用终端编程，DeepSeek-Reasonix 偏低成本长会话，opencode 已归档，仅作历史参考。"
+  },
+  "n8n-workflow-collections": {
+    "summary": "n8n 自动化和 Agent 工作流模板。",
+    "selection": "awesome-n8n-templates 偏广泛模板集合，ai_agents_az 偏系列课程案例，n8n_workflows 偏中文工作流资料。"
+  },
+  "ai-painting-collections": {
+    "summary": "Stable Diffusion、ComfyUI 和 AI 绘画工作流资料。",
+    "selection": "ComfyUI-Workflows-ZHO 偏可直接导入的工作流，awesome-ai-painting 偏更广泛的绘画项目和资料索引。"
+  },
+  "claude-cookbooks": {
+    "summary": "Claude/Anthropic 官方示例、Notebook 和 Cookbook。",
+    "selection": "claude-cookbooks 是上游官方资料，anthropic-cookbook 更适合作为 fork 或本地整理参考。"
+  },
+  "llm-rag-apps": {
+    "summary": "LLM 应用、RAG 和知识库相关项目。",
+    "selection": "awesome-llm-apps 偏应用案例集合，cognee 偏可嵌入项目的记忆和 RAG 框架。"
+  },
+  "agent-workflow-collections": {
+    "summary": "Agent 工作流、技能和自动化编排资料。",
+    "selection": "cozeworkflows 偏现成工作流，oh-my-openagent 偏 Agent 工具和编排框架。"
+  },
+  "openai-api-proxies": {
+    "summary": "把不同模型或客户端接入 OpenAI 兼容 API 的代理。",
+    "selection": "openai-gemini 偏 Gemini 到 OpenAI 接口兼容，cursor2api 偏特定客户端接口转换，按上游客户端选择。"
+  },
+  "subscription-conversion": {
+    "summary": "节点配置、Clash/Sing-box 订阅转换和分享。",
+    "selection": "epeius 偏 Trojan 配置转换，edgetunnel 偏 Cloudflare Workers 节点和订阅汇聚。"
+  },
+  "ai-video-production": {
+    "summary": "AI 影视、短片和视频制作工作流。",
+    "selection": "seedance-2.0 偏 Seedance 生产流程，waoowaoo 偏 AI 电影和影视制作资料。"
+  },
+  "agent-memory-skills": {
+    "summary": "Agent 长期记忆、技能和上下文管理。",
+    "selection": "OpenViking 偏 Agent 上下文和记忆基础设施，ECC 偏可复用的 Agent 技能与方法。"
+  },
+  "browser-automation-tools": {
+    "summary": "让 Agent 操作浏览器和网页的自动化工具。",
+    "selection": "agent-browser 偏面向 Agent 的浏览器 CLI，OpenCLI 偏把网站能力封装成 CLI。"
+  },
+  "beginner-ai-tutorials": {
+    "summary": "面向初学者的 AI 和 Agent 入门教程。",
+    "selection": "ai-agents-for-beginners 偏 Agent 实战，generative-ai-for-beginners 偏生成式 AI 通识和基础课程。"
+  },
+  "audiobook-generation": {
+    "summary": "电子书转有声书和批量语音朗读。",
+    "selection": "ebook2audiobook 偏完整的电子书转有声书流程，audiblez 偏轻量化文本朗读和有声书生成。"
+  },
+  "gpt4o-image-prompts": {
+    "summary": "GPT-4o 图像生成提示词和示例合集。",
+    "selection": "awesome-gpt4o-images 偏大规模示例集合，gpt4o-image-prompts 偏提示词整理和快速查找。"
+  },
+  "openclaw-usecases": {
+    "summary": "OpenClaw 的真实自动化用例和社区案例。",
+    "selection": "awesome-openclaw-usecases 偏完整案例总集，moltbook 版本偏社区实例补充。"
+  },
+  "self-hosted-notes": {
+    "summary": "自托管笔记、知识记录和个人信息管理。",
+    "selection": "memos 偏成熟的轻量快速记录，blinko 偏更丰富的个人知识库和笔记组织。"
+  },
+  "claude-code-guides": {
+    "summary": "Claude Code 使用指南、技巧和速查资料。",
+    "selection": "claude-code-guide 偏完整系统教程，claude-code-cheat-sheet 偏快速查命令和技巧。"
+  },
+  "web-scraping-tools": {
+    "summary": "网页抓取、网页内容提取和 AI 搜索数据采集。",
+    "selection": "firecrawl 偏完整的平台化网页抓取和内容提取，crawl4ai 偏开源、自托管的爬虫框架。"
+  },
+  "mcp-servers": {
+    "summary": "MCP Server 和外部工具连接器。",
+    "selection": "n8n-mcp 偏把 n8n 工作流接入 MCP，pal-mcp-server 偏通用模型和工具调用服务。"
+  }
+}

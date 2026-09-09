@@ -9,7 +9,8 @@
 行为:
     - 校验仓库存在(任意 owner 均可,但建议只收录 skychen2 名下的仓库;
       第三方仓库请先 fork/star,见 README「新增仓库」)
-    - 已收录 → 提示跳过,不重复添加
+    - 已收录同一仓库 → 提示跳过,不重复添加
+    - 同名但 owner 不同 → 迁移为 owner/name 主键后同时保留
     - 未收录 → 写入 scripts/curated.json,并自动补 forkedFrom(fork 仓库查上游)
     - --cn 缺省时用上游 description 占位,标注「待补充中文说明」
 
@@ -46,6 +47,31 @@ def parse_target(s):
     return None, None
 
 
+def repo_identity(owner, name):
+    return f"{owner.strip().lower()}/{name.strip().removesuffix('.git').lower()}"
+
+
+def curated_identity(key, entry):
+    if isinstance(entry, dict):
+        owner = entry.get("owner", "")
+        if owner:
+            return repo_identity(owner, key)
+        parsed_owner, parsed_name = parse_target(entry.get("url", ""))
+        if parsed_owner and parsed_name:
+            return repo_identity(parsed_owner, parsed_name)
+    parsed_owner, parsed_name = parse_target(key)
+    if parsed_owner and parsed_name:
+        return repo_identity(parsed_owner, parsed_name)
+    return repo_identity("skychen2", key)
+
+
+def find_curated_entry(curated, identity):
+    for key, entry in curated.items():
+        if isinstance(entry, dict) and curated_identity(key, entry) == identity:
+            return key, entry
+    return None, None
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("target", help="GitHub URL 或 owner/name")
@@ -53,13 +79,16 @@ def main():
     ap.add_argument("--kw", default="", help="检索关键词,逗号分隔")
     ap.add_argument("--cat", default="", help=f"分类 key,可选: {', '.join(CATS)}")
     args = ap.parse_args()
-    
-    # 检查 gh 命令是否可用
-    if subprocess.run(["gh", "--version"], capture_output=True).returncode != 0:
-        print("❌ 错误: 未找到 'gh' 命令（GitHub CLI）。")
-        print("   安装方法: https://cli.github.com/")
-        print("   或使用: brew install gh / apt install gh / scoop install gh")
-        sys.exit(1)
+    if args.cat and args.cat not in CATS:
+        ap.error(f"分类必须是以下值之一: {', '.join(CATS)}")
+
+    # 只有合法输入才检查外部依赖,避免无效分类触发不必要的命令。
+    try:
+        gh_version = subprocess.run(["gh", "--version"], capture_output=True)
+    except OSError:
+        gh_version = None
+    if gh_version is None or gh_version.returncode != 0:
+        ap.error("未找到 GitHub CLI 'gh',请先安装并登录")
 
     owner, name = parse_target(args.target)
     if not name:
@@ -67,8 +96,8 @@ def main():
         sys.exit(1)
 
     r = gh(["api", f"repos/{owner}/{name}",
-            "--jq", "{name, full_name, description, fork, language, html_url, visibility, "
-                     "stars: .stargazers_count, forks: .forks_count, updated_at}"])
+            "--jq", "{name, full_name, description, fork, language, html_url, visibility, archived, disabled, "
+                     "stars: .stargazers_count, forks: .forks_count, updated_at, pushed_at}"])
     if r.returncode != 0:
         print(f"仓库不存在或不可访问: {owner}/{name} ({r.stderr.strip()[:200]})")
         sys.exit(1)
@@ -76,12 +105,26 @@ def main():
 
     curated_path = os.path.join(HERE, "curated.json")
     curated = json.load(open(curated_path, encoding="utf-8"))
-    if name in curated:
-        print(f"已在目录中: {name} → {str(curated[name].get('cn', ''))[:60]}")
+    target_identity = repo_identity(owner, name)
+    existing_key, existing = find_curated_entry(curated, target_identity)
+    if existing is not None:
+        description = existing.get("cn", "")
+        print(f"已在目录中: {name} → {str(description)[:60]}")
         sys.exit(0)
 
-    if args.cat and args.cat not in CATS:
-        print(f"警告: 分类 {args.cat} 不在已知列表,仍将写入(生成时会校验)。")
+    conflict_key = next(
+        (
+            key for key, entry in curated.items()
+            if isinstance(entry, dict)
+            and key.rsplit("/", 1)[-1].lower() == name.lower()
+        ),
+        None,
+    )
+    if conflict_key is not None:
+        conflict_entry = curated.pop(conflict_key)
+        conflict_identity = curated_identity(conflict_key, conflict_entry)
+        curated[conflict_identity] = conflict_entry
+        print(f"检测到同名不同项目: 已将旧条目主键从 {conflict_key} 迁移为 {conflict_identity}。")
 
     if args.cn:
         cn = args.cn
@@ -93,6 +136,13 @@ def main():
         "category": args.cat or "dev-data-tools",
         "cn": cn,
         "keywords": [k.strip() for k in args.kw.split(",") if k.strip()],
+        "status": "unreviewed",
+        "priority": "unclassified",
+        "lastReviewedAt": "",
+        "duplicateGroup": "",
+        "alternatives": [],
+        "replacement": "",
+        "isFork": bool(meta.get("fork", False)),
     }
     if meta.get("fork"):
         parent = gh(["api", f"repos/{owner}/{name}", "--jq", ".parent.full_name // \"\""]).stdout.strip()
@@ -112,8 +162,12 @@ def main():
         entry["stars"] = meta.get("stars", 0)
         entry["forks"] = meta.get("forks", 0)
         entry["updatedAt"] = (meta.get("updated_at") or "")[:10]
+        entry["pushedAt"] = (meta.get("pushed_at") or "")[:10]
+        entry["archived"] = bool(meta.get("archived", False))
+        entry["disabled"] = bool(meta.get("disabled", False))
 
-    curated[name] = entry
+    storage_key = target_identity if conflict_key is not None else name
+    curated[storage_key] = entry
     json.dump(curated, open(curated_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     kind = "外部收藏" if is_external else "名下仓库"
     print(f"✓ 已新增({kind}): {name} ({meta.get('full_name')})")

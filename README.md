@@ -25,12 +25,19 @@
 | `categories/*.md` | 按主题分类的仓库清单,含详细中文说明与关键词 |
 | `data/repos.json` | 机器可读的完整元数据(名称/URL/语言/星标/中文说明/关键词/分类) |
 | `README.md` | 本说明(设计原则、检索流程与维护方法) |
-| `scripts/curated.json` | 人工维护的中文说明与关键词(唯一需要手工编辑的数据文件) |
+| `scripts/curated.json` | 人工维护的中文说明、关键词和项目关系 |
+| `scripts/group_notes.json` | 功能组的场景说明与组内项目差异 |
 | `scripts/curated.private.json` | 私有仓库的中文说明(本地文件,已被 gitignore,不进入公开仓库;配合 generate.py 生成本地完整版) |
 | `scripts/generate.py` | 生成器:合并 GitHub 元数据 + curated 说明,重新生成 categories/ 与 data/repos.json |
 | `scripts/add_repo.py` | 通过链接/owner-name 新增仓库(校验 + 写入 curated + 自动补 fork 来源) |
 | `scripts/build_full_md.py` | 生成本地完整版目录 Markdown(含私有),供索引进 context-mode 知识库 |
-| `scripts/fetch_public_repos.py` | 拉取仓库元数据(CI 用,匿名/带 token 均可) |
+| `scripts/fetch_public_repos.py` | 拉取名下公开仓库元数据(CI 用,匿名/带 token 均可) |
+| `scripts/fetch_starred_repos.py` | 发现当前账号 star 的第三方仓库并加入外部收藏 |
+| `scripts/refresh_external_repos.py` | 刷新外部收藏的 GitHub 状态、更新时间和基础元数据 |
+| `scripts/audit.py` | 检查未审核、长期未更新、已归档、不可访问和重复候选仓库 |
+| `scripts/recommend.py` | 按功能匹配度优先,结合优先级、活跃度和热度输出推荐排序 |
+| `tests/recommend_cases.json` | 典型模糊需求与期望第一推荐项目 |
+| `tests/test_recommend.py` | 推荐结果回归测试 |
 | `.github/workflows/refresh.yml` | GitHub Actions:每周一自动刷新元数据并提交 |
 
 ## 分类
@@ -47,9 +54,22 @@
 - `knowledge-books` — 知识 / 教程 / 资料(学习路线、书籍、语料、合集)
 - `personal-projects` — 个人自建项目(自建 / 私有,含个人知识库)
 
-## 给 AI 的检索流程
+当主人提出模糊需求时,优先使用推荐脚本:
 
-当主人提出模糊需求时,按此流程检索:
+```bash
+python3 scripts/recommend.py "批量生成短视频"
+python3 scripts/recommend.py "终端 AI 编程助手" --top 3
+```
+
+用固定需求样例检查排序是否回归:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+推荐排序固定为:功能需求匹配度 > `primary`/`alternative`/`reference` 优先级 > GitHub 活跃度 > GitHub 热度。功能匹配度不接近时,后面的指标不应改变结果。
+
+
 
 1. **解析需求**,提取 2-4 个核心意图词(中英文均可)。
 2. 优先 **全文搜索 `categories/` 目录**,命中说明或关键词。
@@ -89,14 +109,35 @@ python3 scripts/build_full_md.py
 任意 GitHub 仓库均可添加:
 - **名下仓库**(自建或 fork)→ 正常收录;
 - **第三方仓库** → 自动标记为「外部收藏 🌐」,公开版与本地完整版均收录
-  (data/repos.json 中 `external: true`;元数据星标/语言在添加时快照,不随每周刷新更新)。
+  (data/repos.json 中 `external: true`;元数据可通过 `refresh_external_repos.py` 定期刷新)。
 
-**入口 B — 发现后点 star/fork**:仓库进入 skychen2 名下后(仅 fork 会出现在名下仓库列表),
-GitHub Actions 每周一自动刷新会发现它并加入公开目录;缺中文说明时会先用上游描述占位
-(标注「待补充中文说明」),之后用入口 A 的 add_repo.py 补说明即可。
+**入口 B — 发现后点 star/fork**:fork 仓库进入 skychen2 名下仓库列表;star 的第三方仓库由
+`fetch_starred_repos.py` 读取当前账号的 Star 列表。GitHub Actions 每周一自动刷新并加入公开目录,
+缺中文说明时会先用上游描述占位(标注「待补充中文说明」),之后用入口 A 的 add_repo.py 补说明即可。
 
-> ⚠ 注意:star 的仓库属于原作者,**不会**出现在名下仓库列表,也不会被自动收录。
-> 想收录 star 的收藏,直接对话发链接添加即可(自动标记为外部收藏)。
+> ⚠ 注意:star 的仓库属于原作者,不会出现在名下仓库列表。GitHub Actions 会通过
+> `fetch_starred_repos.py` 定期读取当前账号的 star 列表,自动加入外部收藏;本地可使用已登录的 `gh`,
+> CI 需要配置 `STARRED_REPOS_TOKEN` secret(令牌需有权读取用户 starred repositories)。取消 star 不会自动删除已整理条目。
+
+## 生命周期与重复项目
+
+`curated.json` 保留中文说明和人工判断,生成后的 `data/repos.json` 还会包含以下字段:
+
+- `status`: `unreviewed`、`active`、`watch`、`archived`、`obsolete`、`replaced`
+- `priority`: `unclassified`、`primary`、`alternative`、`reference`
+- `lastReviewedAt`: 人工审核和排序判断日期
+- `duplicateGroup` / `alternatives` / `replacement`: 同类项目关系
+- `pushedAt` / `archived` / `disabled`: GitHub 自动元数据
+
+旧条目默认是 `unreviewed` 和 `unclassified`,不代表项目已经过时。先刷新元数据,再根据审计清单人工判断:
+
+```bash
+python3 scripts/refresh_external_repos.py
+python3 scripts/generate.py --public
+python3 scripts/audit.py
+```
+
+`data/review-needed.json` 是待处理清单,其中 `duplicateCandidates` 会列出已建组、相同 URL、相同上游、同分类关键词高度重叠的功能候选,以及仍未归组的 `unassignedFunctional`。功能候选只用于人工确认,审计不会自动删除或合并仓库,也不会覆盖人工字段。
 
 ## 维护方法
 
@@ -105,12 +146,20 @@ GitHub Actions 每周一自动刷新会发现它并加入公开目录;缺中文�
 # 2. 重新生成(自动拉取最新 GitHub 元数据):
 python3 scripts/generate.py --public   # 公开仓库版本(提交用)
 python3 scripts/generate.py             # 本地完整版(含私有仓库,不提交)
-# 3. 提交推送
+# 3. 发现 Star 外部仓库(本地已登录 gh 或设置 STARRED_REPOS_TOKEN)
+python3 scripts/fetch_starred_repos.py
+# 4. 刷新外部收藏元数据
+python3 scripts/refresh_external_repos.py
+# 5. 重新生成公开版并审计
+python3 scripts/generate.py --public
+python3 scripts/audit.py
+# 6. 提交推送
 git add -A && git commit -m "update catalog" && git push
 ```
 
-自动刷新:GitHub Actions 每周一自动重跑 `fetch_public_repos.py` + `generate.py --public`,
-元数据(描述/星标/新仓库)无需人工维护;`curated.json` 的中文说明新增仓库时仍需手工补一条。
+自动刷新:GitHub Actions 每周一自动重跑 `fetch_public_repos.py` + `fetch_starred_repos.py` +
+`refresh_external_repos.py` + `generate.py --public`,元数据(描述/星标/新仓库)无需人工维护;
+`curated.json` 的中文说明新增仓库时仍需手工补一条。
 
 
 ## 数据验证与调试

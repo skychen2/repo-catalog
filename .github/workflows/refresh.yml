@@ -21,10 +21,28 @@ jobs:
           python-version: "3.11"
 
       - name: 拉取公开仓库元数据(匿名 API,无需 PAT)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/fetch_public_repos.py /tmp/repos.json
+
+      - name: 发现 Star 外部仓库
+        env:
+          STARRED_REPOS_TOKEN: ${{ secrets.STARRED_REPOS_TOKEN }}
+        run: python3 scripts/fetch_starred_repos.py
+
+      - name: 刷新外部收藏元数据
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/refresh_external_repos.py
 
       - name: 重新生成目录
         run: python3 scripts/generate.py --public /tmp/repos.json
+
+      - name: 生成审计清单
+        run: python3 scripts/audit.py
+
+      - name: 运行回归测试
+        run: python3 -m unittest discover -s tests -v
 
       - name: 提交变更(如有)
         run: |
